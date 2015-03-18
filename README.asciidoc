@@ -122,13 +122,3 @@ Play a card to execute its event.
 
 1. Put the card on your discard pile.  It's now active.
 2. Follow its instructions.
-
-== Cards
-
-[cols="^1,2,6", options="header"]
-.Manifest
-|===
-include:cards.csv[]
-|===
-
-include::faq.asciidoc[]

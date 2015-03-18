@@ -1,12 +1,12 @@
-# Frequently-Asked Questions
+== Frequently-Asked Questions
 
-## What if I use Crusade of the Sun to take the last disk?
+=== What if I use Crusade of the Sun to take the last disk?
 
 You must place all the taken disks on your turn, and then the game ends.
 
-# Playtesting
+== Playtesting
 
-## How do I build this thing?
+=== How do I build this thing?
 Right now?  Manually.  Working on creating files to make it simpler, but for
 now, these parts should suffice:
 
@@ -26,47 +26,47 @@ now, these parts should suffice:
   - I’ve been using sharpies to write card text with colored dots down the
     side.
 
-## [X] is broken!
+=== [X] is broken!
 Remember that you can auction cards from the top of anyone’s discard pile.
 Cards are not meant to be equally-powerful, and some are extremely situational.
 Proper card evaluation is the cornerstone of good play.
 
-# Suggestions
+== Suggestions
 
-## Why is the starting player arbitrary?
+=== Why is the starting player arbitrary?
 We’ve not found any advantage nor disadvantage to being the starting player.
 This is also why players start the same, aside from the cards dealt. 
 
-## Why start with nine gems?
+=== Why start with nine gems?
 Fewer gems makes early-game auctions and preservations much more risky, while
 more gems makes them much more swingy.  This number is still being tuned.
 
-## Why start with three cards?
+=== Why start with three cards?
 Primarily to give a new player something to latch onto.  An official variant is
 to start with more money (probably somewhere around 16 gems) and no cards,
 forcing the first move to be an auction.  This causes the game to slow down a
 bit, but also makes it more strategic.
 
-## Why is the market four cards?
+=== Why is the market four cards?
 Arbitrary.  It must be more than one, to provide a choice.  Some cards count
 things in the market, so it can’t be more than four or five, to restrict the
 high-end of those.  Three might be do-able, but four seems to work well.
 
-## Why use simultaneous auctions?
+=== Why use simultaneous auctions?
 For game speed.  The high-bidder pays for simplicity, and to keep the game’s
 economy running.  Alternate auctions have been suggested, but they either
 lengthen the game, reduce the expected bidding amounts, or reduce the expected
 profit for the active player.
 
-## Why can’t you encourage collapse?
+=== Why can’t you encourage collapse?
 Joshua O’M. suggested a way to modify preservation bids such that you can count
 your bid against preservation, instead of for it.  I don’t think this is worth
 the complexity, but perhaps could be exposed by a card.
 
-## Why do you recover your discard at the start of your turn?
+=== Why do you recover your discard at the start of your turn?
 To ensure the other players have a chance to auction off your last card played.
 
-## How do I survive preservation bids until I can sell my cards?
+=== How do I survive preservation bids until I can sell my cards?
 Joe suggests a "commission" rules change: All players may sell a card when one
 person sells.
 
@@ -75,7 +75,7 @@ also sell a card of the same color. The active player takes a 1 gem commission
 from each opponent that sells this way. (Alternatively take 1 gem from the
 bank)
 
-## Why does the game end with the last disk placement?
+=== Why does the game end with the last disk placement?
 Primarily to allow players to control the speed of the game.  Several other
 endgames have been suggested, but Sage says it best:
 
