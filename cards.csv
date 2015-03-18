@@ -1,9 +1,9 @@
 ID, Name, Event
 R01, Fires at Night, Pay up to 3 gems.  Destroy that many top disks.
-R02, Crusade of the Sun, When your turn begins, add a disk to this card. If another disk is here, they must match colors. When this card becomes no longer active, place all disks.
+R02, Crusade of the Sun, "When your turn begins, add a disk to this card. If another disk is here, they must match colors. When this card becomes no longer active, place all disks."
 R03, Like a Torrent, Take a gem from all sectors adjacent to red control.
 R04, Blood from a Stone, Take all gems from an unoccupied sector.
-R05, Fall of Gethi E'Feri, When you sell this card, destroy all controlling red disks.
+R05, Fall of Gethi E'Feri, "When you sell this card, destroy all controlling red disks."
 R06, Berserkers of Grotl, Gain a gem for each destroyed red disk.
 R07, Thani Tribes, Move all disks of one color to adjacent sectors.
 R08, Cyri's Treachery, Replace a card at random from an opponent's hand with this card.
@@ -18,7 +18,7 @@ W02, The New Economy, Place 3 gems on one or more market cards.
 W03, Critical Mass, Bid for preservation of white.  Place all bids in one sector.
 W04, Maengali's Discovery, Place three gems in a sector.
 W05, The Crystalline City, Gain a gem for each color in a sector.
-W06, Galactic Union, When this card is purchased, gain a gem for each occupied sector.
+W06, Galactic Union, "When this card is purchased, gain a gem for each occupied sector."
 W07, Unity is Strength, Reveal your hand.  Gain a gem for each white card revealed.
 W08, Chera's Tithe, Gain a gem for each white-controlled sector.
 W09, Zele Research Labs, While atop your discard: Put opponents' reaped cards in your hand.
@@ -35,8 +35,8 @@ B05, Genesis Device, Place a gem in each blue-controlled sector.
 B06, The Ruins of Loni City, Take a gem from each unoccupied sector.
 B07, Sustainable Farming, Gain two gems.
 B08, Xin Shield Formula, While atop your discard: Disks may not be covered.
-B09, Beta Theory, When you sell this card, take a card from the market.
-B10, The Living Ocean, Place two gems in each explored, unoccupied sector.
+B09, Beta Theory, "When you sell this card, take a card from the market."
+B10, The Living Ocean, "Place two gems in each explored, unoccupied sector."
 B11, The Garthu Spaceport, Reveal your hand.  Gain a gem for each different color revealed.
 B12, Tidal Pools, Move each non-blue top disk to the bottom of its stack.
 B13, Jordani Current, Gain a gem and shuffle the event deck.
