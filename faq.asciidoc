@@ -4,7 +4,7 @@
 
 You must place all the taken disks on your turn, and then the game ends.
 
-== Playtesting
+== FAQ: Playtesting
 
 === How do I build this thing?
 Right now?  Manually.  Working on creating files to make it simpler, but for
@@ -31,7 +31,7 @@ Remember that you can auction cards from the top of anyone’s discard pile.
 Cards are not meant to be equally-powerful, and some are extremely situational.
 Proper card evaluation is the cornerstone of good play.
 
-== Suggestions
+== FAQ: Design Decisions
 
 === Why is the starting player arbitrary?
 We’ve not found any advantage nor disadvantage to being the starting player.

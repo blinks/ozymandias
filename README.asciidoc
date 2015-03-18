@@ -122,3 +122,7 @@ Play a card to execute its event.
 
 1. Put the card on your discard pile.  It's now active.
 2. Follow its instructions.
+
+include::faq.asciidoc[]
+
+include::cards.asciidoc[]

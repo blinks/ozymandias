@@ -1,0 +1,7 @@
+== Card Manifest
+
+[cols="^1,2,6", format="csv", options="header"]
+.Manifest
+|===
+include::cards.csv[]
+|===
