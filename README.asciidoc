@@ -1,7 +1,8 @@
 = A History of Preascendant Humanity
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-1.0 RC1
+1.0 RC1, {docdate}
 :toc:
+:homepage: http://blinks.github.io/ozymandias/
 
 A game for two to four players, plays in about an hour.
 
