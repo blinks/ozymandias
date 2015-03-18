@@ -44,8 +44,10 @@ three influence each: six influence total.
 - 20 hexagonal sector tiles.
 
 == Setup
-- Deal each player three cards and nine influence.
+- Shuffle the event deck.
 - Draw four cards to make the *market*.
+- Deal each player three cards and nine influence.
+  - Players may discard any number of cards and redraw once, as a mulligan.
 - Decide which player is closest to immortality.  That player starts.
 
 TODO(#3): A diagram of play.
