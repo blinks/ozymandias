@@ -48,7 +48,7 @@
 |W08 |Chera's Tithe
 |Gain a gem for each white-controlled sector.
 |W09 |Zele Research Labs
-|While atop your discard: Put sold cards in your hand.
+|While atop your discard: Put opponents' reaped cards in your hand.
 |W10 |Thorwed's Gambit
 |Auction the top two cards from the event deck as one lot.
 |W11 |The City of Anten
