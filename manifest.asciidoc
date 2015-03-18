@@ -7,7 +7,8 @@
 |R01 |Fires at Night
 |Pay up to 3 gems.  Destroy that many top disks.
 |R02 |Crusade of the Sun
-|Take a disk. Choose one: retrieve this card or place all taken disks.
+|When your turn begins, add a disk to this card. If another disk is here, they
+ must match colors. When this card becomes no longer active, place all disks.
 |R03 |Like a Torrent
 |Take a gem from all sectors adjacent to red control.
 |R04 |Blood from a Stone
