@@ -54,7 +54,7 @@ TODO(#3): A diagram of play.
 Play proceeds in turns.  At the beginning of your turn, if you have no cards
 left, recover your discard pile.  Take one of the following actions:
 
-- Sow a market card or any active card.
+- Auction a market card or any active card.
 - Reap a card from your hand for influence.
 - Play a card for expansion.
 - Play a card for its event.
@@ -62,14 +62,22 @@ left, recover your discard pile.  Take one of the following actions:
 If there are no disks left in the pool at the end of your turn, *the game
 ends.*
 
-=== Sow
-Put a card up for auction; place it in front of you during this process.
+=== Auction
+Put a card up for auction, either from the market ("seeding") or another
+player's active card ("salting"). Place it in front of you during this process.
+Everyone secretly bids influence and simultaneously reveals their bids.
 
-1. Everyone secretly bids influence and simultaneously reveals their bids.
-2. The high bidder takes the card, the active player breaks all ties.
-3. If the active player wins, they pay the card's former owner (which is the
-   bank in case of a market card).  Otherwise, the high bidder pays the active
-   player.
+The high bidder takes the card and:
+
+- If from the market: pay the active player (if the active player would pay
+  themselves, they pay the bank instead).
+- If from a player: pays the former owner (if the card's owner would pay
+  themselves, they pay the active player instead).
+
+Caveats:
+
+- The active player breaks all ties.
+- If nobody bids anything, the card is put on the bottom of the event deck.
 
 === Reap
 Sell a card for influence; place it in front of you during this process.
