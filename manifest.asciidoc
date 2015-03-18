@@ -1,7 +1,0 @@
-== Cards
-
-[cols="^1,2,6", options="header"]
-.Manifest
-|===
-include::cards.csv[]
-|===

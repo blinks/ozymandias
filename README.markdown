@@ -1,49 +1,38 @@
-= A History of Preascendant Humanity
-Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-1.0 RC1
-:toc:
+# A History of Preascendant Humanity
 
 A game for two to four players, plays in about an hour.
 
-[verse, Percy Bysshe Shelley. Ozymandias]
-____
-And on the pedestal these words appear:
-'My name is Ozymandias, king of kings:
-Look on my works, ye Mighty, and despair!'
-Nothing beside remains. Round the decay
-Of that colossal wreck, boundless and bare
-The lone and level sands stretch far away.
-____
+    And on the pedestal these words appear:
+    'My name is Ozymandias, king of kings:
+    Look on my works, ye Mighty, and despair!'
+    Nothing beside remains. Round the decay
+    Of that colossal wreck, boundless and bare
+    The lone and level sands stretch far away.
+    -- Percy Bysshe Shelley. Ozymandias.
 
-== Overview
+----
+
+## Overview
 You are immortal puppet-masters, managing a coalition of factions to ensure
 they control the galaxy through exploration, expansion, exploitation, and
 extermination of rival factions.  Not even the most powerful faction survives
 forever, and the loyalty of currently-weak factions is cheap.  You must take
 the long view.
 
-== Objective
+## Objective
 Have the most influence at the end of the game.
 
 Colors are worth influence equal to the value of all sectors they control.
 Each card is worth influence equal to its color.
 
-.Card influence.
-====
-I have two red cards.
-
-Red controls three hexes with values two, one, and zero, so my cards are worth
-three influence each: six influence total.
-====
-
-== Components
+## Components
 - This rulebook.
 - A deck of event cards.
 - A collection of influence tokens.
 - 24 control disks, six in each of four colors.
 - 20 hexagonal sector tiles.
 
-== Setup
+## Setup
 - Shuffle the event deck.
 - Draw four cards to make the *market*.
 - Deal each player three cards and nine influence.
@@ -52,7 +41,7 @@ three influence each: six influence total.
 
 TODO(#3): A diagram of play.
 
-== Play
+## Play
 Play proceeds in turns.  At the beginning of your turn, if you have no cards
 left, recover your discard pile.  Take one of the following actions:
 
@@ -64,7 +53,7 @@ left, recover your discard pile.  Take one of the following actions:
 If there are no disks left in the pool at the end of your turn, *the game
 ends.*
 
-=== Auction
+### Auction
 Put a card up for auction, either from the market ("seeding") or another
 player's active card ("salting"). Place it in front of you during this process.
 Everyone secretly bids influence and simultaneously reveals their bids.
@@ -81,7 +70,7 @@ Caveats:
 - The active player breaks all ties.
 - If nobody bids anything, the card is put on the bottom of the event deck.
 
-=== Reap
+### Reap
 Sell a card for influence; place it in front of you during this process.
 
 1. Determine the value of its color by counting up sector values.
@@ -89,23 +78,14 @@ Sell a card for influence; place it in front of you during this process.
 3. Bid for preservation of that color.
 4. Place the reaped card on the bottom of the market deck.
 
-==== Preservation and Collapse
+#### Preservation and Collapse
 
 1. Everyone secretly bids influence and simultaneously reveals their bids.
 2. Counter-clockwise from the active player, each bidder chooses which sectors
    to save.  Players can choose one sector for each influence they bid.
 3. In sectors not saved, destroy the top disk.
 
-.Preservation of blue
-====
-In a two-player game, blue controls two sectors.
-
-Alice bids nothing and Bob bids one influence to preserve blue.
-
-Bob decides which sector to save.  The other sector's top disk is destroyed.
-====
-
-=== Expand
+### Expand
 Play a card to place a disk.
 
 1. Put the card on your discard pile.  It's now active.
@@ -117,11 +97,8 @@ Play a card to place a disk.
 4. If you drew a new sector, reveal and execute the top card of the event deck.
    (Leave it on top afterwards.)
 
-=== Event
+### Event
 Play a card to execute its event.
 
 1. Put the card on your discard pile.  It's now active.
 2. Follow its instructions.
-
-include::faq.asciidoc[]
-include::manifest.asciidoc[]
