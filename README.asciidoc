@@ -94,8 +94,7 @@ actions:
 - Play a card for its event.
 - Reap a card from your hand for influence.
 
-If there are no disks left in the pool at the end of your turn, *the game
-ends.*
+If all disks have been placed or destroyed, *the game ends*.
 
 === Auction
 Put a card up for auction, either from the market ("seeding") or another
@@ -161,7 +160,7 @@ Bob decides which sector to save.  The other sector's top disk is destroyed.
 ====
 
 == Game End
-If all disks have been placed or destroyed, *the game ends.*
+The game ends when all disks have been placed or destroyed.
 
 === Scoring
 1. Determine the value of each color by counting up sector values.
