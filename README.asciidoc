@@ -1,4 +1,4 @@
-= A History of Preascendant Humanity
+= The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
 1.0 RC1, {docdate}
 :toc:
@@ -19,9 +19,10 @@ ____
 == Overview
 You are immortal puppet-masters, managing a coalition of factions to ensure
 they control the galaxy through exploration, expansion, exploitation, and
-extermination of rival factions.  Not even the most powerful faction survives
-forever, and the loyalty of currently-weak factions is cheap.  You must take
-the long view.
+extermination of rival factions.
+
+Not even the most powerful faction survives forever, and the loyalty of
+currently-weak factions is cheap.  You must take the long view.
 
 == Objective
 Have the most influence at the end of the game.
