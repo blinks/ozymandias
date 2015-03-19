@@ -17,7 +17,7 @@ W01, Futures Market, Gain one gem for each white card in the market.
 W02, The New Economy, Place 3 gems on one or more market cards.
 W03, Critical Mass, Bid for preservation of white.  Place all bids in one sector.
 W04, Maengali's Discovery, Place three gems in a sector.
-W05, The Crystalline City, Gain a gem for each color in a sector.
+W05, The Crystalline City, Gain two gems for each white disk in a sector.
 W06, Galactic Union, "When this card is purchased, gain a gem for each occupied sector."
 W07, Unity is Strength, Reveal your hand.  Gain a gem for each white card revealed.
 W08, Chera's Tithe, Gain a gem for each white-controlled sector.
@@ -27,13 +27,13 @@ W11, The City of Anten, Move all gems in one sector to adjacent sectors.
 W12, Shupa Vane Route, Gain a gem for each unique color with control.
 W13, Nyri Artifacts, Auction all white cards in the market as one lot.
 
-B01, Banii's Ritual, Reveal the top event card and execute its event.
+B01, Banii Ritual, Execute an event from the market.
 B02, Treaty of Cheng-Huang, Draw an event card for each player and distribute them evenly.
 B03, Goauldi Scouts, Draw and place a sector.  Gain its value in gems.
 B04, Quiet Prosperity, Place a gem in each sector with exactly one disk.
 B05, Genesis Device, Place a gem in each blue-controlled sector.
 B06, The Ruins of Loni City, Take a gem from each unoccupied sector.
-B07, Sustainable Farming, Gain two gems.
+B07, Sustainable Farming, "At the beginning of your turn, gain two gems."
 B08, Xin Shield Formula, While atop your discard: Disks may not be covered.
 B09, Beta Theory, "When you sell this card, take a card from the market."
 B10, The Living Ocean, "Place two gems in each explored, unoccupied sector."
