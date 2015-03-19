@@ -1,7 +1,7 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-1.0 RC1, {docdate}
-:toc:
+1.0 RC2, {docdate}
+:toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
 A game for two to four immortals, plays in about 500 millenia (an hour).
