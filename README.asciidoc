@@ -56,22 +56,22 @@ three influence each: six influence total.
 TODO(#3): A diagram of play.
 
 == Parts of Play
-The common board is separated into the market and the galaxy. In addition, each
+The common play area is separated into the market and the galaxy. In addition, each
 player has a hand and a discard pile.
 
 === The Market
 Cards in the market can be put up for auction by players to expand the
 range of powers wielded by the immortals.  At the end of each turn if the
-market has fewer than 4 cards add cards from the event deck until there are
+market has fewer than four cards then add cards from the event deck until there are
 four.
 
 === The Galaxy
-The galaxy is defined by hex-shaped sectors. At the start of the game the
+The galaxy is defined by hexogonal sectors. At the start of the game the
 universe is void and without form. Only through exploration does the universe
 take shape.
 
-Each sector has a value determined by its intrinsic value (the value on the
-sector) and its improved value (the amount of influence placed on the sector).
+Each sector has a value determined by its natural resources (the value on the
+sector) and its invested influence (the amount of influence placed on the sector).
 Only one color at a time may control a sector and it is the color that is on
 top of the stack. A sector with no disks is *uncontrolled*.
 
@@ -98,7 +98,7 @@ ends.*
 
 === Auction
 Put a card up for auction, either from the market ("seeding") or another
-player's active card ("salting"). Place it in front of you during this process.
+player's active card ("salting"). Place it in front of you, facing other players, during this process.
 Everyone secretly bids influence and simultaneously reveals their bids.
 
 The high bidder takes the card and gives the bid to:
@@ -160,14 +160,13 @@ Bob decides which sector to save.  The other sector's top disk is destroyed.
 ====
 
 == Game End
-If there are no disks left in the pool at the end of any player's turn, *the game
-ends.* Resolve the final effects of any active cards in the discard piles.
+If all disks have been placed or destroyed, *the game ends.*
 
 === Scoring
 1. Determine the value of each color by counting up sector values.
 2. For every card in your hand or discard pile gain points equal to its color value.
 3. Add the value of your influence.
-4. The player with the highest combine card and influence value wins. In case of a tie the player with the most influence wins.
+4. The player with the highest combined card and influence value wins. In case of a tie the player with the most influence wins.
 
 include::faq.asciidoc[]
 
