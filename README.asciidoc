@@ -67,7 +67,7 @@ market has fewer than four cards then add cards from the event deck until there 
 four.
 
 === The Galaxy
-The galaxy is defined by hexogonal sectors. At the start of the game the
+The galaxy is defined by hexagonal sectors. At the start of the game the
 universe is void and without form. Only through exploration does the universe
 take shape.
 
