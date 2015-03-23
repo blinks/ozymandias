@@ -39,25 +39,25 @@ three influence each: six influence total.
 ====
 
 == Components
-- This rulebook.
-- A deck of event cards.
-  - Each color gets 13.
-- A collection of influence tokens.
-  - Gems in the playtest copy; at least 80 1s and 40 5s.
-  - Alternatively, poker chips.
-- 24 control disks, six in each of four colors.
-  - Initial four sets are white, black, blue, red.
-- 22 hexagonal sector tiles.
-  - 2x 0s, 8x 1s, 6x 2s, 4x 3s, and 2x 4s.
+* This rulebook.
+* A deck of event cards.
+** Each color gets 13.
+* A collection of influence tokens.
+** Gems in the playtest copy; at least 80 1s and 40 5s.
+** Alternatively, poker chips.
+* 24 control disks, six in each of four colors.
+** Initial four sets are white, black, blue, red.
+* 22 hexagonal sector tiles.
+** 2x 0s, 8x 1s, 6x 2s, 4x 3s, and 2x 4s.
 
 == Setup
-- Shuffle the event deck.
-- Draw four cards to make the *market*.
-- Deal each player three cards and nine influence.
-  - Players may *one-time only* return any number of cards to the bottom of the
-    event deck and draw that many cards, as a mulligan. Shuffle the event deck
-    after all players have had a chance to mulligan, if necessary.
-- Decide which player is closest to immortality.  That player starts.
+* Shuffle the event deck.
+* Draw four cards to make the *market*.
+* Deal each player three cards and nine influence.
+** Players may *one-time only* return any number of cards to the bottom of the
+   event deck and draw that many cards, as a mulligan. Shuffle the event deck
+   after all players have had a chance to mulligan, if necessary.
+* Decide which player is closest to immortality.  That player starts.
 
 TIP: The previous winner is probably closest to immortality, should you need
 assistance choosing.
