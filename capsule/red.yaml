@@ -37,4 +37,4 @@ text: "Choose a color.  At start of turn: place a disk of that color on this
 name: Wreckage of the Xyri
 text: "Your bids cancel preservation bids. (Choose saved stacks to un-save.)"
 --- # C3
-name: "At the beginning of your turn, destroy a card in the market."
+text: "At the beginning of your turn, destroy a card in the market."
