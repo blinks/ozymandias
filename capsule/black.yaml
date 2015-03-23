@@ -1,20 +1,28 @@
 # Black.
 --- # A1
 name: The Awakening
+text: "Add a gem and a disk to an empty sector."
 --- # A2
 name: Remembrance
+text: "Put the bottom card of the event deck up for auction."
 --- # A3
 name: Eldritch Theft
+text: "Destroy a disk in the pool."
 --- # A4
 name: The Altemian Purge
+text: "Reap a card in the market for its value."
 --- # A5
 name: Dark Ages
+text: "Destroy all market cards."
 --- # A6
 name: Drakon's Escape
+text: "Move a stack to an adjacent sector."
 --- # A7
 name: From the Dark
+text: "Return a destroyed disk to any sector."
 --- # B1
 name: Beta Theory
+text: "When you reap this card, take a card from the market."
 --- # B2
 text: "When you buy this card, place gems in a sector equal to your bid."
 --- # C1
