@@ -1,18 +1,23 @@
 # White.
 --- # A1
 name: Critical Mass
+text: "Bid for preservation of white. Place all bids in one sector."
 --- # A2
 name: Unity is Strength
+text: "Reveal your hand. Gain a gem for each white card revealed."
 --- # A3
 name: Chera's Tithe
+text: "Gain a gem for each white sector."
 --- # A4
-name: Nyri's Artifacts
+name: Nyri Artifacts
+text: "Auction all white cards in the market as one lot."
 --- # A5
 text: "Reveal an opponent's hand. Gain a gem for each non-white card revealed."
 --- # A6
 text: "Pay X gems: place X white disks."
 --- # A7
 name: Genesis Device
+text: "Place a gem in each white sector."
 --- # B1
 text: "When bought: destroy all non-white market cards."
 --- # B2
