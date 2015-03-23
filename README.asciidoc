@@ -95,6 +95,9 @@ of the stack, has control of the sector.  The sector has an intrinsic value of
 value of 3 and all other colors have 0.
 ====
 
+When disks are destroyed, the active player keeps them in their own personal
+dead pool.
+
 image::images/play.jpg[title="Foreshadowing the rise of black and white."]
 
 == Play
@@ -173,6 +176,7 @@ process.
 2. Counter-clockwise from the active player, each bidder chooses which sectors
    to save.  Players can choose one sector for each influence they bid.
 3. Destroy the top disk of each sector *not* saved.
+   (Place them in the active player's dead pool.)
 
 .Preservation of blue
 ====
@@ -180,7 +184,8 @@ In a two-player game, blue controls two sectors.
 
 Alice bids nothing and Bob bids one influence to preserve blue.
 
-Bob decides which sector to save.  The other sector's top disk is destroyed.
+Bob decides which sector to save.  The other sector's top disk is
+destroyed by Alice.
 ====
 
 image::images/wealth.jpg[title="Wealth of the galaxy."]
