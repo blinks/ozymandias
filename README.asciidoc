@@ -49,21 +49,21 @@ three influence each: six influence total.
 - Shuffle the event deck.
 - Draw four cards to make the *market*.
 - Deal each player three cards and nine influence.
-  - Players may *one-time only* return any number of cards to the bottom of the event
-    deck and draw that many cards, as a mulligan. Shuffle the event deck after all
-    players have had a chance to mulligan, if necessary.
+  - Players may *one-time only* return any number of cards to the bottom of the
+    event deck and draw that many cards, as a mulligan. Shuffle the event deck
+    after all players have had a chance to mulligan, if necessary.
 - Decide which player is closest to immortality.  That player starts.
 
-TODO(#3): A diagram of play.
+image::images/setup.jpg[title="Void and without form."]
 
 == Parts of Play
-The common play area is separated into the market and the galaxy. In addition, each
-player has a hand and a discard pile.
+The common play area is separated into the market and the galaxy. In addition,
+each player has a hand and a discard pile.
 
 === The Market
-Cards in the market can be put up for auction by players to expand the
-range of powers wielded by the immortals.  At the end of each turn if the
-market has fewer than four cards then add cards from the event deck until there are
+Cards in the market can be put up for auction by players to expand the range of
+powers wielded by the immortals.  At the end of each turn if the market has
+fewer than four cards then add cards from the event deck until there are
 four.
 
 === The Galaxy
@@ -72,17 +72,19 @@ universe is void and without form. Only through exploration does the universe
 take shape.
 
 Each sector has a value determined by its natural resources (the value on the
-sector) and its invested influence (the amount of influence placed on the sector).
-Only one color at a time may control a sector and it is the color that is on
-top of the stack. A sector with no disks is *uncontrolled*.
+sector) and its invested influence (the amount of influence placed on the
+sector).  Only one color at a time may control a sector and it is the color
+that is on top of the stack. A sector with no disks is *uncontrolled*.
 
 .Sector control.
 ====
-A sector contains a blue, white and red disk. Only the red disk, sitting on
-top of the stack, has control of the sector.  The sector has an intrinsic value
-of 2 and an additional point of influence for a total value of 3. Red has a
+A sector contains a blue, white and red disk. Only the red disk, sitting on top
+of the stack, has control of the sector.  The sector has an intrinsic value of
+2 and an additional point of influence for a total value of 3. Red has a
 value of 3 and all other colors have 0.
 ====
+
+image::images/play.jpg[title="Foreshadowing the rise of black and white."]
 
 == Play
 Play proceeds in turns.  At the beginning of your turn, if you have no cards
@@ -98,15 +100,16 @@ If all disks have been placed or destroyed, *the game ends*.
 
 === Auction
 Put a card up for auction, either from the market ("seeding") or another
-player's active card ("salting"). Place it in front of you, facing other players, during this process.
-Everyone secretly bids influence and simultaneously reveals their bids.
+player's active card ("salting"). Place it in front of you, facing other
+players, during this process.  Everyone secretly bids influence and
+simultaneously reveals their bids.
 
 The high bidder takes the card and gives the bid to:
 
 - If from the market: the active player (if the active player would pay
-   themselves, they pay the bank instead).
-- If from a player: the former owner as compensation (if the card's
-   owner would pay themselves, they pay the active player instead).
+  themselves, they pay the bank instead).
+- If from a player: the former owner as compensation (if the card's owner would
+  pay themselves, they pay the active player instead).
 
 Losing bidders keep their bids.
 
@@ -118,8 +121,8 @@ Caveats:
 === Expand
 Play a card to place a disk.
 
-1. Put the card on your discard pile.  It's now active and the previous top card,
-   if any, is inactive.
+1. Put the card on your discard pile.  It's now active and the previous top
+   card, if any, is inactive.
 2. Take a disk of its color and place it on the map adjacent to another sector
    controlled by its color.  If no such sectors exist, place the disk in any
    unoccupied sector.
@@ -131,12 +134,13 @@ Play a card to place a disk.
 === Event
 Play a card to execute its event.
 
-1. Put the card on your discard pile.  It's now active and the previous top card,
-   if any, is inactive.
+1. Put the card on your discard pile.  It's now active and the previous top
+   card, if any, is inactive.
 2. Follow its instructions.
 
 === Reap
-Sell a card for influence; place it in front of you sideways during this process.
+Sell a card for influence; place it in front of you sideways during this
+process.
 
 1. Determine the value of its color by counting up sector values.
 2. Collect that much influence from the bank.
@@ -159,14 +163,18 @@ Alice bids nothing and Bob bids one influence to preserve blue.
 Bob decides which sector to save.  The other sector's top disk is destroyed.
 ====
 
+image::images/wealth.jpg[title="Wealth of the galaxy."]
+
 == Game End
 The game ends when all disks have been placed or destroyed.
 
 === Scoring
 1. Determine the value of each color by counting up sector values.
-2. For every card in your hand or discard pile gain points equal to its color value.
+2. For every card in your hand or discard pile gain points equal to its color
+   value.
 3. Add the value of your influence.
-4. The player with the highest combined card and influence value wins. In case of a tie the player with the most influence wins.
+4. The player with the highest combined card and influence value wins. In case
+   of a tie the player with the most influence wins.
 
 include::faq.asciidoc[]
 
