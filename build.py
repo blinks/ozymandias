@@ -10,10 +10,12 @@ import yaml
 
 def main():
     cards2csv()
-    asciidoctor()
+    rev = git('rev-parse', '--short', '--verify', 'HEAD')
+    asciidoctor(rev)
     git('checkout', 'gh-pages')
     os.rename('../index.html', './index.html')
     git('add', 'index.html')
+    git('commit', '-m "Release v' + rev + '"', shell=True)
 
 def cards2csv():
     """Turn YAML card database into card CSV manifest."""
@@ -32,8 +34,7 @@ def cards2csv():
                 card.get('text')
                 ])
 
-def asciidoctor():
-    rev = git('rev-parse', '--short', '--verify', 'HEAD')
+def asciidoctor(rev):
     subprocess.check_output(['asciidoctor',
         '--attribute=revision=' + rev,
         '--destination-dir=..',
