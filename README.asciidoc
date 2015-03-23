@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-1.0 RC2, {docdate}
+1.0-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
