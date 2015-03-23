@@ -41,9 +41,14 @@ three influence each: six influence total.
 == Components
 - This rulebook.
 - A deck of event cards.
+  - Each color gets 13.
 - A collection of influence tokens.
+  - Gems in the playtest copy; at least 80 1s and 40 5s.
+  - Alternatively, poker chips.
 - 24 control disks, six in each of four colors.
-- 20 hexagonal sector tiles.
+  - Initial four sets are white, black, blue, red.
+- 22 hexagonal sector tiles.
+  - 2x 0s, 8x 1s, 6x 2s, 4x 3s, and 2x 4s.
 
 == Setup
 - Shuffle the event deck.
@@ -54,6 +59,9 @@ three influence each: six influence total.
     after all players have had a chance to mulligan, if necessary.
 - Decide which player is closest to immortality.  That player starts.
 
+TIP: The previous winner is probably closest to immortality, should you need
+assistance choosing.
+
 image::images/setup.jpg[title="Void and without form."]
 
 == Parts of Play
@@ -62,9 +70,8 @@ each player has a hand and a discard pile.
 
 === The Market
 Cards in the market can be put up for auction by players to expand the range of
-powers wielded by the immortals.  At the end of each turn if the market has
-fewer than four cards then add cards from the event deck until there are
-four.
+powers wielded by the immortals.  At the end of each turn, if the market has
+fewer than four cards: add cards from the event deck until there are four.
 
 === The Galaxy
 The galaxy is defined by hexagonal sectors. At the start of the game the
@@ -74,7 +81,11 @@ take shape.
 Each sector has a value determined by its natural resources (the value on the
 sector) and its invested influence (the amount of influence placed on the
 sector).  Only one color at a time may control a sector and it is the color
-that is on top of the stack. A sector with no disks is *uncontrolled*.
+that is on top of the stack. A sector with no disks is *uncontrolled*. A sector
+without a tile is *unexplored*.
+
+NOTE: At the beginning of the game, there is exactly one (unexplored and
+uncontrolled) sector.
 
 .Sector control.
 ====
@@ -113,6 +124,9 @@ The high bidder takes the card and gives the bid to:
 
 Losing bidders keep their bids.
 
+TIP: The auction is a good way to make some money, if you don't mind your
+opponent getting a card.
+
 Caveats:
 
 - The active player breaks all ties.
@@ -131,12 +145,18 @@ Play a card to place a disk.
 4. If you drew a new sector, reveal and execute the top card of the event deck.
    (Leave it on top afterwards.)
 
+CAUTION: Exploring is risky; income tends to be low, and many events have no
+effect when revealed during exploration.
+
 === Event
 Play a card to execute its event.
 
 1. Put the card on your discard pile.  It's now active and the previous top
    card, if any, is inactive.
 2. Follow its instructions.
+
+IMPORTANT: If you place disks with an event, you don't collect influence nor
+execute an event for exploring a sector.  The event is reward enough.
 
 === Reap
 Sell a card for influence; place it in front of you sideways during this
@@ -175,6 +195,8 @@ The game ends when all disks have been placed or destroyed.
 3. Add the value of your influence.
 4. The player with the highest combined card and influence value wins. In case
    of a tie the player with the most influence wins.
+
+TIP: Count up the influence for each color and multiply.
 
 include::faq.asciidoc[]
 
