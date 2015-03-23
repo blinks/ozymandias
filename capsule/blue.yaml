@@ -1,22 +1,29 @@
 # Blue.
 --- # A1
-name: Treaty
+name: Treaty of Cheng-Huang
+text: "Draw an event card for each player and distribute them evenly."
 --- # A2
 name: Quiet Prosperity
+text: "Place a gem in each sector with exactly one disk."
 --- # A3
 name: Ruins of Loni City
+text: "Take a gem from each unoccupied sector."
 --- # A4
-name: Living Ocean
+name: The Living Ocean
+text: "Place two gems in each explored, unoccupied sector."
 --- # A5
 name: Garthu Spaceport
+text: "Reveal your hand. Gain two gems for each different color revealed."
 --- # A6
 name: Jordani Current
+text: "Gain a gem and shuffle the event deck."
 --- # A7
 name: The New Economy
 text: "Place 3 gems on one or more market cards.  Sell all market cards with
         gems on them as a single lot."
 --- # B1
 name: Galactic Union
+text: "When this card is purchased, gain a gem for each occupied sector."
 --- # B2
 name: Banii Ritual
 text: "When reaped: execute all market events."
@@ -25,8 +32,10 @@ name: Sustainable Farming
 text: "At start of turn: Gain two gems."
 --- # C2
 name: Xin Shield Formula
+text: "Disks may not be placed on controlled sectors."
 --- # C3
 name: Zele Research Labs
+text: "Put cards reaped by opponents in your hand."
 --- # E1
 text: "At end of game: each set of four colors in hand is worth an additional
         seven influence."
