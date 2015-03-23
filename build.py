@@ -41,7 +41,7 @@ def asciidoctor(rev):
         '--out-file=index.html',
         'README.asciidoc'])
 
-def git(*cmd, shell=False):
+def git(shell=False, *cmd):
     return subprocess.check_output(['git'] + list(cmd), shell=shell)
 
 if __name__ == '__main__':
