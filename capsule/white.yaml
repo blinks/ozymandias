@@ -1,0 +1,27 @@
+# White.
+--- # A1
+name: Critical Mass
+--- # A2
+name: Unity is Strength
+--- # A3
+name: Chera's Tithe
+--- # A4
+name: Nyri's Artifacts
+--- # A5
+text: "Reveal an opponent's hand. Gain a gem for each non-white card revealed."
+--- # A6
+text: "Pay X gems: place X white disks."
+--- # A7
+name: Genesis Device
+--- # B1
+text: "When bought: destroy all non-white market cards."
+--- # B2
+text: "When sold: place on any discard pile."
+--- # C1
+text: "When a white card is abandoned, gain a gem for each white card in your discard."
+--- # C2
+text: "At start of turn: gain a gem for each non-white card in the market."
+--- # C3
+text: "At start of turn: gain a white market card."
+--- # E1
+text: "At end of game: double the value of white sectors."

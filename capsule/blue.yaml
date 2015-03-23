@@ -1,0 +1,32 @@
+# Blue.
+--- # A1
+name: Treaty
+--- # A2
+name: Quiet Prosperity
+--- # A3
+name: Ruins of Loni City
+--- # A4
+name: Living Ocean
+--- # A5
+name: Garthu Spaceport
+--- # A6
+name: Jordani Current
+--- # A7
+name: The New Economy
+text: "Place 3 gems on one or more market cards.  Sell all market cards with
+        gems on them as a single lot."
+--- # B1
+name: Galactic Union
+--- # B2
+name: Banii Ritual
+text: "When reaped: execute all market events."
+--- # C1
+name: Sustainable Farming
+text: "At start of turn: Gain two gems."
+--- # C2
+name: Xin Shield Formula
+--- # C3
+name: Zele Research Labs
+--- # E1
+text: "At end of game: each set of four colors in hand is worth an additional
+        seven influence."
