@@ -11,13 +11,13 @@ Right now?  Manually.  Working on creating files to make it simpler, but for
 now, these parts should suffice:
 
 * http://www.printplaygames.com/product/die-cut-pieces-tiles-and-counters
-** 20x 1.5” hex tiles for sectors (one sheet from the above link).
+** 22x 2.2" hex tiles for sectors (two sheets from the above link).
 * http://www.printplaygames.com/product/acrylic-gem-10mm
 ** Acrylic gems to represent liquid currency.
 ** 40x red $5s and 60x white $1s should be enough.
 ** The important thing is to have liquidity -- poker chips would also work
    fine.
-* http://www.printplaygames.com/product/15mm-wood-discs
+* https://www.printplaygames.com/product/25mm-x-7mm-wood-discs
 ** Six disks each in black, blue, white, and red.
 * http://www.printplaygames.com/product/blank-cards
 ** 52 poker-sized cards for constructing your deck.
