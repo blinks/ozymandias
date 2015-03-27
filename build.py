@@ -15,7 +15,7 @@ def main():
     git('checkout', 'gh-pages')
     os.rename('../index.html', './index.html')
     git('add', 'index.html')
-    git('commit', '-m "Release v' + rev.strip() + '"', shell=True)
+    git('commit', '-m', 'Release v' + rev.strip(), shell=True)
 
 def cards2csv():
     """Turn YAML card database into card CSV manifest."""
