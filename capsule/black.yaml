@@ -13,7 +13,7 @@ name: The Altemian Purge
 text: "Reap a card in the market for its value."
 --- # A5
 name: Dark Ages
-text: "Destroy all market cards."
+text: "Discard your hand."
 --- # A6
 name: Drakon's Escape
 text: "Move a stack to an adjacent sector."
