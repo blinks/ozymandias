@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-1.0-{revision}, {docdate}
+0.3-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -17,12 +17,7 @@ The lone and level sands stretch far away.
 ____
 
 == Overview
-You are immortal puppet-masters, managing a coalition of factions to ensure
-they control the galaxy through exploration, expansion, exploitation, and
-extermination of rival factions.
-
-Not even the most powerful faction survives forever, and the loyalty of
-currently-weak factions is cheap.  You must take the long view.
+_Rise_ is a science-fantasy 4x god game.
 
 == Objective
 Have the most influence at the end of the game.
@@ -174,7 +169,7 @@ process.
 
 1. Everyone secretly bids influence and simultaneously reveals their bids.
 2. Counter-clockwise from the active player, each bidder chooses which sectors
-   to save.  Players can choose one sector for each influence they bid.
+   to save: to save a sector, place a gem from your bid on top of its stack.
 3. Destroy the top disk of each sector *not* saved.
    (Place them in the active player's dead pool.)
 
@@ -184,8 +179,8 @@ In a two-player game, blue controls two sectors.
 
 Alice bids nothing and Bob bids one influence to preserve blue.
 
-Bob decides which sector to save.  The other sector's top disk is
-destroyed by Alice.
+Bob decides which sector to save, placing his influence on it.  The other
+sector's top disk is destroyed by Alice.
 ====
 
 image::images/wealth.jpg[title="Wealth of the galaxy."]
@@ -195,8 +190,8 @@ The game ends when all disks have been placed or destroyed.
 
 === Scoring
 1. Determine the value of each color by counting up sector values.
-2. For every card in your hand or discard pile gain points equal to its color
-   value.
+2. For every card in your hand or discard pile gain points equal to the value
+   of the color symbols on it.
 3. Add the value of your influence.
 4. The player with the highest combined card and influence value wins. In case
    of a tie the player with the most influence wins.
