@@ -13,7 +13,7 @@ name: Fires at Night
 text: "Pay up to 3 gems. Destroy that many top disks."
 --- # A5
 name: The Ru-Shou Dam
-text: "Bid for preservation of all colors. You gain opponents' bids."
+text: "Bid for preservation of all colors. You gain opponents' bids. Your bid is discarded."
 --- # A6
 name: Robber Barons
 text: "Destroy all non-red market cards."
