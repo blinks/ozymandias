@@ -1,7 +1,6 @@
 # White.
 --- # A1
-name: Critical Mass
-text: "Bid for preservation of white. Place all bids in one sector."
+text: "When another card is reaped, recover a card of that color from your discard."
 --- # A2
 name: Unity is Strength
 text: "Reveal your hand. Gain a gem for each white card revealed."
@@ -21,9 +20,9 @@ text: "Place a gem in each white sector."
 --- # B1
 text: "When bought: destroy all non-white market cards."
 --- # B2
-text: "When sold: place on any discard pile."
+text: "When reaped: place on any discard pile."
 --- # C1
-text: "When a white card is abandoned, gain a gem for each white card in your discard."
+text: "[Two white icons.] When bought: place on any discard pile."
 --- # C2
 text: "At start of turn: gain a gem for each non-white card in the market."
 --- # C3
