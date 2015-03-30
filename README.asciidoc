@@ -168,8 +168,12 @@ process.
 ==== Preservation and Collapse
 
 1. Everyone secretly bids influence and simultaneously reveals their bids.
-2. Counter-clockwise from the active player, each bidder chooses which sectors
-   to save: to save a sector, place a gem from your bid on top of its stack.
+2. Counter-clockwise from the active player, each bidder chooses sectors to
+   save.
+   - To save a sector, place a gem from your bid on top of its stack.
+   - A sector may only be saved by one player -- if there's already a gem
+     there, you can't place another.
+   - You aren't _required_ to save sectors; you may just discard your bid.
 3. Destroy the top disk of each sector *not* saved.
    (Place them in the active player's dead pool.)
 
