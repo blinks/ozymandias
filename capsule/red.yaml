@@ -1,43 +1,95 @@
 # Red.
+
 --- # A1
 name: Berserkers of Grotl
-text: "Gain a gem for each destroyed red disk."
+concept: >
+    Income from red apocalypse.
+text: >
+    Gain a gem for each destroyed red disk.
+
 --- # A2
 name: Treasure Vaults
-text: "Take all gems from a non-red sector."
+concept: >
+    Income from reducing investment value.
+text: >
+    Take all gems from a non-red sector.
+
 --- # A3
 name: Cyri's Treachery
-text: "Replace a card at random from an opponent's hand with this card."
+concept: >
+    Disrupt an opponent's hand.
+text: >
+    Replace a card at random from an opponent's hand with this card.
+
 --- # A4
 name: Fires at Night
-text: "Pay up to 3 gems. Destroy that many top disks."
+concept: >
+    Destroy a civilization's value.
+text: >
+    Pay up to 3 gems. Destroy that many top disks.
+
 --- # A5
 name: The Ru-Shou Dam
-text: "Bid for preservation of all colors, then collect a gem from each
-        occupied sector."
+concept: >
+    Tax the investment strategy.
+text: >
+    Bid for preservation of all colors, then collect a gem from each occupied
+    sector.
+
 --- # A6
 name: Robber Barons
-text: "Destroy all non-red market cards."
+concept: >
+    Remove diversity in the market.
+text: >
+    Destroy all non-red market cards.
+
 --- # A7
-text: "Put a discarded card back into its controller's hand."
+concept: >
+    Stall discard recovery, or self-recur faster.
+text: >
+    Put a discarded card back into its controller's hand.
+
 --- # A8
 name: Raiders from the Warp
-text: "Place a disk. Take all gems from one adjacent sector and place them in
-        the new sector."
+concept: >
+    Steal power from a civilization.
+text: >
+    Place a disk. Take all gems from one adjacent sector and place them in the
+    new sector.
+
 --- # B1
 name: Fall of Gethi E'Feri
-text: "When you reap this card, destroy all controlling red disks."
+concept: >
+    Speed the apocalypse.
+text: >
+    When you reap this card, destroy all controlling red disks.
+
 --- # B2
 name: Thani Tribes
-text: "When bought, gain gems equal to the sum of all empty sectors."
+concept: >
+    Value from destruction.
+text: >
+    When bought, gain gems equal to the sum of all empty sectors.
+
 --- # C1
 name: Crusade of the Sun
-text: "Choose a color.  At start of turn: place a disk of that color on this
-        card.  When this card becomes no longer active, place all disks from
-        it onto the map."
+concept: >
+    Unpredictable cascade of control.
+text: >
+    Choose a color.  At start of turn: place a disk of that color on this card.
+    When this card becomes no longer active, place all disks from it onto
+    the map, one at a time.
+
 --- # C2
 name: Wreckage of the Xyri
-text: "Your bids cancel preservation bids. (Choose saved stacks to un-save.)"
+concept: >
+    Make preservation more difficult.
+text: >
+    Players must spend two gems to preserve a stack.
+
 --- # C3
 name: Revolution
-text: "At the beginning of your turn, destroy a card in the market."
+concept: >
+    Inject instability into the market.
+text: >
+    At the beginning of your turn, destroy a card in the market.
