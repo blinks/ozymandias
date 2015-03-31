@@ -1,16 +1,27 @@
 # Black.
 --- # A1
 name: The Awakening
-text: "Add a gem and a disk to an empty sector."
+concept: >
+    A civilization emerges from nothing, discovering a spark of powerful
+    energy.
+text: >
+    Add a gem and a disk to an empty sector.
 --- # A2
 name: Remembrance
-text: "Put the bottom card of the event deck up for auction."
+concept: >
+    Rescue a harvested card from the fire.
+text: >
+    Put the bottom card of the event deck up for auction.
 --- # A3
 name: Eldritch Theft
-text: "Destroy a disk in the pool."
+concept: >
+    Destroy a civilization before it's even born.
+text: >
+    Destroy a disk in the pool.
 --- # A4
 name: The Altemian Purge
-text: "Reap a card in the market for its value."
+text: >
+    Reap a card in the market for its value.
 --- # A5
 name: Dark Ages
 text: "Discard your hand."
