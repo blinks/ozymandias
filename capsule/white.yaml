@@ -36,7 +36,7 @@ text: >
 
 --- # A6
 concept: >
-    Build up civilizations, encourage investment. 
+    Build up civilizations, encourage investment.
 text: >
     Pay up to 3 gems: place that many disks.
 
@@ -86,3 +86,5 @@ concept: >
     Power-up the white strategy.
 text: >
     At end of game: double the value of white sectors.
+notes:
+    - JW 2015/3/31: "end of game" un-clear that it'll work if not active.
