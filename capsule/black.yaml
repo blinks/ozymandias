@@ -1,49 +1,91 @@
 # Black.
+
 --- # A1
 name: The Awakening
 concept: >
-    A civilization emerges from nothing, discovering a spark of powerful
-    energy.
+    A civilization emerges from nothing, bringing power with it.
 text: >
     Add a gem and a disk to an empty sector.
+
 --- # A2
 name: Remembrance
 concept: >
     Rescue a harvested card from the fire.
 text: >
     Put the bottom card of the event deck up for auction.
+
 --- # A3
 name: Eldritch Theft
 concept: >
     Destroy a civilization before it's even born.
 text: >
     Destroy a disk in the pool.
+
 --- # A4
 name: The Altemian Purge
+concept: >
+    Income for the apocalypse strategy.
 text: >
-    Reap a card in the market for its value.
+    Harvest a card in the market for its value.
+
 --- # A5
 name: Dark Ages
-text: "Discard your hand."
+concept: >
+    Get your discard pile back faster, keep a card in your hand safe.
+text: >
+    Discard your hand.
+
 --- # A6
 name: Drakon's Escape
-text: "Move a stack to an adjacent sector."
+concept: >
+    Move the entire system somewhere else; the civilization and all its
+    history.
+text: >
+    Move a stack to an adjacent sector.
+
 --- # A7
 name: From the Dark
-text: "Return a destroyed disk to any sector."
+concept: >
+    A people you thought were lost have returned.
+text: >
+    Place a destroyed disk in any sector.
+
 --- # B1
 name: Beta Theory
-text: "When you reap this card, take a card from the market."
+concept: >
+    Convert a card in-hand to a card in-market.
+text: >
+    When you harvest this card, take a card from the market.
+
 --- # B2
-text: "When you buy this card, place gems in a sector equal to your bid."
+concept: >
+    Crystalize power in a location.
+text: >
+    When you buy this card, place gems in a sector equal to your bid.
+
 --- # C1
-name: "The One True Path"
-text: "At start of turn: Gain a gem and recover a card from your discard."
+name: The One True Path
+concept: >
+    Recover discards for harvest.
+text: >
+    At start of turn: Gain a gem and recover a card from your discard.
+
 --- # C2
-name: "Stasis Pods"
-text: "Disks cannot be removed by collapse."
+name: Stasis Pods
+concept: >
+    Make harvest safe and cheap for a turn or two.
+text: >
+    Disks cannot be removed by collapse.
+
 --- # C3
-text: "Execute any opponent's active event."
+concept: >
+    Use an opponent's cards against them.
+text: >
+    Execute any opponent's active event.
+
 --- # E1
 name: Black Stars
-text: "Destroyed black disks count as if on value-2 sectors."
+concept: >
+    Even in death, black civilizations can be worth something.
+text: >
+    Destroyed black disks count as if on value-2 sectors.
