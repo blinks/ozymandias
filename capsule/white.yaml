@@ -1,31 +1,88 @@
 # White.
+
 --- # A1
-text: "When another card is reaped, recover a card of that color from your discard."
+concept: >
+    Discard recursion.
+text: >
+    When another card is harvested, recover a card of that color from your
+    discard.
+
 --- # A2
 name: Unity is Strength
-text: "Reveal your hand. Gain a gem for each white card revealed."
+concept: >
+    Income for the all-white strategy.
+text: >
+    Reveal your hand. Gain a gem for each white card revealed.
+
 --- # A3
 name: Chera's Tithe
-text: "Gain a gem for each white sector."
+concept: >
+    Income for the white strategy.
+text: >
+    Gain a gem for each white sector.
+
 --- # A4
 name: Nyri Artifacts
-text: "Auction all white cards in the market as one lot."
+concept: >
+    Encourage major investment in white.
+text: >
+    Auction all white cards in the market as one lot.
+
 --- # A5
-text: "Reveal an opponent's hand. Gain a gem for each non-white card revealed."
+concept: >
+    Hand reveal and some minor income.
+text: >
+    Reveal an opponent's hand. Gain a gem for each non-white card revealed.
+
 --- # A6
-text: "Pay X gems: place X white disks."
+concept: >
+    Build up civilizations, encourage investment. 
+text: >
+    Pay up to 3 gems: place that many disks.
+
 --- # A7
 name: Genesis Device
-text: "Place a gem in each white sector."
+concept: >
+    Power the white investment strategy.
+text: >
+    Place a gem in each white sector.
+
 --- # B1
-text: "When bought: destroy all non-white market cards."
+name: Crash of 4729
+concept: >
+    Reset the market.
+text: >
+    When bought: destroy all non-white market cards.
+
 --- # B2
-text: "When reaped: place on any discard pile."
+name: Cocoon
+concept: >
+    Stop an active effect // recur harvest.
+text: >
+    When harvested: place on any discard pile.
+
 --- # C1
-text: "[Two white icons.] When bought: place on any discard pile."
+concept: >
+    Delayed high-value harvest.
+text: >
+    This card has two white icons.
+    When bought: place on any discard pile.
+
 --- # C2
-text: "At start of turn: gain a gem for each non-white card in the market."
+concept: >
+    Encourage auctioning white cards.
+text: >
+    At start of turn: gain a gem for each non-white card in the market.
+
 --- # C3
-text: "At start of turn: gain a white market card."
+concept: >
+    Provide a channel for white cards.
+text: >
+    At start of turn: gain a white market card.
+
 --- # E1
-text: "At end of game: double the value of white sectors."
+name: Thorwed's Gambit
+concept: >
+    Power-up the white strategy.
+text: >
+    At end of game: double the value of white sectors.
