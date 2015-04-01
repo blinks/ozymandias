@@ -13,9 +13,10 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--state',
             help='path to the game state file')
-    parser.add_argument('command', choices=[
-        'alpha', 'beta',
-        ])
+    parser.add_argument('player', choices=[ 'alpha', 'beta' ])
+    parser.add_argument('action', choices=[
+        'play', 'expand', 'auction', 'harvest' ], nargs='?')
+    parser.add_argument('card', type=int, nargs='?')
     return parser.parse_args()
 
 def main(args):
@@ -24,35 +25,64 @@ def main(args):
         game = yaml.load(open(args.state, 'r'))
     else:
         game = Game(load_cards())
-        if args.state:
-            yaml.dump(game, stream=open(args.state, 'w'))
 
-    # Display game info.
+    active = game.alpha
+    if args.player == 'beta':
+        active = game.beta
+    if 'discard' not in active:
+        active['discard'] = []
+
+    # Execute that player's action.
+    if args.action == 'play':
+        c = active['hand'].pop(args.card)
+        active['discard'].insert(0, c)
+        print 'Play %s for event.' % c
+
+    elif args.action == 'expand':
+        c = active['hand'].pop(args.card)
+        active['discard'].insert(0, active['hand'].pop(args.card))
+        print 'Expand with %s.' % c
+        # TODO: Sector draw and alter?
+
+    elif args.action == 'auction':
+        print 'Auction', game.market[args.card]
+
+    elif args.action == 'harvest':
+        c = active['hand'].pop(args.card)
+        game.deck.append(c)
+        print c
+        # TODO: Compute color value?
+
+    # Save game state.
+    if args.action and args.state:
+        yaml.dump(game, stream=open(args.state, 'w'))
+
+    # Display game state.
+    def show(cards, visible=True):
+        if not visible:
+            print ' ', '%s card(s).' % len(game.alpha['hand'])
+        else:
+            for i, card in enumerate(cards):
+                print ' ', i, card
 
     print 'Alpha [%s]:' % game.alpha['bank']
-    if args.command == 'alpha':
-        for card in game.alpha['hand']:
-            print ' ', card
-    else:
-        print ' ', '%s card(s).' % len(game.alpha['hand'])
+    show(game.alpha['hand'], args.player == 'alpha')
+    print ' Discard:'
+    show(game.alpha.get('discard', []))
     print
 
     print 'Beta [%s]:' % game.beta['bank']
-    if args.command == 'beta':
-        for card in game.beta['hand']:
-            print ' ', card
-    else:
-        print ' ', '%s card(s).' % len(game.beta['hand'])
+    show(game.beta['hand'], args.player == 'beta')
+    print ' Discard:'
+    show(game.beta.get('discard', []))
     print
 
     print 'Market:'
-    for card in game.market:
-        print ' ', card
+    show(game.market)
     print
 
     print 'Pool:', game.pool
-
-    print 'Ok.'
+    print 'Map:', game.sector_map
 
 
 class Card(yaml.YAMLObject):
@@ -65,6 +95,22 @@ class Card(yaml.YAMLObject):
 
     def __repr__(self):
         return '%s [%s] %s' % (self.name, self.color, self.text)
+
+
+class Sector(yaml.YAMLObject):
+    yaml_tag = u'!Sect'
+
+    def __init__(self, value):
+        self.x = None
+        self.y = None
+        self.value = value
+        self.gems = 0
+        self.stack = []
+
+    def __repr__(self):
+        return '(%s, %s): %s=%s%s' % (
+                self.x, self.y, self.stack, self.value,
+                ('+%s' % self.gems) if self.gems else '')
 
 
 class Game(yaml.YAMLObject):
@@ -84,8 +130,9 @@ class Game(yaml.YAMLObject):
         self.beta = { 'hand': self.pop(3), 'bank': 9 }
 
         # Sector map starts with an unexplored sector at the origin.
-        self.sector_map = { (0, 0): None }
-        self.sectors = 2 * ( 2 * [0] + 2 * [4] + 4 * [3] + 6 * [2] + 8 * [1])
+        self.sector_map = []
+        self.sectors = [Sector(v) for v in
+                [2 * (2 * [0] + 2 * [4] + 4 * [3] + 6 * [2] + 8 * [1])]]
         random.shuffle(self.sectors)
 
         # Initial disk count.
