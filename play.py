@@ -26,6 +26,9 @@ def main(args):
     else:
         game = Game(load_cards())
 
+    if not game.sector_map:
+        game.sector_map = []
+
     active = game.alpha
     if args.player == 'beta':
         active = game.beta
@@ -36,26 +39,48 @@ def main(args):
     if args.action == 'play':
         c = active['hand'].pop(args.card)
         active['discard'].insert(0, c)
-        print 'Play %s for event.' % c
+        print '%s plays %s for event.' % (args.player, c.name)
 
     elif args.action == 'expand':
         c = active['hand'].pop(args.card)
         active['discard'].insert(0, active['hand'].pop(args.card))
-        print 'Expand with %s.' % c
-        # TODO: Sector draw and alter?
+        print '%s expands with %s, placing %s.' % (
+                args.player, c.name, c.color)
+
+        coord = input('Coordinates? ')
+        if not isinstance(coord, tuple) or len(coord) != 2:
+            raise SyntaxError
+
+        for s in game.sector_map:
+            if (s.x, s.y) == s:
+                break
+        else:
+            s = Sector(game.sectors.pop())
+            s.x, s.y = coord
+            game.sector_map.append(s)
+            print '  Exploration:', game.peek()
+
+        assert game.pool[c.color] > 0
+        game.pool[c.color] -= 1
+        s.stack.insert(0, c.color)
+        active['bank'] += s.value + s.gems
+        print '  [%s]' % s
 
     elif args.action == 'auction':
-        print 'Auction', game.market[args.card]
+        print 'Auction', game.market[args.card].name
 
     elif args.action == 'harvest':
         c = active['hand'].pop(args.card)
         game.deck.append(c)
-        print c
-        # TODO: Compute color value?
+        val = 0
+        for s in game.sector_map or []:
+            if s.stack and s.stack[0] == c.color:
+                val += s.value + s.gems
+        print 'Harvest', c.name, 'for', val
 
-    # Save game state.
-    if args.action and args.state:
-        yaml.dump(game, stream=open(args.state, 'w'))
+    # Refresh the market.
+    while len(game.market) < 4:
+        game.market.append(game.pop())
 
     # Display game state.
     def show(cards, visible=True):
@@ -65,6 +90,7 @@ def main(args):
             for i, card in enumerate(cards):
                 print ' ', i, card
 
+    print
     print 'Alpha [%s]:' % game.alpha['bank']
     show(game.alpha['hand'], args.player == 'alpha')
     print ' Discard:'
@@ -83,6 +109,14 @@ def main(args):
 
     print 'Pool:', game.pool
     print 'Map:', game.sector_map
+
+    if sum(game.pool.values()) == 0:
+        print 'This will end the game.'
+    if raw_input('Ok? (yN) ') == 'y':
+        # Save game state.
+        if args.action and args.state:
+            yaml.dump(game, stream=open(args.state, 'w'))
+        print 'Saved.'
 
 
 class Card(yaml.YAMLObject):
@@ -138,12 +172,12 @@ class Game(yaml.YAMLObject):
         # Initial disk count.
         self.pool = { 'W': 6, 'K': 6, 'R': 6, 'B': 6 }
 
-    def pop(self, n):
+    def pop(self, n=1):
         """Pop cards off the top of the deck."""
         cs, self.deck[:n] = self.deck[:n], []
         return cs
 
-    def peek(self, n):
+    def peek(self, n=1):
         """Reveal cards from the top of the deck."""
         return self.deck[:n]
 
