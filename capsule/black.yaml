@@ -58,6 +58,7 @@ text: >
     When you harvest this card, take a card from the market.
 
 --- # B2
+name: Vote of Confidence
 concept: >
     Crystalize power in a location.
 text: >
@@ -78,6 +79,7 @@ text: >
     Disks cannot be removed by collapse.
 
 --- # C3
+name: Spycraft
 concept: >
     Use an opponent's cards against them.
 text: >

@@ -1,58 +1,62 @@
 # White: Investment in conformity.
 
 --- # A1
+name: Speculative Bubble
 concept: >
-    Discard recursion.
+    Encourage auctioning white cards.
 text: >
-    When another card is harvested, recover a card of that color from your
-    discard.
+    Name two colors. Gain a gem for each non-matching card in the market.
 
 --- # A2
 name: Unity is Strength
 concept: >
     Income for the all-white strategy.
 text: >
-    Reveal your hand. Gain a gem for each white card revealed.
+    Name a color and reveal your hand. Gain a gem for each card of that color
+    you reveal.
 
 --- # A3
 name: Chera's Tithe
 concept: >
     Income for the white strategy.
 text: >
-    Gain a gem for each white sector.
+    Name a color. Gain a gem for each sector controlled by that color.
 
 --- # A4
 name: Nyri Artifacts
 concept: >
     Encourage major investment in white.
 text: >
-    Auction all white cards in the market as one lot.
+    Auction all cards of the same color in the market as one lot.
 
 --- # A5
+name: Monoculture
 concept: >
     Hand reveal and some minor income.
 text: >
-    Reveal an opponent's hand. Gain a gem for each non-white card revealed.
+    Name a color and reveal an opponent's hand. Gain a gem for each card not
+    matching that color they reveal.
 
 --- # A6
+name: Boom Era
 concept: >
     Build up civilizations, encourage investment.
 text: >
-    Pay up to 3 gems: place that many disks.
+    Pay up to 3 gems: place that many disks of one color.
 
 --- # A7
 name: Genesis Device
 concept: >
     Power the white investment strategy.
 text: >
-    Place a gem in each white sector.
+    Name a color. Place a gem in each sector controlled by that color.
 
 --- # B1
 name: Crash of 4729
 concept: >
     Reset the market.
 text: >
-    When bought: destroy all non-white market cards.
+    When bought: destroy all market cards that don't match a color you choose.
 
 --- # B2
 name: Cocoon
@@ -62,19 +66,23 @@ text: >
     When harvested: place on any discard pile.
 
 --- # C1
+name: Double-Down
 concept: >
     Delayed high-value harvest.
 text: >
-    This card has two white icons.
     When bought: place on any discard pile.
+    When harvested: this card is worth twice its normal value.
 
 --- # C2
+name: Plans in Motion
 concept: >
-    Encourage auctioning white cards.
+    Discard recursion.
 text: >
-    At start of turn: gain a gem for each non-white card in the market.
+    When another card is harvested, recover a card of that color from your
+    discard.
 
 --- # C3
+name: Library of Dithia
 concept: >
     Provide a channel for white cards.
 text: >
@@ -85,6 +93,5 @@ name: Thorwed's Gambit
 concept: >
     Power-up the white strategy.
 text: >
-    At end of game: double the value of white sectors.
-notes:
-    - JW 2015/3/31: "end of game" un-clear that it'll work if not active.
+    At end of game: each player doubles the number of icons of the color they
+    have the most of.
