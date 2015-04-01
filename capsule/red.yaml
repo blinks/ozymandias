@@ -19,7 +19,8 @@ name: Cyri's Treachery
 concept: >
     Disrupt an opponent's hand.
 text: >
-    Replace a card at random from an opponent's hand with this card.
+    Take a random card from an opponent's hand into your own hand.
+    Then put this card into the opponent's hand.
 
 --- # A4
 name: Fires at Night
