@@ -1,0 +1,8 @@
+application: xn--t-g9n
+version: alpha
+runtime: go
+api_version: go1
+
+handlers:
+- url: /.*
+  script: _go_app
