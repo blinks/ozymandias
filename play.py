@@ -36,7 +36,7 @@ def main(args):
         active['discard'] = []
 
     # Execute that player's action.
-    if args.action == 'play':
+    if args.action == 'event':
         c = active['hand'].pop(args.card)
         active['discard'].insert(0, c)
         print '%s plays %s for event.' % (args.player, c.name)
@@ -77,6 +77,7 @@ def main(args):
             if s.stack and s.stack[0] == c.color:
                 val += s.value + s.gems
         print 'Harvest', c.name, 'for', val
+        active['bank'] += val
 
     # Refresh the market.
     while len(game.market) < 4:
