@@ -15,7 +15,7 @@ def parse_args():
             help='path to the game state file')
     parser.add_argument('player', choices=[ 'alpha', 'beta' ])
     parser.add_argument('action', choices=[
-        'play', 'expand', 'auction', 'harvest' ], nargs='?')
+        'event', 'expand', 'auction', 'harvest' ], nargs='?')
     parser.add_argument('card', type=int, nargs='?')
     return parser.parse_args()
 
@@ -43,7 +43,7 @@ def main(args):
 
     elif args.action == 'expand':
         c = active['hand'].pop(args.card)
-        active['discard'].insert(0, active['hand'].pop(args.card))
+        active['discard'].insert(0, c)
         print '%s expands with %s, placing %s.' % (
                 args.player, c.name, c.color)
 
@@ -58,7 +58,7 @@ def main(args):
             s = Sector(game.sectors.pop())
             s.x, s.y = coord
             game.sector_map.append(s)
-            print '  Exploration:', game.peek()
+            print '  Exploration:', game.peek()[0]
 
         assert game.pool[c.color] > 0
         game.pool[c.color] -= 1
@@ -80,7 +80,7 @@ def main(args):
 
     # Refresh the market.
     while len(game.market) < 4:
-        game.market.append(game.pop())
+        game.market.extend(game.pop())
 
     # Display game state.
     def show(cards, visible=True):
