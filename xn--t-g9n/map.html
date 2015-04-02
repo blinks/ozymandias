@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <body>
+    <svg id="hex" width="640" height="480"> </svg>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="hex.js"></script>
+    <script>
+d3.select('svg')
+  .append('g').attr('transform', 'translate(64, 64)')
+  .append('polygon').attr('points', points);
+    </script>
+  </body>
+</html>
