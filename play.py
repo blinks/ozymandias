@@ -86,7 +86,7 @@ def main(args):
     # Display game state.
     def show(cards, visible=True):
         if not visible:
-            print ' ', '%s card(s).' % len(game.alpha['hand'])
+            print ' ', '%s card(s).' % len(cards)
         else:
             for i, card in enumerate(cards):
                 print ' ', i, card
