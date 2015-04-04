@@ -8,11 +8,11 @@ import (
 
 var (
   staticIndex []byte
-  gameTmpl = template.Must(template.ParseFiles("game.html"))
+  gameTmpl = template.Must(template.ParseFiles("static/game.html"))
 )
 
 func init() {
-  content, err := ioutil.ReadFile("index.html")
+  content, err := ioutil.ReadFile("static/index.html")
   if err != nil {
     panic(err)
   }
