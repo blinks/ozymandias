@@ -3,6 +3,9 @@
   <head>
     <meta charset='utf-8'>
     <style>
+      #map circle {
+        stroke: gray;
+      }
       #map text {
         fill: white;
         font: 10px sans-serif;
@@ -13,20 +16,33 @@
   <body>
     <svg id="map" width="640" height="480"> </svg>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="map.js"></script>
     <script>
-var data = [1];
+// Hexagon points.
+var points = [0, 1, .866, .5, .866, -.5, 0, -1, -.866, -.5, -.866, .5];
+//for (var i in points) { points[i] *= 32; }
+
+var data = [{x: 64, y: 64, gems: 0, value: 1, stack: ['red', 'white']}];
 var sector = d3.select('svg').selectAll('g')
     .data(data)
   .enter().append('g')
-    .attr('transform', 'translate(64, 64)');
+    .attr('transform', function(d) {
+      return 'translate(' + d.x + ',' + d.y + ')'; });
 
 sector.append('polygon')
+  .transition()
+  .attr('transform', 'scale(32)')
   .attr('points', points);
+sector.append('circle')
+  .style('fill', 'white')
+  .attr('r', 8);
+sector.append('circle')
+  .attr('cy', -4)
+  .style('fill', 'red')
+  .attr('r', 8);
 sector.append('text')
   .attr('x', 0)
-  .attr('y', 12)
-  .text(function(d) { return d; });
+  .attr('y', 20)
+  .text(function(d) { return d.value + '+' + d.gems; });
     </script>
   </body>
 </html>
