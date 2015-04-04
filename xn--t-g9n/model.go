@@ -2,15 +2,18 @@ package ozymandias
 
 import (
   "appengine/user"
+  "encoding/csv"
+  "log"
   "math/rand"
+  "os"
 )
 
-type Color rune
+type Color string
 const (
-  W Color = 'W'
-  K Color = 'K'
-  R Color = 'R'
-  B Color = 'B'
+  W Color = "white"
+  K Color = "black"
+  R Color = "red"
+  B Color = "blue"
 )
 
 type State struct {
@@ -34,7 +37,7 @@ func MakeGame() *State {
   }
 
   for i, r := range rs {
-    deck[i] = Card{r[0], r[1], r[2]}
+    deck[i] = Card{Color(r[0]), r[1], r[2]}
   }
 
   Shuffle(deck)

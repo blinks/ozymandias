@@ -1,7 +1,7 @@
 package ozymandias
 
 import (
-  //"html/template"
+  "html/template"
   "io/ioutil"
   "net/http"
 )
