@@ -1,13 +1,32 @@
 <!doctype html>
 <html>
+  <head>
+    <meta charset='utf-8'>
+    <style>
+      #map text {
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: middle;
+      }
+    </style>
+  </head>
   <body>
-    <svg id="hex" width="640" height="480"> </svg>
+    <svg id="map" width="640" height="480"> </svg>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="hex.js"></script>
+    <script src="map.js"></script>
     <script>
-d3.select('svg')
-  .append('g').attr('transform', 'translate(64, 64)')
-  .append('polygon').attr('points', points);
+var data = [1];
+var sector = d3.select('svg').selectAll('g')
+    .data(data)
+  .enter().append('g')
+    .attr('transform', 'translate(64, 64)');
+
+sector.append('polygon')
+  .attr('points', points);
+sector.append('text')
+  .attr('x', 0)
+  .attr('y', 12)
+  .text(function(d) { return d; });
     </script>
   </body>
 </html>
