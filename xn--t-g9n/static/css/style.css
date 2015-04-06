@@ -1,0 +1,17 @@
+#map {
+  background-color: gray;
+}
+#map polygon {
+  fill: black;
+  box-shadow: -5px -5px 5px #888;
+}
+#map circle {
+  stroke: #fff;
+  stroke-opacity: 0.5;
+  stroke-width: 1;
+}
+#map text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
