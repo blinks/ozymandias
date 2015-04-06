@@ -115,7 +115,7 @@ def main(args):
         print 'This will end the game.'
     if raw_input('Ok? (yN) ') == 'y':
         # Save game state.
-        if args.action and args.state:
+        if args.state:
             yaml.dump(game, stream=open(args.state, 'w'))
         print 'Saved.'
 
