@@ -5,3 +5,9 @@
 - Moves are logged (Command pattern) both to provide a record of the game and
   make it easier to work bids into a pseudo-barrier.  (Active command could be
   an auction, for instance.)
+
+## Next Actions
+
+- [ ] Store game state in the data store.
+- [ ] Implement setup as part of new game creation.
+- [ ] Provide a game viewer that understands visibility.
