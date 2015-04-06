@@ -11,9 +11,12 @@ handlers:
 - url: /js
   static_dir: static/js
 
+- url: /$
+  static_files: static/index.html
+  upload: static/.*\.html$
 - url: /(.*\.html)$
   static_files: static/\1
   upload: static/.*\.html$
 
-- url: /.*
+- url: /api/.*
   script: _go_app
