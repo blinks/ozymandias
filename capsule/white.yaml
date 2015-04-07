@@ -56,7 +56,8 @@ name: Crash of 4729
 concept: >
     Reset the market.
 text: >
-    When bought: destroy all market cards that don't match a color you choose.
+    When bought: bury all market cards that don't match a color you choose to
+    the bottom of the event deck.
 
 --- # B2
 name: Cocoon
