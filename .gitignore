@@ -1,3 +1,4 @@
-cards.csv
-README.html
 *.pyc
+README.html
+bower_components/
+cards.csv

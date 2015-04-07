@@ -34,6 +34,20 @@ dt.controller('GameCtrl', function($scope, $resource) {
 
 // Use d3 to update SVG.
 function d3update(data) {
+  var market = d3.select('#market')
+    .selectAll('div')
+    .data(data.market);
+  market.enter().append('div').text(function(d) {
+    return d.name + ' [' + d.color + ']: ' + d.text;
+  });
+  market.exit().remove();
+
+  var immortals = d3.select('#immortals')
+    .selectAll('div')
+    .data(data.immortals);
+  immortals.enter().append('div').text(function(d) { return d; });
+  immortals.exit().remove();
+
   // Sector group in the galaxy map.
   var sector = d3.select('svg').selectAll('g')
     .data(data.galaxy);
@@ -47,17 +61,24 @@ function d3update(data) {
       return 'translate(' + x + ',' + y + ')';
     });
   sector.exit().remove();
+  sector.on('mousedown', function(d) { alert(d); });
 
   // Inside the sector group:
   // ... the background hexagon
   g.append('polygon')
-    .attr('points', HEXAGON);
+    .attr('points', HEXAGON)
+    .style('stroke', 'gray')
+    .style('fill', function(d) { return d.value < 0 ? '#444' : 'black'; })
+    .style('opacity', '0')
+    .transition()
+    .style('opacity', '1');
   // ... the natural and invested value
   g.append('text')
     .attr('y', SIZE - 10)
-    .text(function(d) {
-      return d.value + '+' + d.gems;
-    });
+    .text(function(d) { return d.value < 0 ? '?' : d.value + '+' + d.gems; })
+    .style('opacity', '0')
+    .transition()
+    .style('opacity', '1');
   // ... the stack of control disks
   var disk = g.selectAll('circle')
     .data(function(d) {
@@ -65,7 +86,10 @@ function d3update(data) {
     });
   disk.enter().append('circle')
       .style('fill', function(d) { return d; })
-      .attr('cy', function(d, i) { return SIZE / 8 * i; })
-      .attr('r', function(d, i) { return SIZE / 4; });
+      .attr('r', function(d, i) { return SIZE / 4; })
+      .attr('cy', SIZE).style('opacity', '0')
+      .transition()
+      .style('opacity', '1')
+      .attr('cy', function(d, i) { return SIZE / 8 * i; });
   disk.exit().remove();
 }

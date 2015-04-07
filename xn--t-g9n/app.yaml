@@ -12,6 +12,19 @@ handlers:
 - url: /js
   static_dir: static/js
 
+- url: /ext/angular
+  static_dir: bower_components/angular
+- url: /ext/angular-resource
+  static_dir: bower_components/angular-resource
+- url: /ext/angular-route
+  static_dir: bower_components/angular-route
+- url: /ext/bootstrap
+  static_dir: bower_components/bootstrap/dist
+- url: /ext/d3
+  static_dir: bower_components/d3
+- url: /ext/jquery
+  static_dir: bower_components/jquery/dist
+
 - url: /$
   static_files: static/index.html
   upload: static/.*\.html$
