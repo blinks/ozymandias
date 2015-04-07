@@ -128,14 +128,17 @@ Caveats:
 - If nobody bids anything, the card is buried on the bottom of the event deck.
 
 === Expand
-Play a card to place a disk.
+Play a card to place a disk and gain income.
 
 1. Put the card on your discard pile.  It's now active and the previous top
    card, if any, is inactive.
-2. Take a disk of its color and place it on the map adjacent to another sector
-   controlled by its color.  If no such sectors exist, place the disk in any
-   empty sector, or draw and place a new sector (adjacent to an existing tile)
-   for the disk.
+2. Take a disk of its color and place it on a sector:
+   - If the color doesn't control any sectors, place the disk in any empty
+     sector, or draw and place a new sector (adjacent to an existing tile) for
+     the disk.
+   - If the color controls at least one sector, place the disk on or adjacent
+     to one of the sectors that the color controls.  (Yes, you can place a disk
+     on top of its own color.)
 3. Gain influence equal to the sector's value.
 4. If you drew a new sector, reveal and execute the top card of the event deck.
    (Leave it on top afterwards.)
