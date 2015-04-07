@@ -8,6 +8,10 @@ You must place all the taken disks on your turn, and then the game ends.
 
 The active player chooses the order of event execution.
 
+=== Does Boom Era provide income when placing disks?
+
+No.  Events never provide expansion bonuses when placing disks.
+
 == FAQ: Playtesting
 
 === How do I build this thing?
