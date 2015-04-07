@@ -106,10 +106,9 @@ actions:
 If all disks have been placed or destroyed, *the game ends*.
 
 === Auction
-Put a card up for auction, either from the market ("seeding") or another
-player's active card ("salting"). Place it in front of you, facing other
-players, during this process.  Everyone secretly bids influence and
-simultaneously reveals their bids.
+Put a card up for auction, either from the market or any player's active card.
+Place it in front of you, facing other players, during this process.  Everyone
+secretly bids influence and simultaneously reveals their bids.
 
 The high bidder takes the card and gives the bid to:
 
