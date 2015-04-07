@@ -90,4 +90,5 @@ name: Black Stars
 concept: >
     Even in death, black civilizations can be worth something.
 text: >
-    Destroyed black disks count as if on value-2 sectors.
+    At end of game, if this card is in a discard pile: Place all destroyed
+    black disks on empty sectors.  Draw new sectors if necessary.

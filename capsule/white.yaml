@@ -94,5 +94,5 @@ name: Thorwed's Gambit
 concept: >
     Power-up the white strategy.
 text: >
-    At end of game: each player doubles the number of icons of the color they
-    have the most of.
+    At end of game, if this card is in any discard pile: each player doubles
+    the value of the color of which they have the most cards.
