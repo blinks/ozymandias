@@ -34,23 +34,28 @@ dt.controller('GameCtrl', function($scope, $resource) {
 
 // Use d3 to update SVG.
 function d3update(data) {
+  function CardString(d) { return d.name + ' [' + d.color + ']: ' + d.text; }
+
   var market = d3.select('#market')
-    .selectAll('div')
+    .selectAll('a')
     .data(data.market);
-  market.enter().append('div').text(function(d) {
-    return d.name + ' [' + d.color + ']: ' + d.text;
-  });
+  market.enter().append('a')
+    .attr('class', 'list-group-item')
+    .attr('href', '#')
+    .text(CardString);
   market.exit().remove();
 
-  var immortals = d3.select('#immortals')
-    .selectAll('div')
-    .data(data.immortals);
-  immortals.enter().append('div').text(function(d) { return d; });
+  var immortals = d3.select('#hand')
+    .selectAll('a')
+    .data(data.immortals[0].hand);  // FIXME
+  immortals.enter().append('a')
+    .attr('class', 'list-group-item')
+    .attr('href', '#')
+    .text(CardString);
   immortals.exit().remove();
 
-  // Sector group in the galaxy map.
-  var sector = d3.select('svg').selectAll('g')
-    .data(data.galaxy);
+  var svg = d3.select('svg');
+  var sector = svg.selectAll('g').data(data.galaxy);
 
   var g = sector.enter().append('g')
     .attr('transform', function(d) {
@@ -61,7 +66,7 @@ function d3update(data) {
       return 'translate(' + x + ',' + y + ')';
     });
   sector.exit().remove();
-  sector.on('mousedown', function(d) { alert(d); });
+  sector.on('mousedown', function(d) { console.log(d); });
 
   // Inside the sector group:
   // ... the background hexagon

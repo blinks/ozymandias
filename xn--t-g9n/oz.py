@@ -68,25 +68,24 @@ class Game(ndb.Model):
   @classmethod
   def create(cls):
     """Set up a new game object."""
+    # TODO: Support other player counts.
+    immortals = [ Immortal(), Immortal() ]
+
     deck = [Card(name=c['name'], color=c['color'], text=c['text'])
         for c in csv.DictReader(open('cards.csv'))]
     random.shuffle(deck)
     market, deck = deck[:3], deck[3:]
+    for i in immortals:
+      i.hand, deck = deck[:3], deck[3:]
 
     tiles = [0]*2 + [1]*8 + [2]*6 + [3]*4 + [4]*2
     random.shuffle(tiles)
-    galaxy = [
-        Sector(q=0, r=0, value=tiles.pop()),
-        Sector(q=-1, r=0, value=-1),
-        Sector(q=-1, r=1, value=-1),
-        Sector(q=0, r=-1, value=-1),
-        Sector(q=0, r=1, value=-1),
-        Sector(q=1, r=-1, value=-1),
-        Sector(q=1, r=0, value=-1),
-        ]
+    galaxy = [ Sector(q=0, r=0, value=tiles.pop()), ]
 
     pool = {'white': 6, 'black': 6, 'red': 6, 'blue': 6}
-    return Game(deck=deck, market=market, tiles=tiles, galaxy=galaxy, pool=pool)
+    return Game(immortals=immortals,
+        deck=deck, market=market,
+        tiles=tiles, galaxy=galaxy, pool=pool)
 
   def json(self):
     return {
