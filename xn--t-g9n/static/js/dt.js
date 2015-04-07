@@ -4,7 +4,7 @@ const SIN60 = Math.sqrt(3.0) / 2.0;
 const HEXAGON = [0, 1, SIN60, .5, SIN60, -.5,
      0, -1, -SIN60, -.5, -SIN60, .5].map(function(p) { return p * 32.0; });
 
-var dt = angular.module('dt', ['ngRoute']);
+var dt = angular.module('dt', ['ngResource', 'ngRoute']);
 
 dt.config(function($routeProvider, $locationProvider) {
   $routeProvider
@@ -21,11 +21,14 @@ dt.config(function($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
 });
 
-dt.controller('GameCtrl', function($scope) {
+dt.controller('GameCtrl', function($scope, $resource) {
+  var api = $resource('/api/');
   this.createGame = function() {
     // TODO: Fire off a creation RPC
-    // TODO: Pass the game state to d3update.
-    d3update([ {q: 0, r: 0, value: 1, gems: 0, stack: []} ]);
+    // Pass the game state to d3update.
+    api.get({}, function(data) {
+      d3update(data);
+    });
   };
 });
 
@@ -33,7 +36,7 @@ dt.controller('GameCtrl', function($scope) {
 function d3update(data) {
   // Sector group in the galaxy map.
   var sector = d3.select('svg').selectAll('g')
-    .data(data);
+    .data(data.map);
 
   var g = sector.enter().append('g')
     .attr('transform', function(d) {

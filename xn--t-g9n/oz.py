@@ -1,10 +1,13 @@
+import json
 import webapp2
 
-class ReadGame(webapp2.RequestHandler):
+class GameApi(webapp2.RequestHandler):
   def get(self):
-    self.response.headers['Content-Type'] = 'text/plain'
-    self.response.write('Hello, World!')
+    self.response.headers['Content-Type'] = 'application/json'
+    self.response.write(json.dumps({
+      'map': [{'q': 0, 'r': 0, 'value': 1, 'gems': 0, 'stack': []}],
+      }))
 
 app = webapp2.WSGIApplication([
-  ('/api/', ReadGame),
+  ('/api', GameApi),
 ], debug=True)
