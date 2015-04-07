@@ -20,14 +20,14 @@ name: Ruins of Loni City
 concept: >
     Erode the value of empty sectors.
 text: >
-    Take a gem from each unoccupied sector.
+    Take a gem from each empty sector.
 
 --- # A4
 name: The Living Ocean
 concept: >
     Incentivise peaceful (single-color) expansion.
 text: >
-    Place two gems in each explored, unoccupied sector.
+    Place two gems in each empty sector.
 
 --- # A5
 name: Garthu Spaceport
