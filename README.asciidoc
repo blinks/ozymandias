@@ -143,6 +143,9 @@ Play a card to place a disk and gain income.
 4. If you drew a new sector, reveal and execute the top card of the event deck.
    (Leave it on top afterwards.)
 
+If you expand with a color that has no disks left in the pool, you place no
+disk and get no bonus, but the card still becomes active on your discard pile.
+
 CAUTION: Exploring is risky; income tends to be low, and many events have no
 effect when revealed during exploration.
 
@@ -152,6 +155,15 @@ Play a card to execute its event.
 1. Put the card on your discard pile.  It's now active and the previous top
    card, if any, is inactive.
 2. Follow its instructions.
+
+Some event text begins with a *trigger*, such as:
+
+- "At the beginning of your turn: ..."
+- "When you buy this card: ..."
+- "When you harvest this card: ..."
+
+These cards may not be played for their event.  Their event automatically takes
+place when the trigger condition happens.
 
 IMPORTANT: If you place disks with an event, you don't gain influence nor
 execute an event for exploring a sector.  The event is reward enough.

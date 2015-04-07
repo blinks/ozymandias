@@ -64,22 +64,23 @@ name: Fall of Gethi E'Feri
 concept: >
     Speed the apocalypse.
 text: >
-    When you reap this card, destroy all controlling red disks.
+    When you harvest this card: Destroy all controlling red disks.
 
 --- # B2
 name: Thani Tribes
 concept: >
     Value from destruction.
 text: >
-    When bought, gain gems equal to the sum of all empty sectors.
+    When you buy this card: Gain gems equal to the sum of all empty sectors.
 
 --- # C1
 name: Crusade of the Sun
 concept: >
     Unpredictable cascade of control.
 text: >
-    Choose a color.  At start of turn: place a disk of that color on this card.
-    When this card becomes no longer active, place all disks from it onto
+    Choose a color.
+    At the beginning of your turn: place a disk of that color on this card.
+    When this card becomes no longer active: place all disks from it onto
     the map, one at a time.
 
 --- # C2
@@ -87,12 +88,11 @@ name: Wreckage of the Xyri
 concept: >
     Make preservation more difficult.
 text: >
-    Players must spend two gems to preserve a stack.
+    While this card is active: Players must spend two gems to preserve a stack.
 
 --- # C3
 name: Revolution
 concept: >
     Inject instability into the market.
 text: >
-    At the beginning of your turn, bury a card in the market to the bottom of
-    the event deck.
+    At the beginning of your turn: Bury a card from the market.

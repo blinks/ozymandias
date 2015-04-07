@@ -42,7 +42,7 @@ name: Boom Era
 concept: >
     Build up civilizations, encourage investment.
 text: >
-    Pay up to 3 gems: place that many disks of one color.
+    Pay up to 3 gems and place that many disks of one color.
 
 --- # A7
 name: Genesis Device
@@ -56,30 +56,30 @@ name: Crash of 4729
 concept: >
     Reset the market.
 text: >
-    When bought: bury all market cards that don't match a color you choose to
-    the bottom of the event deck.
+    When you buy this card: Bury all market cards that don't match a color you
+    choose.
 
 --- # B2
 name: Cocoon
 concept: >
     Stop an active effect // recur harvest.
 text: >
-    When harvested: place on any discard pile.
+    When you harvest this card: Place Cocoon on any discard pile.
 
 --- # C1
 name: Double-Down
 concept: >
     Delayed high-value harvest.
 text: >
-    When bought: place on any discard pile.
-    When harvested: this card is worth twice its normal value.
+    When you buy this card: Place Double-Down on any discard pile.
+    When you harvest this card: Double-Down is worth twice its normal value.
 
 --- # C2
 name: Plans in Motion
 concept: >
     Discard recursion.
 text: >
-    When another card is harvested, recover a card of that color from your
+    When another card is harvested: Recover a card of that color from your
     discard.
 
 --- # C3
@@ -87,12 +87,12 @@ name: Library of Dithia
 concept: >
     Provide a channel for white cards.
 text: >
-    At start of turn: gain a white market card.
+    At the beginning of your turn: Gain a white market card.
 
 --- # E1
 name: Thorwed's Gambit
 concept: >
     Power-up the white strategy.
 text: >
-    At end of game, if this card is in any discard pile: each player doubles
-    the value of the color of which they have the most cards.
+    At the end of the game, if this card is in any discard pile: each player
+    doubles the value of the color of which they have the most cards.

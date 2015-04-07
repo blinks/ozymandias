@@ -55,40 +55,40 @@ name: Galactic Union
 concept: >
     Encourage a wide galaxy and a large purchase.
 text: >
-    When this card is purchased, gain a gem for each occupied sector.
+    When you buy this card: Gain a gem for each occupied sector.
 
 --- # B2
 name: Banii Ritual
 concept: >
     Preview market effects and think about harvest timing.
 text: >
-    When harvested: execute all market events.
+    When you harvest this card: Execute all market events.
 
 --- # C1
 name: Sustainable Farming
 concept: >
     Consistent income while you auction cards.
 text: >
-    At start of turn: Gain two gems.
+    At the beginning of your turn: Gain two gems.
 
 --- # C2
 name: Xin Shield Formula
 concept: >
     Protect civilizations from invasion.
 text: >
-    Disks may not be placed on controlled sectors.
+    While this card is active: Disks may not be placed on controlled sectors.
 
 --- # C3
 name: Zele Research Labs
 concept: >
     Save cards from the harvest for your own use.
 text: >
-    Put cards harvested by opponents in your hand.
+    While this card is active: Put cards harvested by opponents in your hand.
 
 --- # E1
 name: Permaculture
 concept: >
     Encourage diversity in your hand.
 text: >
-    At end of game, if this card is in a discard pile: each set of four colors
-    in any player's hand is worth an additional 20 influence for them.
+    At the end of the game, if this card is in a discard pile: each set of four
+    colors in any player's hand is worth an additional 20 influence for them.

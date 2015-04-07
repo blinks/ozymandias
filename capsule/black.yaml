@@ -55,28 +55,29 @@ name: Beta Theory
 concept: >
     Convert a card in-hand to a card in-market.
 text: >
-    When you harvest this card, take a card from the market.
+    When you harvest this card: take a card from the market.
 
 --- # B2
 name: Vote of Confidence
 concept: >
     Crystalize power in a location.
 text: >
-    When you buy this card, place gems in a sector equal to your bid.
+    When you buy this card: place gems in a sector equal to your bid.
 
 --- # C1
 name: The One True Path
 concept: >
     Recover discards for harvest.
 text: >
-    At start of turn: Gain a gem and recover a card from your discard.
+    At the beginning of your turn: Gain a gem and recover a card from your
+    discard.
 
 --- # C2
 name: Stasis Pods
 concept: >
     Make harvest safe and cheap for a turn or two.
 text: >
-    Disks cannot be removed by collapse.
+    While this card is active: Disks cannot be removed by collapse.
 
 --- # C3
 name: Spycraft
@@ -90,5 +91,5 @@ name: Black Stars
 concept: >
     Even in death, black civilizations can be worth something.
 text: >
-    At end of game, if this card is in a discard pile: Place all destroyed
-    black disks on empty sectors.  Draw new sectors if necessary.
+    At the end of the game, if this card is in a discard pile: Place all
+    destroyed black disks on empty sectors.  Draw new sectors if necessary.
