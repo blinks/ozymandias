@@ -1,7 +1,8 @@
 application: xn--t-g9n
 version: alpha
-runtime: go
-api_version: go1
+runtime: python27
+api_version: 1
+threadsafe: true
 
 handlers:
 - url: /img
@@ -19,4 +20,4 @@ handlers:
   upload: static/.*\.html$
 
 - url: /api/.*
-  script: _go_app
+  script: oz.app
