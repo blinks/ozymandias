@@ -19,5 +19,9 @@ handlers:
   static_files: static/\1
   upload: static/.*\.html$
 
-- url: /api.*
+- url: /api/.*
   script: oz.app
+
+libraries:
+- name: webapp2
+  version: latest

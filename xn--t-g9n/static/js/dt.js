@@ -22,12 +22,12 @@ dt.config(function($routeProvider, $locationProvider) {
 });
 
 dt.controller('GameCtrl', function($scope, $resource) {
-  var api = $resource('/api/');
+  var Game = $resource('/api/game');
   this.createGame = function() {
-    // TODO: Fire off a creation RPC
-    // Pass the game state to d3update.
-    api.get({}, function(data) {
-      d3update(data);
+    // Fire off a creation RPC
+    var newGame = Game.get({}, function() {
+      d3update(newGame);
+      newGame.$save();
     });
   };
 });
@@ -36,7 +36,7 @@ dt.controller('GameCtrl', function($scope, $resource) {
 function d3update(data) {
   // Sector group in the galaxy map.
   var sector = d3.select('svg').selectAll('g')
-    .data(data.map);
+    .data(data.galaxy);
 
   var g = sector.enter().append('g')
     .attr('transform', function(d) {
