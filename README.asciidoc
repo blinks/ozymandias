@@ -65,6 +65,13 @@ image::images/setup.jpg[title="Void and without form."]
 The common play area is separated into the market and the galaxy. In addition,
 each player has a hand and a discard pile.
 
+=== Discard Piles
+Players play cards to their discard pile, face up.  The top card of a player's
+discard is always *active* and may be auctioned by any player on their turn.
+Ensuring your active card provides a useful effect while you take other actions
+is a cornerstone of efficient play.  When no cards are left in your hand at the
+start of your turn, you may take your entire discard pile back into your hand.
+
 === The Market
 Cards in the market can be put up for auction by players to expand the range of
 powers wielded by the immortals.  At the end of each turn, if the market has
