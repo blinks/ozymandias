@@ -4,6 +4,10 @@
 
 You must place all the taken disks on your turn, and then the game ends.
 
+=== In what order does Banii's Ritual execute market events?
+
+The active player chooses the order of event execution.
+
 == FAQ: Playtesting
 
 === How do I build this thing?
