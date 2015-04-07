@@ -46,8 +46,10 @@ three influence each: six influence total.
 ** 2x 0s, 8x 1s, 6x 2s, 4x 3s, and 2x 4s.
 
 == Setup
+* Shuffle the sector deck.
+* Draw one sector and place it in the center of the table.
 * Shuffle the event deck.
-* Draw four cards to make the *market*.
+* Draw three cards to make the *market*.
 * Deal each player three cards and nine influence.
 ** Players may *one-time only* bury any number of cards to the bottom of the
    event deck and draw that many cards, as a mulligan. Shuffle the event deck
@@ -66,7 +68,7 @@ each player has a hand and a discard pile.
 === The Market
 Cards in the market can be put up for auction by players to expand the range of
 powers wielded by the immortals.  At the end of each turn, if the market has
-fewer than four cards: add cards from the event deck until there are four.
+fewer than three cards: add cards from the event deck until there are three.
 
 === The Galaxy
 The galaxy is defined by hexagonal sectors. At the start of the game the
@@ -76,11 +78,7 @@ take shape.
 Each sector has a value determined by its natural resources (the value on the
 sector) and its invested influence (the amount of influence placed on the
 sector).  Only one color at a time may control a sector and it is the color
-that is on top of the stack. A sector with no disks is *uncontrolled*. A sector
-without a tile is *unexplored*.
-
-NOTE: At the beginning of the game, there is exactly one (unexplored and
-uncontrolled) sector.
+that is on top of the stack. A sector with no disks is *empty*.
 
 .Sector control.
 ====
@@ -127,7 +125,7 @@ opponent getting a card.
 
 Caveats:
 
-- The active player breaks all ties.
+- As always, the active player breaks all ties.
 - If nobody bids anything, the card is buried on the bottom of the event deck.
 
 === Expand
@@ -137,9 +135,9 @@ Play a card to place a disk.
    card, if any, is inactive.
 2. Take a disk of its color and place it on the map adjacent to another sector
    controlled by its color.  If no such sectors exist, place the disk in any
-   unoccupied sector.
-   - If you placed in an unexplored sector, draw a new sector to put there.
-3. Collect influence equal to the sector's value.
+   empty sector, or draw and place a new sector (adjacent to an existing tile)
+   for the disk.
+3. Gain influence equal to the sector's value.
 4. If you drew a new sector, reveal and execute the top card of the event deck.
    (Leave it on top afterwards.)
 
@@ -153,7 +151,7 @@ Play a card to execute its event.
    card, if any, is inactive.
 2. Follow its instructions.
 
-IMPORTANT: If you place disks with an event, you don't collect influence nor
+IMPORTANT: If you place disks with an event, you don't gain influence nor
 execute an event for exploring a sector.  The event is reward enough.
 
 === Reap
@@ -161,7 +159,7 @@ Sell a card for influence; place it in front of you sideways during this
 process.
 
 1. Determine the value of its color by counting up sector values.
-2. Collect that much influence from the bank.
+2. Gain that much influence from the bank.
 3. Bid for preservation of that color.
 4. Bury the reaped card on the bottom of the market deck.
 
@@ -177,12 +175,13 @@ process.
 
 .Preservation of blue
 ====
-In a two-player game, blue controls two sectors.
+In a two-player game, blue controls two sectors (a 3-value and a 2-value) and
+Alice sells a blue card, gaining 5 influence from the bank.
 
 Alice bids nothing and Bob bids one influence to preserve blue.
 
-Bob decides which sector to save, placing his influence on it.  The other
-sector's top disk is destroyed by Alice.
+Alice preserves the 3-value sector and destroys the blue disk on top of the
+2-value sector.
 ====
 
 image::images/wealth.jpg[title="Wealth of the galaxy."]
