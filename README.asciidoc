@@ -49,7 +49,7 @@ three influence each: six influence total.
 * Shuffle the event deck.
 * Draw four cards to make the *market*.
 * Deal each player three cards and nine influence.
-** Players may *one-time only* return any number of cards to the bottom of the
+** Players may *one-time only* bury any number of cards to the bottom of the
    event deck and draw that many cards, as a mulligan. Shuffle the event deck
    after all players have had a chance to mulligan, if necessary.
 * Decide which player is closest to immortality.  That player starts.
@@ -128,7 +128,7 @@ opponent getting a card.
 Caveats:
 
 - The active player breaks all ties.
-- If nobody bids anything, the card is put on the bottom of the event deck.
+- If nobody bids anything, the card is buried on the bottom of the event deck.
 
 === Expand
 Play a card to place a disk.
@@ -163,19 +163,17 @@ process.
 1. Determine the value of its color by counting up sector values.
 2. Collect that much influence from the bank.
 3. Bid for preservation of that color.
-4. Place the reaped card on the bottom of the market deck.
+4. Bury the reaped card on the bottom of the market deck.
 
-==== Preservation and Collapse
+==== Preservation
 
-1. Everyone secretly bids influence and simultaneously reveals their bids.
-2. Counter-clockwise from the active player, each bidder chooses sectors to
-   save.
-   - To save a sector, place a gem from your bid on top of its stack.
-   - A sector may only be saved by one player -- if there's already a gem
-     there, you can't place another.
-   - You aren't _required_ to save sectors; you may just discard your bid.
-3. Destroy the top disk of each sector *not* saved.
-   (Place them in the active player's dead pool.)
+1. [Everyone] Secretly bid influence and simultaneously reveal your bid.
+2. [Active player] Take all bids and spend them to preserve sectors:
+   - Each gem spent preserves one sector.
+   - If there aren't enough gems to preserve all the sectors, preserve the
+     highest value ones first, and then destroy the top disk of the rest.
+   - If there are more than enough gems, take the excess and place it in one
+     preserved sector, increasing it's value.
 
 .Preservation of blue
 ====
