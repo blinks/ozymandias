@@ -1,13 +1,13 @@
 # White: Investment in conformity.
 
 --- # A1
-name: Speculative Bubble
+name: The Catharsis Simulation
 text: >
     Name a color.  Reveal cards from the top of the event deck until you find
     one of that color.  Auction that card and bury the rest.
 
 --- # A2
-name: Unity is Strength
+name: Abdication of the Six Popes
 text: >
     Name a color.  Execute all market events with that color, then bury those
     cards.
@@ -34,7 +34,7 @@ text: >
     that color.
 
 --- # A6
-name: Boom Era
+name: Open-Palm Uprising
 concept: >
     Build up civilizations, encourage investment.
 text: >
@@ -48,7 +48,7 @@ text: >
     Name a color. Place a gem in each sector controlled by that color.
 
 --- # B1
-name: Crash of 4729
+name: Civil Reprogramming
 concept: >
     Reset the market.
 text: >
@@ -63,15 +63,15 @@ text: >
     When you harvest this card: Place Cocoon on any discard pile.
 
 --- # C1
-name: Double-Down
+name: Ancient Secrets
 concept: >
     Delayed high-value harvest.
 text: >
-    When you buy this card: Place Double-Down on any discard pile.
-    When you harvest this card: Double-Down is worth twice its normal value.
+    When you buy this card: Place Ancient Secrets on any discard pile.
+    When you harvest this card: Ancient Secrets is worth twice its normal value.
 
 --- # C2
-name: Plans in Motion
+name: Dead-Tree Distraction
 concept: >
     Discard recursion.
 text: >
