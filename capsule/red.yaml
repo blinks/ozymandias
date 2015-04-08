@@ -27,15 +27,14 @@ name: Fires at Night
 concept: >
     Destroy a civilization's value.
 text: >
-    Pay up to 3 gems. Destroy that many top disks.
+    Pay up to 3 gems to destroy that many top disks.
 
 --- # A5
 name: The Ru-Shou Dam
 concept: >
     Tax the investment strategy.
 text: >
-    Bid for preservation of all colors, then collect a gem from each occupied
-    sector.
+    Bid for preservation of all colors.
 
 --- # A6
 name: Robber Barons
@@ -45,7 +44,7 @@ text: >
     Destroy all non-red market cards.
 
 --- # A7
-name: Ritual of Memory
+name: Religious Rites
 concept: >
     Stall discard recovery, or self-recur faster.
 text: >
@@ -88,7 +87,7 @@ name: Wreckage of the Xyri
 concept: >
     Make preservation more difficult.
 text: >
-    While this card is active: Players must spend two gems to preserve a stack.
+    While this card is active: Stacks cost two gems to preserve.
 
 --- # C3
 name: Revolution

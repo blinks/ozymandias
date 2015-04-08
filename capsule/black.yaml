@@ -5,7 +5,7 @@ name: The Awakening
 concept: >
     A civilization emerges from nothing, bringing power with it.
 text: >
-    Add a gem and a disk to an empty sector.
+    Add a gem and a disk to an unexplored sector.
 
 --- # A2
 name: Remembrance
@@ -69,8 +69,7 @@ name: The One True Path
 concept: >
     Recover discards for harvest.
 text: >
-    At the beginning of your turn: Gain a gem and recover a card from your
-    discard.
+    At the beginning of your turn: Recover a card from your discard.
 
 --- # C2
 name: Stasis Pods

@@ -2,40 +2,36 @@
 
 --- # A1
 name: Speculative Bubble
-concept: >
-    Encourage auctioning white cards.
 text: >
-    Name two colors. Gain a gem for each non-matching card in the market.
+    Name a color.  Reveal cards from the top of the event deck until you find
+    one of that color.  Auction that card and bury the rest.
 
 --- # A2
 name: Unity is Strength
-concept: >
-    Income for the all-white strategy.
 text: >
-    Name a color and reveal your hand. Gain a gem for each card of that color
-    you reveal.
+    Name a color.  Execute all market events with that color, then bury those
+    cards.
 
 --- # A3
 name: Chera's Tithe
-concept: >
-    Income for the white strategy.
 text: >
-    Name a color. Gain a gem for each sector controlled by that color.
+    Name a color.  Harvest all cards of that color from your hand.  (Only bid
+    for preservation once.)
 
 --- # A4
 name: Nyri Artifacts
 concept: >
     Encourage major investment in white.
 text: >
-    Auction all cards of the same color in the market as one lot.
+    Name a color.  Auction all cards of that color from the market as one lot.
 
 --- # A5
 name: Monoculture
 concept: >
     Hand reveal and some minor income.
 text: >
-    Name a color and reveal an opponent's hand. Gain a gem for each card not
-    matching that color they reveal.
+    Name a color and choose a player.  That player must discard all cards of
+    that color.
 
 --- # A6
 name: Boom Era

@@ -12,8 +12,9 @@ text: >
 name: Quiet Prosperity
 concept: >
     Improve the value of single-color sectors.
+    Importantly, encourage taller stacks.
 text: >
-    Place a gem in each sector with exactly one disk.
+    Pay up to three gems into different sectors containing exactly one disk.
 
 --- # A3
 name: Ruins of Loni City
@@ -27,28 +28,28 @@ name: The Living Ocean
 concept: >
     Incentivise peaceful (single-color) expansion.
 text: >
-    Place two gems in each empty sector.
+    Place two gems from the bank on each empty sector.
 
 --- # A5
 name: Garthu Spaceport
 concept: >
-    Encourage diversification in your hand.
+    Encourage diversification.
 text: >
-    Reveal your hand. Gain two gems for each different color revealed.
+    Draw the top three sectors and put them back in any order.
 
 --- # A6
 name: Jordani Current
 concept: >
     Reset harvested cards and the current exploration event.
 text: >
-    Gain a gem and shuffle the event deck.
+    Shuffle the event deck.
 
 --- # A7
 name: The New Economy
 concept: >
     Income and market cycling, small amount of diversity.
 text: >
-    Auction two market cards in one lot.  Give the buyer four gems.
+    Auction two market cards in one lot.  The buyer gains four gems.
 
 --- # B1
 name: Galactic Union
