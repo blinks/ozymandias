@@ -27,6 +27,7 @@ class Immortal(ndb.Model):
   hand = ndb.LocalStructuredProperty(Card, 'h', repeated=True)
   discard = ndb.LocalStructuredProperty(Card, 'x', repeated=True)
   dead = ndb.StringProperty('p', repeated=True)
+  bid = ndb.IntegerProperty('b', default=-1)
 
   def json(self):
     return {
@@ -56,14 +57,14 @@ class Sector(ndb.Model):
 
 
 class Game(ndb.Model):
+  created = ndb.DateTimeProperty(auto_now_add=True)
+  updated = ndb.DateTimeProperty(auto_now=True)
   immortals = ndb.LocalStructuredProperty(Immortal, 'i', repeated=True)
   deck = ndb.LocalStructuredProperty(Card, 'd', repeated=True)
   market = ndb.LocalStructuredProperty(Card, 'm', repeated=True)
   tiles = ndb.IntegerProperty('t', repeated=True)
   galaxy = ndb.LocalStructuredProperty(Sector, 's', repeated=True)
   pool = ndb.LocalStructuredProperty(dict, 'p')
-  created = ndb.DateTimeProperty(auto_now_add=True)
-  updated = ndb.DateTimeProperty(auto_now=True)
 
   @classmethod
   def create(cls):
@@ -101,7 +102,9 @@ class Game(ndb.Model):
 class GameApi(webapp2.RequestHandler):
   def get(self):
     self.response.headers['Content-Type'] = 'application/json'
-    self.response.write(json.dumps(Game.create().json()))
+    game = Game.create()
+    game.put()
+    self.response.write(json.dumps(game.json()))
 
   def post(self):
     pass  # save game state?
