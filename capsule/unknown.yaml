@@ -1,13 +1,8 @@
 # Unknown card ideas, for safe-keeping.
 - "Place an card in the market on top of the deck."
 - "Take a card from the market.  Replace it with this one."
-- "Execute another player's active event. (leave it there)"
-- "Pay up to three gems.  Place that many disks of one color."
 - "At the beginning of your turn, place a disk."
-- "At the beginning of your turn, take a card from your discard pile back into
-  your hand."
 - "At the beginning of your turn, place a gem on any sector."
-- "At the beginning of your turn, destroy a card in the market."
 - "When another player reaps a card, gain half as many gems as they do, rounded
   down."
 - "When another player places a disk, place a disk."
@@ -29,8 +24,6 @@
 - "(clear) Move all clear disks to the top of their stacks."
 - "If you expand with this card, reveal two events and execute them all."
 - "If you expand with this card, choose an event in the market to execute."
-- "Double the value of [color] for the purposes of selling this card."
-- "Look at the top three sectors, replace them in any order."
 - "Look at the top three events, replace them in any order."
 - "Take another player's active event.  They draw the top card of the event
   deck."
@@ -43,7 +36,6 @@
 - "Swap an empty sector with the top of the sector pile."
 - "When someone explores, collect gems equal to the sector they place."
 - "When someone explores, add three gems to the sector they place."
-- "Discard your hand."
 - "At the start of your turn, swap this card with any card in the marketplace."
 - "At the beginning of your turn, swap this card with someone else's top card."
 - "AtBoYT, place this card on top of someone else's stack."
@@ -67,11 +59,10 @@
   regions."
 - "For every hex, add a number of gems equal to the stack size - 1 (the intent
   is to make contentious regions even more contentious)."
-- "Collect a gem for each different color in the market."
 - "Remove a gem from a hex; if no hexes have a gem collect 3 gems."
-- "Choose a color. Moves all disks of that color to adjacent, unexplored
+- "Choose a color. Move all disks of that color to adjacent, unexplored
   sectors."
-- "While this card is on top of your discard any gems added to a hex are added
+- "While this card is active: any gems added to a hex are added
   to your resources instead."
 - "Place a tile in an unexplored sector and destroy the bottom disk of all
   neighboring sectors."
@@ -85,7 +76,6 @@
 - "(attack) Exchange all controlling disks of one color with discarded disks."
 - "(explore) Move all controlling disks at the edge of the board to unrevealed
   hexes."
-- "(income) Auction last sold card."
 - "(attack) Socialist Republic. Remove all disks from highest scoring hex."
 - "(income) Layaway. Stash coins or place all stashed coins on the board."
 - "(attack) At end of game remove up to 5 coins before scoring."
@@ -105,8 +95,6 @@
 - "(attack) End of game red: treat unoccupied as red."
 - "(explore) Rovers: Explore without placing until a hex value > 1 is
   encountered."
-- "cards with higher expected value in the endgame could have multiple symbols
-  on them to identify value."
 - "(market/income) Sell/retire a card from the market as if it were from your
   hand."
 - "(income/attack) Collect gems for each disc in a stack."
@@ -130,13 +118,11 @@
   preservation from other players (excluding self)."
 - "All non controlling discs count as gems when sold."
 - "When another player sells a card place that many gems on the board."
-- "Reap a card from the market. Collect the value."
 - "Take 3 gems from a sector and place a disk from the graveyard on that
   sector."
 - "When purchased, choose one: Permanently add a card to the market, or
   permanently remove a card from the market. (This will change the market size
   this game.)"
-- "When on top of discard, this players bids count against preservation."
 - "Place a disk from the graveyard on this card. All cards played must be that
   color."
 - "Pickup each player's top card; redistribute."
