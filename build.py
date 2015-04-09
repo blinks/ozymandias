@@ -15,7 +15,7 @@ def main():
     git('checkout', 'gh-pages')
     os.rename('../index.html', './index.html')
     git('add', 'index.html')
-    git('commit', '-m', 'Release v' + rev.strip(), shell=True)
+    git('commit', '-m', 'Release v' + rev.strip())
 
 def cards2csv():
     """Turn YAML card database into card CSV manifest."""
@@ -41,9 +41,9 @@ def asciidoctor(rev):
         '--out-file=index.html',
         'README.asciidoc'])
 
-def git(*cmd, **kwargs):
+def git(*cmd):
     return subprocess.check_output(['git'] + list(cmd),
-            shell=kwargs.get('shell', False))
+            stderr=subprocess.STDOUT)
 
 if __name__ == '__main__':
     main()
