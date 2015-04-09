@@ -49,11 +49,9 @@ text: >
 
 --- # B1
 name: Civil Reprogramming
-concept: >
-    Reset the market.
 text: >
-    When you buy this card: Bury all market cards that don't match a color you
-    choose.
+    When you buy this card: Look at the top three cards of the deck and put
+    them back in any order.
 
 --- # B2
 name: Cocoon
