@@ -108,8 +108,9 @@ actions:
 - Auction a market card or any active card.
 - Play a card for expansion.
 - Play a card for its event.
-- Reap a card from your hand for influence.
+- Harvest a card from your hand for influence.
 
+At the end of your turn, refresh the market to *three cards*.
 If all disks have been placed or destroyed, *the game ends*.
 
 === Auction
@@ -147,8 +148,11 @@ Play a card to place a disk and gain income.
      to one of the sectors that the color controls.  (Yes, you can place a disk
      on top of its own color.)
 3. Gain influence equal to the sector's value.
-4. If you drew a new sector, reveal and execute the top card of the deck.
-   (Leave it on top afterwards.)
+4. If you drew a new sector, reveal and execute the top card of the deck,
+   leaving it on top.
+   - If that card manipulates the deck (shuffling it or drawing cards), put it
+     on top during execution.  This means that *Treaty of Cheng-Huang* will
+     give itself away and *Jordani Current* will shuffle itself into the deck.
 
 If you expand with a color that has no disks left in the pool, you place no
 disk and get no bonus, but the card still becomes active on your discard pile.
@@ -175,14 +179,15 @@ place when the trigger condition happens.
 IMPORTANT: If you place disks with an event, you don't gain influence nor
 execute an event for exploring a sector.  The event is reward enough.
 
-=== Reap
-Sell a card for influence; place it in front of you sideways during this
+=== Harvest
+Harvest a card for influence; place it in front of you sideways during this
 process.
 
 1. Determine the value of its color by counting up sector values.
 2. Gain that much influence from the bank.
 3. Bid for preservation of that color.
-4. Bury the reaped card on the bottom of the deck.
+4. [Optional] Trigger "on harvest" card effects.
+5. Bury the harvested card on the bottom of the deck.
 
 ==== Preservation
 
@@ -197,7 +202,7 @@ process.
 .Preservation of blue
 ====
 In a two-player game, blue controls two sectors (a 3-value and a 2-value) and
-Alice sells a blue card, gaining 5 influence from the bank.
+Alice harvests a blue card, gaining 5 influence from the bank.
 
 Alice bids nothing and Bob bids one influence to preserve blue.
 

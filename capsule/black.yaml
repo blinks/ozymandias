@@ -73,10 +73,8 @@ text: >
 
 --- # C2
 name: Stasis Pods
-concept: >
-    Make harvest safe and cheap for a turn or two.
 text: >
-    While this card is active: Disks cannot be removed by collapse.
+    While this card is active: Skip the preservation step of harvest.
 
 --- # C3
 name: Spycraft
