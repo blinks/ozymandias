@@ -46,14 +46,14 @@ three influence each: six influence total.
 ** 2x 0s, 8x 1s, 6x 2s, 4x 3s, and 2x 4s.
 
 == Setup
-* Shuffle the sector deck.
+* Shuffle the sector tiles.
 * Draw one sector and place it in the center of the table.
-* Shuffle the event deck.
+* Shuffle the deck.
 * Draw three cards to make the *market*.
 * Deal each player three cards and nine influence.
 ** Players may *one-time only* bury any number of cards to the bottom of the
-   event deck and draw that many cards, as a mulligan. Shuffle the event deck
-   after all players have had a chance to mulligan, if necessary.
+   deck and draw that many cards, as a mulligan. Shuffle the deck after all
+   players have had a chance to mulligan, if necessary.
 * Decide which player is closest to immortality.  That player starts.
 
 TIP: The previous winner is probably closest to immortality, should you need
@@ -75,7 +75,7 @@ start of your turn, you may take your entire discard pile back into your hand.
 === The Market
 Cards in the market can be put up for auction by players to expand the range of
 powers wielded by the immortals.  At the end of each turn, if the market has
-fewer than three cards: add cards from the event deck until there are three.
+fewer than three cards: add cards from the deck until there are three.
 
 === The Galaxy
 The galaxy is defined by hexagonal sectors. At the start of the game the
@@ -132,7 +132,7 @@ opponent getting a card.
 Caveats:
 
 - As always, the active player breaks all ties.
-- If nobody bids anything, the card is buried on the bottom of the event deck.
+- If nobody bids anything, the card is buried on the bottom of the deck.
 
 === Expand
 Play a card to place a disk and gain income.
@@ -147,7 +147,7 @@ Play a card to place a disk and gain income.
      to one of the sectors that the color controls.  (Yes, you can place a disk
      on top of its own color.)
 3. Gain influence equal to the sector's value.
-4. If you drew a new sector, reveal and execute the top card of the event deck.
+4. If you drew a new sector, reveal and execute the top card of the deck.
    (Leave it on top afterwards.)
 
 If you expand with a color that has no disks left in the pool, you place no
@@ -182,7 +182,7 @@ process.
 1. Determine the value of its color by counting up sector values.
 2. Gain that much influence from the bank.
 3. Bid for preservation of that color.
-4. Bury the reaped card on the bottom of the market deck.
+4. Bury the reaped card on the bottom of the deck.
 
 ==== Preservation
 
