@@ -1,92 +1,58 @@
 # Black: Investment in death, as opposed to apocalypse.
 
---- # A1
-name: The Awakening
-concept: >
-    A civilization emerges from nothing, bringing power with it.
-text: >
-    Add a gem and a disk to an unexplored sector.
-
---- # A2
-name: Remembrance
-concept: >
-    Rescue a harvested card from the fire.
-text: >
-    Put the bottom card of the event deck up for auction.
-
---- # A3
-name: Eldritch Theft
-concept: >
-    Destroy a civilization before it's even born.
-text: >
-    Destroy a disk in the pool.
-
---- # A4
-name: The Altemian Purge
-concept: >
-    Income for the apocalypse strategy.
-text: >
-    Harvest a card in the market for its value.
-
---- # A5
-name: Dark Ages
-concept: >
-    Get your discard pile back faster, keep a card in your hand safe.
-text: >
-    Discard your hand.
-
---- # A6
-name: Drakon's Escape
-concept: >
-    Move the entire system somewhere else; the civilization and all its
-    history.
-text: >
-    Move a stack to an adjacent sector.
-
---- # A7
-name: From the Dark
-concept: >
-    A people you thought were lost have returned.
-text: >
-    Place a destroyed disk in any sector.
-
---- # B1
-name: Beta Theory
-concept: >
-    Convert a card in-hand to a card in-market.
-text: >
-    When you harvest this card: take a card from the market.
-
---- # B2
-name: Vote of Confidence
-concept: >
-    Crystalize power in a location.
-text: >
-    When you buy this card: place gems in a sector equal to your bid.
-
---- # C1
-name: The One True Path
-concept: >
-    Recover discards for harvest.
-text: >
-    At the beginning of your turn: Recover a card from your discard.
-
---- # C2
+---
 name: Stasis Pods
-text: >
-    While this card is active: Skip the preservation step of harvest.
+text: Skip preservation.
 
---- # C3
-name: Spycraft
-concept: >
-    Use an opponent's cards against them.
-text: >
-    Execute any opponent's active event.
+---
+name: Vote of Confidence
+text: |
+    When won: add influence gems equal to your bid to one sector.
 
---- # E1
+---
+name: Beta Theory
+text: |
+    When harvested: gain a card from the market.
+
+---
 name: Black Stars
-concept: >
-    Even in death, black civilizations can be worth something.
-text: >
-    At the end of the game, if this card is in a discard pile: Place all
-    destroyed black disks on empty sectors.  Draw new sectors if necessary.
+text: |
+    At end of turn: add an influence gem to this card.
+    When inactive: move all gems from this card to one sector.
+
+---
+name: The One True Path
+text: |
+    At start of turn: recover a card from your discard.
+
+---
+name: Dark Ages
+text: Discard your hand.
+
+---
+name: Remembrance
+text: Reveal and auction the bottom card of the deck.
+
+---
+name: Spycraft
+text: Execute one opponent's active card.
+
+---
+name: Drakon's Escape
+text: Move a stack to an adjacent sector.
+
+---
+name: The Altemian Purge
+text: Harvest a card from the market.
+
+---
+name: The Awakening
+text: Add a disk and an influence gem to any empty sector.
+
+---
+name: From the Dark
+text: Harvest one of your dead disks. Return it to the pool.
+
+---
+name: Eldritch Theft
+text: Destroy a disk in the pool.

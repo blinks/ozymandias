@@ -25,8 +25,10 @@ def cards2csv():
 
     for f in glob.iglob('./capsule/*.yaml'):
         color = os.path.basename(f)[:-5]
+        if color == 'unknown': continue
         with open(f, 'r') as y:
-            docs = list(yaml.load_all(y))
+            docs = sorted(yaml.load_all(y),
+                    key=lambda d: d['name'].replace('The ', ''))
         if not isinstance(docs[0], dict): continue
         for card in docs:
             out.writerow([color,
