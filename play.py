@@ -147,7 +147,7 @@ class Game(yaml.YAMLObject):
   def refresh(self):
     """Refresh the market."""
     while len(self.market) < 4:
-      self.market.extend(game.pop())
+      self.market.extend(self.pop())
 
   def execute(self, player, active, action, card):
     """Execute that player's action."""
