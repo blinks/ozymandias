@@ -109,8 +109,8 @@ deck.
   may look at their hands.  One time only, players may bury any number of
   cards and draw replacements from the deck.  If any player chooses this
   option, the deck should be reshuffled.
-. Give nine gems to each player (four white and one red) to make their initial
-  banks.  Place the rest near the market.
+. Give nine influence to each player (four white gems and one red gem) to make
+  their initial banks.  Place the rest near the market.
 . Place the disks in a common pool reachable by all players.
 
 == Sequence of Play
