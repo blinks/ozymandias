@@ -1,93 +1,62 @@
 # Blue: Investment in diversity.
 
---- # A1
-name: Treaty of Cheng-Huang
-concept: >
-    Push everyone towards an investment strategy.
-text: >
-    Draw an event card for each player.  Look at them and choose one to give to
-    each player (including yourself).
-
---- # A2
-name: Quiet Prosperity
-concept: >
-    Improve the value of single-color sectors.
-    Importantly, encourage taller stacks.
-text: >
-    Pay up to three gems into different sectors containing exactly one disk.
-
---- # A3
-name: Ruins of Loni City
-concept: >
-    Erode the value of empty sectors.
-text: >
-    Take a gem from each empty sector.
-
---- # A4
-name: The Living Ocean
-text: >
-    Place five gems from the bank on one empty sector.
-
---- # A5
-name: Garthu Spaceport
-concept: >
-    Encourage diversification.
-text: >
-    Draw the top three sectors and put them back in any order.
-
---- # A6
-name: Jordani Current
-concept: >
-    Reset harvested cards and the current exploration event.
-text: >
-    Shuffle the event deck.
-
---- # A7
-name: The New Economy
-concept: >
-    Income and market cycling, small amount of diversity.
-text: >
-    Auction two market cards in one lot.  The buyer gains four gems.
-
---- # B1
-name: Galactic Union
-concept: >
-    Encourage a wide galaxy and a large purchase.
-text: >
-    When you buy this card: Gain a gem for each occupied sector.
-
---- # B2
-name: Banii Ritual
-concept: >
-    Preview market effects and think about harvest timing.
-text: >
-    When you harvest this card: Execute all market events.
-
---- # C1
-name: Sustainable Farming
-concept: >
-    Consistent income while you auction cards.
-text: >
-    At the beginning of your turn: Gain two gems.
-
---- # C2
-name: Xin Shield Formula
-concept: >
-    Protect civilizations from invasion.
-text: >
-    While this card is active: Disks may not be placed on controlled sectors.
-
---- # C3
-name: Zele Research Labs
-concept: >
-    Save cards from the harvest for your own use.
-text: >
-    While this card is active: Put cards harvested by opponents in your hand.
-
---- # E1
+---
 name: Permaculture
-concept: >
-    Encourage diversity in your hand.
 text: >
-    At the end of the game, if this card is in a discard pile: each set of four
-    colors in any player's hand is worth an additional 20 influence for them.
+    During Preservation: Before you choose your bid, reveal the top sector tile
+    and add its value to your bid.
+
+---
+name: Xin Shield Formula
+text: >
+    Players may not place disks on occupied sectors.
+
+---
+name: Zele Research Labs
+text: >
+    Gain cards harvested by your opponents.
+
+---
+name: Sustainable Farming
+text: >
+    At start of turn: gain two gems.
+
+---
+name: Banii Ritual
+text: >
+    When harvested: execute all events in the market.
+
+---
+name: Galactic Union
+text: >
+    When won: gain a gem for each occupied sector.
+
+---
+name: Ruins of Loni City
+text: Take a gem from each empty sector.
+
+---
+name: The Living Ocean
+text: Add five gems to one empty sector.
+
+---
+name: The New Economy
+text: Auction two market cards as one lot.  The winner gains four gems.
+
+---
+name: Quiet Prosperity
+text: Pay up to three gems into different sectors with exactly one disk.
+
+---
+name: Treaty of Cheng-Huang
+text: >
+    Draw a card for each player.
+    Look at them and choose one to give to each player (including yourself).
+
+---
+name: Garthu Spaceport
+text: Draw the top three sectors and replace them in any order.
+
+---
+name: Jordani Current
+text: Shuffle the deck.
