@@ -1,14 +1,10 @@
 == Frequently-Asked Questions
 
-=== What if I use Crusade of the Sun to take the last disk?
-
-You must place all the taken disks on your turn, and then the game ends.
-
 === In what order does Banii's Ritual execute market events?
 
 The active player chooses the order of event execution.
 
-=== Does Boom Era provide income when placing disks?
+=== Does this card provide income when placing disks?
 
 No.  Events never provide expansion bonuses when placing disks.
 
@@ -52,10 +48,10 @@ to start with more money (probably somewhere around 16 gems) and no cards,
 forcing the first move to be an auction.  This causes the game to slow down a
 bit, but also makes it more strategic.
 
-=== Why is the market four cards?
+=== Why is the market three cards?
 Arbitrary.  It must be more than one, to provide a choice.  Some cards count
 things in the market, so it can’t be more than four or five, to restrict the
-high-end of those.  Three might be do-able, but four seems to work well.
+high-end of those.
 
 === Why use simultaneous auctions?
 For game speed.  The high-bidder pays for simplicity, and to keep the game’s
