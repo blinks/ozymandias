@@ -6,7 +6,8 @@ text: Stacks cost two gems to preserve.
 
 ---
 name: The Titan Blockade
-text: At start of turn: bury a market card.
+text: >
+    At start of turn: bury a market card.
 
 ---
 name: Crusade of the Sun
