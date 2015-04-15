@@ -48,7 +48,7 @@ text: Place a discarded card back into its controller's hand.
 ---
 name: Fires at Night
 text: >
-    Return a dead disk to the pool: destroy up to three active disks. 
+    Pay a dead disk (to the pool): destroy up to three active disks. 
 
 ---
 name: Wormhole Deception
