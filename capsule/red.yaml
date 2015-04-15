@@ -1,97 +1,64 @@
 # Red: Tools for the apocalypse, destroy investment.
 
---- # A1
-name: Berserkers of Grotl
-concept: >
-    Income from red apocalypse.
-text: >
-    Gain a gem for each destroyed red disk.
-
---- # A2
-name: Treasure Vaults
-concept: >
-    Income from reducing investment value.
-text: >
-    Take all gems from a non-red sector.
-
---- # A3
-name: Cyri's Treachery
-concept: >
-    Disrupt an opponent's hand.
-text: >
-    Take a random card from an opponent's hand, put it on your discard pile.
-    Put Cyri's Treachery into the opponent's hand.
-
---- # A4
-name: Fires at Night
-concept: >
-    Destroy a civilization's value.
-text: >
-    Pay up to 3 gems to destroy that many top disks.
-
---- # A5
-name: The Ru-Shou Dam
-concept: >
-    Tax the investment strategy.
-text: >
-    Bid for preservation of all colors.
-
---- # A6
-name: March of Ashes
-concept: >
-    Remove diversity in the market.
-text: >
-    Destroy all non-red market cards.
-
---- # A7
-name: Rites of Memory
-concept: >
-    Stall discard recovery, or self-recur faster.
-text: >
-    Put a discarded card back into its controller's hand.
-
---- # A8
-name: Wormhole Deception
-concept: >
-    Steal power from a civilization.
-text: >
-    Place a disk. Take all gems from one adjacent sector and place them in the
-    new sector.
-
---- # B1
-name: Fall of Gethi E'Feri
-concept: >
-    Speed the apocalypse.
-text: >
-    When you harvest this card: Destroy all controlling red disks.
-
---- # B2
-name: Thani Tribes
-concept: >
-    Value from destruction.
-text: >
-    When you buy this card: Gain gems equal to the sum of all empty sectors.
-
---- # C1
-name: Crusade of the Sun
-concept: >
-    Unpredictable cascade of control.
-text: >
-    Choose a color.
-    At the beginning of your turn: place a disk of that color on this card.
-    When this card becomes no longer active: place all disks from it onto
-    the map, one at a time.
-
---- # C2
+---
 name: Wreckage of the Xyri
-concept: >
-    Make preservation more difficult.
-text: >
-    While this card is active: Stacks cost two gems to preserve.
+text: Stacks cost two gems to preserve.
 
---- # C3
+---
 name: The Titan Blockade
-concept: >
-    Inject instability into the market.
+text: At start of turn: bury a market card.
+
+---
+name: Crusade of the Sun
+text: |
+    At end of turn: add a gem to this card.
+
+    When inactive: choose a color. Place a disk of that color for each gem on
+    this card.
+
+---
+name: Fall of Gethi E'Feri
 text: >
-    At the beginning of your turn: Bury a card from the market.
+    When harvested: destroy all red disks.
+
+---
+name: Thani Tribes
+text: >
+    When won: gain gems equal to the value of all empty sectors.
+
+---
+name: Berserkers of Grotl
+text: Gain a gem for each destroyed red disk.
+
+---
+name: Cyri's Treachery
+text: >
+    Take a card at random from an opponents hand and put it on your discard.
+    Place Cyri's Treachery in their hand.
+
+---
+name: Treasure Vaults
+text: Take all gems from a non-red sector.
+
+---
+name: Rites of Memory
+text: Place a discarded card back into its controller's hand.
+
+---
+name: Fires at Night
+text: >
+    Return a dead disk to the pool: destroy up to three active disks. 
+
+---
+name: Wormhole Deception
+text: >
+    Place a disk.  Move all gems from one adjacent sector into that disk's
+    sector.
+
+---
+name: March of Ashes
+text: Destroy all non-red market cards.
+
+---
+name: The Ru-Shou Dam
+text: Perform Preservation for all colors at once.
