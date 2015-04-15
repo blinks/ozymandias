@@ -1,92 +1,75 @@
 # White: Investment in conformity.
 
---- # A1
+---
+name: Dead Tree Distraction
+text: >
+    After preservation: recover a card from your discard matching the color of
+    any disk preserved.
+
+---
+name: Thorwed's Gambit
+text: >
+    At start of turn: swap your hand with the market.
+
+---
+name: Library of Dithia
+text: >
+    At start of turn: gain a white card from the market.
+
+---
+name: Cocoon
+text: >
+    When harvested: place on any player's discard pile.
+
+---
+name: Ancient Secrets
+text: |
+    When won: place on any player's discard pile.
+
+    When harvested: gain twice as much influence.
+
+---
+name: Nyri Artifacts
+text: >
+    Choose a color.  Auction all cards of that color from the market as one lot.
+
+---
+name: Open-Palm Uprising
+text: >
+    Pay up to three gems: place that many disks of one color.
+
+---
+name: Civil Reprogramming
+text: |
+    Draw the top three cards of the deck and replace them in any order.
+
+    When won: execute this card.
+
+---
 name: The Catharsis Simulation
 text: >
-    Name a color.  Reveal cards from the top of the event deck until you find
-    one of that color.  Auction that card and bury the rest.
+    Choose a color.  Reveal cards from the deck until you find a card of that
+    color.  Auction that card and bury the rest.
 
---- # A2
-name: Abdication of the Six Popes
-text: >
-    Name a color.  Execute all market events with that color, then bury those
-    cards.
-
---- # A3
+---
 name: Chera's Tithe
 text: >
-    Name a color.  Harvest all cards of that color from your hand.  (Only bid
-    for preservation once.)
+    Choose a color.  Harvest all cards of that color from your hand.
+    (Preservation happens only once.)
 
---- # A4
-name: Nyri Artifacts
-concept: >
-    Encourage major investment in white.
+---
+name: Abdication of the Six Popes
 text: >
-    Name a color.  Auction all cards of that color from the market as one lot.
+    Choose a color.  Execute all market cards of that color, then bury them.
 
---- # A5
+---
 name: Monoculture
-concept: >
-    Hand reveal and some minor income.
 text: >
-    Name a color and choose a player.  That player must discard all cards of
-    that color.
+    Choose a color.  Choose a player to reveal their hand and discard all cards
+    of that color, in any order.
 
---- # A6
-name: Open-Palm Uprising
-concept: >
-    Build up civilizations, encourage investment.
-text: >
-    Pay up to 3 gems and place that many disks of one color.
-
---- # A7
+---
 name: Genesis Device
-concept: >
-    Power the white investment strategy.
 text: >
-    Name a color. Place a gem in each sector controlled by that color.
-
---- # B1
-name: Civil Reprogramming
-text: >
-    When you buy this card: Look at the top three cards of the deck and put
-    them back in any order.
-
---- # B2
-name: Cocoon
-concept: >
-    Stop an active effect // recur harvest.
-text: >
-    When you harvest this card: Place Cocoon on any discard pile.
-
---- # C1
-name: Ancient Secrets
-concept: >
-    Delayed high-value harvest.
-text: >
-    When you buy this card: Place Ancient Secrets on any discard pile.
-    When you harvest this card: Ancient Secrets is worth twice its normal value.
-
---- # C2
-name: Dead-Tree Distraction
-concept: >
-    Discard recursion.
-text: >
-    When another card is harvested: Recover a card of that color from your
-    discard.
-
---- # C3
-name: Library of Dithia
-concept: >
-    Provide a channel for white cards.
-text: >
-    At the beginning of your turn: Gain a white market card.
-
---- # E1
-name: Thorwed's Gambit
-concept: >
-    Power-up the white strategy.
-text: >
-    At the end of the game, if this card is in any discard pile: each player
-    doubles the value of the color of which they have the most cards.
+    Add gems to the lowest-value sector until it equals the highest-value
+    sector's value.
