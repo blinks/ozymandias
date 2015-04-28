@@ -2,61 +2,52 @@
 
 ---
 name: Permaculture
-text: >
-    During Preservation: Before you choose your bid, reveal the top sector tile
-    and add its value to your bid.
+text: "Age: Before bids are revealed, draw the top sector tile and add its value to your bid. Bury that tile."
 
 ---
 name: Xin Shield Formula
-text: >
-    Players may not place disks on occupied sectors.
+text: "Age: Players may not Conquer."
 
 ---
 name: Zele Research Labs
-text: >
-    Gain cards harvested by your opponents.
+text: "Age: When an opponent Consumes a card, take that card into your hand."
 
 ---
 name: Sustainable Farming
-text: >
-    At start of turn: gain two gems.
+text: "Tick: Gain two gems."
 
 ---
 name: Banii Ritual
-text: >
-    When harvested: execute all events in the market.
+text: "Consume: Resolve all market events."
 
 ---
 name: Galactic Union
-text: >
-    When won: gain a gem for each occupied sector.
+text: "Capture: Gain a gem for each occupied sector."
 
 ---
 name: Ruins of Loni City
-text: Take a gem from each empty sector.
+text: "Event: Take a gem from each uncontrolled sector."
 
 ---
 name: The Living Ocean
-text: Add five gems to one empty sector.
+text: "Event: Add five gems to one uncontrolled sector."
 
 ---
 name: The New Economy
-text: Auction two market cards as one lot.  The winner gains four gems.
+text: "Event: Auction two market cards together. The high bidder gains four gems."
 
 ---
 name: Quiet Prosperity
-text: Pay up to three gems into different sectors with exactly one disk.
+text: "Event: Pay up to three gems into different sectors with exactly one disk."
 
 ---
 name: Treaty of Cheng-Huang
-text: >
-    Draw a card for each player.
-    Look at them and choose one to give to each player (including yourself).
+text: "Event: Draw one card per player. Give one to each player, including yourself."
 
 ---
 name: Garthu Spaceport
-text: Draw the top three sectors and replace them in any order.
+text: "Event: Draw the top two sectors and place them."
 
 ---
 name: Jordani Current
-text: Shuffle the deck.
+text: "Event: Shuffle the deck."
