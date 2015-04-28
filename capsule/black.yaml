@@ -2,57 +2,52 @@
 
 ---
 name: Stasis Pods
-text: Skip preservation.
+text: "Age: Instead of preservation, put a gem on Stasis Pods. End of the Age: Gain all gems from Stasis Pods."
 
 ---
 name: Vote of Confidence
-text: |
-    When won: add influence gems equal to your bid to one sector.
+text: "Capture: Add gems equal to the high bid to one sector."
 
 ---
 name: Beta Theory
-text: |
-    When harvested: gain a card from the market.
+text: "Consume: Take a market card into your hand."
 
 ---
 name: Black Stars
-text: |
-    At end of turn: add an influence gem to this card.
-    When inactive: move all gems from this card to one sector.
+text: "Dawn: Put a gem on this card. End of the Age: Move all gems from this card to one sector."
 
 ---
 name: The One True Path
-text: |
-    At start of turn: recover a card from your discard.
+text: "Dawn: Recover a card from your discard pile."
 
 ---
 name: Dark Ages
-text: Discard your hand.
+text: "Event: Discard your hand."
 
 ---
 name: Remembrance
-text: Reveal and auction the bottom card of the deck.
+text: "Event: Return the bottom card of the deck to the market. Auction a card."
 
 ---
 name: Spycraft
-text: Execute one opponent's active card.
+text: "Event: Resolve an event on any opponent's active card."
 
 ---
 name: Drakon's Escape
-text: Move a stack to an adjacent sector.
+text: "Event: Destroy a disk. Conquer with it."
 
 ---
 name: The Altemian Purge
-text: Harvest a card from the market.
+text: "Event: Consume a market card."
 
 ---
 name: The Awakening
-text: Add a disk and an influence gem to any empty sector.
+text: "Event: Explore with a non-black disk."
 
 ---
 name: From the Dark
-text: Harvest one of your dead disks. Return it to the pool.
+text: "Event: Consume one of your destroyed disks. (Remove it from the game.)"
 
 ---
 name: Eldritch Theft
-text: Destroy a disk in the pool.
+text: "Event: Destroy a disk in the pool."
