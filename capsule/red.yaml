@@ -8,12 +8,12 @@ text: "Age: Take half the gems bid during a Consume action, rounded down."
 ---
 name: The Titan Blockade
 layout: landscape
-text: "Tick: Take any player's active card and move it to the bottom of their discard."
+text: "Dawn: Take any player's active card and move it to the bottom of their discard."
 
 ---
 name: Crusade of the Sun
 layout: landscape
-text: "Tick: Put a gem on this card. End of the Age: Choose a color. For each gem on this card, Conquer with a disk of that color."
+text: "Dawn: Put a gem on this card. End of the Age: Choose a color. For each gem on this card, Conquer with a disk of that color."
 
 ---
 name: Fall of Gethi E'Feri

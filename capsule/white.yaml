@@ -8,12 +8,12 @@ text: "Age: Whenever another card is Consumed, recover a card of the same color 
 ---
 name: Thorwed's Gambit
 layout: landscape
-text: "Tick: Swap your hand with the market."
+text: "Dawn: Swap your hand with the market."
 
 ---
 name: Library of Dithia
 layout: landscape
-text: "Tick: Take a white market card into your hand."
+text: "Dawn: Take a white market card into your hand."
 
 ---
 name: Cocoon
@@ -51,9 +51,9 @@ layout: portrait
 text: "Event: Choose a color. Consume all cards of that color from your hand as one action. (Bid once to preserve.)"
 
 ---
-name: Abdication of the Six Popes
+name: Golden Age
 layout: portrait
-text: "Event: Choose a color. Resolve all market events of that color, then bury those cards."
+text: "Event: Choose a color. Resolve all active and market events of that color. Bury resolved market cards."
 
 ---
 name: Monoculture
