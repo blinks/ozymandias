@@ -2,52 +2,65 @@
 
 ---
 name: Stasis Pods
+layout: landscape
 text: "Age: Instead of preservation, put a gem on Stasis Pods. End of the Age: Gain all gems from Stasis Pods."
 
 ---
 name: Vote of Confidence
+layout: portrait
 text: "Capture: Add gems equal to the high bid to one sector."
 
 ---
 name: Beta Theory
+layout: portrait
 text: "Consume: Take a market card into your hand."
 
 ---
 name: Black Stars
+layout: landscape
 text: "Dawn: Put a gem on this card. End of the Age: Move all gems from this card to one sector."
 
 ---
 name: The One True Path
+layout: landscape
 text: "Dawn: Recover a card from your discard pile."
 
 ---
 name: Dark Ages
+layout: portrait
 text: "Event: Discard your hand."
 
 ---
 name: Remembrance
+layout: portrait
 text: "Event: Return the bottom card of the deck to the market. Auction a card."
 
 ---
 name: Spycraft
+layout: portrait
 text: "Event: Resolve an event on any opponent's active card."
 
 ---
 name: Drakon's Escape
+layout: portrait
 text: "Event: Destroy a disk. Conquer with it."
 
 ---
 name: The Altemian Purge
+layout: portrait
 text: "Event: Consume a market card."
 
 ---
 name: The Awakening
+layout: portrait
 text: "Event: Explore with a non-black disk."
 
 ---
 name: From the Dark
+layout: portrait
 text: "Event: Consume one of your destroyed disks. (Remove it from the game.)"
 
 ---
 name: Eldritch Theft
+layout: portrait
 text: "Event: Destroy a disk in the pool."

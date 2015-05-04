@@ -2,74 +2,65 @@
 
 ---
 name: Dead Tree Distraction
-text: >
-    After preservation: recover a card from your discard matching the color of
-    any disk preserved.
+layout: landscape
+text: "Age: Whenever another card is Consumed, recover a card of the same color from your discard into your hand."
 
 ---
 name: Thorwed's Gambit
-text: >
-    At start of turn: swap your hand with the market.
+layout: landscape
+text: "Tick: Swap your hand with the market."
 
 ---
 name: Library of Dithia
-text: >
-    At start of turn: gain a white card from the market.
+layout: landscape
+text: "Tick: Take a white market card into your hand."
 
 ---
 name: Cocoon
-text: >
-    When harvested: place on any player's discard pile.
+layout: portrait
+text: "Consume: Place on any player's discard pile. (Including your own.)"
 
 ---
 name: Ancient Secrets
-text: |
-    When won: place on any player's discard pile.
-
-    When harvested: gain twice as much influence.
+layout: portrait
+text: "Capture: Place on any player's discard pile. Consume: Gain gems equal to the value of white."
 
 ---
 name: Nyri Artifacts
-text: >
-    Choose a color.  Auction all cards of that color from the market as one lot.
+layout: portrait
+text: "Event: Choose a color. Auction all market cards of that color together."
 
 ---
 name: Open-Palm Uprising
-text: >
-    Choose a color.  Move all disks of that color to the top of their respective stacks.
+layout: portrait
+text: "Event: Choose a color. Each disk of that color on a sector conquers its own sector."
 
 ---
 name: Civil Reprogramming
-text: |
-    Draw the top three cards of the deck and replace them in any order.
-
-    When won: execute this card.
+layout: portrait
+text: "Event: Draw the top three cards of the deck and replace them in any order. Capture: Resolve this card's event."
 
 ---
 name: The Catharsis Simulation
-text: >
-    Choose a color.  Reveal cards from the deck until you find a card of that
-    color.  Auction that card and bury the rest.
+layout: portrait
+text: "Event: Choose a color. Draw cards from the deck until you find a card of that color. Auction that card and bury the rest."
 
 ---
 name: Chera's Tithe
-text: >
-    Choose a color.  Harvest all cards of that color from your hand.
-    (Preservation happens only once.)
+layout: portrait
+text: "Event: Choose a color. Consume all cards of that color from your hand as one action. (Bid once to preserve.)"
 
 ---
 name: Abdication of the Six Popes
-text: >
-    Choose a color.  Execute all market cards of that color, then bury them.
+layout: portrait
+text: "Event: Choose a color. Resolve all market events of that color, then bury those cards."
 
 ---
 name: Monoculture
-text: >
-    Choose a color.  Choose a player to reveal their hand and discard all cards
-    of that color, in any order.
+layout: portrait
+text: "Event: Choose a color. Choose a player to reveal their hand and discard all cards of that color, in any order."
 
 ---
 name: Genesis Device
-text: >
-    Add gems to the lowest-value sector until it equals the highest-value
-    sector's value.
+layout: portrait
+text: "Event: Put gems in the lowest-value sector until it equals the highest-value sector's value."

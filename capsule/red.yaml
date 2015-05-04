@@ -2,64 +2,65 @@
 
 ---
 name: Wreckage of the Xyri
-text: Stacks cost two gems to preserve.
+layout: landscape
+text: "Age: Take half the gems bid during a Consume action, rounded down."
 
 ---
 name: The Titan Blockade
-text: >
-    At start of turn: bury a market card.
+layout: landscape
+text: "Tick: Take any player's active card and move it to the bottom of their discard."
 
 ---
 name: Crusade of the Sun
-text: |
-    At end of turn: add a gem to this card.
-
-    When inactive: choose a color. Place a disk of that color for each gem on
-    this card.
+layout: landscape
+text: "Tick: Put a gem on this card. End of the Age: Choose a color. For each gem on this card, Conquer with a disk of that color."
 
 ---
 name: Fall of Gethi E'Feri
-text: >
-    When harvested: destroy all red disks.
+layout: portrait
+text: "Consume: All players must bid 0 to preserve red."
 
 ---
 name: Thani Tribes
-text: >
-    When won: gain gems equal to the value of all empty sectors.
+layout: portrait
+text: "Capture: Gain gems equal to the value of all uncontrolled sectors."
 
 ---
 name: Berserkers of Grotl
-text: Gain a gem for each destroyed red disk.
+layout: portrait
+text: "Event: Gain a gem for all destroyed disks. (This includes your opponents' destroyed disks.)"
 
 ---
 name: Cyri's Treachery
-text: >
-    Take a card at random from an opponents hand and put it on your discard.
-    Place Cyri's Treachery in their hand.
+layout: portrait
+text: "Event: Take a card at random from an opponent's hand. Put it on your discard. Place Cyri's Treachery in their hand."
 
 ---
 name: Treasure Vaults
-text: Take all gems from a non-red sector.
+layout: portrait
+text: "Event: Take all gems from a non-red sector."
 
 ---
 name: Rites of Memory
-text: Place a discarded card back into its controller's hand.
+layout: portrait
+text: "Choose a player. Put a card from their discard into their hand."
 
 ---
 name: Fires at Night
-text: >
-    Pay a dead disk (to the pool): destroy up to three active disks. 
+layout: portrait
+text: "Event, Bury a card from your hand: Destroy two active disks."
 
 ---
 name: Wormhole Deception
-text: >
-    Place a disk.  Move all gems from one adjacent sector into that disk's
-    sector.
+layout: portrait
+text: "Conquer: Move all gems from adjacent sectors into the Conquered sector."
 
 ---
 name: March of Ashes
-text: Destroy all non-red market cards.
+layout: portrait
+text: "Event: Bury all non-red market cards."
 
 ---
 name: The Ru-Shou Dam
-text: Perform Preservation for all colors at once.
+layout: portrait
+text: "Event: Consume all market cards, but gain no gems."

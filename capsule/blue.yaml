@@ -2,52 +2,65 @@
 
 ---
 name: Permaculture
+layout: landscape
 text: "Age: Before bids are revealed, draw the top sector tile and add its value to your bid. Bury that tile."
 
 ---
 name: Xin Shield Formula
+layout: landscape
 text: "Age: Players may not Conquer."
 
 ---
 name: Zele Research Labs
+layout: landscape
 text: "Age: When an opponent Consumes a card, take that card into your hand."
 
 ---
 name: Sustainable Farming
+layout: landscape
 text: "Tick: Gain two gems."
 
 ---
 name: Banii Ritual
+layout: portrait
 text: "Consume: Resolve all market events."
 
 ---
 name: Galactic Union
+layout: portrait
 text: "Capture: Gain a gem for each occupied sector."
 
 ---
 name: Ruins of Loni City
+layout: portrait
 text: "Event: Take a gem from each uncontrolled sector."
 
 ---
 name: The Living Ocean
+layout: portrait
 text: "Event: Add five gems to one uncontrolled sector."
 
 ---
 name: The New Economy
+layout: portrait
 text: "Event: Auction two market cards together. The high bidder gains four gems."
 
 ---
 name: Quiet Prosperity
+layout: portrait
 text: "Event: Pay up to three gems into different sectors with exactly one disk."
 
 ---
 name: Treaty of Cheng-Huang
+layout: portrait
 text: "Event: Draw one card per player. Give one to each player, including yourself."
 
 ---
 name: Garthu Spaceport
+layout: portrait
 text: "Event: Draw the top two sectors and place them."
 
 ---
 name: Jordani Current
+layout: portrait
 text: "Event: Shuffle the deck."
