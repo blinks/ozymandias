@@ -1,10 +1,8 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.4-{revision}, {docdate}
+0.5-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
-
-A game for two to four immortals, plays in about 500 millenia (an hour).
 
 == Introduction
 
@@ -23,48 +21,35 @@ civilizations over millennia.  Each player takes the role of a powerful
 immortal seeking to have the most influence over humanity, whether benevolent
 investment or malevolent destruction.
 
-=== Components
+== Components
 A complete set of _Rise_ includes:
 
 * 22 hexagonal sector tiles.
 * A deck of 52 cards, in four different colors.
 * 24 black, blue, red, and white wooden disks.
-* Influence gems in white (1s) and red (5s).
+* Power gems: white (1s) and red (5s).
 * This rule book.
 
-=== The Galaxy
-Sector tiles depict an enormous expanse of space.  This expanse is reduced down
-to a natural resource value of 0, 1, 2, 3, or 4.  A sector's value may be
-further augmented by influence gems placed on the tile.
+=== The Galaxy Map
+The map is divided into hexagonal Sectors, each with a numeric value.  A sector
+is a vast expanse of space arbitrarily reduced to a single number from zero to
+four.
 
-IMPORTANT: The *value* of a sector is always the sum of the natural resources
-and the invested influence.
+Each sector is considered Controlled by a single color, or it is uncontrolled.
+A sector is considered Controlled by a color if that color's disk is on top of
+all other disks in the sector.
 
-Sectors are kept face-down, and drawn when a player explores a new region of
-space.  The location of a sector is always chosen before that sector is
-revealed.
+.Sector control.
+====
+A sector with no disks on it is uncontrolled.
 
-NOTE: Face-up sectors are *explored*.  *Unexplored* sectors are any sectors
-that (1) don't yet have a tile and (2) are adjacent to explored sectors.
+A sector with a single disk on it is controlled by that disk's color.
 
-=== Civilizations
-The wooden disks represent the various archetypical civilizations (civs).  At
-the beginning of the game, these have yet to rise to any real place in the
-galaxy, and all sit in a pool at the side of the table.  Players will place
-them on sector tiles to expand their influence, and they might collapse into
-obscurity whenever a player harvests a card of their color.
+A sector with two or more disks on it is controlled by the top disk's color.
+====
 
-Each sector tile holds a single civ stack.  Only the top civ is active,
-benefiting from the value of the sector.  The stack serves as a historical
-record of expansion in the sector.  A sector with no civs is *empty*.
-
-When a civilization disk is destroyed, it goes to the active player.  At the
-end of the game, these count for influence equal to the harvest value of their
-color.  Some card effects also spend these dead disks, returning them to the
-common pool.
-
-A game of _Rise_ lasts only as long as there are civs in the common pool.  At
-the end of the turn where the last civ is placed, the game ends.
+The stack of disks in a sector serves as a historical record of control in that
+sector.  Civilizations that collapse reveal earlier disks, who retake control.
 
 === Cards
 The deck of cards represents archetypical historical events, the kind that get
@@ -72,32 +57,33 @@ referenced in speech enough to become a stand-in for anything similar.  Each
 card has a color of civilization that it influences, a title, and some rules
 text.
 
-There are four major types of cards:
+.Sample card.
+====
+TODO: Insert a card image.
+====
 
-NOTE: These should be given more evocative names.
+Cards may be played for one of two effects: Events or Expansion.  Cards may
+also be Consumed for Power.
 
-* *Actions* happen when the card is played or revealed for exploration.
-* *Triggered effects* happen when the specified trigger occurs.
-* *Timed effects* happen each turn, as long as the card is active.
-* *Static effects* continuously apply as long the card is active.
-
-NOTE: Static and timed effects will potentially be laid out landscape, while
-actions and triggered effects will be laid out in portrait.
-
-At the beginning of the game, each player has three cards in their hand and the
-market has three cards face-up on the side of the playing area.
-
-Players will place cards on their own discard piles, recovering their discard
-in its entirety when their hand is empty.  The top card of each player's
-discard pile is considered "active".
-
-TIP: If you're going to spend several turns auctioning or harvesting, get a
-useful active effect out first. 
+Players place cards on their own discard piles, recovering their discard in its
+entirety when their hand is empty.  The top card of each player's discard pile
+is considered "active".
 
 Players will place cards in the market up for auction to expand the range of
 powers their immortal avatars wield. Purchased cards will be placed in the
-high-bidder's hand.  When harvested, cards will be buried on the bottom of the
+high-bidder's hand.  When consumed, cards will be buried on the bottom of the
 deck.
+
+=== Civilization Disks
+Six wooden disks of each color represent archetypical civilizations.
+
+At the beginning of the game, these have yet to rise to any real place in the
+galaxy, and all sit in a pool at the side of the table.  Players move them from
+the pool to the galaxy as civilizations expand.  Players take them from the
+galaxy to their private banks as civilizations collapse.
+
+A game of _Rise_ lasts only as long as there are disks in the common pool.  At
+the end of the turn where the last civ is removed from the pool, the game ends.
 
 == Set Up
 
@@ -113,144 +99,141 @@ deck.
   their initial banks.  Place the rest near the market.
 . Place the disks in a common pool reachable by all players.
 
-== Sequence of Play
+== Game Sequence
 
-A turn in _Rise_ consists of a single action:
+A turn in _Rise_ begins with Dawn, followed by your Action.  If you have no
+cards left in your hand, you may recover your discard pile before taking your
+Action.
 
-* Play a card from your hand to *expand*.
-* Play a card from your hand for its *event*.
+.Sustainable Farming
+====
+The card *Sustainable Farming* reads "Dawn: Gain two gems."
+
+If this card is active (on top of your discard) when your turn begins, you gain
+two gems before taking your action.  You only get two gems on your own turn.
+====
+
+At the end of your turn, if there are no disks left in the common pool, the
+game ends.  Otherwise, refill the market.  Play proceeds clockwise to the next
+player.
+
+== Actions
+There are four different actions you can take on your turn.  Each will move a
+card from one place to another.  You may not forgo your turn by declining to
+take an action, but you can choose to take an action that would have no
+effect.
+
+.Null expansion.
+====
+All the red disks have been placed by previous actions.  You may choose to
+Expand with a red card in your hand, even though this will not cause a new disk
+to be placed.
+====
+
+* *Expand* a color's control by discarding a card from your hand.
+* *Invoke* an Event by discarding a card from your hand.
 * *Auction* a market card or any player's active card.
-* *Harvest* a card from your hand for its influence value.
-
-Cards that trigger "at start/end of turn" happen before/after your action,
-respectively.  If you have no cards in your hand and want to do anything but
-auction, pick up your discard pile after triggering any "at start of turn"
-active effect.
-
-After "at end of turn" actions trigger:
-
-* If no civs are left in the pool, end the game.
-* If the market has less than three cards, add enough cards from the deck to
-  refill it. 
+* *Consume* a card from your hand for its value.
 
 === Expand
-Expansion adds civs to the galaxy and gives you influence to spend.  If you
-expand into a new sector, you also take an exploration effect.
+Discard a card to place a disk of its color.
 
-. Play a card.  This card determines what color you expand with.  This card
-  isn't placed on your discard pile until the end of the action.
-. Place a disk of that color.
-** If that color is currently active in the galaxy, you may place in any sector
-   adjacent to where it's active.
-** Otherwise, you may place in any empty or unexplored sector.
-. If you placed in an unexplored sector, explore.
-.. Draw a new sector and place it under the disk.
-.. Reveal the top card of the deck and -- if it has an action -- execute it.
-. Gain influence gems equal to the sector's value.
-. Discard your played card.  It is now active.
+==== Explore a new sector.
+. Discard the card.
+. Draw and place a new sector tile adjacent to any other sector tile.
+. Place a disk of the card's color on that sector.
+. If you placed a disk, resolve the exploration effect:
+.. Reveal the top card of the deck and resolve its Event.
+.. While resolving, the card is still considered the top card.
 
-NOTE: If no disks of your card's color remain, you may expand without placing a
-disk.  However, you don't gain influence nor explore.  This is generally done
-only when the event has no action or you don't want the event's action.
+==== Conquer a controlled sector.
+You may only do this adjacent to a sector that color already controls.  If the
+color doesn't control any sectors, it may not conquer.
 
-=== Event
-Events provide powerful and widely-varied effects, but seldom any income.  Use
-them wisely.
+. Discard the card.
+. Place a disk of the card's color on an explored sector.
+. If you placed a disk, resolve the conquering effect:
+.. Gain power equal to the conquered sector's value.
+.. Resolve the event of one active or market card of the conquered sector's
+   former color.
 
-. Play a card with an action.  This card isn't placed on your discard pile
-  until the end of the action.
-. Read that action and do what it says.
-. Discard your played card.  It is now active.
+=== Invoke
+Discard a card to resolve an "Event" effect.
 
-NOTE: The current card layout places action rules text above a horizontal line,
-and triggered rules text below a horizontal line.  As a general rule, if a card
-sounds like an action, it probably is.
+. Discard the card.
+. Resolve the "Event" effect on that card.
 
 === Auction
-Auctions are the primary way of getting new cards into players' hands.  If you
-auction from the market, you'll either get the card or some influence.
-Auctioning someone's active card is sometimes the only way to deal with a
-powerful effect.
+Place a card up for Auction to gain the high-bid or the card itself.
 
-. Choose a card to auction, placing it in front of you, facing out.
-. Hide your influence gems and take zero or more into your hand as your bid.
-. When you've chosen your bid, hold your fist over the playing area.
-. Once all players have chosen, reveal your bids by opening your fists.
-. The high-bidder wins the card, which goes into their hand.
-** It goes into their hand even if it was formerly their active card.
-** The active player breaks ties.
-. The high-bidder pays their bid as follows, everyone else keeps their bid.
-** A market card: pay the active player; the active player pays the bank.
-** An active card: pay the former owner; the former owner pays the active
-   player.
+==== From the market.
+. Choose any market card to put up for auction.  Place it in front of you,
+  facing the other players.
+. Secretly bid power from your bank, and simultaneously reveal with the other
+  players (a first-price sealed-bid auction).
+. The high-bidder Captures the card.  In the case of a tie, the active player
+  chooses who Captures from the tied players.
+.. Take their bid. If you Capture, pay the bank.
+.. Put the card into their hand.
+.. Resolve any Capture effects.
 
-=== Harvest
-When a civilization has reached its peak, harvesting that color of cards is the
-best way to lock in the influence it provides.  A harvest also forces players
-to pay influence to support the color, should they care about its value.
+==== From a player.
+. Choose any active card to put up for auction.  Place it in front of you,
+  facing the other players.
+. Secretly bid power from your bank, and simultaneously reveal with the other
+  players (a first-price sealed-bid auction).
+. The high-bidder Captures the card.  In the case of a tie, the active player
+  chooses who Captures from the tied players.
+.. Pay their bid to the card's former owner. If the former owner Captured, take
+   their bid.
+.. Put the card into their hand.
+.. Resolve any Capture effects.
 
-. Choose a card to harvest, placing it in front of you, turned sideways.  This
-  card determines what color you get value from.
-. Sum up the value of each sector where that color is active.
-. Gain that much influence from the bank.
-. *Preservation*
-.. Hide your influence gems and take zero or more into your hand as your bid.
-.. When you've chosen your bid, hold your fist over the playing area.
+=== Consume
+Bury a card to gain power.
+
+. Place the consumed card on the table, sideways.
+. Gain power equal to the sum of all sectors controlled by the card's color.
+. Check for Collapse of sectors this color controls:
+.. Hide your power and take zero or more into your hand as your bid.
+.. When you’ve chosen your bid, hold your fist over the playing area.
 .. Once all players have chosen, reveal your bids by opening your fists.
-.. Sum the total influence bid.  Each influence preserves one sector controlled
-   by the harvested color, starting with the highest value sector and
-   continuing down.
-*** If there is not enough influence to preserve all that color's sectors,
-    pay all the influence to the bank and destroy that color's active civ in
-    sectors not preserved.  The active player breaks ties.  Give these
-    destroyed disks to the active player.
-*** If there is more than enough, pay the influence used to preserve to the
-    bank and place the rest in any one sector controlled by the harvested
-    color.  (The active player chooses.)
-. Trigger any "when harvested" effects.
-. Bury the harvested card on the bottom of the deck.
+.. Sum the total power bid. Each power preserves one sector controlled by the
+   Consumed color, starting with the highest value sector and continuing down.
+.. If there is not enough power to preserve all that color’s sectors, pay all
+   the power to the bank and destroy that color's active disk in sectors not
+   preserved. In case of a tie, the active player chooses which to destroy.
+   As always, give destroyed disks to the active player.
+.. If there is more than enough, pay the power used to preserve to the bank and
+   place the rest in any one sector controlled by the consumed color. (The
+   active player chooses.)
+. Resolve any Consume effects.
+. Bury the consumed card on the bottom of the deck.
 
 == Scoring and Victory
+The object of the game is to score power.  Your cards and dead disks are each
+worth power equal to the total value controlled by their color.  Power gems in
+your bank also count towards your score.
 
-The object of the game is to hold influence.  Influence gems are easier to
-spend and more stable, but cannot grow in value by themselves.  Cards provide
-effects and opportunities to expand, but are volatile and difficult to spend.
+TIP: Consuming cards locks in their color's value and gives you more power to
+spend, but means you won't be able to score if it grows later.  It is best to
+Consume a color at its peak.
 
-At the end of the game, each player scores influence in three ways:
+.Scoring
+====
+Blue controls three sectors valued 2, 3, and 5.
+Red controls one sector valued at 0.
+White controls a sector valued at 3.
 
-. Influence gems are worth their value.
-. Cards are worth their color's harvested value.
-. Dead civs are worth their color's harvested value.
+Alice holds sixteen power, three blue cards, a dead red disk, a white card and
+a dead white disk.  Alice's blue cards score 30 power total (10 each), the red
+disk scores nothing, and the white card and disk score 6 total.
 
-NOTE: A scoring sheet with a column for each player and rows for each color (as
-well as gems) is recommended for play-testing.
-
-The player with the highest total wins.  In the case of a tie, the player with
-the most influence gems wins.  If still tied, the player who would next have
-taken their turn wins.
-
-== Tournament Play
-
-NOTE: These rules are optional, and are not required for 'friendly' play.  They
-are simply offered as guidelines on conducting _Rise_ as a competitive game.
-
-. Play with each player's bank of influence gems kept public (except for right
-  before a bid).
-. After the exploration effect is taken, keep that card revealed on top of the
-  deck instead of turning it back over.
-. Consider using a chess clock or some other timer to restrict calculation
-  during play.
-
-== The Empty Hand Variant
-
-[.lead]
-Start the game with 0 cards and 18 gems, instead of 3 cards and 9 gems.
-
-This eliminates hidden information in the early game, and makes card evaluation
-much more important.
+Alice scores 52 power.
+====
 
 '''
-
 include::faq.asciidoc[]
 
+'''
 include::cards.asciidoc[]
