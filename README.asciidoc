@@ -21,6 +21,8 @@ civilizations over millennia.  Each player takes the role of a powerful
 immortal seeking to have the most influence over humanity, whether benevolent
 investment or malevolent destruction.
 
+image::images/play.jpg[Midgame.]
+
 == Components
 A complete set of _Rise_ includes:
 
@@ -99,6 +101,8 @@ the end of the turn where the last civ is removed from the pool, the game ends.
   their initial banks.  Place the rest near the market.
 . Place the disks in a common pool reachable by all players.
 
+image::images/setup.jpg[Setup]
+
 == Game Sequence
 
 A turn in _Rise_ begins with Dawn, followed by your Action.  If you have no
@@ -146,6 +150,11 @@ Discard a card to place a disk of its color.
 .. Reveal the top card of the deck and resolve its Event.
 .. While resolving, the card is still considered the top card.
 
+.Exploring with black.
+====
+TODO
+====
+
 ==== Conquer a controlled sector.
 You may only do this adjacent to a sector that color already controls.  If the
 color doesn't control any sectors, it may not conquer.
@@ -157,11 +166,21 @@ color doesn't control any sectors, it may not conquer.
 .. Resolve the event of one active or market card of the conquered sector's
    former color.
 
+.Conquering with red.
+====
+TODO
+====
+
 === Invoke
 Discard a card to resolve an "Event" effect.
 
 . Discard the card.
 . Resolve the "Event" effect on that card.
+
+.Invoking an Event.
+====
+TODO
+====
 
 === Auction
 Place a card up for Auction to gain the high-bid or the card itself.
@@ -177,6 +196,11 @@ Place a card up for Auction to gain the high-bid or the card itself.
 .. Put the card into their hand.
 .. Resolve any Capture effects.
 
+.Auctioning a card from the market.
+====
+TODO
+====
+
 ==== From a player.
 . Choose any active card to put up for auction.  Place it in front of you,
   facing the other players.
@@ -188,6 +212,11 @@ Place a card up for Auction to gain the high-bid or the card itself.
    their bid.
 .. Put the card into their hand.
 .. Resolve any Capture effects.
+
+.Sniping a card from a player.
+====
+TODO
+====
 
 === Consume
 Bury a card to gain power.
@@ -209,6 +238,13 @@ Bury a card to gain power.
    active player chooses.)
 . Resolve any Consume effects.
 . Bury the consumed card on the bottom of the deck.
+
+.Consuming for power and collapse.
+====
+TODO
+====
+
+image::images/wealth.jpg[A wealthy endgame.]
 
 == Scoring and Victory
 The object of the game is to score power.  Your cards and dead disks are each
