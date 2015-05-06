@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.5-{revision}, {docdate}
+0.6-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -64,17 +64,18 @@ text.
 TODO: Insert a card image.
 ====
 
-Cards may be played for one of two effects: Events or Expansion.  Cards may
-also be Consumed for Power.
+Cards may be played to Expand with their color.  Cards may also be Consumed to
+gain Power.
 
-Players place cards on their own discard piles, recovering their discard in its
-entirety when their hand is empty.  The top card of each player's discard pile
-is considered "active".
+Players place played cards on their own discard piles, recovering their discard
+in its entirety when their hand is empty.  The top card of each player's
+discard pile is active: its event will execute when its color is conquered, and
+it will give its player income when that color conquers.
 
-Players will place cards in the market up for auction to expand the range of
-powers their immortal avatars wield. Purchased cards will be placed in the
-high-bidder's hand.  When consumed, cards will be buried on the bottom of the
-deck.
+When a color explores (expands into) a newly-drawn sector, players bid for the
+ability to expand the range of powers their immortal avatars wield. Purchased
+cards will be placed in the high-bidder's hand after resolving their event (if
+any).  When consumed, cards will be buried on the bottom of the deck.
 
 === Civilization Disks
 Six wooden disks of each color represent archetypical civilizations.
@@ -89,17 +90,16 @@ the end of the turn where the last civ is removed from the pool, the game ends.
 
 == Set Up
 
-. Shuffle the sector tiles and draw one to place in the middle of the playing
-  area to make the initial explored sector.
-. Shuffle the deck and place three face-up cards to the side of the playing
-  area to make the initial market.
-. Deal three more cards to each player to make their initial hands.  Players
-  may look at their hands.  One time only, players may bury any number of
-  cards and draw replacements from the deck.  If any player chooses this
-  option, the deck should be reshuffled.
+. Place the disks in a common pool reachable by all players.
+. Shuffle the deck and deal three cards to each player to make their initial
+  hands.
+.. Players may look at their hands.
 . Give nine influence to each player (four white gems and one red gem) to make
   their initial banks.  Place the rest near the market.
-. Place the disks in a common pool reachable by all players.
+. Shuffle the sector tiles and draw one to place in the middle of the playing
+  area to make the initial explored sector.
+. Deal face-up cards equal to the initial sector's value to make the initial
+  exploration pool.
 
 image::images/setup.jpg[Setup]
 
@@ -108,6 +108,8 @@ image::images/setup.jpg[Setup]
 A turn in _Rise_ begins with Dawn, followed by your Action.  If you have no
 cards left in your hand, you may recover your discard pile before taking your
 Action.
+
+NOTE: Dawn may be replaced with "once during your turn, you may..."
 
 .Sustainable Farming
 ====
@@ -118,14 +120,12 @@ two gems before taking your action.  You only get two gems on your own turn.
 ====
 
 At the end of your turn, if there are no disks left in the common pool, the
-game ends.  Otherwise, refill the market.  Play proceeds clockwise to the next
-player.
+game ends.  Otherwise, play proceeds clockwise to the next player.
 
 == Actions
-There are four different actions you can take on your turn.  Each will move a
-card from one place to another.  You may not forgo your turn by declining to
-take an action, but you can choose to take an action that would have no
-effect.
+There are several different actions you can take on your turn.  Each will move
+a card from one place to another.  You may not forgo your turn by declining to
+take an action, but you can choose to take an action that would have no effect.
 
 .Null expansion.
 ====
@@ -134,96 +134,41 @@ Expand with a red card in your hand, even though this will not cause a new disk
 to be placed.
 ====
 
-* *Expand* a color's control by discarding a card from your hand.
-* *Invoke* an Event by discarding a card from your hand.
-* *Auction* a market card or any player's active card.
+* *Expand* a color's control with a card from your hand or the top of the deck.
 * *Consume* a card from your hand for its value.
 
 === Expand
-Discard a card to place a disk of its color.
+Activate a card from your hand or the deck to place a disk of its color.
 
-==== Explore a new sector.
-. Discard the card.
-. Draw and place a new sector tile adjacent to any other sector tile.
-. Place a disk of the card's color on that sector.
-. If you placed a disk, resolve the exploration effect:
-.. Reveal the top card of the deck and resolve its Event.
-.. While resolving, the card is still considered the top card.
+. Reveal a card from your hand or the top of the deck.
+.. From your hand goes to your discard pile at the end of your turn.
+.. From the deck goes to the market immediately.
+. Place a disk of its color.
+.. If there are no disks of that color, your turn ends.
+.. If that color controls any sectors, you must place it adjacent to one.
+.. Otherwise, you may place it anywhere.
 
-.Exploring with black.
-====
-TODO
-====
+. *Explore* -- if you place in unexplored territory (with no sector tile):
+.. Draw cards equal to the new tile's value for the market.
+.. Secretly and simultaneously bid for control.
+.. From the high-bidder down, players spend their bid to take a card:
+... From the market to their hand: pay the active player, you resolve the
+    event.
+... From the top of a lower-bidding opponent's discard to their hand: pay that
+    opponent, who then resolves the event.
 
-==== Conquer a controlled sector.
-You may only do this adjacent to a sector that color already controls.  If the
-color doesn't control any sectors, it may not conquer.
-
-. Discard the card.
-. Place a disk of the card's color on an explored sector.
-. If you placed a disk, resolve the conquering effect:
-.. Gain power equal to the conquered sector's value.
-.. Resolve the event of one active or market card of the conquered sector's
-   former color.
-
-.Conquering with red.
-====
-TODO
-====
-
-=== Invoke
-Discard a card to resolve an "Event" effect.
-
-. Discard the card.
-. Resolve the "Event" effect on that card.
-
-.Invoking an Event.
-====
-TODO
-====
-
-=== Auction
-Place a card up for Auction to gain the high-bid or the card itself.
-
-==== From the market.
-. Choose any market card to put up for auction.  Place it in front of you,
-  facing the other players.
-. Secretly bid power from your bank, and simultaneously reveal with the other
-  players (a first-price sealed-bid auction).
-. The high-bidder Captures the card.  In the case of a tie, the active player
-  chooses who Captures from the tied players.
-.. Take their bid. If you Capture, pay the bank.
-.. Put the card into their hand.
-.. Resolve any Capture effects.
-
-.Auctioning a card from the market.
-====
-TODO
-====
-
-==== From a player.
-. Choose any active card to put up for auction.  Place it in front of you,
-  facing the other players.
-. Secretly bid power from your bank, and simultaneously reveal with the other
-  players (a first-price sealed-bid auction).
-. The high-bidder Captures the card.  In the case of a tie, the active player
-  chooses who Captures from the tied players.
-.. Pay their bid to the card's former owner. If the former owner Captured, take
-   their bid.
-.. Put the card into their hand.
-.. Resolve any Capture effects.
-
-.Sniping a card from a player.
-====
-TODO
-====
+. *Conquer* -- if you place in explored territory (with a sector tile):
+.. Gain the tile's value in power.
+.. Each player with the conquering color active gains the tile's value.
+.. In play order, starting with you, each player with the conquered color
+   active resolves their active event.
 
 === Consume
 Bury a card to gain power.
 
 . Place the consumed card on the table, sideways.
 . Gain power equal to the sum of all sectors controlled by the card's color.
-. Check for Collapse of sectors this color controls:
+. Bid against Collapse of sectors this color controls:
 .. Hide your power and take zero or more into your hand as your bid.
 .. When you’ve chosen your bid, hold your fist over the playing area.
 .. Once all players have chosen, reveal your bids by opening your fists.
