@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.6-{revision}, {docdate}
+0.7-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -68,9 +68,7 @@ Cards may be played to Expand with their color.  Cards may also be Consumed to
 gain Power.
 
 Players place played cards on their own discard piles, recovering their discard
-in its entirety when their hand is empty.  The top card of each player's
-discard pile is active: its event will execute when its color is conquered, and
-it will give its player income when that color conquers.
+in its entirety when their hand is empty.
 
 When a color explores (expands into) a newly-drawn sector, players bid for the
 ability to expand the range of powers their immortal avatars wield. Purchased
@@ -105,25 +103,12 @@ image::images/setup.jpg[Setup]
 
 == Game Sequence
 
-A turn in _Rise_ begins with Dawn, followed by your Action.  If you have no
-cards left in your hand, you may recover your discard pile before taking your
-Action.
-
-NOTE: Dawn may be replaced with "once during your turn, you may..."
-
-.Sustainable Farming
-====
-The card *Sustainable Farming* reads "Dawn: Gain two gems."
-
-If this card is active (on top of your discard) when your turn begins, you gain
-two gems before taking your action.  You only get two gems on your own turn.
-====
-
-At the end of your turn, if there are no disks left in the common pool, the
-game ends.  Otherwise, play proceeds clockwise to the next player.
+On your turn, play or consume a card.  At the end of your turn, if there are no
+disks left in the common pool, the game ends.  Otherwise, play proceeds
+clockwise to the next player.
 
 == Actions
-There are several different actions you can take on your turn.  Each will move
+There are two different actions you can take on your turn.  Each will move
 a card from one place to another.  You may not forgo your turn by declining to
 take an action, but you can choose to take an action that would have no effect.
 
@@ -141,8 +126,8 @@ to be placed.
 Activate a card from your hand or the deck to place a disk of its color.
 
 . Reveal a card from your hand or the top of the deck.
-.. From your hand goes to your discard pile at the end of your turn.
-.. From the deck goes to the market immediately.
+.. [...] from your hand to your discard pile.
+.. [...] from the deck to the market.
 . Place a disk of its color.
 .. If there are no disks of that color, your turn ends.
 .. If that color controls any sectors, you must place it adjacent to one.
@@ -151,17 +136,16 @@ Activate a card from your hand or the deck to place a disk of its color.
 . *Explore* -- if you place in unexplored territory (with no sector tile):
 .. Draw cards equal to the new tile's value for the market.
 .. Secretly and simultaneously bid for control.
-.. From the high-bidder down, players spend their bid to take a card:
-... From the market to their hand: pay the active player, you resolve the
-    event.
-... From the top of a lower-bidding opponent's discard to their hand: pay that
-    opponent, who then resolves the event.
+.. From the high-bidder down, players spend their bid to take a card from the
+   market to their hand: pay the active player, you resolve the event.
 
 . *Conquer* -- if you place in explored territory (with a sector tile):
-.. Gain the tile's value in power.
-.. Each player with the conquering color active gains the tile's value.
-.. In play order, starting with you, each player with the conquered color
-   active resolves their active event.
+.. Everyone whose top card matches the conquering color gains power equal to
+   the sector where you placed the disk (including yourself).
+.. Starting with your own, and proceeding clockwise: resolve all events that
+   match either the conquering color or the conquered color (if any).
+... You make decisions while resolving the conquering color's events.
+... The controllers make the decisions for the conquered color's events.
 
 === Consume
 Bury a card to gain power.
