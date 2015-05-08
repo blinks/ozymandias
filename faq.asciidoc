@@ -31,20 +31,6 @@ This is also why players start the same, aside from the cards dealt.
 Fewer gems makes early-game bidding much more risky, while more gems makes them
 much more swingy.  This number is still being tuned.
 
-=== Why start with three cards?
-Primarily to give a new player something to latch onto.  An official variant is
-to start with more money (probably somewhere around 16 gems) and no cards,
-forcing the first move to be random exploration.  This causes the game to slow
-down a bit, but also makes it more strategic.
-
-=== Why can’t you encourage collapse?
-Joshua O’M. suggested a way to modify preservation bids such that you can count
-your bid against preservation, instead of for it.  I don’t think this is worth
-the complexity, but perhaps could be exposed by a card.
-
-=== Why do you recover your discard at the start of your turn?
-To ensure the other players have a chance to auction off your last card played.
-
 === Why does the game end with the last disk placement?
 Primarily to allow players to control the speed of the game.  Several other
 endgames have been suggested, but Sage says it best:
