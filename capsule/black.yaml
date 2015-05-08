@@ -3,27 +3,27 @@
 ---
 name: Stasis Pods
 layout: landscape
-text: "Age: Instead of preservation, put a gem on Stasis Pods. End of the Age: Gain all gems from Stasis Pods."
+text: "Age: Put a power on Stasis Pods to skip collapse. End of the Age: Gain all power from Stasis Pods."
 
 ---
 name: Vote of Confidence
 layout: portrait
-text: "Capture: Add gems equal to the high bid to one sector."
+text: "Event: Add a power to the conquered sector."
 
 ---
 name: Beta Theory
 layout: portrait
-text: "Consume: Take a market card into your hand."
+text: "Event: Draw the top card of the deck. Destroy a card from your hand."
 
 ---
 name: Black Stars
-layout: landscape
-text: "Dawn: Put a gem on this card. End of the Age: Move all gems from this card to one sector."
+layout: portrait
+text: "Event: Put a power on Black Stars. End of the Age: Put all power on this card onto any one sector."
 
 ---
 name: The One True Path
-layout: landscape
-text: "Dawn: Recover a card from your discard pile."
+layout: portrait
+text: "Event: Recover a card from your discard pile."
 
 ---
 name: Dark Ages
@@ -33,32 +33,32 @@ text: "Event: Discard your hand."
 ---
 name: Remembrance
 layout: portrait
-text: "Event: Return the bottom card of the deck to the market. Auction a card."
+text: "Event: Put the top of the consumed discard back on the deck."
 
 ---
 name: Spycraft
 layout: portrait
-text: "Event: Resolve an event on any opponent's active card."
+text: "Event: Resolve an event on any other active card."
 
 ---
 name: Drakon's Escape
 layout: portrait
-text: "Event: Destroy a disk. Conquer with it."
+text: "Event: Move a controlling disk to an adjacent sector."
 
 ---
 name: The Altemian Purge
 layout: portrait
-text: "Event: Consume a market card."
+text: "Event: Consume the top card of the deck. (Skip collapse.)"
 
 ---
 name: The Awakening
 layout: portrait
-text: "Event: Explore with a non-black disk."
+text: "Event: Place a disk on an empty sector."
 
 ---
 name: From the Dark
 layout: portrait
-text: "Event: Consume one of your destroyed disks. (Remove it from the game.)"
+text: "Event: Consume one of your destroyed disks. (Skip collapse, remove it from the game.)"
 
 ---
 name: Eldritch Theft

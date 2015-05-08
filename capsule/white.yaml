@@ -3,64 +3,64 @@
 ---
 name: Dead Tree Distraction
 layout: landscape
-text: "Age: Whenever another card is Consumed, recover a card of the same color from your discard into your hand."
+text: "Age: Whenever another card is consumed, recover a card of the same color from your discard into your hand."
 
 ---
 name: Thorwed's Gambit
-layout: landscape
-text: "Dawn: Swap your hand with the market."
+layout: portrait
+text: "Event: Destroy a card from your hand. Draw the top card of the deck."
 
 ---
 name: Library of Dithia
-layout: landscape
-text: "Dawn: Take a white market card into your hand."
+layout: portrait
+text: "Event: Gain a white consumed card."
 
 ---
 name: Cocoon
 layout: portrait
-text: "Consume: Place on any player's discard pile. (Including your own.)"
+text: "Event: Place on any opponent's discard pile. When this card is consumed, place it on any player's discard pile."
 
 ---
 name: Ancient Secrets
 layout: portrait
-text: "Capture: Place on any player's discard pile. Consume: Gain gems equal to the value of white."
+text: "Event: Gain power equal to the value of white. When this card is captured, place it on any player's discard pile."
 
 ---
 name: Nyri Artifacts
 layout: portrait
-text: "Event: Choose a color. Auction all market cards of that color together."
+text: "Event: Resolve the top consumed card, then destroy the top card of the deck."
 
 ---
 name: Open-Palm Uprising
 layout: portrait
-text: "Event: Choose a color. Each disk of that color on a sector conquers its own sector."
+text: "Event: Take any stack of disks and flip it upside-down."
 
 ---
 name: Civil Reprogramming
 layout: portrait
-text: "Event: Draw the top three cards of the deck and replace them in any order. Capture: Resolve this card's event."
+text: "Event: Draw the top three cards of the deck and replace them in any order."
 
 ---
 name: The Catharsis Simulation
 layout: portrait
-text: "Event: Choose a color. Draw cards from the deck until you find a card of that color. Auction that card and bury the rest."
+text: "Event: Choose a color. Draw cards from the deck until you find a card of that color. Put it on top and destroy the rest."
 
 ---
 name: Chera's Tithe
 layout: portrait
-text: "Event: Choose a color. Consume all cards of that color from your hand as one action. (Bid once to preserve.)"
+text: "Event: Consume any number of cards from your hand. (Skip collapse.)"
 
 ---
-name: Golden Age
+name: Abdication of the Six Popes
 layout: portrait
-text: "Event: Choose a color. Resolve all active and market events of that color. Bury resolved market cards."
+text: "Event: If white was conquered, destroy this card and draw two from the deck. Otherwise, gain a power."
 
 ---
 name: Monoculture
 layout: portrait
-text: "Event: Choose a color. Choose a player to reveal their hand and discard all cards of that color, in any order."
+text: "Event: Choose a player to discard a card."
 
 ---
 name: Genesis Device
 layout: portrait
-text: "Event: Put gems in the lowest-value sector until it equals the highest-value sector's value."
+text: "Event: Put two power in the lowest-value sector."

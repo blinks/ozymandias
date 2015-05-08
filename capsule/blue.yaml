@@ -3,52 +3,52 @@
 ---
 name: Permaculture
 layout: landscape
-text: "Age: Before bids are revealed, draw the top sector tile and add its value to your bid. Bury that tile."
+text: "Age: Before bids are revealed, draw the top sector tile, add its value to your bid, then discard it."
 
 ---
 name: Xin Shield Formula
-layout: landscape
-text: "Age: Players may not Conquer."
+layout: portrait
+text: "Event: If blue was conquered, take two power from the active player."
 
 ---
 name: Zele Research Labs
 layout: landscape
-text: "Age: When an opponent Consumes a card, take that card into your hand."
+text: "Age: When an opponent consumes a card, take that card into your hand."
 
 ---
 name: Sustainable Farming
-layout: landscape
-text: "Dawn: Gain two gems."
+layout: portrait
+text: "Event: Gain two power. If blue conquered, the active player gains two power."
 
 ---
 name: Banii Ritual
 layout: portrait
-text: "Consume: Resolve all market events."
+text: "Event: Resolve the top consumed card."
 
 ---
 name: Galactic Union
 layout: portrait
-text: "Capture: Gain a gem for each occupied sector."
+text: "Event: Gain a power for each occupied sector. Split these equally with the active player. Discard the remainder."
 
 ---
 name: Ruins of Loni City
 layout: portrait
-text: "Event: Take a gem from each uncontrolled sector."
+text: "Event: Take a power from the conquered sector."
 
 ---
 name: The Living Ocean
 layout: portrait
-text: "Event: Add five gems to one uncontrolled sector."
+text: "Event: Add five power to one uncontrolled sector."
 
 ---
 name: The New Economy
 layout: portrait
-text: "Event: Auction two market cards together. The high bidder gains four gems."
+text: "Event: The active player gains the top card of the deck, all other players gain four power."
 
 ---
 name: Quiet Prosperity
 layout: portrait
-text: "Event: Pay up to three gems into different sectors with exactly one disk."
+text: "Event: If the conquered sector was previously uncontrolled, put five power on it."
 
 ---
 name: Treaty of Cheng-Huang
@@ -58,9 +58,9 @@ text: "Event: Draw one card per player. Give one to each player, including yours
 ---
 name: Garthu Spaceport
 layout: portrait
-text: "Event: Draw the top two sectors and place them."
+text: "Event: Draw the top sector and place it."
 
 ---
 name: Jordani Current
 layout: portrait
-text: "Event: Shuffle the deck."
+text: "Event: Put the consumed on the bottom of the deck."

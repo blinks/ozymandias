@@ -72,8 +72,8 @@ in its entirety when their hand is empty.
 
 When a player explores a new sector, everyone bids for the ability to expand
 the range of powers their immortal avatars wield. Purchased cards will be
-placed in the high-bidder's hand.  When consumed, cards will be buried on the
-bottom of the deck.
+placed in the high-bidder's hand.  Consumed cards will be placed face-up in a
+discard pile.
 
 === Civilization Disks
 Six wooden disks of each color represent archetypical civilizations.
@@ -126,9 +126,9 @@ NOTE: Events will often grant the active player a Reward if the color was just
 placed.  They may penalize the active player if the color was just covered.
 
 === Consume
-Bury a card to gain power.
+Destroy a card to gain power.
 
-. Place the consumed card on the table, sideways.
+. Discard the consumed card to the common discard.
 . Gain power equal to the sum of all sectors controlled by the card's color.
 . Secretly and simultaneously bid against collapse.
 .. Combine all the bids.
@@ -138,7 +138,6 @@ Bury a card to gain power.
    sector collapses first in case of a tie.
 .. If more than enough power was bid, the active player places the excess in
    any sector controlled by the consumed color.
-. Bury the consumed card on the bottom of the deck.
 
 .Consuming for power and collapse.
 ====
