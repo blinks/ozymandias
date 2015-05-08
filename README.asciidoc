@@ -87,7 +87,6 @@ A game of _Rise_ lasts only as long as there are disks in the common pool.  At
 the end of the turn where the last civ is removed from the pool, the game ends.
 
 == Set Up
-
 . Place the disks in a common pool reachable by all players.
 . Give nine influence to each player (four white gems and one red gem) to make
   their initial banks.  Place the rest near the market.
@@ -103,8 +102,9 @@ play proceeds clockwise to the next player.
 === Explore
 Add a new sector to the galaxy and bid for control of the cards that emerge.
 
-. Draw and place a new sector tile.
-. Draw cards equal to the new tile's value for the market.
+. Draw and place a new sector.
+. Gain power equal to that sector's value.
+. Draw cards equal to that sector's value for the market.
 . Secretly and simultaneously bid for control.
 . From the high-bidder down, players lose their bid and take a card from the
   market to their hand.
@@ -119,11 +119,9 @@ Conquer a sector of the galaxy with a color in your hand.
 .. If there are no disks of that color, your turn ends.
 .. If that color controls any sectors, you must place it adjacent to one.
 .. Otherwise, you may place it on any sector.
+. Gain power equal to that sector's value.
 . Starting with the next player clockwise, each player resolves their top card
   if it matches either the color you placed or the color you covered up.
-
-NOTE: Events will often grant the active player a Reward if the color was just
-placed.  They may penalize the active player if the color was just covered.
 
 === Consume
 Destroy a card to gain power.
@@ -154,6 +152,14 @@ your bank also count towards your score.
 TIP: Consuming cards locks in their color's value and gives you more power to
 spend, but means you won't be able to score if it grows later.  It is best to
 Consume a color at its peak.
+
+=== Procedure
+. Put any cards/disks worth zero away.
+. For each color, determine who has the least cards/disks.
+.. Have each player put that many of that color's cards/disks away.
+. Count up the value of cards/disks that remain.
+. Add your power to that total for your final score.
+.. In the case of a tie, the player with the most power not in cards/disks wins.
 
 .Scoring
 ====
