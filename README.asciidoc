@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.7-{revision}, {docdate}
+0.8-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -70,10 +70,10 @@ gain Power.
 Players place played cards on their own discard piles, recovering their discard
 in its entirety when their hand is empty.
 
-When a color explores (expands into) a newly-drawn sector, players bid for the
-ability to expand the range of powers their immortal avatars wield. Purchased
-cards will be placed in the high-bidder's hand after resolving their event (if
-any).  When consumed, cards will be buried on the bottom of the deck.
+When a player explores a new sector, everyone bids for the ability to expand
+the range of powers their immortal avatars wield. Purchased cards will be
+placed in the high-bidder's hand.  When consumed, cards will be buried on the
+bottom of the deck.
 
 === Civilization Disks
 Six wooden disks of each color represent archetypical civilizations.
@@ -89,83 +89,55 @@ the end of the turn where the last civ is removed from the pool, the game ends.
 == Set Up
 
 . Place the disks in a common pool reachable by all players.
-. Shuffle the deck and deal three cards to each player to make their initial
-  hands.
-.. Players may look at their hands.
 . Give nine influence to each player (four white gems and one red gem) to make
   their initial banks.  Place the rest near the market.
-. Shuffle the sector tiles and draw one to place in the middle of the playing
-  area to make the initial explored sector.
-. Deal face-up cards equal to the initial sector's value to make the initial
-  exploration pool.
+. Shuffle the sector tiles and the deck of cards.
 
 image::images/setup.jpg[Setup]
 
 == Game Sequence
+On your turn, you must *explore*, *expand*, or *consume*.  At the end of your
+turn, if there are no disks left in the common pool, the game ends.  Otherwise,
+play proceeds clockwise to the next player.
 
-On your turn, play or consume a card.  At the end of your turn, if there are no
-disks left in the common pool, the game ends.  Otherwise, play proceeds
-clockwise to the next player.
+=== Explore
+Add a new sector to the galaxy and bid for control of the cards that emerge.
 
-== Actions
-There are two different actions you can take on your turn.  Each will move
-a card from one place to another.  You may not forgo your turn by declining to
-take an action, but you can choose to take an action that would have no effect.
-
-.Null expansion.
-====
-All the red disks have been placed by previous actions.  You may choose to
-Expand with a red card in your hand, even though this will not cause a new disk
-to be placed.
-====
-
-* *Expand* a color's control with a card from your hand or the top of the deck.
-* *Consume* a card from your hand for its value.
+. Draw and place a new sector tile.
+. Draw cards equal to the new tile's value for the market.
+. Secretly and simultaneously bid for control.
+. From the high-bidder down, players lose their bid and take a card from the
+  market to their hand.
+.. In the case of a tie, the active player chooses who goes first.
+.. If no cards remain for a player, they don't lose their bid.
 
 === Expand
-Activate a card from your hand or the deck to place a disk of its color.
+Conquer a sector of the galaxy with a color in your hand.
 
-. Reveal a card from your hand or the top of the deck.
-.. [...] from your hand to your discard pile.
-.. [...] from the deck to the market.
-. Place a disk of its color.
+. Play a card from your hand to your discard pile.
+. Place a disk of its color on a sector tile.
 .. If there are no disks of that color, your turn ends.
 .. If that color controls any sectors, you must place it adjacent to one.
-.. Otherwise, you may place it anywhere.
+.. Otherwise, you may place it on any sector.
+. Starting with the next player clockwise, each player resolves their top card
+  if it matches either the color you placed or the color you covered up.
 
-. *Explore* -- if you place in unexplored territory (with no sector tile):
-.. Draw cards equal to the new tile's value for the market.
-.. Secretly and simultaneously bid for control.
-.. From the high-bidder down, players spend their bid to take a card from the
-   market to their hand: pay the active player, you resolve the event.
-
-. *Conquer* -- if you place in explored territory (with a sector tile):
-.. Everyone whose top card matches the conquering color gains power equal to
-   the sector where you placed the disk (including yourself).
-.. Starting with your own, and proceeding clockwise: resolve all events that
-   match either the conquering color or the conquered color (if any).
-... You make decisions while resolving the conquering color's events.
-... The controllers make the decisions for the conquered color's events.
+NOTE: Events will often grant the active player a Reward if the color was just
+placed.  They may penalize the active player if the color was just covered.
 
 === Consume
 Bury a card to gain power.
 
 . Place the consumed card on the table, sideways.
 . Gain power equal to the sum of all sectors controlled by the card's color.
-. Bid against Collapse of sectors this color controls:
-.. Hide your power and take zero or more into your hand as your bid.
-.. When you’ve chosen your bid, hold your fist over the playing area.
-.. Once all players have chosen, reveal your bids by opening your fists.
-.. Sum the total power bid. Each power preserves one sector controlled by the
-   Consumed color, starting with the highest value sector and continuing down.
-.. If there is not enough power to preserve all that color’s sectors, pay all
-   the power to the bank and destroy that color's active disk in sectors not
-   preserved. In case of a tie, the active player chooses which to destroy.
-   As always, give destroyed disks to the active player.
-.. If there is more than enough, pay the power used to preserve to the bank and
-   place the rest in any one sector controlled by the consumed color. (The
-   active player chooses.)
-. Resolve any Consume effects.
+. Secretly and simultaneously bid against collapse.
+.. Combine all the bids.
+.. Each power bid prevents one sector from collapsing.
+.. If not enough power was bid to prevent all collapse, the lower-value sectors
+   collapse first: remove the disk on top. The active player chooses which
+   sector collapses first in case of a tie.
+.. If more than enough power was bid, the active player places the excess in
+   any sector controlled by the consumed color.
 . Bury the consumed card on the bottom of the deck.
 
 .Consuming for power and collapse.
