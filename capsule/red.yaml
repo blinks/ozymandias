@@ -23,12 +23,12 @@ text: "Event: Add power to this card. End of the Age: Destroy a sector with as m
 ---
 name: Thani Tribes
 layout: portrait
-text: "Event: Gain power equal to the value of all uncontrolled sectors. Split it equally with the active player."
+text: "Event: Gain power equal to the value of all uncontrolled sectors. Split it equally with the conqueror."
 
 ---
 name: Berserkers of Grotl
 layout: portrait
-text: "Event: Gain one power for each destroyed disk you control. The active player gains one power for each destroyed disk they control."
+text: "Event: Gain one power for each destroyed disk you control. The conqueror gains one power for each destroyed disk they control."
 
 ---
 name: Cyri's Treachery
@@ -63,4 +63,4 @@ text: "Event: Move the conquered disk onto an adjacent sector."
 ---
 name: Wreckage of the Xyri
 layout: portrait
-text: "Event: Destroy an uncontrolled sector. Gain its value in power. If red conquered, the active player gains the destroyed sector's value in power."
+text: "Event: Destroy an uncontrolled sector. Gain its value in power. A red conqueror gains the destroyed sector's value in power."

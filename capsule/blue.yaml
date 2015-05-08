@@ -8,7 +8,7 @@ text: "Age: Before bids are revealed, draw the top sector tile, add its value to
 ---
 name: Xin Shield Formula
 layout: portrait
-text: "Event: If blue was conquered, take two power from the active player."
+text: "Event: Take two power from a non-blue conqueror."
 
 ---
 name: Zele Research Labs
@@ -18,7 +18,7 @@ text: "Age: When an opponent consumes a card, take that card into your hand."
 ---
 name: Sustainable Farming
 layout: portrait
-text: "Event: Gain two power. If blue conquered, the active player gains two power."
+text: "Event: Gain two power. A blue conquerer gains two power."
 
 ---
 name: Banii Ritual
@@ -28,7 +28,7 @@ text: "Event: Resolve the top consumed card."
 ---
 name: Galactic Union
 layout: portrait
-text: "Event: Gain a power for each occupied sector. Split these equally with the active player. Discard the remainder."
+text: "Event: Gain a power for each occupied sector. Split these equally with the conqueror."
 
 ---
 name: Ruins of Loni City
@@ -43,7 +43,7 @@ text: "Event: Add five power to one uncontrolled sector."
 ---
 name: The New Economy
 layout: portrait
-text: "Event: The active player gains the top card of the deck, all other players gain four power."
+text: "Event: The conqueror gains the top card of the deck, all other players gain four power."
 
 ---
 name: Quiet Prosperity
