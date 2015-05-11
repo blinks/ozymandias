@@ -29,7 +29,7 @@ A complete set of _Rise_ includes:
 * 22 hexagonal sector tiles.
 * A deck of 52 cards, in four different colors.
 * 24 black, blue, red, and white wooden disks.
-* Power gems: white (1s) and red (5s).
+* Gems: white (1s) and red (5s).
 * This rule book.
 
 === The Galaxy Map
@@ -53,6 +53,10 @@ A sector with two or more disks on it is controlled by the top disk's color.
 The stack of disks in a sector serves as a historical record of control in that
 sector.  Civilizations that collapse reveal earlier disks, who retake control.
 
+Some cards can destroy a sector.  When a sector is destroyed, flip it
+face-down. If the sector was not placed in the galaxy (it was just drawn and
+destroyed), put it at the bottom of the sector pile.
+
 === Cards
 The deck of cards represents archetypical historical events, the kind that get
 referenced in speech enough to become a stand-in for anything similar.  Each
@@ -65,15 +69,16 @@ TODO: Insert a card image.
 ====
 
 Cards may be played to Expand with their color.  Cards may also be Consumed to
-gain Power.
+gain gems.
 
-Players place played cards on their own discard piles, recovering their discard
-in its entirety when their hand is empty.
+You place purchased and played cards on your own personal discard piles.  At
+the start of your turn, you may pay gems equal to the number of cards left in
+your hand to draw back your entire discard pile.  You then take your turn.
 
 When a player explores a new sector, everyone bids for the ability to expand
-the range of powers their immortal avatars wield. Purchased cards will be
-placed in the high-bidder's hand.  Consumed cards will be placed face-up in a
-discard pile.
+the range of powers their immortal avatars wield.
+
+Destroyed cards will be placed face-up in a common discard pile.
 
 === Civilization Disks
 Six wooden disks of each color represent archetypical civilizations.
@@ -87,10 +92,9 @@ A game of _Rise_ lasts only as long as there are disks in the common pool.  At
 the end of the turn where the last civ is removed from the pool, the game ends.
 
 == Set Up
-. Place the disks in a common pool reachable by all players.
-. Give nine influence to each player (four white gems and one red gem) to make
-  their initial banks.  Place the rest near the market.
 . Shuffle the sector tiles and the deck of cards.
+. Place the disks in a common pool reachable by all players.
+. Give nine gems to each player to make their initial banks.
 
 image::images/setup.jpg[Setup]
 
@@ -99,17 +103,21 @@ On your turn, you must *explore*, *expand*, or *consume*.  At the end of your
 turn, if there are no disks left in the common pool, the game ends.  Otherwise,
 play proceeds clockwise to the next player.
 
-=== Explore
-Add a new sector to the galaxy and bid for control of the cards that emerge.
+Before you take an action, you may pay gems equal to the number of cards left
+in your hand to recover your discard pile.  You still take a turn afterwards.
 
-. Draw and place a new sector.
-. Gain power equal to that sector's value.
-. Draw cards equal to that sector's value for the market.
-. Secretly and simultaneously bid for control.
-. From the high-bidder down, players lose their bid and take a card from the
-  market to their hand.
+=== Explore
+Explore new sectors to the galaxy and bid for control of the cards that emerge.
+
+. Draw sectors one at a time until their total value is at least two.
+. Draw cards equal to the total value revealed and place them face-up for
+  players to see.
+. Secretly and simultaneously bid gems.
+.. From the high-bidder down, players pay their bid to take a card to the top
+   of their discard pile.
 .. In the case of a tie, the active player chooses who goes first.
-.. If no cards remain for a player, they don't lose their bid.
+.. Players aren't forced to take cards. If you don't take a card, don't lose
+   your bid.
 
 === Expand
 Conquer a sector of the galaxy with a color in your hand.
@@ -119,25 +127,25 @@ Conquer a sector of the galaxy with a color in your hand.
 .. If there are no disks of that color, your turn ends.
 .. If that color controls any sectors, you must place it adjacent to one.
 .. Otherwise, you may place it on any sector.
-. Gain power equal to that sector's value.
+. Gain gems equal to that sector's value.
 . Starting with the next player clockwise, each player resolves their top card
   if it matches either the color you placed or the color you covered up.
 
 === Consume
-Destroy a card to gain power.
+Destroy a card to gain gems.
 
 . Discard the consumed card to the common discard.
-. Gain power equal to the sum of all sectors controlled by the card's color.
+. Gain gems equal to the sum of all sectors controlled by the card's color.
 . Secretly and simultaneously bid against collapse.
 .. Combine all the bids.
-.. Each power bid prevents one sector from collapsing.
-.. If not enough power was bid to prevent all collapse, the lower-value sectors
-   collapse first: remove the disk on top. The active player chooses which
+.. Each gem bid prevents one sector from collapsing.
+.. If not enough gems were bid to prevent all collapse, the lower-value sectors
+   collapse first: destroy the disk on top. The active player chooses which
    sector collapses first in case of a tie.
-.. If more than enough power was bid, the active player places the excess in
+.. If more than enough gems were bid, the active player places the excess in
    any sector controlled by the consumed color.
 
-.Consuming for power and collapse.
+.Consuming for gems and collapse.
 ====
 TODO
 ====
@@ -145,11 +153,10 @@ TODO
 image::images/wealth.jpg[A wealthy endgame.]
 
 == Scoring and Victory
-The object of the game is to score power.  Your cards and dead disks are each
-worth power equal to the total value controlled by their color.  Power gems in
-your bank also count towards your score.
+Your cards and dead disks are each worth VPs equal to the total value
+controlled by their color.  Gems in your bank also count directly for VP.
 
-TIP: Consuming cards locks in their color's value and gives you more power to
+TIP: Consuming cards locks in their color's value and gives you more gems to
 spend, but means you won't be able to score if it grows later.  It is best to
 Consume a color at its peak.
 
@@ -158,8 +165,8 @@ Consume a color at its peak.
 . For each color, determine who has the least cards/disks.
 .. Have each player put that many of that color's cards/disks away.
 . Count up the value of cards/disks that remain.
-. Add your power to that total for your final score.
-.. In the case of a tie, the player with the most power not in cards/disks wins.
+. Add your gems to that total for your final score.
+.. In the case of a tie, the player with the most gems wins.
 
 .Scoring
 ====
@@ -167,11 +174,11 @@ Blue controls three sectors valued 2, 3, and 5.
 Red controls one sector valued at 0.
 White controls a sector valued at 3.
 
-Alice holds sixteen power, three blue cards, a dead red disk, a white card and
-a dead white disk.  Alice's blue cards score 30 power total (10 each), the red
+Alice holds sixteen gems, three blue cards, a dead red disk, a white card and
+a dead white disk.  Alice's blue cards score 30 VPs total (10 each), the red
 disk scores nothing, and the white card and disk score 6 total.
 
-Alice scores 52 power.
+Alice scores 52.
 ====
 
 '''
