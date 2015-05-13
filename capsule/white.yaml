@@ -3,64 +3,64 @@
 ---
 name: Dead Tree Distraction
 layout: landscape
-text: "Age: Whenever another card is consumed, recover a card of the same color from your discard into your hand."
+text: "After exploration cards are revealed, destroy all that match a color of your choice and draw replacements."
 
 ---
-name: Thorwed's Gambit
-layout: portrait
-text: "Event: Destroy a card from your hand. Draw the top card of the deck."
-
----
-name: Library of Dithia
-layout: portrait
-text: "Event: Gain a white consumed card."
-
----
-name: Cocoon
-layout: portrait
-text: "Event: Place on any opponent's discard pile. When this card is consumed, place it on any player's discard pile."
-
----
-name: Ancient Secrets
-layout: portrait
-text: "Event: Gain power equal to the value of white. When this card is captured, place it on any player's discard pile."
-
----
-name: Nyri Artifacts
-layout: portrait
-text: "Event: Resolve the top consumed card, then destroy the top card of the deck."
-
----
-name: Open-Palm Uprising
-layout: portrait
-text: "Event: Take any stack of disks and flip it upside-down."
-
----
-name: Civil Reprogramming
-layout: portrait
-text: "Event: Draw the top three cards of the deck and replace them in any order."
-
----
-name: The Catharsis Simulation
-layout: portrait
-text: "Event: Choose a color. Draw cards from the deck until you find a card of that color. Put it on top and destroy the rest."
-
----
-name: Chera's Tithe
-layout: portrait
-text: "Event: Consume any number of cards from your hand. (Skip collapse.)"
+name: Tradition
+layout: landscape
+text: "When consumed, place on any discard."
 
 ---
 name: Abdication of the Six Popes
 layout: portrait
-text: "Event: If white was conquered, destroy this card and draw two from the deck. Otherwise, gain a power."
+text: "Put a gem on this. // Draw a card for each gem on this. Destroy this."
+
+---
+name: Ancient Secrets
+layout: portrait
+text: "Put a gem on this. // Gain a gem for each gem on this."
 
 ---
 name: Monoculture
 layout: portrait
-text: "Event: Choose a player to discard a card."
+text: "Gain a gem. // Destroy a conquered disk of the conquering color."
 
 ---
-name: Genesis Device
+name: Open-Palm Uprising
 layout: portrait
-text: "Event: Put two power in the lowest-value sector."
+text: "Move a conquered white disk to an adjacent sector. // Take a gem from this sector."
+
+---
+name: Chera's Tithe
+layout: portrait
+text: "Take a gem from each adjacent sector. // Take a gem from this sector."
+
+---
+name: Fundamentalism
+layout: portrait
+text: "Gain a gem. // Flip this stack upside-down."
+
+---
+name: Library of Dithia
+layout: portrait
+text: "Gain a gem. // Draw a card."
+
+---
+name: Sacrifice
+layout: portrait
+text: "Consume a card. (Skip collapse.) // Take a gem from this sector."
+
+---
+name: Cocoon
+layout: portrait
+text: "Gain a gem. // Place on the conqueror's discard."
+
+---
+name: Thorwed's Gambit
+layout: portrait
+text: "Gain a gem. // The conqueror discards a card at random."
+
+---
+name: Prophecy
+layout: portrait
+text: "Draw three cards, destroy two, place the last on top of the deck. // Take a gem from this sector."
