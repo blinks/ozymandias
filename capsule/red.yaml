@@ -3,64 +3,64 @@
 ---
 name: The Ru-Shou Dam
 layout: landscape
-text: "Age: Take half the power bid during consume, rounded down."
+text: "Take half of all gems bid against collapse, rounded down. These gems do not count towards the threshold."
 
 ---
 name: The Titan Blockade
 layout: portrait
-text: "Event: Take any player's active card and move it to the bottom of their discard."
+text: "Move a top card to the bottom of its pile. // Take a gem from this sector."
 
 ---
 name: Crusade of the Sun
 layout: portrait
-text: "Event: Add power to this card. End of the Age: Choose a color. For each gem on this card, place a disk of that color on a different sector."
+text: "Put a gem on this. // Choose a color. Place a disk of that color for each gem on this."
 
 ---
 name: Fall of Gethi E'Feri
 layout: portrait
-text: "Event: Add power to this card. End of the Age: Destroy a sector with as many disks on it as power on this card. Remove all those disks from the game."
+text: "Put a gem on this. // Destroy a sector with at most as many disks as gems on this card."
 
 ---
 name: Thani Tribes
-layout: portrait
-text: "Event: Gain power equal to the value of all uncontrolled sectors. Split it equally with the conqueror."
+layout: landscape
+text: "New sectors must be placed adjacent to red control, if possible."
 
 ---
 name: Berserkers of Grotl
 layout: portrait
-text: "Event: Gain one power for each destroyed disk you control. The conqueror gains one power for each destroyed disk they control."
+text: "Gain a gem. // Each player gains a gem for each destroyed disk they control."
 
 ---
 name: Cyri's Treachery
 layout: portrait
-text: "Event: Take a card at random from an opponent's hand. Put it on your discard. Place Cyri's Treachery in their hand."
+text: "Gain a gem. // Put this in an opponent's hand. Take a card at random from their hand to your discard."
 
 ---
-name: Treasure Vaults
+name: Vaults of Atif
 layout: portrait
-text: "Event: Take all power from a non-red sector."
+text: "Put a gem on this sector. // Take all gems from this sector."
 
 ---
 name: Rites of Memory
 layout: portrait
-text: "Event: Choose a player. Put a card from their discard into their hand."
+text: "Move a red disk to the top of its stack. // Take a gem from this sector."
 
 ---
 name: Fires at Night
 layout: portrait
-text: "Event: Destroy a card from your hand and up to two active disks."
+text: "Destroy a disk. // Take a gem from this sector."
 
 ---
-name: Wormhole Deception
+name: Charon's Maw
 layout: portrait
-text: "Event: If red conquered, move all power from adjacent sectors into the conquered sector. Otherwise, move all power from the conquered sector into an adjacent sector."
+text: "Gain a gem. // Move a disk in this stack of the last consumed color to the bottom."
 
 ---
 name: March of Ashes
 layout: portrait
-text: "Event: Move the conquered disk onto an adjacent sector."
+text: "Gain a gem. // Move a red disk from this sector to an adjacent one."
 
 ---
 name: Wreckage of the Xyri
 layout: portrait
-text: "Event: Destroy an uncontrolled sector. Gain its value in power. A red conqueror gains the destroyed sector's value in power."
+text: "Destroy an uncontrolled sector. Gain its value in gems. // Take a gem from this sector."
