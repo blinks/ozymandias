@@ -1,66 +1,70 @@
 # Blue: Investment in diversity.
 
 ---
-name: Permaculture
+name: Brave New World
 layout: landscape
-text: "Age: Before bids are revealed, draw the top sector tile, add its value to your bid, then discard it."
-
----
-name: Xin Shield Formula
-layout: portrait
-text: "Event: Take two power from a non-blue conqueror."
+text: "During exploration, gain a gem for each card revealed."
 
 ---
 name: Zele Research Labs
 layout: landscape
-text: "Age: When an opponent consumes a card, take that card into your hand."
-
----
-name: Sustainable Farming
-layout: portrait
-text: "Event: Gain two power. A blue conquerer gains two power."
-
----
-name: Banii Ritual
-layout: portrait
-text: "Event: Resolve the top consumed card."
-
----
-name: Galactic Union
-layout: portrait
-text: "Event: Gain a power for each occupied sector. Split these equally with the conqueror."
+text: "When an opponent consumes, gain the last consumed card."
 
 ---
 name: Ruins of Loni City
 layout: portrait
-text: "Event: Take a power from the conquered sector."
+text: "Put a gem on this. // Destroy a bottom disk for each gem on this."
 
 ---
-name: The Living Ocean
+name: Sustainable Farming
 layout: portrait
-text: "Event: Add five power to one uncontrolled sector."
-
----
-name: The New Economy
-layout: portrait
-text: "Event: The conqueror gains the top card of the deck, all other players gain four power."
+text: "Put a gem on this. // Take a gem from this sector for each gem on this."
 
 ---
 name: Quiet Prosperity
 layout: portrait
-text: "Event: If the conquered sector was previously uncontrolled, put five power on it."
+text: "Put a gem on this sector. // Take a gem from this sector."
 
 ---
-name: Treaty of Cheng-Huang
+name: Living Ocean
 layout: portrait
-text: "Event: Draw one card per player. Give one to each player, including yourself."
+text: "Put a gem on an unoccupied sector. // Take all gems from adjacent unoccupied sectors."
 
 ---
-name: Garthu Spaceport
+name: Galactic Union
 layout: portrait
-text: "Event: Draw the top sector and place it."
+text: "Take a gem from each non-blue sector. // Take a gem from this sector."
 
 ---
 name: Jordani Current
 layout: portrait
-text: "Event: Put the consumed on the bottom of the deck."
+text: "Move a conquered blue disk to an adjacent sector. // Move a blue disk to an adjacent sector."
+
+---
+name: Treaty of Cheng-Huang
+layout: portrait
+text: "Gain a gem. // Draw a card and offer it to an opponent. If they accept, take all gems from this sector. Otherwise, take the card."
+
+---
+name: Xin Shield Formula
+layout: portrait
+text: "Gain a gem. // Take the sector's value from the conqueror."
+
+---
+name: The New Economy
+layout: portrait
+text: "Gain a gem. // The conqueror draws a card to their discard. Resolve that card's conquered effect."
+
+---
+name: Banii Ritual
+layout: portrait
+text: "Gain a gem. // Pay gems equal to twice this sector's value to destroy the conquering disk."
+
+---
+name: Psychohistory
+layout: portrait
+text: "Draw a card. Put a card from your hand on top of the deck. // Take a gem from this sector."
+
+
+
+
