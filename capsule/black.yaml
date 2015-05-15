@@ -1,66 +1,66 @@
 # Black: Investment in death, as opposed to apocalypse.
 
 ---
-name: Stasis Pods
+name: Spycraft
 layout: landscape
-text: "Age: Put a power on Stasis Pods to skip collapse. End of the Age: Gain all power from Stasis Pods."
+text: "After exploration bids are revealed, you may double your bid."
 
 ---
-name: Vote of Confidence
-layout: portrait
-text: "Event: Add a power to the conquered sector."
+name: Stasis Pods
+layout: landscape
+text: "Skip collapse. When an opponent consumes, draw a card."
 
 ---
 name: Beta Theory
 layout: portrait
-text: "Event: Draw the top card of the deck. Destroy a card from your hand."
+text: "Put a gem on this. // For each gem on this, draw a card. Then, for each gem on this, discard a card."
 
 ---
-name: Black Stars
+name: Hanian Cults
 layout: portrait
-text: "Event: Put a power on Black Stars. End of the Age: Put all power on this card onto any one sector."
-
----
-name: The One True Path
-layout: portrait
-text: "Event: Recover a card from your discard pile."
-
----
-name: Dark Ages
-layout: portrait
-text: "Event: Discard your hand."
-
----
-name: Remembrance
-layout: portrait
-text: "Event: Put the top of the consumed discard back on the deck."
-
----
-name: Spycraft
-layout: portrait
-text: "Event: Resolve an event on any other active card."
-
----
-name: Drakon's Escape
-layout: portrait
-text: "Event: Move a controlling disk to an adjacent sector."
-
----
-name: The Altemian Purge
-layout: portrait
-text: "Event: Consume the top card of the deck. (Skip collapse.)"
-
----
-name: The Awakening
-layout: portrait
-text: "Event: Place a disk on an empty sector."
-
----
-name: From the Dark
-layout: portrait
-text: "Event: Consume one of your destroyed disks. (Skip collapse, remove it from the game.)"
+text: "Put a gem on this. // For each gem on this, destroy a sector containing exactly one disk."
 
 ---
 name: Eldritch Theft
 layout: portrait
-text: "Event: Destroy a disk in the pool."
+text: "Destroy an unplaced disk. // Take a gem from this sector."
+
+---
+name: Black Stars
+layout: portrait
+text: "Destroy an uncontrolled sector. Add its value to this one. // Take a gem from this sector."
+
+---
+name: Drakon's Escape
+layout: portrait
+text: "Gain a gem. // Place a black disk from this sector on any uncontrolled sector."
+
+---
+name: Maengali's Discovery
+layout: portrait
+text: "Draw and destroy a sector. Gain its value in gems. // Take a gem from this sector."
+
+---
+name: Forgotten
+layout: portrait
+text: "Gain a gem. // Consume one of your destroyed disks. (Remove it from the game.)"
+
+---
+name: Remembrance
+layout: portrait
+text: "Consume the top card of the dead pile. (Remove it from the game.) // Take a gem from this sector."
+
+---
+name: The One True Path
+layout: portrait
+text: "Choose a player to draw a card from their discard pile. // Take a gem from this sector."
+
+---
+name: The Awakening
+layout: portrait
+text: "Choose a player to discard their hand. // Take a gem from this sector."
+
+---
+name: The Altemian Purge
+layout: portrait
+text: "Gain a gem. // Draw and consume a card. (Skip collapse.)"
