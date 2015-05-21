@@ -3,64 +3,64 @@
 ---
 name: Dead Tree Distraction
 layout: landscape
-text: "After exploration cards are revealed, destroy all that match a color of your choice and draw replacements."
+text: "[explore] After cards are revealed, destroy all that match a color of your choice and draw replacements."
 
 ---
 name: Tradition
 layout: landscape
-text: "When consumed, place on any discard."
+text: "[consume] When consumed, place on any discard."
 
 ---
 name: Abdication of the Six Popes
 layout: portrait
-text: "Put a gem on this. // Draw a card for each gem on this. Destroy this."
+text: "[conquer] Put a gem on this. // When you cover this card, draw a card for each gem on this. Destroy this."
 
 ---
 name: Ancient Secrets
 layout: portrait
-text: "Put a gem on this. // Gain a gem for each gem on this."
+text: "[conquer] Put a gem on this. // When you cover this card, gain a gem for each gem on this."
 
 ---
 name: Monoculture
 layout: portrait
-text: "Gain a gem. // Destroy a conquered disk of the conquering color."
+text: "[conquer] Gain a gem. // [resist] Destroy a conquered disk of the conquering color."
 
 ---
 name: Open-Palm Uprising
 layout: portrait
-text: "Move a conquered white disk to an adjacent sector. // Take a gem from this sector."
+text: "[conquer] Move a conquered white disk to an adjacent sector. // [resist] Take a gem from this sector."
 
 ---
 name: Chera's Tithe
 layout: portrait
-text: "Take a gem from each adjacent sector. // Take a gem from this sector."
+text: "[conquer] Take a gem from each adjacent sector. // [resist] Take a gem from this sector."
 
 ---
 name: Fundamentalism
 layout: portrait
-text: "Gain a gem. // Flip this stack upside-down."
+text: "[conquer] Gain a gem. // [resist] Flip this stack upside-down."
 
 ---
 name: Library of Dithia
 layout: portrait
-text: "Gain a gem. // Draw a card."
+text: "[conquer] Gain a gem. // [resist] Draw a card."
 
 ---
 name: Sacrifice
 layout: portrait
-text: "Consume a card. (Skip collapse.) // Take a gem from this sector."
+text: "[conquer] Consume a card. (Skip collapse.) // [resist] Take a gem from this sector."
 
 ---
 name: Cocoon
 layout: portrait
-text: "Gain a gem. // Place on the conqueror's discard."
+text: "[conquer] Gain a gem. // [resist] Place on the conqueror's discard."
 
 ---
 name: Thorwed's Gambit
 layout: portrait
-text: "Gain a gem. // The conqueror discards a card at random."
+text: "[conquer] Gain a gem. // [resist] The conqueror discards a card at random."
 
 ---
 name: Prophecy
 layout: portrait
-text: "Draw three cards, destroy two, place the last on top of the deck. // Take a gem from this sector."
+text: "[conquer] Draw three cards, destroy two, place the last on top of the deck. // [resist] Take a gem from this sector."

@@ -3,68 +3,64 @@
 ---
 name: Brave New World
 layout: landscape
-text: "During exploration, gain a gem for each card revealed."
+text: "[explore] Gain a gem for each card revealed."
 
 ---
 name: Zele Research Labs
 layout: landscape
-text: "When an opponent consumes, gain the last consumed card."
+text: "[consume] When an opponent consumes, gain the last consumed card."
 
 ---
 name: Ruins of Loni City
 layout: portrait
-text: "Put a gem on this. // Destroy a bottom disk for each gem on this."
+text: "[conquer] Put a gem on this. // When you cover this card, destroy a bottom disk for each gem on this."
 
 ---
 name: Sustainable Farming
 layout: portrait
-text: "Put a gem on this. // Take a gem from this sector for each gem on this."
+text: "[conquer] Put a gem on this. // When you cover this card, take a gem from this sector for each gem on this."
 
 ---
 name: Quiet Prosperity
 layout: portrait
-text: "Put a gem on this sector. // Take a gem from this sector."
+text: "[conquer] Put a gem on this sector. // [resist] Take a gem from this sector."
 
 ---
 name: Living Ocean
 layout: portrait
-text: "Put a gem on an unoccupied sector. // Take all gems from adjacent unoccupied sectors."
+text: "[conquer] Put a gem on an unoccupied sector. // [resist] Take all gems from adjacent unoccupied sectors."
 
 ---
 name: Galactic Union
 layout: portrait
-text: "Take a gem from each non-blue sector. // Take a gem from this sector."
+text: "[conquer] Take a gem from each non-blue sector. // [resist] Take a gem from this sector."
 
 ---
 name: Jordani Current
 layout: portrait
-text: "Move a conquered blue disk to an adjacent sector. // Move a blue disk to an adjacent sector."
+text: "[conquer] Move a conquered blue disk to an adjacent sector. // [resist] Move a blue disk to an adjacent sector."
 
 ---
 name: Treaty of Cheng-Huang
 layout: portrait
-text: "Gain a gem. // Draw a card and offer it to an opponent. If they accept, take all gems from this sector. Otherwise, take the card."
+text: "[conquer] Gain a gem. // [resist] Draw a card and offer it to an opponent. If they accept, take all gems from this sector. Otherwise, take the card."
 
 ---
 name: Xin Shield Formula
 layout: portrait
-text: "Gain a gem. // Take the sector's value from the conqueror."
+text: "[conquer] Gain a gem. // [resist] Take the sector's value from the conqueror."
 
 ---
 name: The New Economy
 layout: portrait
-text: "Gain a gem. // The conqueror draws a card to their discard. Resolve that card's conquered effect."
+text: "[conquer] Gain a gem. // [resist] The conqueror draws a card to their discard. Resolve that card's conquered effect."
 
 ---
 name: Banii Ritual
 layout: portrait
-text: "Gain a gem. // Pay gems equal to twice this sector's value to destroy the conquering disk."
+text: "[conquer] Gain a gem. // [resist] Pay gems equal to twice this sector's value to destroy the conquering disk."
 
 ---
 name: Psychohistory
 layout: portrait
-text: "Draw a card. Put a card from your hand on top of the deck. // Take a gem from this sector."
-
-
-
-
+text: "[conquer] Draw a card. Put a card from your hand on top of the deck. // [resist] Take a gem from this sector."
