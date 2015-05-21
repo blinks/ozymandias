@@ -75,9 +75,12 @@ When a player explores new sectors, everyone bids for the ability to expand the
 range of powers their immortal avatars wield. Cards may be played to place
 disks of their color.  Cards may also be Consumed to gain gems.
 
-You place purchased and played cards on your own personal discard piles.  At
-the start of your turn, you may pay gems equal to the number of cards left in
-your hand to draw back your entire discard pile.  You then take your turn.
+You place purchased and played cards on your own personal discard piles.
+Abilities on the top card of your discard pile can be triggered by various game
+events.
+
+At the start of your turn, you may pay gems equal to the number of cards left
+in your hand to draw back your entire discard pile.  You then take your turn.
 
 Destroyed cards are placed face-up in the dead pile.
 
@@ -137,8 +140,8 @@ Conquer a sector of the galaxy with a color in your hand.
 . Gain gems equal to that sector's value.
 . Starting with the next player clockwise, each player may resolve a matching
   ability or pass.
-.. Conquering abilities may be taken if the color was just placed.
-.. Conquered abilities may be taken if the color was already in the sector.
+.. *Conquer* abilities may be taken if the color was just placed.
+.. *Resist* abilities may be taken if the color was already in the sector.
 
 === Consume
 Destroy a card to gain gems.
