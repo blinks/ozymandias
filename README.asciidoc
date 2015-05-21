@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.8-{revision}, {docdate}
+0.9-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -29,7 +29,7 @@ A complete set of _Rise_ includes:
 * 27 hexagonal sector tiles.
 * A deck of 52 cards, in four different colors.
 * 24 black, blue, red, and white wooden disks.
-* Gems: white (1s) and red (5s).
+* Gems in three denominations: 30 1s, 20 5s, 10 10s.
 * This rule book.
 
 NOTE: The gems must be limited, but we don't know the limit yet.
@@ -71,8 +71,8 @@ text.
 TODO: Insert a card image.
 ====
 
-When a player explores a new sector, everyone bids for the ability to expand
-the range of powers their immortal avatars wield. Cards may be played to place
+When a player explores new sectors, everyone bids for the ability to expand the
+range of powers their immortal avatars wield. Cards may be played to place
 disks of their color.  Cards may also be Consumed to gain gems.
 
 You place purchased and played cards on your own personal discard piles.  At
@@ -129,10 +129,11 @@ Conquer a sector of the galaxy with a color in your hand.
 
 . Play a card from your hand to your discard pile.
 . Place a disk of its color on a sector tile.
-.. If there are no disks of that color, your action ends.
-.. If that color controls any sectors, you must place it adjacent to one.
+.. If there are no disks of that color left to place, your action ends.
+.. Place the disk adjacent to a sector that color is already on (even if it
+   doesn't control that sector).
+.. If that color is nowhere in the galaxy, you may place anywhere.
 .. You may not place on a sector that color already controls.
-.. Otherwise, you may place it on any sector.
 . Gain gems equal to that sector's value.
 . Starting with the next player clockwise, each player may resolve a matching
   ability or pass.
