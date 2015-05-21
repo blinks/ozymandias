@@ -32,6 +32,8 @@ A complete set of _Rise_ includes:
 * Gems: white (1s) and red (5s).
 * This rule book.
 
+NOTE: The gems must be limited, but we don't know the limit yet.
+
 === The Galaxy Map
 The map is divided into hexagonal Sectors, each with a numeric value.  A sector
 is a vast expanse of space arbitrarily reduced to a single number from zero to
@@ -70,14 +72,16 @@ TODO: Insert a card image.
 ====
 
 When a player explores a new sector, everyone bids for the ability to expand
-the range of powers their immortal avatars wield. Cards may be played to Expand
-with their color.  Cards may also be Consumed to gain gems.
+the range of powers their immortal avatars wield. Cards may be played to place
+disks of their color.  Cards may also be Consumed to gain gems.
 
 You place purchased and played cards on your own personal discard piles.  At
 the start of your turn, you may pay gems equal to the number of cards left in
 your hand to draw back your entire discard pile.  You then take your turn.
 
 Destroyed cards are placed face-up in the dead pile.
+
+NOTE: Perhaps the dead pile could be _the abyss_?
 
 === Civilization Disks
 Six wooden disks of each color represent archetypical civilizations.
@@ -99,11 +103,12 @@ image::images/setup.jpg[Setup]
 
 == Game Sequence
 On your turn, you must *explore*, *expand*, or *consume*.  At the end of your
-turn, if there are no disks left in the common pool, the game ends.  Otherwise,
-play proceeds clockwise to the next player.
+turn, if there are no disks left in the common pool, no cards left in the deck,
+or no sectors left to draw, the game ends.  Otherwise, play proceeds clockwise
+to the next player.
 
 Before you take an action, you may pay gems equal to the number of cards left
-in your hand to recover your discard pile.  You still take a turn afterwards.
+in your hand to recover your discard pile.  Then take an action as normal.
 
 === Explore
 Explore new sectors to the galaxy and bid for control of the cards that emerge.
@@ -115,38 +120,37 @@ Explore new sectors to the galaxy and bid for control of the cards that emerge.
 . Secretly and simultaneously bid gems.
 .. From the high-bidder down, players pay their bid to take a card from those
    revealed -- place it on your discard pile or in your hand.
-.. In the case of a tie, proceed in play order, starting from the active
-   player.
-.. Players aren't forced to take cards. If you don't take a card, don't lose
-   your bid.
+.. In the case of a tie, the tied players proceed in play order, starting from
+   the active player.
+.. You may decline to take a card.  If you do, keep your bid.
 
 === Expand
 Conquer a sector of the galaxy with a color in your hand.
 
 . Play a card from your hand to your discard pile.
 . Place a disk of its color on a sector tile.
-.. If there are no disks of that color, your turn ends.
+.. If there are no disks of that color, your action ends.
 .. If that color controls any sectors, you must place it adjacent to one.
+.. You may not place on a sector that color already controls.
 .. Otherwise, you may place it on any sector.
 . Gain gems equal to that sector's value.
-. Starting with the next player clockwise, each player resolves their top card
-  if it matches any color disk in that sector.
-.. If the card matches the color you placed, resolve the conquering effect.
-.. Otherwise, resolve the conquered effect.
+. Starting with the next player clockwise, each player may resolve a matching
+  ability or pass.
+.. Conquering abilities may be taken if the color was just placed.
+.. Conquered abilities may be taken if the color was already in the sector.
 
 === Consume
 Destroy a card to gain gems.
 
-. Discard the consumed card to the dead pile.
+. Destroy a card from your hand. (Place it in the dead pile.)
 . Gain gems equal to the sum of all sectors controlled by the card's color.
 . Secretly and simultaneously bid against collapse.
 .. The threshold for collapse is equal to the total number of disks of that
    color in the galaxy, even if conquered.
-.. Combine all the bids.
-.. If the total is exactly equal to the threshold, pay it all to the bank and
-   nothing else happens.
-.. If it is less than the threshold, destroy a controlling disk of that color
-   for each gem less (or as many as possible).
+.. If the total bid is exactly equal to the threshold, pay it all to the bank
+   and nothing else happens.
+.. If it is less than the threshold, destroy controlling disks of that color
+   equal to the difference (or as many as possible).
 ... The active player chooses in the case of a tie.
 ... Destroyed disks go to the highest bidder.
 ... If that's a tie, destroyed disks are removed from the game.
