@@ -2,65 +2,61 @@
 
 ---
 name: The Ru-Shou Dam
-layout: landscape
-text: "[consume] Take half of all gems bid against collapse, rounded down. These gems do not count towards the threshold."
+text: "[r] Take half of all gems bid against collapse, rounded down. These gems
+  do not count towards the threshold."
 
 ---
 name: Thani Tribes
-layout: landscape
-text: "[explore] New sectors must be placed adjacent to red control, if possible."
-
----
-name: The Titan Blockade
-layout: portrait
-text: "[conquer] Move a top card to the bottom of its pile. // [resist] Take a gem from this sector."
+text: "[x] When a new sector is placed, the active player gains gems equal to
+  the number of adjacent red-occupied sectors."
 
 ---
 name: Crusade of the Sun
-layout: portrait
-text: "[conquer] Put a gem on this. // [resist] When you cover this card, choose a color. Place a disk of that color for each gem on this."
+text: "[c] If red controls this sector, put a gem on this card.
+  [s] Remove all gems from this card and choose a color: Place a disk of that
+  color for each gem removed."
 
 ---
 name: Fall of Gethi E'Feri
-layout: portrait
-text: "[conquer] Put a gem on this. // [resist] When you cover this card, destroy a sector with at most as many disks as gems on this card."
+text: "[c] If red occupies this sector, put a gem on this card.
+  [s] Remove all gems from this card: Destroy a sector with as many disks as
+  gems on this card, then destroy this card."
+
+---
+name: The Titan Blockade
+text: "[c] Move a top card to the bottom of its pile."
 
 ---
 name: Berserkers of Grotl
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Each player gains a gem for each destroyed disk they control."
+text: "[c] If red occupies this sector, gain a gem for each destroyed disk you
+  control."
 
 ---
 name: Cyri's Treachery
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Put this in an opponent's hand. Take a card at random from their hand to your discard."
+text: "[c] If red occupies this sector, you may put this in an opponent's hand.
+  If you do, take a card at random from their hand to your discard."
 
 ---
 name: Vaults of Atif
-layout: portrait
-text: "[conquer] Put a gem on this sector. // [resist] Take all gems from this sector."
+text: "[c] If red doesn't control this sector, take all gems from this sector."
 
 ---
 name: Rites of Memory
-layout: portrait
-text: "[conquer] Move a red disk to the top of its stack. // [resist] Take a gem from this sector."
+text: "[c] Pay a gem: Move an adjacent red disk to the top of its stack."
 
 ---
 name: Fires at Night
-layout: portrait
-text: "[conquer] Destroy a disk. // [resist] Take a gem from this sector."
+text: "[c] If red controls this sector, destroy a non-red top disk."
 
 ---
 name: Charon's Maw
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Move a disk in this stack of the last consumed color to the bottom."
+text: "[c] Destroy an uncontrolled sector. Gain its value in gems."
 
 ---
 name: March of Ashes
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Move a red disk from this sector to an adjacent one."
+text: "[c] Pay a gem: Move a non-red disk from this sector to an adjacent one."
 
 ---
 name: Wreckage of the Xyri
-layout: portrait
-text: "[conquer] Destroy an uncontrolled sector. Gain its value in gems. // [resist] Take a gem from this sector."
+text: "[c] Pay a gem: Move a non-red disk in an adjacent sector to the bottom
+  of its stack."

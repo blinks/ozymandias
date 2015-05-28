@@ -2,65 +2,62 @@
 
 ---
 name: Spycraft
-layout: landscape
-text: "[explore] After bids are revealed, you may double your bid."
+text: "[x] After bids are revealed, you may double your bid."
 
 ---
 name: Stasis Pods
-layout: landscape
-text: "[consume] Skip collapse. When an opponent consumes, draw a card."
+text: "[r] Skip collapse. When an opponent reaps, draw a card."
 
 ---
 name: Beta Theory
-layout: portrait
-text: "[conquer] Put a gem on this. // When you cover this card: draw a card for each gem on this, then discard a card for each gem on this."
+text: "[c] If black occupies this sector, put a gem on this card.
+  [s] Remove all gems from this card: draw that many cards, then discard that
+  many cards."
 
 ---
 name: Hanian Cults
-layout: portrait
-text: "[conquer] Put a gem on this. // When you cover this card: destroy a sector containing exactly one disk for each gem on this."
+text: "[c] If black occupies this sector, put a gem on this card.
+  [s] Remove all gems from this card: to destroy a sector containing that many
+  disks."
 
 ---
 name: Eldritch Theft
-layout: portrait
-text: "[conquer] Destroy an unplaced disk. // [resist] Take a gem from this sector."
+text: "[c] Destroy an unplaced non-black disk."
 
 ---
 name: Black Stars
-layout: portrait
-text: "[conquer] Destroy an uncontrolled sector. Add its value to this one. // [resist] Take a gem from this sector."
+text: "[c] Destroy an uncontrolled sector. Add its value to a black-controlled
+  one."
 
 ---
 name: Drakon's Escape
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Place a black disk from this sector on any uncontrolled sector."
+text: "[c] Place a black disk from this sector on any uncontrolled sector."
 
 ---
 name: Maengali's Discovery
-layout: portrait
-text: "[conquer] Draw and destroy a sector. Gain its value in gems. // [resist] Take a gem from this sector."
+text: "[c] If black occupies this sector, draw and destroy a sector. Gain its
+  value in gems."
 
 ---
 name: Forgotten
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Consume one of your destroyed disks. (Remove it from the game.)"
+text: "[c] If black occupies this sector, reap one of your destroyed disks.
+  (Remove it from the game.)"
 
 ---
 name: Remembrance
-layout: portrait
-text: "[conquer] Consume the top card of the dead pile. (Remove it from the game.) // [resist] Take a gem from this sector."
+text: "[c] If black occupies this sector, reap the top card of the dead
+  pile. (Remove it from the game.)"
 
 ---
 name: The One True Path
-layout: portrait
-text: "[conquer] Choose a player to draw a card from their discard pile. // [resist] Take a gem from this sector."
+text: "[c] If black occupies this sector, target player draws a card from their
+  discard pile."
 
 ---
 name: The Awakening
-layout: portrait
-text: "[conquer] Choose a player to discard their hand. // [resist] Take a gem from this sector."
+text: "[c] If black occupies this sector, target player discards their hand."
 
 ---
 name: The Altemian Purge
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Draw and consume a card. (Skip collapse.)"
+text: "[c] If black occupies this sector, draw and reap a card. (Skip
+  collapse.)"

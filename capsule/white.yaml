@@ -2,65 +2,56 @@
 
 ---
 name: Dead Tree Distraction
-layout: landscape
-text: "[explore] After cards are revealed, destroy all that match a color of your choice and draw replacements."
+text: "[x] After cards are revealed, destroy all that match a color of your
+  choice and draw replacements."
 
 ---
 name: Tradition
-layout: landscape
-text: "[consume] When consumed, place on any discard."
+text: "[r] When reaped, place on any discard instead of the dead pile."
 
 ---
 name: Abdication of the Six Popes
-layout: portrait
-text: "[conquer] Put a gem on this. // When you cover this card, draw a card for each gem on this. Destroy this."
+text: "[c] If white occupies this sector, put a gem on this card.
+  [s] Destroy this card: draw a card for each gem on this card."
 
 ---
 name: Ancient Secrets
-layout: portrait
-text: "[conquer] Put a gem on this. // When you cover this card, gain a gem for each gem on this."
+text: "[c] If white occupies this sector, put a gem on this card.
+  [s] Gain a gem for each gem on this."
 
 ---
 name: Monoculture
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Destroy a conquered disk of the conquering color."
+text: "[c] Destroy a conquered disk of the conquering color."
 
 ---
 name: Open-Palm Uprising
-layout: portrait
-text: "[conquer] Move a conquered white disk to an adjacent sector. // [resist] Take a gem from this sector."
+text: "[c] Move a conquered white disk to an adjacent sector."
 
 ---
 name: Chera's Tithe
-layout: portrait
-text: "[conquer] Take a gem from each adjacent sector. // [resist] Take a gem from this sector."
+text: "[c] Gain a gem for each adjacent non-white sector."
 
 ---
 name: Fundamentalism
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Flip this stack upside-down."
+text: "[c] Flip this stack upside-down."
 
 ---
 name: Library of Dithia
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Draw a card."
+text: "[c] If white occupies but does not control this sector, draw a card."
 
 ---
 name: Sacrifice
-layout: portrait
-text: "[conquer] Consume a card. (Skip collapse.) // [resist] Take a gem from this sector."
+text: "[c] Reap a card. (Skip collapse.)"
 
 ---
 name: Cocoon
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] Place on the conqueror's discard."
+text: "[c] You may place this card on the conqueror's discard."
 
 ---
 name: Thorwed's Gambit
-layout: portrait
-text: "[conquer] Gain a gem. // [resist] The conqueror discards a card at random."
+text: "[c] Destroy a card from your hand. Draw a card."
 
 ---
 name: Prophecy
-layout: portrait
-text: "[conquer] Draw three cards, destroy two, place the last on top of the deck. // [resist] Take a gem from this sector."
+text: "[c] Pay X gems: Draw X cards, put one on top of the deck, destroy the
+  rest."
