@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.11-{revision}, {docdate}
+0.12-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -114,14 +114,14 @@ in your hand to recover your discard pile.  Then take an action as normal.
 === Explore
 Explore new sectors to the galaxy and bid for control of the cards that emerge.
 
-. Draw sectors one at a time until their total value is at least equal to the
-  number of players.  Then place those sectors in the galaxy -- adjacent to
-  existing ones, if possible.
-. Draw cards equal to that total value and place them face-up for players to
-  see.  (If you draw the last card from the deck, the game ends immediately.)
+. Pay two gems per sector you wish to draw.
+. Draw that many sectors and place them in the galaxy.
+. Draw cards equal to the highest value drawn and place them face-up for
+  players to see.
 . Secretly and simultaneously bid gems.
 .. From the high-bidder down, players pay their bid to take a card from those
    revealed -- place it on your discard pile or in your hand.
+... Bids are paid to the active player.  Their bid is paid to the bank.
 .. In the case of a tie, the tied players proceed in play order, starting from
    the active player.
 .. You may decline to take a card.  If you do, keep your bid.
@@ -143,19 +143,20 @@ Conquer a sector of the galaxy with a color in your hand.
   card matching a color in the sector you conquered resolves it.
 
 === Reap
-Destroy a card to gain gems.
+Destroy cards to gain gems.
 
-. Destroy one or more cards of a single color from your hand.
-.. Place them all in the dead pile.
-. Gain gems equal to the sum of all sectors controlled by the reaped color.
-.. If you reap multiple cards, still only collect once.
+. Place a card from your hand face-down in front of you.
+. Each other player may do the same.  (In play order.)
+. Simultaneously reveal these cards.
+. Each player who revealed a card gains gems equal to the sum of all sectors
+  controlled by its color.
+. Count the total number of disks of those colors in the galaxy, even if
+  conquered -- this is the Threshold.
 . Secretly and simultaneously bid against collapse.
-.. The threshold for collapse is equal to the total number of disks of that
-   color in the galaxy, even if conquered.
-.. If the total bid is less than the threshold, destroy controlling disks of
-   that color equal to the difference (or as many as possible).
-... The active player chooses which disk is destroyed in the case of a tie.
-.. Discard all bids to the bank.
+. If you bid at least the Threshold, pay all bids to the bank and end the turn.
+. Otherwise, the difference is the number of disks to collapse.
+.. Starting with the active player, each player that participated (whether
+   gaining or bidding gems) destroys a disk until the difference is paid.
 
 .Reaping for gems and collapse.
 ====
