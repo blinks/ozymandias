@@ -31,10 +31,12 @@ def cards2csv():
                     key=lambda d: d['name'].replace('The ', ''))
         if not isinstance(docs[0], dict): continue
         for card in docs:
-            out.writerow([color,
-                card.get('name', 'Untitled'),
-                card.get('text')
-                ])
+            try:
+                out.writerow([color,
+                    card.get('name', 'Untitled'),
+                    card.get('text') ])
+            except Exception as e:
+                raise Exception(u'%s: %s -> %s' % (f, card, e))
 
 def asciidoctor(rev):
     subprocess.check_output(['asciidoctor',
