@@ -1,62 +1,69 @@
-# Red: Tools for the apocalypse, destroy investment.
-
 ---
-name: The Ru-Shou Dam
-text: "[r] Take half of all gems bid against collapse, rounded down. These gems
-  do not count towards the threshold."
-
----
-name: Thani Tribes
-text: "[x] When a new sector is placed, the active player gains gems equal to
-  the number of adjacent red-occupied sectors."
-
----
-name: Crusade of the Sun
-text: "[c] If red controls this sector, put a gem on this card.
-  [s] Remove all gems from this card and choose a color: Place a disk of that
-  color for each gem removed."
-
----
-name: Fall of Gethi E'Feri
-text: "[c] If red occupies this sector, put a gem on this card.
-  [s] Remove all gems from this card: Destroy a sector with as many disks as
-  gems on this card, then destroy this card."
-
----
-name: The Titan Blockade
-text: "[c] Move a top card to the bottom of its pile."
+name: Fall of Gethi E’Feri
+layout: profile
+text: "You may destroy this sector and all disks in it. If you do, destroy this
+  card and place all destroyed red disks on adjacent sectors."
 
 ---
 name: Berserkers of Grotl
-text: "[c] If red occupies this sector, gain a gem for each destroyed disk you
-  control."
+layout: profile
+text: "Gain a gem for each adjacent uncontrolled sector."
 
 ---
-name: Cyri's Treachery
-text: "[c] If red occupies this sector, you may put this in an opponent's hand.
-  If you do, take a card at random from their hand to your discard."
+name: "The One True Path"
+layout: profile
+text: "Target player draws the top card from their discard."
 
 ---
-name: Vaults of Atif
-text: "[c] If red doesn't control this sector, take all gems from this sector."
+name: Wandering Hozen
+layout: landscape
+text: "Explore: When a sector is placed, you may move an adjacent red disk to
+  it."
 
 ---
-name: Rites of Memory
-text: "[c] Pay a gem: Move an adjacent red disk to the top of its stack."
+name: Nyri Relics
+layout: profile
+text: "End the turn."
 
 ---
-name: Fires at Night
-text: "[c] If red controls this sector, destroy a non-red top disk."
+name: Seed Ship
+layout: profile
+text: "Place or undestroy a sector. If you do, place a dead red disk on it."
 
 ---
-name: Charon's Maw
-text: "[c] Destroy an uncontrolled sector. Gain its value in gems."
+name: Ancestral Memory
+layout: profile
+text: "Move all bottom red disks to the top of their respective stacks."
+
+---
+name: The Ru-Shou Dam
+layout: landscape
+text: "Reap: After bids are revealed, you may gain all bids. If you do, prevent
+  any collapse this turn."
 
 ---
 name: March of Ashes
-text: "[c] Pay a gem: Move a non-red disk from this sector to an adjacent one."
+layout: landscape
+text: "Conquer: If a red disk would be destroyed, move it to an adjacent
+  sector instead."
 
 ---
-name: Wreckage of the Xyri
-text: "[c] Pay a gem: Move a non-red disk in an adjacent sector to the bottom
-  of its stack."
+name: Thani Tribes
+layout: landscape
+text: "Explore: When a sector is placed, both you and the active player gain a
+  gem for each adjacent red disk."
+
+---
+name: Jordani Current
+layout: profile
+text: "You may move a red disk from this sector to an adjacent sector."
+
+---
+name: Xyrian Colonists
+layout: landscape
+text: "Explore: Gain a gem for each card revealed."
+
+---
+name: Solid Water
+layout: profile
+text: "Undestroy a sector. If you can't, gain two gems."

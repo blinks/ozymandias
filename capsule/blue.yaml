@@ -1,58 +1,67 @@
-# Blue: Investment in diversity.
+---
+name: Psychohistory
+layout: profile
+text: "Destroy an unplaced non-blue disk."
 
 ---
-name: Brave New World
-text: "[x] Gain a gem for each card revealed."
+name: Colony Ship
+layout: profile
+text: "Move this to the bottom of your discard, then you may resolve your top
+  event."
 
 ---
-name: Zele Research Labs
-text: "[r] When an opponent reaps, gain the top dead card."
-
----
-name: Ruins of Loni City
-text: "[c] If blue occupies this sector, put a gem on this card.
-  [s] Remove all gems from this card: destroy a bottom disk for each gem, then
-  destroy this card."
-
----
-name: Sustainable Farming
-text: "[c] If blue doesn't occupy this sector, put a gem on this card.
-  [s] Gain a gem for each gem on this card."
-
----
-name: Quiet Prosperity
-text: "[c] Put a gem on a blue-controlled sector."
+name: Prescience
+layout: landscape
+text: "Explore: After bids are revealed, you may double your bid."
 
 ---
 name: Living Ocean
-text: "[c] Put a gem on an unoccupied sector adjacent to this one."
+layout: profile
+text: "You may replace an adjacent uncontrolled sector." 
 
 ---
-name: Galactic Union
-text: "[c] Gain a gem for each blue-occupied sector adjacent to this one."
+name: Precision Harvest
+layout: profile
+text: "Gain a gem for each blue sector."
 
 ---
-name: Jordani Current
-text: "[c] Move a conquered blue disk to an adjacent sector."
+name: Xin Experiment
+layout: profile
+text: "You may resolve the active player's event as blue."
 
 ---
-name: Treaty of Cheng-Huang
-text: "[c] Draw two cards. Offer a card from your hand to an opponent. If they
-  decline, destroy it and a card from your hand."
+name: Counterstrike
+layout: profile
+text: "Move another blue disk to the top of its stack."
 
 ---
-name: Xin Shield Formula
-text: "[c] If blue occupies but doesn't control this sector, draw a card."
+name: Pervasive Culture
+layout: landscape
+text: "Reap: Non-blue colors count sectors they merely occupy as well as those
+  they control."
 
 ---
-name: The New Economy
-text: "[c] If blue occupies this sector, you may reap a card."
+name: Capacity Plan
+layout: profile
+text: "Place a destroyed blue disk on an adjacent uncontrolled sector."
 
 ---
-name: Banii Ritual
-text: "[c] Pay gems equal to twice this sector's value to destroy the
-  top disk."
+name: Subliminal Network
+layout: landscape
+text: "Explore: You have no minimum bid to capture a blue card."
 
 ---
-name: Psychohistory
-text: "[c] Draw a card. Put a card from your hand on the bottom of the deck."
+name: Stasis Pods
+layout: landscape
+text: "Reap: During collapse, you are not restricted to removing top disks."
+
+---
+name: Thorwed's Gambit
+layout: profile
+text: "Draw a card. Then give a non-blue card from your hand to an opponent, or
+  reveal a hand with no non-blue cards."
+
+---
+name: Hanite Assassin
+layout: profile
+text: "Move an adjacent non-blue disk to the bottom of its stack."

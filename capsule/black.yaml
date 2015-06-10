@@ -1,63 +1,66 @@
-# Black: Investment in death, as opposed to apocalypse.
+---
+name: "The Awakening"
+layout: profile
+text: "Move an adjacent black disk to the top of its stack."
 
 ---
-name: Spycraft
-text: "[x] After bids are revealed, you may double your bid."
+name: "Hard Reset"
+layout: profile
+text: "Target player draws all cards from their discard."
 
 ---
-name: Stasis Pods
-text: "[r] Skip collapse. When an opponent reaps, draw a card."
+name: "Maengali's Discovery"
+layout: profile
+text: "Destroy an adjacent uncontrolled sector and gain its value."
 
 ---
-name: Beta Theory
-text: "[c] If black occupies this sector, put a gem on this card.
-  [s] Remove all gems from this card: draw that many cards, then discard that
-  many cards."
+name: "Vaults of Atif"
+layout: landscape
+text: "Reap: Gain gems bid by your opponents."
 
 ---
-name: Hanian Cults
-text: "[c] If black occupies this sector, put a gem on this card.
-  [s] Remove all gems from this card: to destroy a sector containing that many
-  disks."
+name: "Accelerated Plans"
+layout: portrait
+text: "Target player discards a card."
 
 ---
-name: Eldritch Theft
-text: "[c] Destroy an unplaced non-black disk."
+name: "Contingency"
+layout: portrait
+text: "Resolve an event from your hand as black."
 
 ---
-name: Black Stars
-text: "[c] Destroy an uncontrolled sector. Add its value to a black-controlled
-  one."
+name: "Zele Research Labs"
+layout: landscape
+text: "Reap: Gain the top dead card."
 
 ---
-name: Drakon's Escape
-text: "[c] Place a black disk from this sector on any uncontrolled sector."
+name: "Book of Knives"
+layout: portrait
+text: "You may move the ruling disk to the bottom."
 
 ---
-name: Maengali's Discovery
-text: "[c] If black occupies this sector, draw and destroy a sector. Gain its
-  value in gems."
+name: "Goauldi Scouts"
+layout: landscape
+text: "Explore: Reveal two additional cards."
 
 ---
-name: Forgotten
-text: "[c] If black occupies this sector, reap one of your destroyed disks.
-  (Remove it from the game.)"
+name: "Rafia's Nightmare"
+layout: portrait
+text: "Place a destroyed black disk under an adjacent bottom disk."
 
 ---
-name: Remembrance
-text: "[c] If black occupies this sector, reap the top card of the dead
-  pile. (Remove it from the game.)"
+name: "Wreckage of the Xyri"
+layout: landscape
+text: "Explore: You may capture two cards with your bid. If you do, destroy a
+  card from your hand."
 
 ---
-name: The One True Path
-text: "[c] If black occupies this sector, target player draws a card from their
-  discard pile."
+name: "Singularity Visions"
+layout: portrait
+text: "If there are at least three black sectors, gain six gems." 
 
 ---
-name: The Awakening
-text: "[c] If black occupies this sector, target player discards their hand."
-
----
-name: The Altemian Purge
-text: "[c] If black occupies this sector, draw and reap a card. (Skip
-  collapse.)"
+name: "Charon's Maw"
+layout: portrait
+text: "Destroy an unoccupied sector. If six sectors are destroyed, end the
+  game."

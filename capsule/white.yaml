@@ -1,57 +1,70 @@
-# White: Investment in conformity.
+---
+name: Fires at Night
+layout: profile
+text: "Destroy a non-white disk controlling this or an adjacent sector."
 
 ---
-name: Dead Tree Distraction
-text: "[x] After cards are revealed, destroy all that match a color of your
-  choice and draw replacements."
-
----
-name: Tradition
-text: "[r] When reaped, place on any discard instead of the dead pile."
-
----
-name: Abdication of the Six Popes
-text: "[c] If white occupies this sector, put a gem on this card.
-  [s] Destroy this card: draw a card for each gem on this card."
-
----
-name: Ancient Secrets
-text: "[c] If white occupies this sector, put a gem on this card.
-  [s] Gain a gem for each gem on this."
-
----
-name: Monoculture
-text: "[c] Destroy a conquered disk of the conquering color."
-
----
-name: Open-Palm Uprising
-text: "[c] Move a conquered white disk to an adjacent sector."
+name: Nyri Citadel
+layout: landscape
+text: "Conquer: Disks in white-controlled sectors don't trigger events."
 
 ---
 name: Chera's Tithe
-text: "[c] Gain a gem for each adjacent non-white sector."
+layout: profile
+text: "Gain gems equal to the number of disks in this sector."
 
 ---
-name: Fundamentalism
-text: "[c] Flip this stack upside-down."
+name: Pilgrimage
+layout: profile
+text: "Gain a gem for each adjacent white disk."
 
 ---
 name: Library of Dithia
-text: "[c] If white occupies but does not control this sector, draw a card."
+layout: profile
+text: "If white doesn't control this sector, draw a card."
 
 ---
-name: Sacrifice
-text: "[c] Reap a card. (Skip collapse.)"
+name: Crusade of the Sun
+layout: profile
+text: "Add a gem to this card. As an action, place a white disk for each gem on
+  this card."
 
 ---
-name: Cocoon
-text: "[c] You may place this card on the conqueror's discard."
+name: LaTorran Holy Cycle
+layout: landscape
+text: "Explore: Each player gains gems equal to the number of white cards in
+  their discard."
 
 ---
-name: Thorwed's Gambit
-text: "[c] Destroy a card from your hand. Draw a card."
+name: Tradition
+layout: landscape
+text: "Reap: During collapse, players may not destroy a white disk if a
+  non-white disk could be destroyed."
 
 ---
-name: Prophecy
-text: "[c] Pay X gems: Draw X cards, put one on top of the deck, destroy the
-  rest."
+name: Broken Caste
+layout: landscape
+text: "Reap: If a white disk would be destroyed, destroy the bottom disk of its
+  sector instead."
+
+---
+name: Many-Colored Council
+layout: landscape
+text: "Reap: Skip collapse. If you didn't reap a card, draw a card."
+
+---
+name: Eternal Empire
+layout: profile
+text: "If you placed a white disk, return a dead white disk to the pool. If
+  white controls six sectors, end the game."
+
+---
+name: Open-Palm Uprising
+layout: profile
+text: "You may pay two gems to move a white disk to the top of its stack."
+
+---
+name: Immortals
+layout: landscape
+text: "Conquer: If a white disk would be destroyed, move it to the bottom
+  instead."
