@@ -1,6 +1,11 @@
-"""`main` is the top level module for your Flask application."""
+import jinja2
+import os.path
 
-# Import the Flask Framework
+JINJA_ENVIRONMENT = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
+    extensions=['jinja2.ext.autoescape'],
+    autoescape=True)
+
 from flask import Flask
 app = Flask(__name__)
 # Note: We don't need to call run() since our application is embedded within
@@ -8,9 +13,10 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello():
+def index():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+    t = JINJA_ENVIRONMENT.get_template('index.html')
+    return t.render({})
 
 
 @app.errorhandler(404)
