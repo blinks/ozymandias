@@ -1,0 +1,19 @@
+{
+  "name": "xn--t-g9n",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blinks/ozymandias",
+  "authors": [
+    "Adam Blinkinsop <blinks@acm.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
