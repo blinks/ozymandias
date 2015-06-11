@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.12-{revision}, {docdate}
+0.13-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -56,7 +56,7 @@ sector.  Civilizations that collapse reveal earlier disks, who retake control.
 
 Some cards can destroy a sector.  When a sector is destroyed, flip it face-down
 and destroy any disks on it. If the sector was not placed in the galaxy (it was
-just drawn and destroyed), set it face-up to the side of the sector pile.
+just drawn and destroyed), put it on the bottom of the sector pile.
 
 === Cards
 The deck of cards represents archetypical historical events, the kind that get
@@ -96,9 +96,11 @@ A game of _Rise_ lasts only as long as there are disks in the common pool.  As
 soon as the last civ is removed from the pool, the game ends.
 
 == Set Up
-. Shuffle the sector tiles and the deck of cards.
-. Place the disks in a common pool reachable by all players.
+. Shuffle the sector tiles and the deck of cards, and place the disks and gems
+  in a common pool reachable by all players.
 . Give nine gems to each player to make their initial banks.
+. The last player to discover something is the first player.
+.. (This player must explore.)
 
 image::images/setup.jpg[Setup]
 
@@ -115,6 +117,7 @@ in your hand to recover your discard pile.  Then take an action as normal.
 Explore new sectors to the galaxy and bid for control of the cards that emerge.
 
 . Pay two gems per sector you wish to draw.
+.. If you control no cards, the first sector is free.
 . Draw that many sectors and place them in the galaxy.
 . Draw cards equal to the highest value drawn and place them face-up for
   players to see.
@@ -138,9 +141,10 @@ Conquer a sector of the galaxy with a color in your hand.
    doesn't control that sector).
 .. If that color is nowhere in the galaxy, you may place anywhere.
 .. You may not place on a sector that color already controls.
-. Gain gems equal to that sector's value.
-. Starting with you and proceeding in reverse turn order, each player with a
-  card matching a color in the sector you conquered resolves it.
+. Gain gems equal to that sector's value minus the number of disks under the
+  one you placed.
+. Starting with you and proceeding in turn order, each player with a card
+  matching a color in the sector you conquered resolves it.
 
 === Reap
 Destroy cards to gain gems.
