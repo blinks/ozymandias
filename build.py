@@ -20,7 +20,7 @@ def main():
 def cards2csv():
     """Turn YAML card database into card CSV manifest."""
     out = csv.writer(open('cards.csv', 'w'))
-    out.writerow(['color', 'name', 'text'])
+    out.writerow(['color', 'name', 'action', 'text'])
     docs = None
 
     for f in glob.iglob('./capsule/*.yaml'):
@@ -34,6 +34,7 @@ def cards2csv():
             try:
                 out.writerow([color,
                     card.get('name', 'Untitled'),
+                    card.get('action', 'conquer'),
                     card.get('text') ])
             except Exception as e:
                 raise Exception(u'%s: %s -> %s' % (f, card, e))

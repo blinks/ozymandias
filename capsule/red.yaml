@@ -1,69 +1,69 @@
 ---
 name: Fall of Gethi E'Feri
-layout: profile
+action: conquer
 text: "You may destroy this sector and all disks in it. If you do, destroy this
   card and place all destroyed red disks on adjacent sectors."
 
 ---
 name: Berserkers of Grotl
-layout: profile
+action: conquer
 text: "Gain a gem for each adjacent uncontrolled sector."
 
 ---
 name: "The One True Path"
-layout: profile
+action: conquer
 text: "Target player draws the top card from their discard."
 
 ---
 name: Wandering Hozen
-layout: landscape
-text: "Explore: When a sector is placed, you may move an adjacent red disk to
+action: explore
+text: "When a sector is placed, you may move an adjacent red disk to
   it."
 
 ---
 name: Nyri Relics
-layout: profile
+action: conquer
 text: "End the turn."
 
 ---
 name: Seed Ship
-layout: profile
+action: conquer
 text: "Place or undestroy a sector. If you do, place a dead red disk on it."
 
 ---
 name: Ancestral Memory
-layout: profile
+action: conquer
 text: "Move all bottom red disks to the top of their respective stacks."
 
 ---
 name: The Ru-Shou Dam
-layout: landscape
-text: "Reap: After bids are revealed, you may gain all bids. If you do, prevent
+action: reap
+text: "After bids are revealed, you may gain all bids. If you do, prevent
   any collapse this turn."
 
 ---
 name: March of Ashes
-layout: landscape
-text: "Conquer: If a red disk would be destroyed, move it to an adjacent
-  sector instead."
+action: conquer
+text: "If a red disk would be destroyed, move it to an adjacent sector
+  instead."
 
 ---
 name: Thani Tribes
-layout: landscape
-text: "Explore: When a sector is placed, both you and the active player gain a
+action: explore
+text: "When a sector is placed, both you and the active player gain a
   gem for each adjacent red disk."
 
 ---
 name: Jordani Current
-layout: profile
+action: conquer
 text: "You may move a red disk from this sector to an adjacent sector."
 
 ---
 name: Xyrian Colonists
-layout: landscape
-text: "Explore: Gain a gem for each card revealed."
+action: explore
+text: "Gain a gem for each card revealed."
 
 ---
 name: Solid Water
-layout: profile
+action: conquer
 text: "Undestroy a sector. If you can't, gain two gems."

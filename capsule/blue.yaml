@@ -1,67 +1,67 @@
 ---
 name: Psychohistory
-layout: profile
+action: conquer
 text: "Destroy an unplaced non-blue disk."
 
 ---
 name: Colony Ship
-layout: profile
+action: conquer
 text: "Move this to the bottom of your discard, then you may resolve your top
   event."
 
 ---
 name: Prescience
-layout: landscape
-text: "Explore: After bids are revealed, you may double your bid."
+action: explore
+text: "After bids are revealed, you may double your bid."
 
 ---
 name: Living Ocean
-layout: profile
+action: conquer
 text: "You may replace an adjacent uncontrolled sector." 
 
 ---
 name: Precision Harvest
-layout: profile
+action: conquer
 text: "Gain a gem for each blue sector."
 
 ---
 name: Xin Experiment
-layout: profile
+action: conquer
 text: "You may resolve the active player's event as blue."
 
 ---
 name: Counterstrike
-layout: profile
+action: conquer
 text: "Move another blue disk to the top of its stack."
 
 ---
 name: Pervasive Culture
-layout: landscape
-text: "Reap: Non-blue colors count sectors they merely occupy as well as those
+action: reap
+text: "Non-blue colors count sectors they merely occupy as well as those
   they control."
 
 ---
 name: Capacity Plan
-layout: profile
+action: conquer
 text: "Place a destroyed blue disk on an adjacent uncontrolled sector."
 
 ---
 name: Subliminal Network
-layout: landscape
-text: "Explore: You have no minimum bid to capture a blue card."
+action: explore
+text: "You have no minimum bid to capture a blue card."
 
 ---
 name: Stasis Pods
-layout: landscape
-text: "Reap: During collapse, you are not restricted to removing top disks."
+action: reap
+text: "During collapse, you are not restricted to removing top disks."
 
 ---
 name: Thorwed's Gambit
-layout: profile
+action: conquer
 text: "Draw a card. Then give a non-blue card from your hand to an opponent, or
   reveal a hand with no non-blue cards."
 
 ---
 name: Hanite Assassin
-layout: profile
+action: conquer
 text: "Move an adjacent non-blue disk to the bottom of its stack."

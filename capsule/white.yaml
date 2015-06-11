@@ -1,70 +1,69 @@
 ---
 name: Fires at Night
-layout: profile
+action: conquer
 text: "Destroy a non-white disk controlling this or an adjacent sector."
 
 ---
 name: Nyri Citadel
-layout: landscape
-text: "Conquer: Disks in white-controlled sectors don't trigger events."
+action: conquer
+text: "Disks in white-controlled sectors don't trigger events."
 
 ---
 name: Chera's Tithe
-layout: profile
+action: conquer
 text: "Gain gems equal to the number of disks in this sector."
 
 ---
 name: Pilgrimage
-layout: profile
+action: conquer
 text: "Gain a gem for each adjacent white disk."
 
 ---
 name: Library of Dithia
-layout: profile
+action: conquer
 text: "If white doesn't control this sector, draw a card."
 
 ---
 name: Crusade of the Sun
-layout: profile
+action: conquer
 text: "Add a gem to this card. As an action, place a white disk for each gem on
   this card."
 
 ---
 name: LaTorran Holy Cycle
-layout: landscape
-text: "Explore: Each player gains gems equal to the number of white cards in
+action: explore
+text: "Each player gains gems equal to the number of white cards in
   their discard."
 
 ---
 name: Tradition
-layout: landscape
-text: "Reap: During collapse, players may not destroy a white disk if a
+action: reap
+text: "During collapse, players may not destroy a white disk if a
   non-white disk could be destroyed."
 
 ---
 name: Broken Caste
-layout: landscape
-text: "Reap: If a white disk would be destroyed, destroy the bottom disk of its
+action: reap
+text: "If a white disk would be destroyed, destroy the bottom disk of its
   sector instead."
 
 ---
 name: Many-Colored Council
-layout: landscape
-text: "Reap: Skip collapse. If you didn't reap a card, draw a card."
+action: reap
+text: "Skip collapse. If you didn't reap a card, draw a card."
 
 ---
 name: Eternal Empire
-layout: profile
+action: conquer
 text: "If you placed a white disk, return a dead white disk to the pool. If
   white controls six sectors, end the game."
 
 ---
 name: Open-Palm Uprising
-layout: profile
+action: conquer
 text: "You may pay two gems to move a white disk to the top of its stack."
 
 ---
 name: Immortals
-layout: landscape
-text: "Conquer: If a white disk would be destroyed, move it to the bottom
-  instead."
+action: conquer
+text: "If a white disk would be destroyed, move it to the bottom instead."

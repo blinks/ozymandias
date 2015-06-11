@@ -1,66 +1,66 @@
 ---
 name: "The Awakening"
-layout: profile
+action: conquer
 text: "Move an adjacent black disk to the top of its stack."
 
 ---
 name: "Hard Reset"
-layout: profile
+action: conquer
 text: "Target player draws all cards from their discard."
 
 ---
 name: "Maengali's Discovery"
-layout: profile
+action: conquer
 text: "Destroy an adjacent uncontrolled sector and gain its value."
 
 ---
 name: "Vaults of Atif"
-layout: landscape
-text: "Reap: Gain gems bid by your opponents."
+action: reap
+text: "Gain gems bid by your opponents."
 
 ---
 name: "Accelerated Plans"
-layout: portrait
+action: conquer
 text: "Target player discards a card."
 
 ---
 name: "Contingency"
-layout: portrait
+action: conquer
 text: "Resolve an event from your hand as black."
 
 ---
 name: "Zele Research Labs"
-layout: landscape
-text: "Reap: Gain the top dead card."
+action: reap
+text: "Gain the top dead card."
 
 ---
 name: "Book of Knives"
-layout: portrait
+action: conquer
 text: "You may move the ruling disk to the bottom."
 
 ---
 name: "Goauldi Scouts"
-layout: landscape
-text: "Explore: Reveal two additional cards."
+action: explore
+text: "Reveal two additional cards."
 
 ---
 name: "Rafia's Nightmare"
-layout: portrait
+action: conquer
 text: "Place a destroyed black disk under an adjacent bottom disk."
 
 ---
 name: "Wreckage of the Xyri"
-layout: landscape
-text: "Explore: You may capture two cards with your bid. If you do, destroy a
-  card from your hand."
+action: explore
+text: "You may capture two cards with your bid. If you do, destroy a card from
+  your hand."
 
 ---
 name: "Singularity Visions"
-layout: portrait
+action: conquer
 text: "If there are at least three black sectors, gain six gems." 
 
 ---
 name: "Charon's Maw"
-layout: portrait
+action: conquer
 text: "Destroy an unoccupied sector. If six sectors are destroyed, end the
   game."
