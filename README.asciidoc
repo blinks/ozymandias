@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.13-{revision}, {docdate}
+0.14-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -116,8 +116,9 @@ in your hand to recover your discard pile.  Then take an action as normal.
 === Explore
 Explore new sectors to the galaxy and bid for control of the cards that emerge.
 
-. Pay two gems per sector you wish to draw.
-.. If you control no cards, the first sector is free.
+. Decide how many sectors you wish to draw, and pay for them.
+.. The first sector costs zero, and each additional sector costs one more.
+.. Two sectors would cost 1, three 3, four 6, five 10, etc.
 . Draw that many sectors and place them in the galaxy.
 . Draw cards equal to the highest value drawn and place them face-up for
   players to see.
@@ -154,6 +155,9 @@ Destroy cards to gain gems.
 . Simultaneously reveal these cards.
 . Each player who revealed a card gains gems equal to the sum of all sectors
   controlled by its color.
+. Resolve Collapse.
+
+==== Collapse
 . Count the total number of disks of those colors in the galaxy, even if
   conquered -- this is the Threshold.
 . Secretly and simultaneously bid against collapse.
