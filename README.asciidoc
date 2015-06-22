@@ -164,7 +164,8 @@ Destroy cards to gain gems.
 . If you bid at least the Threshold, pay all bids to the bank and end the turn.
 . Otherwise, the difference is the number of disks to collapse.
 .. Starting with the active player, each player that participated (whether
-   gaining or bidding gems) destroys a disk until the difference is paid.
+   gaining or bidding gems) destroys a disk of a reaped color until the
+   difference is paid.
 
 .Reaping for gems and collapse.
 ====
