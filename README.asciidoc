@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.14-{revision}, {docdate}
+0.15-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -16,27 +16,27 @@ Of that colossal wreck, boundless and bare
 The lone and level sands stretch far away.
 ____
 
-_Rise_ is a 2- to 4-player board game depicting the life cycle of space-faring
-civilizations over millennia.  Take the role of a powerful immortal seeking to
-have the most influence over humanity.
-
-image::images/play.jpg[Midgame.]
-
 == Components
 A complete set of _Rise_ includes:
 
-* 27 hexagonal sector tiles.
-* A deck of 52 cards, in four different colors.
-* 24 black, blue, red, and white wooden disks.
+* 20 hexagonal sector tiles.
+  * From [P&P](https://www.printplaygames.com/product/die-cut-pieces-tiles-and-counters): the 1.5" hex tiles.
+  * Five 1s, eight 2s, five 3s, one 4, and one 5.
+* A deck of 56 cards.
+  * From [P&P](http://www.printplaygames.com/product/blank-cards).
+  * 14 each of black, white, blue, and red.
+* 24 wooden empire disks.
+  * From [P&P](https://www.printplaygames.com/product/25mm-x-7mm-wood-discs).
+  * 6 each of black, blue, red, and white.
 * Gems in two denominations: 50 1s, 50 5s.
+  * From [P&P](http://www.printplaygames.com/product/acrylic-gem-10mm).
+  * Clear for 1s and red for 5s.
 * This rule book.
 
-NOTE: The gems must be limited, but we don't know the limit yet.
-
 === The Galaxy Map
-The map is divided into hexagonal Sectors, each with a numeric value.  A sector
-is a vast expanse of space arbitrarily reduced to a single number from zero to
-four.
+The map is divided into hexagonal Sector tiles.  A sector is a vast expanse of
+space arbitrarily reduced to a single number.  Sectors start face-down in a
+pile, and are slowly added to the galaxy as players explore.
 
 Each sector is considered Controlled by a single color, or it is uncontrolled.
 A sector is considered Controlled by a color if that color's disk is on top of
@@ -55,8 +55,7 @@ The stack of disks in a sector serves as a historical record of control in that
 sector.  Civilizations that collapse reveal earlier disks, who retake control.
 
 Some cards can destroy a sector.  When a sector is destroyed, flip it face-down
-and destroy any disks on it. If the sector was not placed in the galaxy (it was
-just drawn and destroyed), put it on the bottom of the sector pile.
+and destroy any disks on it.
 
 === Cards
 The deck of cards represents archetypical historical events, the kind that get
@@ -69,31 +68,16 @@ text.
 TODO: Insert a card image.
 ====
 
-When a player explores new sectors, everyone bids for the ability to expand the
-range of powers their immortal avatars wield. Cards may be played to place
-disks of their color.  Cards may also be Reaped to gain gems.
-
-You place purchased and played cards on your own personal discard piles.
-Abilities on the top card of your discard pile can be triggered by various game
-events.
-
-At the start of your turn, you may pay gems equal to the number of cards left
-in your hand to draw back your entire discard pile.  You then take your turn.
-
-Destroyed cards are placed face-up in the dead pile.
-
-NOTE: Perhaps the dead pile could be _the abyss_?
-
 === Civilization Disks
 Six wooden disks of each color represent archetypical civilizations.
 
 At the beginning of the game, these have yet to rise to any real place in the
 galaxy, and all sit in a pool at the side of the table.  Players move them from
-the pool to the galaxy as civilizations expand.  Players move them from the
-galaxy to the box as civilizations collapse.
+the pool to the galaxy as empires expand.  Players move them from the galaxy to
+the box as empires collapse.
 
 A game of _Rise_ lasts only as long as there are disks in the common pool.  As
-soon as the last civ is removed from the pool, the game ends.
+soon as the last disk is removed from the pool, the game ends.
 
 == Set Up
 . Shuffle the sector tiles and the deck of cards, and place the disks and gems
@@ -102,77 +86,80 @@ soon as the last civ is removed from the pool, the game ends.
 . The last player to discover something is the first player.
 .. (This player must explore.)
 
-image::images/setup.jpg[Setup]
-
 == Game Sequence
-On your turn, you must *Explore*, *Conquer*, or *Reap*.  At any time, if there
-are no disks left in the common pool, no cards left in the deck, or no sectors
-left to draw, the game ends immediately.  Otherwise, play proceeds clockwise to
-the next player.
+On your turn, you must *Explore*, *Conquer*, or *Reap*.  At the end of your
+turn, if there are no disks left in the common pool, the game ends immediately.
+Otherwise, play proceeds clockwise to the next player.
 
 Before you take an action, you may pay gems equal to the number of cards left
 in your hand to recover your discard pile.  Then take an action as normal.
 
 === Explore
-Explore new sectors to the galaxy and bid for control of the cards that emerge.
+Explore the galaxy and find new cards.
 
-. Decide how many sectors you wish to draw, and pay for them.
-.. The first sector costs zero, and each additional sector costs one more.
-.. Two sectors would cost 1, three 3, four 6, five 10, etc.
-. Draw that many sectors and place them in the galaxy.
-. Draw cards equal to the highest value drawn and place them face-up for
-  players to see.
-. Secretly and simultaneously bid gems.
-.. From the high-bidder down, players pay their bid to take a card from those
-   revealed -- place it on your discard pile or in your hand.
-... Bids are paid to the active player.  Their bid is paid to the bank.
-.. In the case of a tie, the tied players proceed in play order, starting from
-   the active player.
-.. You may decline to take a card.  If you do, keep your bid.
-.. If you don't bid at least the number of cards you control (your hand _and_
-   your discard), you _must_ decline a card.
+. Deal three cards to each player and draft.
+.. To draft, choose one card and pass the rest clockwise.
+.. You may either take the chosen card into your hand or destroy it for $3.
+. After the draft, each player must pay $1 for each card in their hand.
+.. If you can't pay, destroy cards from your hand until you can.
+. Draw and place new sectors until there are three empty sectors.
+. Place a disk of any color on any empty sector.
+.. This isn't a conquer: ignore normal placement rules.
+
+.Explore example
+====
+TODO: first explore
+
+TODO: no sectors revealed
+
+TODO: reshuffle?
+
+TODO: no more sectors?
+====
 
 === Conquer
 Conquer a sector of the galaxy with a color in your hand.
 
-. Play a card from your hand to your discard pile.
-. Place a disk of its color on a sector tile.
-.. If there are no disks of that color left to place, your action ends.
-.. Place the disk adjacent to a sector that color is already on (even if it
+. Discard a card, and (if possible) place a disk of its color on a sector tile.
+.. Place the disk adjacent to a sector that color is already in (even if it
    doesn't control that sector).
-.. If that color is nowhere in the galaxy, you may place anywhere.
+.. If that color is nowhere in the galaxy, you may place it on any sector.
 .. You may not place on a sector that color already controls.
 . Gain gems equal to that sector's value minus the number of disks under the
   one you placed.
 . Starting with you and proceeding in turn order, each player with a card
-  matching a color in the sector you conquered resolves it.
+  matching a color in the sector you chose resolves it.
+
+.Conquer example
+====
+TODO: income floor is zero.
+
+TODO: if only $color disk is removed, future $color events are canceled.
+====
 
 === Reap
 Destroy cards to gain gems.
 
-. Place a card from your hand face-down in front of you.
-. Each other player may do the same.  (In play order.)
-. Simultaneously reveal these cards.
-. Each player who revealed a card gains gems equal to the sum of all sectors
-  controlled by its color.
-. Resolve Collapse.
-
-==== Collapse
-. Count the total number of disks of those colors in the galaxy, even if
+. Place a card from your hand face-down in front of you, then each other player
+  may do the same.
+.. If timing matters, these decisions happen in play order.
+. Simultaneously reveal, and take $ equal to the sum of all sectors controlled
+  by your card's color.
+. Bid against collapse.
+.. Count the total number of disks of all reaped colors in the galaxy, even if
   conquered -- this is the Threshold.
-. Secretly and simultaneously bid against collapse.
-. If you bid at least the Threshold, pay all bids to the bank and end the turn.
-. Otherwise, the difference is the number of disks to collapse.
-.. Starting with the active player, each player that participated (whether
-   gaining or bidding gems) destroys a disk of a reaped color until the
-   difference is paid.
+.. Secretly and simultaneously bid $ against collapse.
+.. If you bid at least the Threshold, pay all bids to the bank and end the
+   turn. Otherwise, the difference is the number of disks to collapse:
+... The high bidder removes that many disks.
+... If tied, those players take turns removing disks in play order.
 
-.Reaping for gems and collapse.
+.Reap example
 ====
-TODO
-====
+TODO: card value computation, especially taller stacks.
 
-image::images/wealth.jpg[A wealthy endgame.]
+TODO: threshold computation, especially conquered colors.
+====
 
 == Scoring and Victory
 Your cards are each worth VPs equal to the total value controlled by their
