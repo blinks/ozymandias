@@ -20,14 +20,21 @@ ____
 A complete set of _Rise_ includes:
 
 * 20 hexagonal sector tiles.
-** Sectors start face-down in a pile, and are slowly added to the galaxy as
-   players explore.
+** Sectors start face-down in an _exploration_ pile, and are slowly added to
+   the _galaxy map_ as players explore.  When destroyed, sectors are flipped
+   face-down in-place.
 ** Each sector is considered controlled by a single color, or it is
    uncontrolled. A sector is considered controlled by a color if that color’s
    disk is on top of all other disks in the sector.
 ** http://printplaygames.com/product/die-cut-pieces-tiles-and-counters[P&P]:
    the 1.5" hex tiles, with five 1s, eight 2s, five 3s, one 4, and one 5.
 * A deck of 56 cards.
+** Cards start in a shuffled event _deck_, and are slowly drafted into players
+   _hands_ as they explore.  Players have personal _discard_ piles that
+   eventually get recovered into their hands.  A player's discard pile should
+   be kept so each previous card's color is visible at all times.  The top card
+   of a player's discard pile is _active_, its icon showing when it will take
+   effect.  When destroyed, cards are placed in a common _dead_ pile.
 ** The deck of cards represents archetypical historical events, the kind that
    get referenced in speech enough to become a stand-in for anything similar.
 ** Each card has a color of civilization that it influences, a title, and some
@@ -35,13 +42,17 @@ A complete set of _Rise_ includes:
 ** http://www.printplaygames.com/product/blank-cards[P&P]: 14 each of black,
    white, blue, and red.
 * 24 wooden empire disks.
-** At the beginning of the game, these have yet to rise to any real place in
-   the galaxy, and all sit in a pool at the side of the table. Players move
-   them from the pool to the galaxy as empires expand. Players move them from
-   the galaxy to the box as empires collapse.
+** Empire disks start in a common _pool_ at the edge of the play area.  They're
+   slowly moved onto the _galaxy map_ as players explore and conquer.  When
+   disks are destroyed (or collapse), they're put back into the game box in a
+   _dead_ pile. 
 ** From https://www.printplaygames.com/product/25mm-x-7mm-wood-discs[P&P]: 6
    each of black, blue, red, and white.
 * Resource tokens in two denominations: 50 1s, 50 5s.
+** Resources start in a collective _bank_.  Players gain and spend resources,
+   and resources are worth points at the end of the game.  A player's current
+   resources should be visible at all times, except when bidding against
+   collapse.
 ** From http://www.printplaygames.com/product/acrylic-gem-10mm[P&P]: clear for
    1s and red for 5s.
 * This rule book.
