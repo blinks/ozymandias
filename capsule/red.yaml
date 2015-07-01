@@ -1,13 +1,13 @@
 ---
 name: "Blood from a Stone"
 action: explore
-text: "Before new sectors are drawn, gain $ equal to the total value of
+text: "Before new sectors are drawn, gain resources equal to the total value of
   explored uncontrolled sectors."
 
 ---
 name: "Berserkers of Grotl"
 action: explore
-text: "Gain $ equal to the total value of newly-drawn sectors."
+text: "Gain resources equal to the total value of newly-drawn sectors."
 
 ---
 name: "Jordani Scouts"
@@ -38,7 +38,7 @@ text: "Return a card from your discard to your hand."
 ---
 name: "Thani Tribes"
 action: conquer
-text: "Gain $ for each adjacent unoccupied sector."
+text: "Gain one resource for each adjacent unoccupied sector."
 
 ---
 name: "Fires at Night"
@@ -73,4 +73,4 @@ text: "Take collapsed disks. After collapse, place any of these disks in
 ---
 name: "Grotl Treasure Ships"
 action: reap
-text: "Gain $1 for each disk that collapses."
+text: "Gain one resource for each disk that collapses."

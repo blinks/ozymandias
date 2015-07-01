@@ -27,7 +27,7 @@ text: "Push each non-blue top disk to the bottom."
 ---
 name: "Xin Harvest"
 action: conquer
-text: "Gain $1 for each sector with exactly one disk in it."
+text: "Gain one resource for each sector with exactly one disk in it."
 
 ---
 name: "Tewell, Historian Adept"
@@ -47,7 +47,7 @@ text: "If this is a non-blue sector, gain a card at random from the dead pile."
 ---
 name: "Atif, Historian Adept"
 action: conquer
-text: "Gain $1 for each conquered blue disk."
+text: "Gain one resource for each conquered blue disk."
 
 ---
 name: "Book of Changes"
@@ -62,7 +62,8 @@ text: "After collapse, gain a card at random from the dead pile."
 ---
 name: "Psychohistory"
 action: reap
-text: "Prevent collapse. If you didn't reap, gain $ equal to the threshold."
+text: "Prevent collapse. If you didn't reap, gain resources equal to the
+  threshold."
 
 ---
 name: "Pervasive Culture"

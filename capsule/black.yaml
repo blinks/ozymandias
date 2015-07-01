@@ -12,7 +12,7 @@ text: "After exploration, destroy an uncontrolled sector."
 name: "Maengali's Discovery"
 action: explore
 text: "When you destroy a draft pick, draw a card from the deck instead of
-  gaining $3."
+  gaining resources."
 
 ---
 name: "Hanio's Resistance"
@@ -27,7 +27,7 @@ text: "Pull any number of bottom disks to the top."
 ---
 name: "Hanian Cultists"
 action: conquer
-text: "Gain $1 for each conquered black disk."
+text: "Gain one resource for each conquered black disk."
 
 ---
 name: "Book of Knives"
@@ -54,8 +54,8 @@ text: "Put a dead black disk on the bottom of an adjacent sector."
 ---
 name: "Charon's Maw"
 action: conquer
-text: "Destroy an adjacent uncontrolled sector or gain $1 for each destroyed
-  sector."
+text: "Destroy an adjacent uncontrolled sector or gain one resource for each
+  destroyed sector."
 
 ---
 name: "Rafia-Cyri Theorem"

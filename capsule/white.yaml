@@ -29,7 +29,7 @@ text: "Put a gem from the bank on this card.
 ---
 name: "Chera's Tithe"
 action: conquer
-text: "Gain $1 for each disk in this sector."
+text: "Gain one resource for each disk in this sector."
 
 ---
 name: "Ambush at Centauri Prime"
