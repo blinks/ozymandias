@@ -1,66 +1,74 @@
 ---
-name: "The Awakening"
-action: conquer
-text: "Move an adjacent black disk to the top of its stack."
-
----
-name: "Hard Reset"
-action: conquer
-text: "Target player draws all cards from their discard."
-
----
-name: "Maengali's Discovery"
-action: conquer
-text: "Destroy an adjacent uncontrolled sector and gain its value."
-
----
-name: "Vaults of Atif"
-action: reap
-text: "Gain gems bid by your opponents."
-
----
-name: "Accelerated Plans"
-action: conquer
-text: "Target player discards a card."
-
----
-name: "Contingency"
-action: conquer
-text: "Resolve an event from your hand as black."
-
----
-name: "Zele Research Labs"
-action: reap
-text: "Gain the top dead card."
-
----
-name: "Book of Knives"
-action: conquer
-text: "You may move the ruling disk to the bottom."
-
----
-name: "Goauldi Scouts"
+name: "Book of Leeches"
 action: explore
-text: "Reveal two additional cards."
-
----
-name: "Rafia's Nightmare"
-action: conquer
-text: "Place a destroyed black disk under an adjacent bottom disk."
+text: "After exploration, put a black disk under any non-black bottom disk."
 
 ---
 name: "Wreckage of the Xyri"
 action: explore
-text: "You may capture two cards with your bid. If you do, destroy a card from
-  your hand."
+text: "After exploration, destroy an uncontrolled sector."
 
 ---
-name: "Singularity Visions"
+name: "Maengali's Discovery"
+action: explore
+text: "When you destroy a draft pick, draw a card from the deck instead of
+  gaining $3."
+
+---
+name: "Hanio's Resistance"
 action: conquer
-text: "If there are at least three black sectors, gain six gems." 
+text: "Pull an adjacent disk to the top."
+
+---
+name: "Hanian Awakening"
+action: conquer
+text: "Pull any number of bottom disks to the top."
+
+---
+name: "Hanian Cultists"
+action: conquer
+text: "Gain $1 for each conquered black disk."
+
+---
+name: "Book of Knives"
+action: conquer
+text: "Destroy a disk from the pool."
+
+---
+name: "Cyri's Treachery"
+action: conquer
+text: "Put this card in an opponent's hand, then take a card at random from
+  that opponent's hand and put it in your discard."
+
+---
+name: "Banii Ritual"
+action: conquer
+text: "Reveal three cards, resolve all conquer effects, then destroy those
+  cards."
+
+---
+name: "Vaults of Atif"
+action: conquer
+text: "Put a dead black disk on the bottom of an adjacent sector."
 
 ---
 name: "Charon's Maw"
 action: conquer
-text: "Destroy an unoccupied sector. If six sectors are destroyed, end the
-  game."
+text: "Destroy an adjacent uncontrolled sector or gain $1 for each destroyed
+  sector."
+
+---
+name: "Rafia-Cyri Theorem"
+action: reap
+text: "When the last disk in a sector is destroyed, you may destroy that
+  sector."
+
+---
+name: "Maengali's Altar"
+action: reap
+text: "You may reap any number of cards."
+
+---
+name: "Rafia's Nightmare"
+action: reap
+text: "After collapse, place a dead black disk under any bottom disk."

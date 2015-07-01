@@ -1,67 +1,70 @@
 ---
-name: Psychohistory
-action: conquer
-text: "Destroy an unplaced non-blue disk."
-
----
-name: Colony Ship
-action: conquer
-text: "Move this to the bottom of your discard, then you may resolve your top
-  event."
-
----
-name: Prescience
+name: "Treaty of Cheng-Huang"
 action: explore
-text: "After bids are revealed, you may double your bid."
+text: "You may put a card from your hand into the draft hand. If you do, pick
+  two cards from that draft hand."
 
 ---
-name: Living Ocean
-action: conquer
-text: "You may replace an adjacent uncontrolled sector." 
-
----
-name: Precision Harvest
-action: conquer
-text: "Gain a gem for each blue sector."
-
----
-name: Xin Experiment
-action: conquer
-text: "You may resolve the active player's event as blue."
-
----
-name: Counterstrike
-action: conquer
-text: "Move another blue disk to the top of its stack."
-
----
-name: Pervasive Culture
-action: reap
-text: "Non-blue colors count sectors they merely occupy as well as those
-  they control."
-
----
-name: Capacity Plan
-action: conquer
-text: "Place a destroyed blue disk on an adjacent uncontrolled sector."
-
----
-name: Subliminal Network
+name: "Spymaster Hury Thezal"
 action: explore
-text: "You have no minimum bid to capture a blue card."
+text: "Copy an opponent's exploration effect."
 
 ---
-name: Stasis Pods
+name: "Xin Pilgrims"
+action: explore
+text: "After exploration, place a disk on any uncontrolled sector."
+
+---
+name: "Spymaster Ather Nesimm"
+action: conquer
+text: "Copy an opponent's conquering effect."
+
+---
+name: "Tidal Pools"
+action: conquer
+text: "Push each non-blue top disk to the bottom."
+
+---
+name: "Xin Harvest"
+action: conquer
+text: "Gain $1 for each sector with exactly one disk in it."
+
+---
+name: "Tewell, Historian Adept"
+action: conquer
+text: "Put a dead disk at the bottom of this sector."
+
+---
+name: "Zele Seed Ship"
+action: conquer
+text: "Draw and place a new sector. Place a dead disk on it."
+
+---
+name: "Zele Shield Formula"
+action: conquer
+text: "If this is a non-blue sector, gain a card at random from the dead pile."
+
+---
+name: "Atif, Historian Adept"
+action: conquer
+text: "Gain $1 for each conquered blue disk."
+
+---
+name: "Book of Changes"
+action: conquer
+text: "Each player discards a card."
+
+---
+name: "Zele Research Labs"
 action: reap
-text: "During collapse, you are not restricted to removing top disks."
+text: "After collapse, gain a card at random from the dead pile."
 
 ---
-name: Thorwed's Gambit
-action: conquer
-text: "Draw a card. Then give a non-blue card from your hand to an opponent, or
-  reveal a hand with no non-blue cards."
+name: "Psychohistory"
+action: reap
+text: "Prevent collapse. If you didn't reap, gain $ equal to the threshold."
 
 ---
-name: Hanite Assassin
-action: conquer
-text: "Move an adjacent non-blue disk to the bottom of its stack."
+name: "Pervasive Culture"
+action: reap
+text: "Conquered disks don't count towards the threshold."

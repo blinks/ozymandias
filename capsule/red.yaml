@@ -1,69 +1,76 @@
 ---
-name: Fall of Gethi E'Feri
-action: conquer
-text: "You may destroy this sector and all disks in it. If you do, destroy this
-  card and place all destroyed red disks on adjacent sectors."
-
----
-name: Berserkers of Grotl
-action: conquer
-text: "Gain a gem for each adjacent uncontrolled sector."
-
----
-name: "The One True Path"
-action: conquer
-text: "Target player draws the top card from their discard."
-
----
-name: Wandering Hozen
+name: "Blood from a Stone"
 action: explore
-text: "When a sector is placed, you may move an adjacent red disk to
-  it."
+text: "Before new sectors are drawn, gain $ equal to the total value of
+  explored uncontrolled sectors."
 
 ---
-name: Nyri Relics
+name: "Berserkers of Grotl"
+action: explore
+text: "Gain $ equal to the total value of newly-drawn sectors."
+
+---
+name: "Jordani Scouts"
+action: explore
+text: "After exploration, you may move a red disk to an adjacent uncontrolled
+  sector."
+
+---
+name: "Jordani Current"
 action: conquer
-text: "End the turn."
+text: "Move a disk from this sector to the top of an adjacent sector."
 
 ---
-name: Seed Ship
+name: "Nova Evacuation"
 action: conquer
-text: "Place or undestroy a sector. If you do, place a dead red disk on it."
+text: "Move each disk from this sector to the top of adjacent sectors."
 
 ---
-name: Ancestral Memory
+name: "Drakon's Escape"
 action: conquer
-text: "Move all bottom red disks to the top of their respective stacks."
+text: "Move all disks from this sector to a single adjacent sector."
 
 ---
-name: The Ru-Shou Dam
+name: "Ancestral Ritual"
+action: conquer
+text: "Return a card from your discard to your hand."
+
+---
+name: "Thani Tribes"
+action: conquer
+text: "Gain $ for each adjacent unoccupied sector."
+
+---
+name: "Fires at Night"
+action: conquer
+text: "Destroy a disk. Then you may destroy a card to destroy a disk of its
+  color."
+
+---
+name: "Thani Meditation"
+action: conquer
+text: "For each adjacent uncontrolled sector, choose a player to return their
+  top discarded card to their hand."
+
+---
+name: "E'Feri Census"
+action: conquer
+text: "Move a conquered disk to under this sector's bottom disk."
+
+---
+name: "Fall of Gethi E'Feri"
 action: reap
-text: "After bids are revealed, you may gain all bids. If you do, prevent
-  any collapse this turn."
+text: "After bids are revealed, you may prevent collapse. If you do, choose a
+  sector: move all red disks there to adjacent sectors, then destroy that
+  sector."
 
 ---
-name: March of Ashes
-action: conquer
-text: "If a red disk would be destroyed, move it to an adjacent sector
-  instead."
+name: "Thani Wanderers"
+action: reap
+text: "Take collapsed disks. After collapse, place any of these disks in
+  uncontrolled sectors. Destroy the rest."
 
 ---
-name: Thani Tribes
-action: explore
-text: "When a sector is placed, both you and the active player gain a
-  gem for each adjacent red disk."
-
----
-name: Jordani Current
-action: conquer
-text: "You may move a red disk from this sector to an adjacent sector."
-
----
-name: Xyrian Colonists
-action: explore
-text: "Gain a gem for each card revealed."
-
----
-name: Solid Water
-action: conquer
-text: "Undestroy a sector. If you can't, gain two gems."
+name: "Grotl Treasure Ships"
+action: reap
+text: "Gain $1 for each disk that collapses."

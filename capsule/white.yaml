@@ -1,69 +1,72 @@
 ---
-name: Fires at Night
-action: conquer
-text: "Destroy a non-white disk controlling this or an adjacent sector."
-
----
-name: Nyri Citadel
-action: conquer
-text: "Disks in white-controlled sectors don't trigger events."
-
----
-name: Chera's Tithe
-action: conquer
-text: "Gain gems equal to the number of disks in this sector."
-
----
-name: Pilgrimage
-action: conquer
-text: "Gain a gem for each adjacent white disk."
-
----
-name: Library of Dithia
-action: conquer
-text: "If white doesn't control this sector, draw a card."
-
----
-name: Crusade of the Sun
-action: conquer
-text: "Add a gem to this card. As an action, place a white disk for each gem on
-  this card."
-
----
-name: LaTorran Holy Cycle
+name: "Quest for Ancient Earth"
 action: explore
-text: "Each player gains gems equal to the number of white cards in
-  their discard."
+text: "Before exploration, destroy any zero-value sectors."
 
 ---
-name: Tradition
-action: reap
-text: "During collapse, players may not destroy a white disk if a
-  non-white disk could be destroyed."
+name: "Chera's Relic"
+action: explore
+text: "After exploration, gain the value of one uncontrolled sector."
 
 ---
-name: Broken Caste
-action: reap
-text: "If a white disk would be destroyed, destroy the bottom disk of its
-  sector instead."
+name: "Crusader Fleet"
+action: explore
+text: "Before exploration, you may discard any or all of your non-white cards."
 
 ---
-name: Many-Colored Council
-action: reap
-text: "Skip collapse. If you didn't reap a card, draw a card."
-
----
-name: Eternal Empire
+name: "Altem's Massacre"
 action: conquer
-text: "If you placed a white disk, return a dead white disk to the pool. If
-  white controls six sectors, end the game."
+text: "Push a disk in this sector to the bottom."
 
 ---
-name: Open-Palm Uprising
+name: "Crusade of the Sun"
 action: conquer
-text: "You may pay two gems to move a white disk to the top of its stack."
+text: "Put a gem from the bank on this card.
+  
+  When this card is covered or leaves play, place a disk for each gem on this
+  card, then return all these gems to the bank."
 
 ---
-name: Immortals
+name: "Chera's Tithe"
 action: conquer
-text: "If a white disk would be destroyed, move it to the bottom instead."
+text: "Gain $1 for each disk in this sector."
+
+---
+name: "Ambush at Centauri Prime"
+action: conquer
+text: "Choose a player to return their discard to their hand."
+
+---
+name: "Silver Sword Uprising"
+action: conquer
+text: "In any number of adjacent sectors, move the top disk to the bottom."
+
+---
+name: "Battle of Agon Sphere"
+action: conquer
+text: "Reorder the disks in one adjacent sector."
+
+---
+name: "Shield Rhetoric"
+action: conquer
+text: "Players may not conquer white-controlled sectors."
+
+---
+name: "Agon's Games"
+action: conquer
+text: "End the turn. (No further conquer effects trigger.)"
+
+---
+name: "Altemian Purge"
+action: reap
+text: "You may reap from your discard."
+
+---
+name: "Chera's Protection"
+action: reap
+text: "Reduce the threshold by the highest white-controlled sector's value."
+
+---
+name: "Death of Crusader Altem"
+action: reap
+text: "You choose the collapsed disks as if you had the highest bid."
