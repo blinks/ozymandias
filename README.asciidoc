@@ -50,8 +50,8 @@ A complete set of _Rise_ includes:
 . Shuffle the sector tiles and the deck of cards, and place the disks and
   resource tokens in a common pool reachable by all players.
 . Give nine resources to each player to make their initial banks.
-. The last player to discover something is the first player.
-.. (This player must explore.)
+. The last player to discover something is the first player. (This player must
+  explore.)
 
 == Game Sequence
 On your turn, you must *Explore*, *Conquer*, or *Reap*.  At the end of your
@@ -62,9 +62,9 @@ Before you take an action, you may pay resources equal to the number of cards
 left in your hand to recover your discard pile.  Then take an action as normal.
 
 === Explore
-*Purpose:* Discover new sectors and gain new cards.
-
-*Primary Effect*
+*Purpose*::
+Discover new sectors and gain new cards.
+*Primary Effect*::
 . Draw and place new sectors until there are three empty sectors.
 . Deal three cards to each player and draft.
 .. To draft, choose one card and pass the rest clockwise.
@@ -73,8 +73,7 @@ left in your hand to recover your discard pile.  Then take an action as normal.
 .. When a card is destroyed, it goes into the common dead pile.
 . Place a disk of any color on any empty sector.
 .. This isn't a conquer: ignore normal placement rules.
-
-*Secondary Effect*
+*Secondary Effect*::
 . Each player must pay one resource for each card in their hand.
 .. Players may destroy cards from their hand for one resource per card before
    paying this cost.
@@ -92,9 +91,8 @@ TODO: no more sectors?
 ====
 
 === Conquer
-*Purpose:* Conquer a sector of the galaxy with a color in your hand.
-
-*Primary Effect*
+*Purpose*:: Conquer a sector of the galaxy with a color in your hand.
+*Primary Effect*::
 . Discard a card, place a disk of that card's color on a sector tile, and gain
   resources equal to that sector's value less the number of disks you
   conquered.
@@ -102,8 +100,7 @@ TODO: no more sectors?
    doesn't control that sector).
 .. If that color is nowhere in the galaxy, you may place it on any sector.
 .. You may not place on a sector that color already controls.
-
-*Secondary Effect*
+*Secondary Effect*::
 . Each player with a card matching a color in the sector you chose resolves it.
 .. When order matters, start with you and proceed in play order.
 
@@ -113,17 +110,16 @@ TODO: if the last [color] disk is removed, future [color] events are canceled.
 ====
 
 === Reap
-*Purpose:* Destroy cards to gain resources.
-
-*Primary Effect*
+*Purpose*::
+Destroy cards to gain resources.
+*Primary Effect*::
 . Place a card from your hand face-down in front of you, then each other player
   may do the same.
 .. If timing matters, these decisions happen in play order.
 . Simultaneously reveal, and take resources equal to the sum of all sectors
   controlled by your card's color.
 .. Set these cards aside to remember what colors were reaped.
-
-*Secondary Effect*
+*Secondary Effect*::
 . Count the total number of disks of all reaped colors in the galaxy, even if
   conquered -- this sum is the Threshold.
 . Each player secretly and simultaneously bids resources, then reveals.
