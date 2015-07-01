@@ -20,16 +20,16 @@ ____
 A complete set of _Rise_ includes:
 
 * 20 hexagonal sector tiles.
-** From [P&P](https://www.printplaygames.com/product/die-cut-pieces-tiles-and-counters): the 1.5" hex tiles.
+** From https://www.printplaygames.com/product/die-cut-pieces-tiles-and-counters[P&P]: the 1.5" hex tiles.
 ** Five 1s, eight 2s, five 3s, one 4, and one 5.
 * A deck of 56 cards.
-** From [P&P](http://www.printplaygames.com/product/blank-cards).
+** From http://www.printplaygames.com/product/blank-cards[P&P].
 ** 14 each of black, white, blue, and red.
 * 24 wooden empire disks.
-** From [P&P](https://www.printplaygames.com/product/25mm-x-7mm-wood-discs).
+** From https://www.printplaygames.com/product/25mm-x-7mm-wood-discs[P&P].
 ** 6 each of black, blue, red, and white.
 * Gems in two denominations: 50 1s, 50 5s.
-** From [P&P](http://www.printplaygames.com/product/acrylic-gem-10mm).
+** From http://www.printplaygames.com/product/acrylic-gem-10mm[P&P].
 ** Clear for 1s and red for 5s.
 * This rule book.
 
