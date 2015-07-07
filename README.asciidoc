@@ -79,16 +79,16 @@ Discover new sectors and gain new cards.
 . Draw and place new sectors until there are three empty sectors.
 . Deal three cards to each player and draft.
 .. To draft, choose one card and pass the rest clockwise.
-.. You may either take the chosen card into your hand or destroy it for
-   resources equal to the highest-value uncontrolled sector.
-.. When a card is destroyed, it goes into the common dead pile.
+.. You may either take the chosen card into your hand or consume it for
+   resources equal to the highest-value uncontrolled sector. (When a card is
+   consumed, it goes into the common dead pile.)
 . Place a disk of any color on any empty sector.
 .. This isn't a conquer: ignore normal placement rules.
 *Secondary Effect*::
 . Each player must pay one resource for each card in their hand.
-.. Players may destroy cards from their hand for one resource per card before
-   paying this cost.
-.. When a card is destroyed, it goes into the common dead pile.
+.. Players may consume cards from their hand for *one* resource per card before
+   paying this cost. (When a card is consumed, it goes into the common dead
+   pile.)
 
 .Explore example
 ====
