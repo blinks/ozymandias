@@ -19,7 +19,7 @@ ____
 == Components
 A complete set of _Rise_ includes:
 
-* 20 hexagonal sector tiles.
+* 20+ hexagonal sector tiles.
 ** Sectors start face-down in an _exploration_ pile, and are slowly added to
    the _galaxy map_ as players explore.  When destroyed, sectors are flipped
    face-down in-place.
@@ -60,7 +60,7 @@ A complete set of _Rise_ includes:
 == Set Up
 . Shuffle the sector tiles and the deck of cards, and place the disks and
   resource tokens in a common pool reachable by all players.
-. Give nine resources to each player to make their initial banks.
+. Give three resources to each player to make their initial banks.
 . The last player to discover something is the first player. (This player must
   explore.)
 
@@ -80,15 +80,15 @@ Discover new sectors and gain new cards.
 . Deal three cards to each player and draft.
 .. To draft, choose one card and pass the rest clockwise.
 .. You may either take the chosen card into your hand or consume it for
-   resources equal to the highest-value uncontrolled sector. (When a card is
-   consumed, it goes into the common dead pile.)
+   resources:
+*** The first draft pick is worth the highest uncontrolled sector value, the
+    second worth the second-highest, the third worth the third-highest.
+*** When a card is consumed, it goes into the common dead pile.
 . Place a disk of any color on any empty sector.
 .. This isn't a conquer: ignore normal placement rules.
 *Secondary Effect*::
 . Each player must pay one resource for each card in their hand.
-.. Players may consume cards from their hand for *one* resource per card before
-   paying this cost. (When a card is consumed, it goes into the common dead
-   pile.)
+.. If you cannot pay, destroy cards from your hand until you can.
 
 .Explore example
 ====
