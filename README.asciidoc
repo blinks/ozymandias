@@ -27,7 +27,7 @@ A complete set of _Rise_ includes:
    uncontrolled. A sector is considered controlled by a color if that color’s
    disk is on top of all other disks in the sector.
 ** http://printplaygames.com/product/die-cut-pieces-tiles-and-counters[P&P]:
-   the 1.5" hex tiles, with five 1s, eight 2s, five 3s, one 4, and one 5.
+   the 1.5" hex tiles, with three 0s and 4s, six 1s and 3s, and nine 2s.
 * A deck of 56 cards.
 ** Cards start in a shuffled event _deck_, and are slowly drafted into players
    _hands_ as they explore.  Players have personal _discard_ piles that
@@ -77,6 +77,8 @@ left in your hand to recover your discard pile.  Then take an action as normal.
 Discover new sectors and gain new cards.
 *Primary Effect*::
 . Draw and place new sectors until there are three empty sectors.
+** This may mean you don't draw any, if there are already at least three empty
+   sectors.
 . Deal three cards to each player and draft.
 .. To draft, choose one card and pass the rest clockwise.
 .. You may either take the chosen card into your hand or consume it for
@@ -147,18 +149,12 @@ TODO: card value computation, especially taller stacks.
 TODO: threshold computation, especially conquered colors.
 ====
 
-== Scoring and Victory
-Your cards are each worth points equal to the total value controlled by their
-color.  Resources in your bank also count directly for points.
+== Endgame
+When the last disk is placed, all players recover their discard.  Then continue
+taking turns reaping (and collapsing) until one player is out of cards.  At
+that point, whoever has the most resources wins.
 
-TIP: Reaping cards locks in their color's value and gives you more resources to
-spend, but means you won't be able to score if it grows later.  It is best to
-Reap a color at its peak.
-
-=== Procedure
-. Count up the value of all your cards.
-. Add your resources to that total for your final score.
-.. In the case of a tie, the player with the most resources wins.
+In the case of a tie, the player with the most cards left wins.  If still tied, the player who would take the next turn wins.
 
 '''
 include::faq.asciidoc[]
