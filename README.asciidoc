@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.15-{revision}, {docdate}
+0.16-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -19,7 +19,7 @@ ____
 == Components
 A complete set of _Rise_ includes:
 
-* 20+ hexagonal sector tiles.
+* A deck of hexagonal sector tiles.
 ** Sectors start face-down in an _exploration_ pile, and are slowly added to
    the _galaxy map_ as players explore.  When destroyed, sectors are flipped
    face-down in-place.
@@ -29,11 +29,12 @@ A complete set of _Rise_ includes:
 ** http://printplaygames.com/product/die-cut-pieces-tiles-and-counters[P&P]:
    the 1.5" hex tiles, with three 0s and 4s, six 1s and 3s, and nine 2s.
 * A deck of 56 cards.
-** Cards start in a shuffled event _deck_, and are slowly drafted into players
-   _hands_ as they explore.  Players have personal _discard_ piles that
-   eventually get recovered into their hands.  A player's discard pile should
-   be kept so each previous card's color is visible at all times.  The top card
-   of a player's discard pile is _active_, its icon showing when it will take
+** Cards start in a shuffled event _deck_, and are drawn out during
+   exploration.
+** Players have personal _discard_ piles (two each) that eventually get
+   recovered into their hands.  A player's discard piles should be kept so each
+   previous card's color is visible at all times.  The top card of both a
+   player's discard piles are _active_, its icon showing when it will take
    effect.  When destroyed, cards are placed in a common _dead_ pile.
 ** The deck of cards represents archetypical historical events, the kind that
    get referenced in speech enough to become a stand-in for anything similar.
@@ -51,52 +52,50 @@ A complete set of _Rise_ includes:
 * Resource tokens in two denominations: 50 1s, 50 5s.
 ** Resources start in a collective _bank_.  Players gain and spend resources,
    and resources are worth points at the end of the game.  A player's current
-   resources should be visible at all times, except when bidding against
-   collapse.
+   resources should be visible at all times, except when bidding.
 ** From http://www.printplaygames.com/product/acrylic-gem-10mm[P&P]: clear for
    1s and red for 5s.
 * This rule book.
 
 == Set Up
-. Shuffle the sector tiles and the deck of cards, and place the disks and
-  resource tokens in a common pool reachable by all players.
-. Give three resources to each player to make their initial banks.
-. The last player to discover something is the first player. (This player must
-  explore.)
+. Shuffle the sector tiles and deal three to the center of the table to make
+  the initial galaxy map.  They should be arranged in a triangle, so each is
+  adjacent to the other two.
+. Shuffle the deck of cards and deal one to each player, face-down.  This is
+  their starting hand.
+. Give nine resources to each player to make their initial banks.
+. Place the decks, disks and resource tokens at the side of the table.
 
 == Game Sequence
-On your turn, you must *Explore*, *Conquer*, or *Reap*.  At the end of your
-turn, if there are no disks left in the common pool, the game ends immediately.
-Otherwise, play proceeds clockwise to the next player.
+On your turn, you must *Explore*, *Conquer*, or *Reap*.  Play then proceeds
+clockwise to the next player.  The game is over when all disks are gone from
+the pool and any single player is out of cards.
 
-Before you take an action, you may pay resources equal to the number of cards
-left in your hand to recover your discard pile.  Then take an action as normal.
+At any time (even when it isn't your turn), you may pay resources equal to the
+number of cards left in your hand to recover one of your discard piles.
 
 === Explore
 *Purpose*::
 Discover new sectors and gain new cards.
-*Primary Effect*::
-. Draw and place new sectors until there are three empty sectors.
-** This may mean you don't draw any, if there are already at least three empty
-   sectors.
-. Deal three cards to each player and draft.
-.. To draft, choose one card and pass the rest clockwise.
-.. You may either take the chosen card into your hand or consume it for
-   resources:
-*** The first draft pick is worth the highest uncontrolled sector value, the
-    second worth the second-highest, the third worth the third-highest.
-*** When a card is consumed, it goes into the common dead pile.
-. Place a disk of any color on any empty sector.
-.. This isn't a conquer: ignore normal placement rules.
-*Secondary Effect*::
-. Each player must pay one resource for each card in their hand.
-.. If you cannot pay, destroy cards from your hand until you can.
+*Procedure*::
+. Choose an uncontrolled sector or draw and place a new one.  Place a disk of
+  any color from the pool on it.  Ignore adjacency.
+. Draw cards equal to the sector's value from the deck, and announce their
+  colors, but keep the cards hidden.  Announce your bid for the pack of cards.
+. Your opponents choose their bid secretly, and simultaneously reveal.  The
+  high bidder gives you their bid and takes the cards into their hand.
+** If you're the high bidder, pay your bid to the bank and take the cards.
+** If there's a tie, you decide who wins the bid.
+. Each player (starting with you) may resolve a triggered exploration effect on
+  top of one of their discard piles.
+** Exploration effects trigger if their color is in or adjacent to the explored
+   sector.
 
 .Explore example
 ====
 TODO: first explore
 
-TODO: no sectors revealed
+TODO: a zero revealed
 
 TODO: reshuffle?
 
@@ -105,17 +104,17 @@ TODO: no more sectors?
 
 === Conquer
 *Purpose*:: Conquer a sector of the galaxy with a color in your hand.
-*Primary Effect*::
-. Discard a card, place a disk of that card's color on a sector tile, and gain
-  resources equal to that sector's value less the number of disks you
-  conquered.
+*Procedure*::
+. Discard a card, place a disk of that card's color on a sector tile.
 .. Place the disk adjacent to a sector that color is already in (even if it
    doesn't control that sector).
 .. If that color is nowhere in the galaxy, you may place it on any sector.
 .. You may not place on a sector that color already controls.
-*Secondary Effect*::
-. Each player with a card matching a color in the sector you chose resolves it.
-.. When order matters, start with you and proceed in play order.
+. Gain resources equal to that sector's value less the number of disks you
+  conquered.
+. Each player (starting with you) may resolve a triggered conquer effect on
+  top of one of their discard piles.
+** Conquer effects may trigger if their color disk is in the conquered sector.
 
 .Conquer example
 ====
@@ -125,22 +124,25 @@ TODO: if the last [color] disk is removed, future [color] events are canceled.
 === Reap
 *Purpose*::
 Destroy cards to gain resources.
-*Primary Effect*::
+*Procedure*::
 . Place a card from your hand face-down in front of you, then each other player
   may do the same.
 .. If timing matters, these decisions happen in play order.
 . Simultaneously reveal, and take resources equal to the sum of all sectors
   controlled by your card's color.
 .. Set these cards aside to remember what colors were reaped.
-*Secondary Effect*::
-. Count the total number of disks of all reaped colors in the galaxy, even if
-  conquered -- this sum is the Threshold.
-. Each player secretly and simultaneously bids resources, then reveals.
-. If the total bid is at least the Threshold, pay all bids to the bank and end
-  the turn. Otherwise, the difference is the number of disks to collapse:
+. Each player (starting with you) may resolve a triggered reap effect on
+  top of one of their discard piles.
+** Reap effects trigger if their color was reaped.
+. Finally, if no effects prevent it, bid against collapse:
+.. Count the total number of disks of all reaped colors in the galaxy, even if
+   conquered -- this sum is the _Threshold_.
+.. Each player secretly and simultaneously bids resources, then reveals.
+.. If the total bid is at least the Threshold, pay all bids to the bank and end
+   the turn. Otherwise, the difference is the number of disks to collapse:
 .. The high bidder removes that many disks.
 .. If tied, those players take turns removing disks in play order.
-. Destroy all reaped cards.
+.. Destroy all reaped cards.
 
 .Reap example
 ====
@@ -150,9 +152,9 @@ TODO: threshold computation, especially conquered colors.
 ====
 
 == Endgame
-When the last disk is placed, all players recover their discard.  Then continue
-taking turns reaping (and collapsing) until one player is out of cards.  At
-that point, whoever has the most resources wins.
+When all disks are out of the pool, it becomes impossible to explore or
+conquer: players must reap.  If all disks are out of the pool and any one
+player cannot reap, the game ends.  The player with the most resources wins.
 
 In the case of a tie, the player with the most cards left wins.  If still tied, the player who would take the next turn wins.
 
