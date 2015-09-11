@@ -69,4 +69,5 @@ text: "Move up to three live disks to this card. You may place disks from this
 ---
 name: "Grotl Treasure Ships"
 action: reap
-text: "Gain the value of one reaped card."
+text: "Destroy a card from your hand. If you do, gain the value of one reaped
+  card."

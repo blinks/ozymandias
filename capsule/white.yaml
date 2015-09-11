@@ -31,9 +31,7 @@ text: "Gain one resource for each color in this sector."
 ---
 name: "Ambush at Centauri Prime"
 action: conquer
-text: "Choose an opponent to bid resources. Pay them that much to take either
-  of their active cards into your hand OR they pay you that much to draw a
-  card."
+text: "Choose a discard pile.  Its owner takes it into their hand."
 
 ---
 name: "Silver Sword Uprising"
