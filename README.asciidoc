@@ -84,10 +84,7 @@ Discover new sectors and gain new cards.
 ** If there are still cards between you, wait for that player to pick them up.
 ** Choose one with your picked card:
 ... Keep it: put it in your hand of cards, without revealing it.
-... Consume it: put it in the dead pile, face up, and take resources.  If this
-    was your first pick, take resources equal to the highest uncontrolled
-    sector value.  If your second, the second highest.  If your third, the
-    third highest.
+... Consume it: put it in the dead pile, face up, and take three resources.
 ... Trade it: put it on one of your discard piles, and put the rest of that
     pile in your hand.
 . Each player resolves exploration effects, in turn order.
