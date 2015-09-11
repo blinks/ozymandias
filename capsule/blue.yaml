@@ -1,33 +1,33 @@
 ---
 name: "Treaty of Cheng-Huang"
 action: explore
-text: "You may put a card from your hand into the draft hand. If you do, pick
-  two cards from that draft hand."
+text: "Move any disk to an adjacent sector."
 
 ---
 name: "Spymaster Hury Thezal"
 action: explore
-text: "Copy an opponent's exploration effect."
+text: "Discard any number of cards, then draw that many cards."
 
 ---
 name: "Xin Pilgrims"
 action: explore
-text: "After exploration, place a disk on any uncontrolled sector."
+text: "Place a disk on any uncontrolled sector."
 
 ---
 name: "Spymaster Ather Nesimm"
 action: conquer
-text: "Copy an opponent's conquering effect."
+text: "Resolve a Conquer effect on an opponent's card."
 
 ---
 name: "Tidal Pools"
 action: conquer
-text: "Push each non-blue top disk to the bottom."
+text: "In each sector not controlled by blue, push the top disk to the bottom."
 
 ---
 name: "Xin Harvest"
 action: conquer
-text: "Gain one resource for each sector with exactly one disk in it."
+text: "For each sector containing exactly one color, gain that sector's value
+  in resources."
 
 ---
 name: "Tewell, Historian Adept"
@@ -37,35 +37,34 @@ text: "Put a dead disk at the bottom of this sector."
 ---
 name: "Zele Seed Ship"
 action: conquer
-text: "Draw and place a new sector. Place a dead disk on it."
+text: "Draw and place a new sector. Put a dead disk on it."
 
 ---
 name: "Zele Shield Formula"
 action: conquer
-text: "If this is a non-blue sector, gain a card at random from the dead pile."
+text: "Pay two resources for each disk in this sector to draw a card."
 
 ---
 name: "Atif, Historian Adept"
 action: conquer
-text: "Gain one resource for each conquered blue disk."
+text: "Gain two resources for each conquered blue disk."
 
 ---
 name: "Book of Changes"
 action: conquer
-text: "Each player discards a card."
+text: "Each opponent discards a card."
 
 ---
 name: "Zele Research Labs"
 action: reap
-text: "After collapse, gain a card at random from the dead pile."
+text: "Pay four resources to draw a card."
 
 ---
 name: "Psychohistory"
 action: reap
-text: "Prevent collapse. If you didn't reap, gain resources equal to the
-  threshold."
+text: "Gain resources equal to the number of disks in the galaxy."
 
 ---
 name: "Pervasive Culture"
 action: reap
-text: "Conquered disks don't count towards the threshold."
+text: "In any number of sectors, pull the bottom disk to the top."

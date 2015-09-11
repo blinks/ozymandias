@@ -1,33 +1,33 @@
 ---
 name: "Book of Leeches"
 action: explore
-text: "After exploration, put a black disk under any non-black bottom disk."
+text: "Gain one resource per card in your hand."
 
 ---
 name: "Wreckage of the Xyri"
 action: explore
-text: "After exploration, destroy an uncontrolled sector."
+text: "Destroy one uncontrolled sector."
 
 ---
 name: "Maengali's Discovery"
 action: explore
-text: "When you destroy a draft pick, draw a card from the deck instead of
-  gaining resources."
+text: "Draw a card."
 
 ---
 name: "Hanio's Resistance"
 action: conquer
-text: "Pull an adjacent disk to the top."
+text: "In one adjacent sector, pull the bottom disk to the top."
 
 ---
 name: "Hanian Awakening"
 action: conquer
-text: "Pull any number of bottom disks to the top."
+text: "Put a token on this card OR remove all tokens from this card and pull
+  that many bottom disks to the top of their stacks."
 
 ---
 name: "Hanian Cultists"
 action: conquer
-text: "Gain one resource for each conquered black disk."
+text: "Gain twice this sector's value in resources OR destroy this sector."
 
 ---
 name: "Book of Knives"
@@ -38,37 +38,37 @@ text: "Destroy a disk from the pool."
 name: "Cyri's Treachery"
 action: conquer
 text: "Put this card in an opponent's hand, then take a card at random from
-  that opponent's hand and put it in your discard."
+  that opponent's hand into your own."
 
 ---
 name: "Banii Ritual"
 action: conquer
-text: "Reveal three cards, resolve all conquer effects, then destroy those
-  cards."
+text: "Draw a card. Discard a card and resolve it, if Conquer."
 
 ---
 name: "Vaults of Atif"
 action: conquer
-text: "Put a dead black disk on the bottom of an adjacent sector."
+text: "Put a token on this card OR gain one resource for each token on this
+  card."
 
 ---
 name: "Charon's Maw"
 action: conquer
-text: "Destroy an adjacent uncontrolled sector or gain one resource for each
-  destroyed sector."
+text: "Destroy an adjacent sector OR gain two resources for each destroyed
+  sector."
 
 ---
 name: "Rafia-Cyri Theorem"
 action: reap
-text: "When the last disk in a sector is destroyed, you may destroy that
-  sector."
+text: "Destroy a sector. If you do, skip collapse."
 
 ---
 name: "Maengali's Altar"
 action: reap
-text: "You may reap any number of cards."
+text: "Reap up to three additional cards."
 
 ---
 name: "Rafia's Nightmare"
 action: reap
-text: "After collapse, place a dead black disk under any bottom disk."
+text: "Choose a reaped color. Place all dead disks of that color on different
+  sectors."

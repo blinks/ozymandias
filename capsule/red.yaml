@@ -1,76 +1,72 @@
 ---
 name: "Blood from a Stone"
 action: explore
-text: "Before new sectors are drawn, gain resources equal to the total value of
-  explored uncontrolled sectors."
+text: "Gain resources equal to the total value of uncontrolled sectors."
 
 ---
 name: "Berserkers of Grotl"
 action: explore
-text: "Gain resources equal to the total value of newly-drawn sectors."
+text: "Place a dead red disk in each uncontrolled sector."
 
 ---
 name: "Jordani Scouts"
 action: explore
-text: "After exploration, you may move a red disk to an adjacent uncontrolled
-  sector."
+text: "Move any red disk to an adjacent uncontrolled sector."
 
 ---
 name: "Jordani Current"
 action: conquer
-text: "Move a disk from this sector to the top of an adjacent sector."
+text: "Move any disk from this sector to an adjacent sector."
 
 ---
 name: "Nova Evacuation"
 action: conquer
-text: "Move each disk from this sector to the top of adjacent sectors."
+text: "Move one disk from this sector to each adjacent sector."
 
 ---
 name: "Drakon's Escape"
 action: conquer
-text: "Move all disks from this sector to a single adjacent sector."
+text: "Move this stack to an adjacent sector."
 
 ---
 name: "Ancestral Ritual"
 action: conquer
-text: "Return a card from your discard to your hand."
+text: "Recover a card from the bottom of one of your discard piles."
 
 ---
 name: "Thani Tribes"
 action: conquer
-text: "Gain one resource for each adjacent unoccupied sector."
+text: "Gain the value of this sector and one adjacent sector."
 
 ---
 name: "Fires at Night"
 action: conquer
-text: "Destroy a disk. Then you may destroy a card to destroy a disk of its
-  color."
+text: "Destroy a disk."
 
 ---
 name: "Thani Meditation"
 action: conquer
-text: "For each adjacent uncontrolled sector, choose a player to return their
-  top discarded card to their hand."
+text: "Put a token on this card OR remove all tokens from this card and recover
+  hat many cards from one of your discard piles."
 
 ---
 name: "E'Feri Census"
 action: conquer
-text: "Move a conquered disk to under this sector's bottom disk."
+text: "Gain one resource for each live red disk."
 
 ---
 name: "Fall of Gethi E'Feri"
 action: reap
-text: "After bids are revealed, you may prevent collapse. If you do, choose a
-  sector: move all red disks there to adjacent sectors, then destroy that
-  sector."
+text: "Choose a sector. Move all red disks from that sector to adjacent
+  sectors. Destroy that sector. Skip collapse."
 
 ---
 name: "Thani Wanderers"
 action: reap
-text: "Take collapsed disks. After collapse, place any of these disks in
-  uncontrolled sectors. Destroy the rest."
+text: "Move up to three live disks to this card. You may place disks from this
+  card as if they were in the pool."
 
 ---
 name: "Grotl Treasure Ships"
 action: reap
-text: "Gain one resource for each disk that collapses."
+text: "Gain the value of one reaped card."
