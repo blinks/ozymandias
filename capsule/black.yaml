@@ -11,7 +11,7 @@ text: "Destroy one uncontrolled sector."
 ---
 name: "Maengali's Discovery"
 action: explore
-text: "Draw a card."
+text: "Discard a card to any discard pile."
 
 ---
 name: "Hanio's Resistance"
