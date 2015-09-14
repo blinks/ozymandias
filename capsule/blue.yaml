@@ -26,8 +26,8 @@ text: "In each sector not controlled by blue, push the top disk to the bottom."
 ---
 name: "Xin Harvest"
 action: conquer
-text: "For each sector containing exactly one color, gain that sector's value
-  in resources."
+text: "Choose a color. For each sector with only that color, gain its value in
+  resources."
 
 ---
 name: "Tewell, Historian Adept"
