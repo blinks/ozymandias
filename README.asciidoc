@@ -56,24 +56,20 @@ A complete set of _Rise_ includes:
 * This rule book.
 
 == Set Up
-. Shuffle the sector tiles and deal three to the center of the table to make
-  the initial galaxy map.  They should be arranged in a triangle, so each is
-  adjacent to the other two.
-. Shuffle the deck of cards and deal three to each player.
-. Give nine resources to each player to make their initial banks.
+. Shuffle the sector tiles and the deck of cards.
+. Give twenty one resources to each player to make their initial banks.
 . Place the decks, disks and resource tokens at the side of the table.
+
+NOTE: The first player must explore.
 
 == Game Sequence
 On your turn, you must *Explore*, *Conquer*, or *Reap*.  Play then proceeds
-clockwise to the next player.  Endgame begins when all disks are gone from the
-pool.
+clockwise to the next player.  If you cannot take an action (there are no disks
+left and you have no cards in hand), the game ends.
 
 === Explore
-
-*Purpose*::
 Discover new sectors and gain new cards.
 
-*Procedure*::
 . If there are less than three uncontrolled sectors in the galaxy, draw and
   place new sectors until there are three, then draft cards.
 ** Draw all sectors before you place any.
@@ -84,13 +80,19 @@ Discover new sectors and gain new cards.
 ** If there are still cards between you, wait for that player to pick them up.
 ** Choose one with your picked card:
 ... Keep it: put it in your hand of cards, without revealing it.
-... Consume it: put it in the dead pile, face up, and take three resources.
 ... Trade it: put it on one of your discard piles, and put the rest of that
     pile in your hand.
 . Each player resolves exploration effects, in turn order.
 . Put a disk on an uncontrolled sector. If you do, each player must pay
   resources equal to that sector's value for each card in their hand.
 ** If you cannot (or refuse to) pay for a card, put it in the dead pile.
+
+TIP: You can swap a pick with an empty discard pile to get a useful effect out
+on the board quickly.
+
+NOTE: You must explore if you have no cards in hand.
+
+NOTE: You can't explore if there aren't any disks left in the pool.
 
 .Explore example
 ====
@@ -104,11 +106,8 @@ TODO: no more sectors?
 ====
 
 === Conquer
-
-*Purpose*::
 Conquer a sector of the galaxy with a color in your hand.
 
-*Procedure*::
 . Put a card from your hand on one of your discard piles, and put a disk of
   that card's color on a sector tile.
 ** Place the disk adjacent to a sector that color is already in (even if it
@@ -123,17 +122,17 @@ Conquer a sector of the galaxy with a color in your hand.
 . Gain resources equal to the highest-value sector controlled by your
   conquering color.
 
+NOTE: If no disks of your card's color are left in the pool, you can still
+discard the card.  However, no effects resolve and you get no resources.
+
 .Conquer example
 ====
 TODO: if the last [color] disk is removed, future [color] events are canceled.
 ====
 
 === Reap
-
-*Purpose*::
 Destroy cards to gain resources.
 
-*Procedure*::
 . Secretly choose cards to reap.
 .. Place up to two cards from your hand face-down in front of you, then each
    other player may place a single card face-down.  If timing matters, these
@@ -149,9 +148,9 @@ Destroy cards to gain resources.
    reveals.
 .. If the total bid is at least the Threshold, pay all bids to the bank and end
    the turn. Otherwise, the difference is the number of disks to collapse:
-... The high bidder removes that many disks from the top of any stacks or from
+*** The high bidder removes that many disks from the top of any stacks or from
     the pool.  Disks must be a reaped color.
-... If tied, those players take turns removing disks in play order.
+*** If tied, those players take turns removing disks in play order.
 .. Destroy all reaped cards.
 
 .Reap example
@@ -161,10 +160,13 @@ TODO: card value computation, especially taller stacks.
 TODO: threshold computation, especially conquered colors.
 ====
 
-== Endgame
-When all disks are gone from the pool, the endgame begins.  Players may not
-explore or conquer, so they must reap.  If your turn comes up and you have no
-cards left to reap, the game ends.
+== Apocalypse
+When all disks are gone from the pool, the game shifts: you can no longer
+explore, so each turn eats a card from someone's hand.  If your turn comes up
+and you have no cards left in your hand, the game ends.
+
+Each player with no cards in hand scores the apocalypse: gain resources equal
+to the total value of all uncontrolled sectors.
 
 The player with the most resources wins.
 
