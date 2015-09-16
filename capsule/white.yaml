@@ -42,7 +42,7 @@ text: "Put a token on this card OR remove all tokens from this card and destroy
 ---
 name: "Battle of Agon Sphere"
 action: conquer
-text: "Reorder the disks in one adjacent sector."
+text: "Destroy all but one disk in an adjacent sector."
 
 ---
 name: "Shield Rhetoric"

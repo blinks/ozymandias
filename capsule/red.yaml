@@ -11,17 +11,19 @@ text: "Place a dead red disk in each uncontrolled sector."
 ---
 name: "Jordani Scouts"
 action: explore
-text: "Move any red disk to an adjacent uncontrolled sector."
+text: "Place a disk on any uncontrolled sector. Each player must pay that
+  sector's value for every card in their discards."
 
 ---
 name: "Jordani Current"
 action: conquer
-text: "Move any disk from this sector to an adjacent sector."
+text: "Move any disk from this sector to an adjacent sector and collect its
+  value."
 
 ---
 name: "Nova Evacuation"
 action: conquer
-text: "Move one disk from this sector to each adjacent sector."
+text: "Move a disk from this sector to each adjacent sector."
 
 ---
 name: "Drakon's Escape"
@@ -31,7 +33,7 @@ text: "Move this stack to an adjacent sector."
 ---
 name: "Ancestral Ritual"
 action: conquer
-text: "Recover a card from the bottom of one of your discard piles."
+text: "Resolve any other conquer effect in this discard pile."
 
 ---
 name: "Thani Tribes"

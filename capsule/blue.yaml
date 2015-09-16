@@ -6,7 +6,7 @@ text: "Move any disk to an adjacent sector."
 ---
 name: "Spymaster Hury Thezal"
 action: explore
-text: "Discard any number of cards, then draw that many cards."
+text: "Destroy any number of cards, then draw that many cards."
 
 ---
 name: "Xin Pilgrims"
@@ -52,7 +52,7 @@ text: "Gain two resources for each conquered blue disk."
 ---
 name: "Book of Changes"
 action: conquer
-text: "Each opponent discards a card."
+text: "Each player discards a card."
 
 ---
 name: "Zele Research Labs"

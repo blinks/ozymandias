@@ -48,7 +48,7 @@ text: "Draw a card. Discard a card and resolve it, if Conquer."
 ---
 name: "Vaults of Atif"
 action: conquer
-text: "Put a token on this card OR gain one resource for each token on this
+text: "Put a token on this card OR gain two resources for each token on this
   card."
 
 ---
@@ -65,7 +65,7 @@ text: "Destroy a sector. If you do, skip collapse."
 ---
 name: "Maengali's Altar"
 action: reap
-text: "Reap up to three additional cards."
+text: "Reap up to two additional cards."
 
 ---
 name: "Rafia's Nightmare"
