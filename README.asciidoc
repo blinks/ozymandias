@@ -162,11 +162,8 @@ TODO: threshold computation, especially conquered colors.
 
 == Apocalypse
 When all disks are gone from the pool, the game shifts: you can no longer
-explore, so each turn eats a card from someone's hand.  If your turn comes up
-and you have no cards left in your hand, the game ends.
-
-Each player with no cards in hand scores the apocalypse: gain resources equal
-to the total value of all uncontrolled sectors.
+explore, so each turn effectively eats a card from someone's hand.  If your
+turn comes up and you have no cards left in your hand, the game ends.
 
 The player with the most resources wins.
 
