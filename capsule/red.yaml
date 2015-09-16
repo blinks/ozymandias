@@ -65,8 +65,9 @@ text: "Choose a sector. Move all red disks from that sector to adjacent
 ---
 name: "Thani Wanderers"
 action: reap
-text: "Move up to three live disks to this card. You may place disks from this
-  card as if they were in the pool."
+text: "Move a ruling disk to this card. You may place disks from this card as
+  if they were in the pool. If there are ever more than three disks on this
+  card, destroy it."
 
 ---
 name: "Grotl Treasure Ships"
