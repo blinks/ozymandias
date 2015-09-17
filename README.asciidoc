@@ -140,7 +140,7 @@ Destroy cards to gain resources.
 .. Simultaneously reveal.  Each player takes resources equal to the sum of all
    sectors controlled by their card's color.
 .. Set these cards aside to remember what colors were reaped.
-. Each player resolves conquer effects, in turn order.
+. Each player resolves reap effects, in turn order.
 . Bid against collapse.
 .. Count the total number of disks of all reaped colors in the galaxy, even if
    conquered -- this sum is the _Threshold_.
