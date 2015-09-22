@@ -36,9 +36,8 @@ eliminating cards that are worthless while cycling cards that still have use.
 Shuffle the *sector tiles* and *deck of cards* separately.  Set the *resources*
 and *disks* to one side, in common pools.
 
-Deal each player five (5) cards from the deck and twenty-one (21) resources.
-
-Draw and place three sectors adjacent to each other to make the initial map.
+Give each player nine (9) resources and three cards, and draw and place a
+sector to make the initial map.  Have each player draw and place a sector.
 
 == Play
 Rise is played over a number of turns.  On each turn, the active player chooses
@@ -55,38 +54,37 @@ Basic rules for all actions:
 
 * Disks must be placed next to adjacent disks of their color if
   possible, or in any sector if there are no living disks of their color.
-* If you ever have an empty hand, you may destroy all the disks on any one
-  sector to take back all the cards in one of your discard piles.
+* If you cannot take an action, destroy a sector.
 
 === Explore (draw new cards)
-. Draw and place new sectors until there are three uncontrolled.
-. In turn order, each player may draw either (a) up to five cards or (b) one
-  card.  Then they may execute one active exploration effect.
+. Draw and place new sectors until there are three uncontrolled, then draft
+  (three cards each, picks go in hand or swap with discard).
+. Each player may execute one active exploration effect.
 . Place a disk in an uncontrolled sector.  Everyone pays that sector's value
   for each card in hand.
 
 ==== Notes
+* With each card you pick in the draft, put it in your hand or swap it with one
+  of your discard piles.
 * If you cannot place a disk (either because none remain or no uncontrolled
-  sectors exist or nothing's adjacent), cards are free.
+  sectors exist or nothing's adjacent), destroy a sector.  Cards cost that
+  sector's value.
 
 === Conquer (control a sector)
-. Discard cards and place a disk.
-. In turn order, each player may discard to place and execute one active
-  conquer effect.
-. Choose one color to pay its best sector value; each active card matching its
-  color pays the owner that much.
+. Discard cards, place a disk, gain the sector's value in resources.
+. Each player may execute one active exploration effect that matches a color in
+  the conquered sector.
 
 ==== Notes
 * Cards are discarded in packets -- a packet must include each conquered disk's
   color with the conquering disk's color on top.
 * If (for example) two red disks are being conquered, the packet must include
   two red cards.
+* If you cannot place a disk, destroy a sector.
 
 === Reap (turn cards into resources)
-. Destroy any ruling disk.
-. In turn order, each player may sacrifice up to two cards (secretly) to gain
-  resources based on their two active cards, and then execute one active reap
-  effect.
+. Destroy any ruling disk, then everyone may sacrifice to gain resources.
+. Each player may execute one active reap effect.
 . Use sacrifices to collapse sectors.
 
 ==== Notes
@@ -94,13 +92,13 @@ Basic rules for all actions:
 * Each sacrificed card reaps at most one active card.
 * If you have an empty pile, a sacrifice gives resources equal to the total
   value of uncontrolled sectors.
+* To collapse a sector, the active player must destroy a sacrificed card for
+  each disk in the sector -- matching colors -- then destroy all disks in that
+  sector.
+* If no more sectors can be collapsed, destroy the remaining sacrificed cards.
 
 == The End
-The game ends _at the end of the turn_ in which at least one of the following
-conditions is satisfied:
-
-* all disks are dead (none in the pool, none alive);
-* all sectors are destroyed (none in the pile).
+The game ends _at the end of the turn_ in which all the disks are dead.
 
 The player with the most resources is the winner!  If two or more players tie,
 the player with the most cards in hand is the winner.  If still tied, the
@@ -110,13 +108,11 @@ player who would next take a turn wins.
 
 For _all_ cards:
 
-* When the deck runs out, shuffle the dead pile to make a new deck. [?]
-** If there aren't enough cards even after making a new deck, [?]
+* When the deck runs out, shuffle the dead pile to make a new deck.
 * When a card is on the top of a discard pile, it is considered _active._
 * Only _active_ cards may be executed or reaped.
 
-'''
-include::faq.asciidoc[]
+include::cards.asciidoc[]
 
 '''
-include::cards.asciidoc[]
+include::faq.asciidoc[]
