@@ -53,12 +53,14 @@ NOTE: I'm considering allowing players to discard in response to an action, to
 set up their active cards.  With the current method of discard recovery, I'm
 not sure if there's much of a downside to this, though.
 
-=== The Actions
-Basic rules for all actions:
+At the beginning of your turn, you may recover one of your discard piles.  Pay
+resources equal to the number of cards in your hand, then pick up all the cards
+in that pile.
 
-* Disks must be placed next to adjacent disks of their color if
-  possible, or in any sector if there are no living disks of their color.
-* Disks must be taken from the pool first, and then from the galaxy.
+NOTE: I'm considering removing the limit on discards -- they take time to
+recover and cost cards to reap.  The biggest thing forcing the limit is that
+there'd be no limit on the number of effects you could resolve, and that seems
+broken.
 
 === Explore (draw new cards)
 . Take two cards, then draw and place a sector.
@@ -72,11 +74,45 @@ needs to be pressure against large hand/discard sizes.  Ideally, the risk, hand 
 . Each player may execute conquer effects that match a color in the conquered
   sector.
 
+You must place *unplaced* disks before taking living (conquered or ruling)
+disks.
+
+Disks must be placed next to adjacent disks of their color if possible, or in
+any sector if there are no living disks of their color.
+
+You cannot place a disk in a sector if another disk of its color is already
+there.  (That is, each sector may hold at most one disk of each color.)
+
+NOTE: Disk placement is where the map has the most texture, but the way its
+currently structured one place is almost as good as the next.  This needs to
+change.
+
+TIP: Taller stacks are safer from collapse, while shorter stacks are at more
+risk.  If you're conquering with a *pyre*, moving a disk to an uncontrolled
+sector makes it easier to destroy.  Adding it to an already tall stack makes it
+safer.
+
 === Reap (turn cards into resources)
 . Choose one:
 ** Sacrifice a card and gain the value of one of your active colors.
 ** Sacrifice two cards and gain the value of both of your active colors.
 . Each player may execute reap effects.
+
+When you *sacrifice a card*, put it face-down in a pile next to the galaxy
+(colloquially called the *pyre*).  Once someone has started the *pyre*, add to
+it -- don't create a new one.
+
+*The value of a color* is the sum of the values of sectors it controls.  A
+color controls a sector if it's the top disk on that sector.
+
+EXAMPLE: Black rules a 4, a 2, and a 1, and is conquered in a 3.  You have two
+active black cards.  If you sacrifice one card (no matter the color!) you gain
+7 resources.  Sacrifice two cards to gain 14 resources.  You cannot sacrifice
+three cards.
+
+NOTE: One problem with reap is that it isn't very dynamic -- my reap doesn't
+(immediately) change the board state unless someone triggers a reap effect.
+I'm not sure if it _should_, but it's something to consider.
 
 === Collapse
 If you _didn't_ reap on your turn and there's at least one sacrifice, you end
@@ -90,6 +126,12 @@ your turn with a collapse.
 
 NOTE: You don't have to match optimally -- sometimes it's worth it to match
 less than you otherwise could to allow you to keep more cards.
+
+EXAMPLE: If a sector contains a blue disk ruling a white disk, you need one
+blue card and one white card to destroy the blue disk.  If you have two white
+cards and a blue card, you can destroy the blue disk _and then_ destroy the
+white disk with the leftover card.  If you just have a white card, you can't
+destroy anything, but get to keep the white card.
 
 == The End
 The game ends _at the end of the turn_ in which at least one color of disks are
