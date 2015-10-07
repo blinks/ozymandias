@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.19-{revision}, {docdate}
+0.20-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -16,8 +16,7 @@ ____
 
 == Objective
 *Rise* is played in turns.  Each turn, the active player chooses one of three
-different actions, and everyone gets to take that action and possibly execute
-one of their card effects.
+different actions.  Everyone then activates cards matching that action.
 
 You must influence and take advantage of shifting faction control to profit;
 eliminating cards that are worthless while cycling cards that still have use.
@@ -36,69 +35,67 @@ eliminating cards that are worthless while cycling cards that still have use.
 Shuffle the *sector tiles* and *deck of cards* separately.  Set the *resources*
 and *disks* to one side, in common pools.
 
-Give each player nine (9) resources and three cards, and draw and place a
-sector to make the initial map.  Have each player draw and place a sector.
+Give each player nine (9) resources and three cards, and draw and place three
+sectors to make the initial map.
+
+NOTE: One of my big worries about the game in its current form is that the
+galaxy map lacks texture.  Sector adjacency is important for disk placement,
+but with variance as small as it is, a 2 and a 3 are barely distinguishable.
 
 == Play
 Rise is played over a number of turns.  On each turn, the active player chooses
-an action with an associated bonus, then each player may act and optionally
-resolve one of their cards that matches, then the active player completes the
-action.  Turn passes clockwise to the next player, who chooses the next action.
+an action, then each player may resolve any or all of their matching active
+cards.  If there are sacrifices from the previous turn and the active player
+didn't sacrifice anything, *collapse.*  Turn passes clockwise to the next
+player, who chooses the next action.
+
+NOTE: I'm considering allowing players to discard in response to an action, to
+set up their active cards.  With the current method of discard recovery, I'm
+not sure if there's much of a downside to this, though.
 
 === The Actions
-Each action grants the active player a special privilege, and also a specific
-action that can be taken by _each_ player, in clockwise order, starting with
-the active player.
-
 Basic rules for all actions:
 
 * Disks must be placed next to adjacent disks of their color if
   possible, or in any sector if there are no living disks of their color.
-* If you cannot take an action, destroy a sector.
+* Disks must be taken from the pool first, and then from the galaxy.
 
 === Explore (draw new cards)
-. Draw and place new sectors until there are three uncontrolled, then draft
-  (three cards each, picks go in hand or swap with discard).
-. Each player may execute one active exploration effect.
-. Place a disk in an uncontrolled sector.  Everyone pays that sector's value
-  for each card in hand.
+. Take two cards, then draw and place a sector.
+. Each player may resolve exploration effects.
 
-==== Notes
-* With each card you pick in the draft, put it in your hand or swap it with one
-  of your discard piles.
-* If you cannot place a disk (either because none remain or no uncontrolled
-  sectors exist or nothing's adjacent), destroy a sector.  Cards cost that
-  sector's value.
+NOTE: I'm worried that there isn't any risk to mitigate in explore.  There also
+needs to be pressure against large hand/discard sizes.  Ideally, the risk, hand size pressure, and galaxy texture should be solved together.
 
 === Conquer (control a sector)
-. Discard cards, place a disk, gain the sector's value in resources.
-. Each player may execute one active exploration effect that matches a color in
-  the conquered sector.
-
-==== Notes
-* Cards are discarded in packets -- a packet must include each conquered disk's
-  color with the conquering disk's color on top.
-* If (for example) two red disks are being conquered, the packet must include
-  two red cards.
-* If you cannot place a disk, destroy a sector.
+. Discard a card and place a disk of its color.
+. Each player may execute conquer effects that match a color in the conquered
+  sector.
 
 === Reap (turn cards into resources)
-. Destroy any ruling disk, then everyone may sacrifice to gain resources.
-. Each player may execute one active reap effect.
-. Use sacrifices to collapse sectors.
+. Choose one:
+** Sacrifice a card and gain the value of one of your active colors.
+** Sacrifice two cards and gain the value of both of your active colors.
+. Each player may execute reap effects.
 
-==== Notes
-* Each active card may be reaped at most once.
-* Each sacrificed card reaps at most one active card.
-* If you have an empty pile, a sacrifice gives resources equal to the total
-  value of uncontrolled sectors.
-* To collapse a sector, the active player must destroy a sacrificed card for
-  each disk in the sector -- matching colors -- then destroy all disks in that
-  sector.
-* If no more sectors can be collapsed, destroy the remaining sacrificed cards.
+=== Collapse
+If you _didn't_ reap on your turn and there's at least one sacrifice, you end
+your turn with a collapse.
+
+. Pick up all the sacrifices and reveal them.
+. Match one or more cards to the disks in a sector to destroy the top disk of
+  that sector.  Repeat until you can no longer match.
+. Keep any cards you couldn't match, put the others on the bottom of the deck.
+. Set a card from your hand aside for final scoring.
+
+NOTE: You don't have to match optimally -- sometimes it's worth it to match
+less than you otherwise could to allow you to keep more cards.
 
 == The End
-The game ends _at the end of the turn_ in which all the disks are dead.
+The game ends _at the end of the turn_ in which at least one color of disks are
+completely dead.
+
+Reveal cards set aside for final scoring: each is worth its color's value.
 
 The player with the most resources is the winner!  If two or more players tie,
 the player with the most cards in hand is the winner.  If still tied, the
