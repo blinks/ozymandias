@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.20-{revision}, {docdate}
+0.21-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -15,141 +15,87 @@ The lone and level sands stretch far away.
 ____
 
 == Objective
-*Rise* is played in turns.  Each turn, the active player chooses one of three
-different actions.  Everyone then activates cards matching that action.
+*Rise* is played in turns.  Each turn, the active player chooses and resolves
+one of three different actions.  Everyone then activates cards matching that
+action.
 
 You must influence and take advantage of shifting faction control to profit;
 eliminating cards that are worthless while cycling cards that still have use.
 
-*The winner is the player with the most resources at the end of the game.*
+*The winner is the player who holds the most valuable cards at the end of the game.*
 
 == Components
 |===
 |resources    |?? @ 1 and ?? @ 5.
 |54 cards     |13 each in four factions.
-|24 disks     |4 each in four factions.
-|sector tiles |with a value from zero to four.
+|24 disks     |6 each in four factions.
+|sector tiles |with a value from one to three.
 |===
 
 == Setup
 Shuffle the *sector tiles* and *deck of cards* separately.  Set the *resources*
 and *disks* to one side, in common pools.
 
-Give each player nine (9) resources and three cards, and draw and place three
-sectors to make the initial map.
-
-NOTE: One of my big worries about the game in its current form is that the
-galaxy map lacks texture.  Sector adjacency is important for disk placement,
-but with variance as small as it is, a 2 and a 3 are barely distinguishable.
+Give each player three cards, face-up to make their initial plots, and draw and
+place three sectors (in a triangle) to make the initial map.
 
 == Play
 Rise is played over a number of turns.  On each turn, the active player chooses
-an action, then each player may resolve any or all of their matching active
-cards.  If there are sacrifices from the previous turn and the active player
-didn't sacrifice anything, *collapse.*  Turn passes clockwise to the next
-player, who chooses the next action.
+an action, then each player may resolve at most one of their matching active
+cards.
 
 NOTE: I'm considering allowing players to discard in response to an action, to
-set up their active cards.  With the current method of discard recovery, I'm
-not sure if there's much of a downside to this, though.
+set up their active cards.
 
-At the beginning of your turn, you may recover one of your discard piles.  Pay
-resources equal to the number of cards in your hand, then pick up all the cards
-in that pile.
-
-NOTE: I'm considering removing the limit on discards -- they take time to
-recover and cost cards to reap.  The biggest thing forcing the limit is that
-there'd be no limit on the number of effects you could resolve, and that seems
-broken.
+At the beginning of your turn, you may recover one of your discard piles.
 
 === Explore (draw new cards)
-. Take two cards, then draw and place a sector.
-. Each player may resolve exploration effects.
+. [Optional] Draw and place a sector.
+.. Discard the oldest X cards from the horizon, where X is the sector's stability.
+.. Refresh the horizon with new cards from the deck.
+. Take a card.
+. Each player may resolve one exploration effect.
 
-NOTE: I'm worried that there isn't any risk to mitigate in explore.  There also
-needs to be pressure against large hand/discard sizes.  Ideally, the risk, hand size pressure, and galaxy texture should be solved together.
+=== Conquer (control sectors)
+. Play one or more cards, either all different colors or all the same color.
+.. You must place each card on a different pile.
+.. You must place on existing piles before creating new piles.
+. For each card, take a matching disk.
+.. You must take unplaced disks before living disks.
+.. You must take conquered disks before ruling disks.
+.. You may not take dead disks.
+. Place each disk on the corner of a sector.
+.. You may place on an existing stack of disks.
+.. You may not place on a stack that already contains the disk's color.
+.. You may not create a stack only one edge away from another stack. (Catan)
+. Each player may resolve one conquer effect.
 
-=== Conquer (control a sector)
-. Discard a card and place a disk of its color.
-. Each player may execute conquer effects that match a color in the conquered
-  sector.
+=== Reap (destroy empires)
+. Destroy one or more ruling disks.
+.. Each one costs its stability for each matching active or horizon card.
+.. You may destroy a matching card from your hand to ignore one matching card.
+. Place each destroyed disk next to a non-matching dead pile, and take a card
+  from that pile, if possible.
+. Each player may resolve one reap effect.
 
-You must place *unplaced* disks before taking living (conquered or ruling)
-disks.
-
-Disks must be placed next to adjacent disks of their color if possible, or in
-any sector if there are no living disks of their color.
-
-You cannot place a disk in a sector if another disk of its color is already
-there.  (That is, each sector may hold at most one disk of each color.)
-
-NOTE: Disk placement is where the map has the most texture, but the way its
-currently structured one place is almost as good as the next.  This needs to
-change.
-
-TIP: Taller stacks are safer from collapse, while shorter stacks are at more
-risk.  If you're conquering with a *pyre*, moving a disk to an uncontrolled
-sector makes it easier to destroy.  Adding it to an already tall stack makes it
-safer.
-
-=== Reap (turn cards into resources)
-. Choose one:
-** Sacrifice a card and gain the value of one of your active colors.
-** Sacrifice two cards and gain the value of both of your active colors.
-. Each player may execute reap effects.
-
-When you *sacrifice a card*, put it face-down in a pile next to the galaxy
-(colloquially called the *pyre*).  Once someone has started the *pyre*, add to
-it -- don't create a new one.
-
-*The value of a color* is the sum of the values of sectors it controls.  A
-color controls a sector if it's the top disk on that sector.
-
-EXAMPLE: Black rules a 4, a 2, and a 1, and is conquered in a 3.  You have two
-active black cards.  If you sacrifice one card (no matter the color!) you gain
-7 resources.  Sacrifice two cards to gain 14 resources.  You cannot sacrifice
-three cards.
-
-NOTE: One problem with reap is that it isn't very dynamic -- my reap doesn't
-(immediately) change the board state unless someone triggers a reap effect.
-I'm not sure if it _should_, but it's something to consider.
-
-=== Collapse
-If you _didn't_ reap on your turn and there's at least one sacrifice, you end
-your turn with a collapse.
-
-. Pick up all the sacrifices and reveal them.
-. Match one or more cards to the disks in a sector to destroy the top disk of
-  that sector.  Repeat until you can no longer match.
-. Keep any cards you couldn't match, put the others on the bottom of the deck.
-. Set a card from your hand aside for final scoring.
-
-NOTE: You don't have to match optimally -- sometimes it's worth it to match
-less than you otherwise could to allow you to keep more cards.
-
-EXAMPLE: If a sector contains a blue disk ruling a white disk, you need one
-blue card and one white card to destroy the blue disk.  If you have two white
-cards and a blue card, you can destroy the blue disk _and then_ destroy the
-white disk with the leftover card.  If you just have a white card, you can't
-destroy anything, but get to keep the white card.
+A disk's stability is the sum of the stabilities of all sectors it rules.
 
 == The End
-The game ends _at the end of the turn_ in which at least one color of disks are
-completely dead.
+The game ends _at the end of the turn_ in which one of the following is true:
 
-Reveal cards set aside for final scoring: each is worth its color's value.
+* No cards remain in the deck or horizon.
+* No sectors remain in the pile.
+* No disks remain in the pool.
+* All disks of one color are dead.
 
-The player with the most resources is the winner!  If two or more players tie,
-the player with the most cards in hand is the winner.  If still tied, the
-player who would next take a turn wins.
+=== Scoring
+Count up the value of each color, which is the sum of the following:
 
-== The Cards
+* 2 x the number of its ruling disks.
+* 1 x the number of disks next to its dead pile.
 
-For _all_ cards:
-
-* When the deck runs out, shuffle the dead pile to make a new deck.
-* When a card is on the top of a discard pile, it is considered _active._
-* Only _active_ cards may be executed or reaped.
+Cards are each worth their color's value.  Add up each player's points.  The
+player with the most is the winner.
 
 include::cards.asciidoc[]
 
