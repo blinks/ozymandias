@@ -1,6 +1,6 @@
 = The Rise and Fall of Galactic Empires
 Adam Blinkinsop <http://google.com/+AdamBlinkinsop>
-0.21-{revision}, {docdate}
+0.22-{revision}, {docdate}
 :toc: left
 :homepage: http://blinks.github.io/ozymandias/
 
@@ -27,9 +27,9 @@ eliminating cards that are worthless while cycling cards that still have use.
 == Components
 |===
 |resources    |?? @ 1 and ?? @ 5.
-|54 cards     |13 each in four factions.
+|60 cards     |15 each in four factions.
 |24 disks     |6 each in four factions.
-|sector tiles |with a value from one to three.
+|sector tiles |with "terrain" types.
 |===
 
 == Setup
@@ -49,18 +49,23 @@ set up their active cards.
 
 At the beginning of your turn, you may recover one of your discard piles.
 
-=== Explore (draw new cards)
+=== Explore (expand the galaxy and gain influence)
 . [Optional] Draw and place a sector.
-.. Discard the oldest X cards from the horizon, where X is the sector's stability.
+.. Discard all the cards in the horizon.
 .. Refresh the horizon with new cards from the deck.
-. Take a card.
+. Capture a card.
+.. If from the horizon, pay its color's value.
+.. If off the top of the deck, pay nothing.
 . Each player may resolve one exploration effect.
+
+A color's value is the product of the number of colors sacrificed to it + 1 and
+the number of ruling disks it has.
 
 === Conquer (control sectors)
 . Play one or more cards, either all different colors or all the same color.
 .. You must place each card on a different pile.
 .. You must place on existing piles before creating new piles.
-. For each card, take a matching disk.
+. For each card, take a matching disk and a gem.
 .. You must take unplaced disks before living disks.
 .. You must take conquered disks before ruling disks.
 .. You may not take dead disks.
@@ -70,32 +75,26 @@ At the beginning of your turn, you may recover one of your discard piles.
 .. You may not create a stack only one edge away from another stack. (Catan)
 . Each player may resolve one conquer effect.
 
-=== Reap (destroy empires)
-. Destroy one or more ruling disks.
-.. Each one costs its stability for each matching active or horizon card.
-.. You may destroy a matching card from your hand to ignore one matching card.
-. Place each destroyed disk next to a non-matching dead pile, and take a card
-  from that pile, if possible.
+=== Reap (consume empires and influence)
+. Discard a card, and sacrifice one ruling disk to its color.
+. Gain the discarded card's color's value.
 . Each player may resolve one reap effect.
 
-A disk's stability is the sum of the stabilities of all sectors it rules.
+A color's value is the product of the number of colors sacrificed to it + 1 and
+the number of ruling disks it has.
 
 == The End
 The game ends _at the end of the turn_ in which one of the following is true:
 
-* No cards remain in the deck or horizon.
-* No sectors remain in the pile.
 * No disks remain in the pool.
 * All disks of one color are dead.
 
+If the deck runs out, shuffle the discards into a new deck.
+
+If the sectors run out, you can no longer refresh the horizon.
+
 === Scoring
-Count up the value of each color, which is the sum of the following:
-
-* 2 x the number of its ruling disks.
-* 1 x the number of disks next to its dead pile.
-
-Cards are each worth their color's value.  Add up each player's points.  The
-player with the most is the winner.
+Gems are points, nothing else matters.
 
 include::cards.asciidoc[]
 
