@@ -8,16 +8,8 @@ title:
 rank:
   x: 90
   y: 90
-  width: 75
-  height: 75
-  valign: middle
-  align: center
-
-suit:
-  x: 90
-  y: 165
-  width: 75
-  height: 75
+  width: 90
+  height: 90
   valign: middle
   align: center
 

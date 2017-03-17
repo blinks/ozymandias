@@ -1,5 +1,4 @@
 require 'squib'
-require 'game_icons'
 require 'yaml'
 
 # TODO: Replace with built-in after pull req.
@@ -14,22 +13,28 @@ cards.each do |card|
 end
 
 layouts = ['layout.yml']
-suits = {
-  'merchant' => GameIcons.get('lorc/ouroboros')
-    .recolor(fg: 'gold', bg_opacity: 0),
-  'soldier' => GameIcons.get('lorc/layered-armor')
-    .recolor(fg: 'red', bg_opacity: 0),
-  'sage' => GameIcons.get('lorc/erlenmeyer')
-    .recolor(fg: 'blue', bg_opacity: 0),
-}
 
 Squib::Deck.new cards: data['title'].size, layout: layouts do
-  background color: 'white'
-  rect layout: 'cut'
-  rect layout: 'safe'
-  svg data: data['suit'].map { |k| suits[k].string }, layout: 'suit'
+  # Black border around the safe area.
+  background color: 'black'
+  rect fill_color: '#fff', layout: 'safe'
+
+  # Placeholder "art."
+  rect layout: 'art'
+
+  # Suit icons are just filled shapes.
+  suit = {}; data['suit'].each_with_index{ |t, i| (suit[t] ||= []) << i}
+  circle range: suit['merchant'], fill_color: 'gold',
+    x: 135, y: 135, radius: 50
+  rect range: suit['soldier'], fill_color: '#f33',
+    x: 90, y: 90, width: 90, height: 90
+  triangle range: suit['sage'], fill_color: '#55f',
+    x1: 135, y1: 80, x2: 190, y2: 170, x3: 80, y3: 170
+
+  # Card information.
   text str: data['rank'], layout: 'rank'
   text str: data['title'], layout: 'title'
   text str: data['text'], layout: 'text'
+
   save_png
 end
