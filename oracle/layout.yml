@@ -5,13 +5,15 @@ title:
   height: 50
   align: center
 
-suit:
+rank:
   x: 90
   y: 90
   width: 75
   height: 75
+  valign: middle
+  align: center
 
-rank:
+suit:
   x: 90
   y: 165
   width: 75
@@ -32,7 +34,7 @@ text:
   height: 275
   valign: middle
   align: center
-  font_size: 18
+  font_size: 24
 
 # The "cut line", without rounded corners
 cut:

@@ -1,300 +1,382 @@
 - title: N/A
   suit: merchant
   rank: 2
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 6
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 2
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 6
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 2
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 6
-  text: N/A
+  text: >
+    At the end of the age, draw one card from the discard.
 
 - title: N/A
   suit: merchant
   rank: 2
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 6
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 2
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 6
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 2
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 6
-  text: N/A
+  text: >
+    During a skirmish, pay wealth equal to your opponent's reinforcement
+    strength to end the skirmish as a tie.
 
 - title: N/A
   suit: merchant
   rank: 2
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: merchant
-  rank: 6
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 2
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: soldier
-  rank: 6
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 2
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 3
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 4
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 5
-  text: N/A
-
-- title: N/A
-  suit: sage
-  rank: 6
-  text: N/A
+  text: >
+    During trade, move target colony to the bottom.
 
 - title: N/A
   suit: merchant
   rank: 2
-  text: N/A
+  text: >
+    During a skirmish, you may reveal wealth as reinforcements.  Remove it
+    after taking any damage.
 
 - title: N/A
   suit: merchant
   rank: 3
-  text: N/A
+  text: >
+    During trade, draw a card.
+
+- title: N/A
+  suit: merchant
+  rank: 3
+  text: >
+    During trade, gain additional wealth equal to your revealed card.
+
+- title: N/A
+  suit: merchant
+  rank: 3
+  text: >
+    During movement, pay two wealth to place a colony underneath an adjacent
+    opponent-controlled colony disk.
+
+- title: N/A
+  suit: merchant
+  rank: 3
+  text: >
+    During movement, pay two wealth to move an adjacent colony disk to the top.
 
 - title: N/A
   suit: merchant
   rank: 4
-  text: N/A
+  text: >
+    At the end of the age, draw a card.
+
+- title: N/A
+  suit: merchant
+  rank: 4
+  text: >
+    This fleet cannot be attacked.
+
+- title: N/A
+  suit: merchant
+  rank: 4
+  text: >
+    Pay one secret (once per age) to place a trade order on this fleet.
+
+- title: N/A
+  suit: merchant
+  rank: 4
+  text: >
+    During trade, name a suit. The opponent you trade with must give you a card
+    of that suit, or reveal a hand with none of that suit.
 
 - title: N/A
   suit: merchant
   rank: 5
-  text: N/A
+  text: >
+    When this card enters play, put a colony on it.
+
+- title: N/A
+  suit: merchant
+  rank: 5
+  text: >
+    During trade, discard the trade order instead of giving it to an opponent.
+
+- title: N/A
+  suit: merchant
+  rank: 5
+  text: >
+    During trade, gain two secrets.
+
+- title: N/A
+  suit: merchant
+  rank: 5
+  text: >
+    Pay one secret to gain two wealth.
 
 - title: N/A
   suit: merchant
   rank: 6
-  text: N/A
+  text: >
+    During a skirmish, pay one strength from this fleet to draw one card, any
+    number of times.
+
+- title: N/A
+  suit: merchant
+  rank: 6
+  text: >
+    You may choose any opponent for trade.
+
+- title: N/A
+  suit: merchant
+  rank: 6
+  text: >
+    When you pass, gain one wealth.
+
+- title: Thani Wanderers
+  suit: merchant
+  rank: 6
+  text: >
+    When another friendly fleet moves, move this fleet once.
 
 - title: N/A
   suit: soldier
   rank: 2
-  text: N/A
+  text: >
+    This fleet has five strength. If it loses a skirmish, it dies. You may not
+    reinforce this fleet.
+
+- title: N/A
+  suit: soldier
+  rank: 2
+  text: >
+    When you pass, gain one strength.
+
+- title: N/A
+  suit: soldier
+  rank: 2
+  text: >
+    When this fleet dies, return this card to your hand.
+
+- title: N/A
+  suit: soldier
+  rank: 2
+  text: >
+    During planning, put a strength on this card.  During a skirmish, take
+    strength on this card as reinforcements.
 
 - title: N/A
   suit: soldier
   rank: 3
-  text: N/A
+  text: >
+    When this fleet enters play, it gains three strength.
+
+- title: N/A
+  suit: soldier
+  rank: 3
+  text: >
+    During movement, you may sacrifice this fleet to destroy an adjacent fleet
+    or colony.
+
+- title: N/A
+  suit: soldier
+  rank: 3
+  text: >
+    During a skirmish, your opponent's cards all require a secret to play.
+
+- title: N/A
+  suit: soldier
+  rank: 3
+  text: >
+    This fleet can have two orders assigned to it.
 
 - title: N/A
   suit: soldier
   rank: 4
-  text: N/A
+  text: >
+    When this fleet's order is revealed, you may give it to another fleet.
+
+- title: N/A
+  suit: soldier
+  rank: 4
+  text: >
+    After a skirmish you won, you gain strength equal to the margin of victory.
+
+- title: N/A
+  suit: soldier
+  rank: 4
+  text: >
+    During a skirmish, your opponent reveals reinforcements first.
+
+- title: N/A
+  suit: soldier
+  rank: 4
+  text: >
+    After a skirmish you lost, take one strength from the winner.
 
 - title: N/A
   suit: soldier
   rank: 5
-  text: N/A
+  text: >
+    After a skirmish, you gain strength equal to half the margin of victory,
+    rounded up.
+
+- title: N/A
+  suit: soldier
+  rank: 5
+  text: >
+    During a skirmish, you gain one strength for your reinforcements.
+
+- title: N/A
+  suit: soldier
+  rank: 5
+  text: >
+    After a skirmish you lost, you may pay one additional strength to force the
+    winner to retreat instead.
+
+- title: N/A
+  suit: soldier
+  rank: 5
+  text: >
+    During recruit, take one strength from each fleet you could reach by
+    movement.
 
 - title: N/A
   suit: soldier
   rank: 6
-  text: N/A
+  text: >
+    This fleet can never lose its last strength.
+
+- title: N/A
+  suit: soldier
+  rank: 6
+  text: >
+    This fleet may move even if adjacent to an opponent's fleet.
+
+- title: N/A
+  suit: soldier
+  rank: 6
+  text: >
+    During movement, you may distribute this fleet's movement to your other
+    fleets.
+
+- title: N/A
+  suit: soldier
+  rank: 6
+  text: >
+    During movement, you may spend a move to move an opponent's fleet.
 
 - title: N/A
   suit: sage
   rank: 2
-  text: N/A
+  text: >
+    During movement, you may pay three secrets to place a colony on an
+    uninhabitable location.
+
+- title: N/A
+  suit: sage
+  rank: 2
+  text: >
+    When you pass, gain one secret.
+
+- title: N/A
+  suit: sage
+  rank: 2
+  text: >
+    When this fleet reveals a new sector, gain one secret for each inhabitable
+    location on it.
+
+- title: N/A
+  suit: sage
+  rank: 2
+  text: >
+    During observation, you may reveal a card in your hand for secrets, not
+    just one of those drawn.
 
 - title: N/A
   suit: sage
   rank: 3
-  text: N/A
+  text: >
+    After observation, draw a card.
+
+- title: N/A
+  suit: sage
+  rank: 3
+  text: >
+    During movement, you may instead swap locations with any other fleet.
+
+- title: N/A
+  suit: sage
+  rank: 3
+  text: >
+    During a skirmish, you may pay secrets equal to a card's rank to double
+    that rank.
+
+- title: N/A
+  suit: sage
+  rank: 3
+  text: >
+    During observation, you may exchange this card for one in your hand.
 
 - title: N/A
   suit: sage
   rank: 4
-  text: N/A
+  text: >
+    When you visit a sector, place its resource on this card.  Once all three
+    resources are on this card, sacrifice this fleet to place two colonies on
+    any empty inhabitable locations.
+
+- title: N/A
+  suit: sage
+  rank: 4
+  text: >
+    Pay two secrets to place an order on any fleet once per age.
+    # APB: Jeff thought this was overpowered at one.
+
+- title: N/A
+  suit: sage
+  rank: 4
+  text: >
+    During observation, you may sacrifice this fleet to gain six secrets.
+
+- title: N/A
+  suit: sage
+  rank: 4
+  text: >
+    During movement, you may pay four secrets to place a colony on this card.
 
 - title: N/A
   suit: sage
   rank: 5
-  text: N/A
+  text: >
+    During movement, you may pay one secret to place a colony instead of
+    strength.
+
+- title: N/A
+  suit: sage
+  rank: 5
+  text: >
+    During observation, you may sacrifice a colony to draw two additional
+    cards.
+
+- title: N/A
+  suit: sage
+  rank: 5
+  text: >
+    After a skirmish, gain secrets equal to the amount of strength lost.
+
+- title: N/A
+  suit: sage
+  rank: 5
+  text: >
+    When this fleet enters play, you may draw a new sector and place the fleet
+    on that sector.
 
 - title: N/A
   suit: sage
   rank: 6
-  text: N/A
+  text: >
+    Before observation, you may move to any unoccupied location.
+
+- title: N/A
+  suit: sage
+  rank: 6
+  text: >
+    During a skirmish, you can add secrets to your reinforcement.
+
+- title: N/A
+  suit: sage
+  rank: 6
+  text: >
+    During movement, you may place this fleet on any unoccupied location.
+
+- title: N/A
+  suit: sage
+  rank: 6
+  text: >
+    When this fleet enters play, draw three cards.
 
