@@ -15,8 +15,6 @@ end
 layouts = ['layout.yml']
 
 Squib::Deck.new cards: data['title'].size, layout: layouts do
-  # Black border around the safe area.
-  background color: 'black'
   rect fill_color: '#fff', layout: 'safe'
 
   # Placeholder "art."
