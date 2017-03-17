@@ -1,8 +1,8 @@
 # Ozymandias
-> And on the pedestal these words appear: \\
-> ’My name is Ozymandias, king of kings: \\
-> Look on my works, ye Mighty, and despair!’ \\
-> Nothing beside remains. \\
+> And on the pedestal these words appear:  
+> ’My name is Ozymandias, king of kings:  
+> Look on my works, ye Mighty, and despair!’  
+> Nothing beside remains.  
 > — Percy Bysshe Shelley, Ozymandias
 
 ## Components
