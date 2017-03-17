@@ -39,47 +39,34 @@ slot.  Except for forming a new fleet, movement, and skirmishing, a fleet’s
 action is determined by what suit you placed.
 
 * Any card in an empty slot forms a new fleet.
-* A merchant card allows that fleet to trade for wealth, which is spent to
-  move.
-* A soldier card allows that fleet to recruit strength, which is spent to
-  colonize and reinforce.
-* A sage card allows that fleet to gain secrets, which is spent to change card
-  suits.
+* Cards in a non-empty slot gather resources:
+  * A merchant card gathers wealth, which is spent to move.
+  * A soldier card gathers strength, which is spent to colonize and reinforce.
+  * A sage card gathers secrets, which is spent to alter cards.
 * Movement and skirmishing may be performed whether or not you place a card.
 * A secret may always be spent when you reveal a card to change its suit to
   whatever you want.
-
-Note that new fleets cannot be given an order besides movement on their first
-turn.
+* New fleets cannot gather resources on their first turn.
 
 ### Execution
 Take turns choosing a fleet and executing an order until all players have
 passed in sequence.
 
 #### Commission a new fleet
-Reveal the chosen card as the new fleet leader and place the pawn for that slot
-in an unoccupied location that isn’t on or adjacent to an enemy fleet.
+Reveal the chosen card as the new fleet leader.  Place the pawn for that card's
+slot in an unoccupied location that isn’t on or adjacent to an enemy fleet.
 
-#### Trade (gain wealth)
-Reveal the face-down merchant card (or non-merchant and a secret).  Choose an
-opponent’s colony or fleet that your activated fleet can reach by movement as
-your trade target.  Give the card to that opponent and gain wealth equal to its
-value.
+#### Gather resources
+Reveal and discard the face-down card to gather resources equal to its value.
 
-#### Recruit (gain strength)
-Reveal the face-down soldier card (or non-soldier and a secret).  Gain strength
-equal to its value and discard it.  (Note: Do not place this strength with a
-fleet yet, that happens during a Skirmish.)
-
-#### Observe (gain secrets)
-Reveal and discard the face-down sage card (or non-sage and a secret).  Draw
-two cards.  Reveal one of those cards and gain secrets equal to its rank.
+ * Merchants gather wealth.
+ * Soldiers gather strength.
+ * Sages gather secrets.
 
 #### Move
-Pay one wealth (or discard one card from your hand) to activate one of your
-fleets for movement.  When activated, a fleet moves up to three links.  One
-movement may be spent to skirmish an adjacent fleet.  Fleets may not move
-through other fleets, even if friendly.
+Pay one wealth to activate one of your fleets for movement.  When activated, a
+fleet moves up to three links.  One movement may be spent to skirmish an
+adjacent fleet.  Fleets may not move through other fleets, even if friendly.
 
 * Skirmish Lock: Fleets may not be moved away if starting adjacent to an enemy
   fleet.
