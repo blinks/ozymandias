@@ -1,8 +1,18 @@
 require 'squib'
 require 'game_icons'
+require 'yaml'
 
-# Build a custom file format (or YAML?) that allows for card comments.
-data = Squib.csv file: 'data.csv'
+# TODO: Replace with built-in after pull req.
+cards = YAML.load_file('oracle.yml')
+data = Squib::DataFrame.new
+keys = cards.map {|c| c.keys}.flatten.uniq
+keys.each {|k| data[k] = [] }
+cards.each do |card|
+  keys.each do |k|
+    data[k] << card[k]
+  end
+end
+
 layouts = ['layout.yml']
 suits = {
   'merchant' => GameIcons.get('lorc/ouroboros')
