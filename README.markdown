@@ -23,72 +23,80 @@
 2. Place one sector tile (two with four or more players) in the middle of the
    table.
 3. Have each player choose a set of fleet pawns and colonies.
-4. Give each player five cards, five strength, and one secret.
-5. Give one player the obelisk -- they’ll take the first action.
+4. Give one player the obelisk -- they’ll take the first action.
+5. Give each player five cards and one of each resource, then each player may
+   take one additional resource of any type.
 
 ## Game Sequence
 Ozymandias is played in a sequence of ages.  Each age consists of three parts:
 planning, execution, and regroup.  The planning stage happens simultaneously,
 as each player decides what they want to do.  Execution rolls those plans out
-one action at a time.  At the end of the age players draw a fixed income of
-cards in regroup.
+one action at a time.  At the end of the age is all the cleanup and some card
+draw.
 
 ### Planning
-Place up to one card face-down on each fleet leader, plus up to one on an empty
-slot.  Except for forming a new fleet, movement, and skirmishing, a fleet’s
-action is determined by what suit you placed.
+Place one card face-down (portrait) on any fleet, as a leader.  This card's
+ability will be revealed when that fleet is involved in any action, and will be
+connected to that fleet until it dies.  If you give a fleet a second (or third,
+etc.) leader, it must either cover up the most recent leader's ability or suit.
 
-* Any card in an empty slot forms a new fleet.
-* Cards in a non-empty slot gather resources:
-  * A merchant card gathers wealth, which is spent to move.
-  * A soldier card gathers strength, which is spent to colonize and reinforce.
-  * A sage card gathers secrets, which is spent to alter cards.
-* Movement and skirmishing may be performed whether or not you place a card.
+Place up to one card face-down (landscape) below each fleet, for income.  This
+card's suit determines the type of resource it will gather, and the rank
+determines the amount it will gather.  After gathering income, you'll give this
+card to an opponent.
+
+* A merchant card gathers wealth, which is spent to move.
+* A soldier card gathers strength, which is spent to colonize and reinforce.
+* A sage card gathers secrets, which is spent to alter cards.
 * A secret may always be spent when you reveal a card to change its suit to
   whatever you want.
-* New fleets cannot gather resources on their first turn.
 
 ### Execution
-Take turns choosing a fleet and executing an order until all players have
-passed in sequence.
+Take turns activating a fleet or passing until all players have passed in
+sequence.
 
 #### Commission a new fleet
-Reveal the chosen card as the new fleet leader.  Place the pawn for that card's
-slot in an unoccupied location that isn’t on or adjacent to an enemy fleet.
+Each age you'll be able to build one new fleet.  In the first age, this is
+fleet 1, fleet 2 in the second, and so on.  If you have not yet built your
+fleet, you may not pass.  To build a fleet, place its pawn on any unoccupied
+location.  If this fleet has an unrevealed leader, reveal it now.
 
 #### Gather resources
-Reveal and discard the face-down card to gather resources equal to its value.
+Reveal the face-down card to gather resources equal to its rank.  Then give that
+card to an opponent.
 
  * Merchants gather wealth.
  * Soldiers gather strength.
  * Sages gather secrets.
 
 #### Move
-Pay one wealth to activate one of your fleets for movement.  When activated, a
-fleet moves up to three links.  One movement may be spent to skirmish an
-adjacent fleet.  Fleets may not move through other fleets, even if friendly.
+Pay wealth based on how many times this fleet has moved this age.  If this is
+its first movement, pay 1.  Second movement, pay 2.  Third movement, pay 3.  A
+fleet may not be activated to move more than three times per age.  Track this
+count by leaving wealth spent to move on the fleet leader.
 
-* Skirmish Lock: Fleets may not be moved away if starting adjacent to an enemy
-  fleet.
-* Exploration: If you move a fleet off the edge of a sector, spend the rest of
-  your movement to draw a new sector.  At the beginning of your next turn,
-  place the sector and move your fleet onto it.
-* Colonization: If you move a fleet off a colony location, pay strength equal
+When activated, a fleet moves up to three links.  One movement may be spent to
+skirmish an adjacent fleet -- but a skirmish ends movement.  Fleets may not move
+through other fleets, even if friendly.
+
+* Exploration: If you move a fleet off the edge of a sector, it's safe, but you
+  may no longer activate it to move.  When a sector is connected to the edge you
+  left, place your fleet on the new location connected to that edge.  (At the
+  end of the age, new sectors will be revealed.)
+* Colonization: If you move a fleet _off_ a colony location, pay strength equal
   to one plus the number of colonies already there to place your own colony
   (from anywhere, normally off-board).  If you already have a colony in that
   location, pay the strength to move that one to the top instead.
 
 #### Move: Skirmish
 Choose an adjacent enemy fleet to skirmish.  Players will add strength to their
-fleets, then play cards until one decides to retreat and take losses.  Place a
-marker where the skirmish is taking place, if necessary to remember it.
+fleets, then play cards until one decides to retreat and take losses.
 
 ##### Reinforcement
 Both players simultaneously reveal any amount of strength to reinforce their
-fleets. This strength is then placed with the fleet leader, and can’t be moved
-later.  Important: fleets have a maximum strength of six.  If a fleet has no
-strength after reinforcement, skip to retreat (a player can’t play cards to
-help a fleet at zero strength).
+fleets. This strength is then placed with the fleet leader(s), and can’t be
+moved later.  (Important: fleets have a maximum strength of six.  Reinforcements
+revealed in excess of six are lost.)
 
 ##### Initiative Rounds
 The weaker fleet (or active player, if tied) has the starting initiative.  The
@@ -97,25 +105,39 @@ fleet’s sector (or non-matching suit and a secret), or retreat.
 
 * Play a card: Add the card’s rank [temporarily] to your fleet’s strength and
   repeat.  (If you’re now tied or stronger, the opponent takes initiative.)
-* Retreat: Lose fleet strength equal to the current margin (this could be
-  zero), and then the winner moves the loser’s fleet one link per strength
-  lost, away from the winning fleet.
+* Retreat.
 
-##### Resolution
-If either fleet now has no strength, remove it and discard the leader OR
-destroy the closest friendly colony (even if subjugated -- that is, not the top
-colony) to preserve the fleet token and leader.
+##### Retreat
+If tied, the skirmish ends and nothing else happens.  Otherwise, you lose
+strength and/or leaders from the fleet equal to the margin of victory, then the
+winner moves your fleet that same number of links.  If you move _past_ one of
+your own colonies, the winner may place their own colony on top of it for free.
 
 #### Pass
-Pass your turn.  If all players pass in a row, move on to regroup.  Otherwise,
-passing doesn’t mean you can’t act the next time your turn is up.
+Pass your turn.  You may not pass if any fleet still has a card face-down for
+income, or you haven't warped in your new fleet for this age.
+
+*Passive income:* When you pass, gain a resource for each of your visible leader
+suits.
+
+If all players pass in a row, move on to regroup.  Otherwise, passing doesn’t
+mean you can’t act the next time your turn is up.
 
 ### Regroup
 Give the obelisk to the next active player (who should also have been the first
 player to pass in a row).  They will act first, next age.  In this way, players
-will never be skipped in the turn order from one age to the next.  Then, each
-player draws three cards.  If any player has placed all their colonies, check
-for victory.  If no victory, continue the next age with planning.
+will never be skipped in the turn order from one age to the next.
+
+*Exploration:* In turn order, each player draws sectors for each of their
+exploring fleets to land on.  Draw in fleet order if you have multiple exploring
+fleets.  If you can't place a sector on a fleet, you may place that fleet
+anywhere.
+
+*Draw:* In turn order, each player may pay 0, 1, 3, or 6 secrets to draw 2, 3,
+4, or 5 cards.
+
+*Endgame:* If any player has placed all their colonies, check for victory.  If
+no victory, continue the next age with planning.
 
 ## Victory
 At the end of an age where at least one player has placed all their colonies,
@@ -133,14 +155,3 @@ If this is a tie, the game continues.
 Deck of sixty cards in three suits and ranks two through six -- four sets of
 fifteen, so that every suit and rank combination is represented evenly.  Every
 card has a unique ability, card art, and name.
-
-* More complex (and generally powerful) abilities are on the higher ranks.
-* Card abilities have a timing word (kind of like a card type) and either a
-  trigger or a cost for activation.
-* Timing is one of the actions that a fleet can perform, or pass.
-* Cards do not tap, nor do they reference the abilities of other cards in the
-  deck.
-* The only tokens cards can use are colonies, the three resources, or cards
-  (w/o referencing ability).
-* Suits determine the general type of ability, as a shortcut.
-

@@ -1,382 +1,401 @@
-- title: N/A
+- title: Alice
   suit: merchant
   rank: 2
   text: >
     At the end of the age, draw one card from the discard.
+  # APB: Any one card from the discard takes too long to resolve.
 
-- title: N/A
+- title: The Bribe
   suit: merchant
   rank: 2
   text: >
     During a skirmish, pay wealth equal to your opponent's reinforcement
     strength to end the skirmish as a tie.
 
-- title: N/A
+- title: The Wolf
   suit: merchant
   rank: 2
   text: >
-    During trade, move target colony to the bottom.
+    When you gather wealth, collapse an opponent's colony within three links.
+  # APB: Collapse moves a colony to the bottom of its stack.
 
-- title: N/A
+- title: The Mercenary
   suit: merchant
   rank: 2
   text: >
     During a skirmish, you may reveal wealth as reinforcements.  Remove it
     after taking any damage.
 
-- title: N/A
+- title: The Speculator
   suit: merchant
   rank: 3
   text: >
-    During trade, draw a card.
+    When you gather wealth, draw a card.
 
-- title: N/A
+- title: The Baroness
   suit: merchant
   rank: 3
   text: >
-    During trade, gain additional wealth equal to your revealed card.
+    When you gather wealth, treat the gather card's rank as five.
+  # APB: Gathering double wealth is way too powerful.
+  #      This wording is a bit awkward, but the ability is good.
 
-- title: N/A
+- title: The Insurgent
   suit: merchant
   rank: 3
   text: >
-    During movement, pay two wealth to place a colony underneath an adjacent
-    opponent-controlled colony disk.
+    When you could place a colony, pay two wealth to place a collapsed colony.
+  # APB: This wording is awkward, too -- how to alt-cost colony placement?
 
-- title: N/A
+- title: City of Gold
   suit: merchant
   rank: 3
   text: >
-    During movement, pay two wealth to move an adjacent colony disk to the top.
+    When you could place a colony, pay four wealth to place a colony.
+  # APB: As for the Insurgent, but even worse for the duplication.
 
-- title: N/A
+- title: The Network
   suit: merchant
   rank: 4
   text: >
     At the end of the age, draw a card.
 
-- title: N/A
+- title: The Wall
   suit: merchant
   rank: 4
   text: >
     This fleet cannot be attacked.
 
-- title: N/A
+- title: Blackmail
   suit: merchant
   rank: 4
   text: >
-    Pay one secret (once per age) to place a trade order on this fleet.
+    Pay one secret (once per age) and discard a merchant to gather three wealth.
+  # APB: Once/age abilities are difficult to manage.
 
-- title: N/A
+- title: The Thief
   suit: merchant
   rank: 4
   text: >
-    During trade, name a suit. The opponent you trade with must give you a card
-    of that suit, or reveal a hand with none of that suit.
+    Once per age, you may take a card used to gather instead of allowing the
+    player to choose who gets it.
+  # APB: Odd wording, but I like the idea.
 
-- title: N/A
+- title: Zele Seed Ships
   suit: merchant
   rank: 5
   text: >
     When this card enters play, put a colony on it.
+  # APB: Strong ability, but colonies on cards can be destroyed.
 
-- title: N/A
+- title: Consumable Goods
   suit: merchant
   rank: 5
   text: >
-    During trade, discard the trade order instead of giving it to an opponent.
+    When you gather wealth, pay a secret to discard the gathering card.  Choose
+    an opponent to draw a card.
+  # APB: "The gathering card" needs a name.
+  #      Also, "target opponent draws a card"?
 
-- title: N/A
+- title: Trade Secrets
   suit: merchant
   rank: 5
   text: >
-    During trade, gain two secrets.
+    When you gather wealth, gain two secrets.
 
-- title: N/A
+- title: Gossip
   suit: merchant
   rank: 5
   text: >
     Pay one secret to gain two wealth.
 
-- title: N/A
+- title: Tactical Sacrifice
   suit: merchant
   rank: 6
   text: >
     During a skirmish, pay one strength from this fleet to draw one card, any
     number of times.
 
-- title: N/A
+- title: Trawler
   suit: merchant
   rank: 6
   text: >
-    You may choose any opponent for trade.
+    When you gather, move this fleet one link.
+  # APB: "You may choose any opponent for trade." is obsolete.
 
-- title: N/A
+- title: Efficiency
   suit: merchant
   rank: 6
   text: >
-    When you pass, gain one wealth.
+    When you pass, gain this fleet's income twice.
 
-- title: Thani Wanderers
+- title: High Plains Drifter
   suit: merchant
   rank: 6
   text: >
-    When another friendly fleet moves, move this fleet once.
+    When another friendly fleet moves, move this fleet one link.
 
-- title: N/A
+- title: Ancient Weapons
   suit: soldier
   rank: 2
   text: >
-    This fleet has five strength. If it loses a skirmish, it dies. You may not
-    reinforce this fleet.
+    When this leader is revealed, give its fleet five strength.
+    Reinforcements spent on this fleet are discarded.
 
-- title: N/A
+- title: Training Regimen
   suit: soldier
   rank: 2
   text: >
-    When you pass, gain one strength.
+    When you pass, put one strength on this fleet.
 
-- title: N/A
+- title: Armada
   suit: soldier
   rank: 2
   text: >
-    When this fleet dies, return this card to your hand.
+    This fleet can hold two additional strength.
+  # APB: "When this fleet dies" no longer happens.
 
-- title: N/A
+- title: Blood Rage
   suit: soldier
   rank: 2
   text: >
-    During planning, put a strength on this card.  During a skirmish, take
-    strength on this card as reinforcements.
+    The first time this fleet skirmishes each age, it gains a strength.
 
-- title: N/A
+- title: Morale Booster
   suit: soldier
   rank: 3
   text: >
-    When this fleet enters play, it gains three strength.
+    When this leader is revealed, it gains three strength.
 
-- title: N/A
+- title: The Fear
   suit: soldier
   rank: 3
   text: >
-    During movement, you may sacrifice this fleet to destroy an adjacent fleet
-    or colony.
+    During movement, you may sacrifice this leader to force an adjacent fleet
+    to retreat three links.  (This may give you colonies.)
 
-- title: N/A
+- title: The Swamp
   suit: soldier
   rank: 3
   text: >
     During a skirmish, your opponent's cards all require a secret to play.
+  # APB: Wording is difficult; want to say they all have no suit.
 
-- title: N/A
+- title: Lawrence of Arabia
   suit: soldier
   rank: 3
   text: >
-    This fleet can have two orders assigned to it.
+    When this leader is revealed, you may discard a card to gather its
+    resources.
 
-- title: N/A
+- title: The Dictator
   suit: soldier
   rank: 4
   text: >
-    When this fleet's order is revealed, you may give it to another fleet.
+    When this fleet's gathering card is revealed, you may give it to another
+    fleet.
 
-- title: N/A
-  suit: soldier
+- title: Hearts and Minds
   rank: 4
+  suit: soldier
   text: >
     After a skirmish you won, you gain strength equal to the margin of victory.
 
-- title: N/A
+- title: Strategic Reinforcements
   suit: soldier
   rank: 4
   text: >
     During a skirmish, your opponent reveals reinforcements first.
 
-- title: N/A
+- title: The Vampire
   suit: soldier
   rank: 4
   text: >
     After a skirmish you lost, take one strength from the winner.
 
-- title: N/A
+- title: The Valkyrie
   suit: soldier
   rank: 5
   text: >
     After a skirmish, you gain strength equal to half the margin of victory,
     rounded up.
 
-- title: N/A
+- title: Battle Cry
   suit: soldier
   rank: 5
   text: >
     During a skirmish, you gain one strength for your reinforcements.
 
-- title: N/A
+- title: Pyrrhus
   suit: soldier
   rank: 5
   text: >
-    After a skirmish you lost, you may pay one additional strength to force the
-    winner to retreat instead.
+    After a skirmish you lost, you may pay three secrets to force the winner to
+    retreat instead.
 
-- title: N/A
+- title: Leech
   suit: soldier
   rank: 5
   text: >
-    During recruit, take one strength from each fleet you could reach by
-    movement.
+    When you gather strength, also take one strength from each fleet within
+    three links.
 
-- title: N/A
+- title: Darth Plaguis
   suit: soldier
   rank: 6
   text: >
-    This fleet can never lose its last strength.
+    Sacrifice this leader to prevent any other leader from being lost.
 
-- title: N/A
+- title: Pin
   suit: soldier
   rank: 6
   text: >
-    This fleet may move even if adjacent to an opponent's fleet.
+    Adjacent fleets may not move except to skirmish this fleet.
 
-- title: N/A
+- title: The General
   suit: soldier
   rank: 6
   text: >
-    During movement, you may distribute this fleet's movement to your other
-    fleets.
+    You may spend this fleet's movement on other friendly fleets.
+  # APB: Awkward wording.  Might need to reference MPs in the future.
 
-- title: N/A
+- title: Banshee
   suit: soldier
   rank: 6
   text: >
     During movement, you may spend a move to move an opponent's fleet.
+  # APB: Awkward wording.  Might need to reference MPs in the future.
 
-- title: N/A
+- title: Terraformation
   suit: sage
   rank: 2
   text: >
     During movement, you may pay three secrets to place a colony on an
     uninhabitable location.
 
-- title: N/A
+- title: The Watcher
   suit: sage
   rank: 2
   text: >
-    When you pass, gain one secret.
+    When you pass, pay one secret to draw a card.
 
-- title: N/A
+- title: The Surveyor
   suit: sage
   rank: 2
   text: >
-    When this fleet reveals a new sector, gain one secret for each inhabitable
-    location on it.
+    When this fleet is placed on a new sector, gain one secret for each
+    inhabitable location on it.
 
-- title: N/A
+- title: Water
   suit: sage
   rank: 2
   text: >
-    During observation, you may reveal a card in your hand for secrets, not
-    just one of those drawn.
+    You may exchange this fleet's gathering card with one from your hand.
 
-- title: N/A
+- title: Observer
   suit: sage
   rank: 3
   text: >
-    After observation, draw a card.
+    When you gather secrets, draw a card.
 
-- title: N/A
+- title: Transposition
   suit: sage
   rank: 3
   text: >
-    During movement, you may instead swap locations with any other fleet.
+    When you activate this fleet for movement, you may pay one secret to swap
+    positions with any other fleet first.
 
-- title: N/A
+- title: Weapons Research
   suit: sage
   rank: 3
   text: >
     During a skirmish, you may pay secrets equal to a card's rank to double
     that rank.
 
-- title: N/A
+- title: Searcher
   suit: sage
   rank: 3
   text: >
-    During observation, you may exchange this card for one in your hand.
+    You may pay a secret and discard a card to draw a card.
+  # APB: Need to figure out timing here. During gather / move? Sorcery?
 
-- title: N/A
+- title: The Quest
   suit: sage
   rank: 4
   text: >
     When you visit a sector, place its resource on this card.  Once all three
-    resources are on this card, sacrifice this fleet to place two colonies on
+    resources are on this card, sacrifice this leader to place two colonies on
     any empty inhabitable locations.
+  # APB: Awkward ability, especially considering other resources nearby.
 
-- title: N/A
+- title: Hidden Mining Base
   suit: sage
   rank: 4
   text: >
-    Pay two secrets to place an order on any fleet once per age.
-    # APB: Jeff thought this was overpowered at one.
+    Pay two secrets to gather resources from your hand.
+  # APB: Jeff thought this was overpowered at one secret.
+  # APB: Gather is an activation; see timing question for Searcher.
 
-- title: N/A
+- title: Bothan Spy
   suit: sage
   rank: 4
   text: >
-    During observation, you may sacrifice this fleet to gain six secrets.
+    You may sacrifice this leader to gain six secrets.
 
-- title: N/A
+- title: Generation Ship
   suit: sage
   rank: 4
   text: >
     During movement, you may pay four secrets to place a colony on this card.
 
-- title: N/A
+- title: Pilgrims
   suit: sage
   rank: 5
   text: >
-    During movement, you may pay one secret to place a colony instead of
-    strength.
+    During movement, you may pay one secret to place a colony on an unoccupied
+    inhabitable location.
+  # APB: unoccupied and inhabitable are awkward.
 
-- title: N/A
+- title: Wartime Resources
   suit: sage
   rank: 5
   text: >
-    During observation, you may sacrifice a colony to draw two additional
-    cards.
+    During movement, you may collapse a colony to draw two cards.
 
-- title: N/A
+- title: Hard Knocks
   suit: sage
   rank: 5
   text: >
     After a skirmish, gain secrets equal to the amount of strength lost.
 
-- title: N/A
+- title: Alien Remnant
   suit: sage
   rank: 5
   text: >
     When this fleet enters play, you may draw a new sector and place the fleet
     on that sector.
 
-- title: N/A
+- title: Anomaly Magnet
   suit: sage
   rank: 6
   text: >
-    Before observation, you may move to any unoccupied location.
+    When you gather secrets, you may move to any unoccupied location.
 
-- title: N/A
+- title: Weapons Cache
   suit: sage
   rank: 6
   text: >
     During a skirmish, you can add secrets to your reinforcement.
 
-- title: N/A
+- title: Warp Drive
   suit: sage
   rank: 6
   text: >
-    During movement, you may place this fleet on any unoccupied location.
+    When this fleet activates for movement, you may move it to any unoccupied
+    location instead.
 
-- title: N/A
+- title: The Brain
   suit: sage
   rank: 6
   text: >
-    When this fleet enters play, draw three cards.
-
+    When this leader is revealed, draw three cards.
