@@ -98,7 +98,7 @@ fleets. This strength is then placed with the fleet leader(s), and can’t be
 moved later.  (Important: fleets have a maximum strength of six.  Reinforcements
 revealed in excess of six are lost.)
 
-##### Initiative Rounds
+### Initiative Rounds
 The weaker fleet (or active player, if tied) has the starting initiative.  The
 player with initiative may either play a card in the suit matching their
 fleet’s sector (or non-matching suit and a secret), or retreat.
