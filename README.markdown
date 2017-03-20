@@ -56,7 +56,7 @@ Reveal a face-down card to gain resources equal to its rank.  Then give that car
  * Sages gather secrets.
 
 #### Pass
-Lose all remaining strength and wealth and pass your turn.  If you were the first player to pass, take the obelisk (first player marker).  You may not pass if you haven't built your new fleet for this age.  Once all players have passed, continue to the regroup phase.
+Lose all remaining wealth, distribute all remaining strength to your fleets (losing any remainder), and pass your turn.  If you were the first player to pass, take the obelisk (first player marker).  You may not pass if you haven't built your new fleet for this age.  Once all players have passed, continue to the regroup phase.
 
 *Passive Income:* If your turn comes back up and you've already passed, gain one resource for each leader you have, based on that leader's suit.
 
