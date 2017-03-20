@@ -1,70 +1,71 @@
-- title: Alice
+- title: Slow Research
   suit: merchant
   rank: 2
   text: >
-    At the end of the age, draw one card from the discard.
+    At the end of the age, draw a card.
   # APB: Any one card from the discard takes too long to resolve.
 
 - title: The Bribe
   suit: merchant
   rank: 2
   text: >
-    During a skirmish, pay wealth equal to your opponent's reinforcement
-    strength to end the skirmish as a tie.
+    Pay wealth equal to the current margin to end a skirmish as a tie.
 
 - title: The Wolf
   suit: merchant
   rank: 2
   text: >
-    When you gather wealth, collapse an opponent's colony within three links.
+    Reveal and discard a merchant to collapse an opponent's colony.
   # APB: Collapse moves a colony to the bottom of its stack.
 
 - title: The Mercenary
   suit: merchant
   rank: 2
   text: >
-    During a skirmish, you may reveal wealth as reinforcements.  Remove it
-    after taking any damage.
+    Pay X wealth to add X to the current margin.
 
 - title: The Speculator
   suit: merchant
   rank: 3
   text: >
-    When you gather wealth, draw a card.
+    Pay three wealth to draw a card.
 
 - title: The Baroness
   suit: merchant
   rank: 3
   text: >
-    When you gather wealth, treat the gather card's rank as five.
+    Reveal and donate a merchant to gain five wealth.
   # APB: Gathering double wealth is way too powerful.
   #      This wording is a bit awkward, but the ability is good.
+  # APB: "Donate" is clear enough, I think.
 
 - title: The Insurgent
   suit: merchant
   rank: 3
   text: >
-    When you could place a colony, pay two wealth to place a collapsed colony.
+    Pay an MP and two wealth to place a collapsed colony.
   # APB: This wording is awkward, too -- how to alt-cost colony placement?
+  # APB: "Place a collapsed colony" can only happen if there's another.
 
 - title: City of Gold
   suit: merchant
   rank: 3
   text: >
-    When you could place a colony, pay four wealth to place a colony.
+    Pay an MP and four wealth to place a colony.
   # APB: As for the Insurgent, but even worse for the duplication.
+  # APB: "Place a colony" is clear enough.
 
 - title: The Network
   suit: merchant
   rank: 4
   text: >
-    At the end of the age, draw a card.
+    Discard a card to draw a card.
 
 - title: The Wall
   suit: merchant
   rank: 4
   text: >
-    This fleet cannot be attacked.
+    Pay a secret to cancel a skirmish with this fleet.
 
 - title: Blackmail
   suit: merchant
@@ -77,23 +78,22 @@
   suit: merchant
   rank: 4
   text: >
-    Once per age, you may take a card used to gather instead of allowing the
-    player to choose who gets it.
+    Once per age, take the top card from the discard.
   # APB: Odd wording, but I like the idea.
 
 - title: Zele Seed Ships
   suit: merchant
   rank: 5
   text: >
-    When this card enters play, put a colony on it.
+    When this card is revealed, put a colony on it.
   # APB: Strong ability, but colonies on cards can be destroyed.
 
 - title: Consumable Goods
   suit: merchant
   rank: 5
   text: >
-    When you gather wealth, pay a secret to discard the gathering card.  Choose
-    an opponent to draw a card.
+    Reveal and discard a merchant to gather four wealth and choose an opponent
+    to draw a card.
   # APB: "The gathering card" needs a name.
   #      Also, "target opponent draws a card"?
 
@@ -101,7 +101,7 @@
   suit: merchant
   rank: 5
   text: >
-    When you gather wealth, gain two secrets.
+    Reveal and donate a merchant to gather three wealth and three secrets.
 
 - title: Gossip
   suit: merchant
@@ -113,40 +113,39 @@
   suit: merchant
   rank: 6
   text: >
-    During a skirmish, pay one strength from this fleet to draw one card, any
-    number of times.
+    Pay one strength from this fleet to draw one card, any number of times.
 
 - title: Trawler
   suit: merchant
   rank: 6
   text: >
-    When you gather, move this fleet one link.
+    When you reveal a merchant, this fleet gains one MP.
   # APB: "You may choose any opponent for trade." is obsolete.
 
 - title: Efficiency
   suit: merchant
   rank: 6
   text: >
-    When you pass, gain this fleet's income twice.
+    When you pass, gain one wealth.
 
 - title: High Plains Drifter
   suit: merchant
   rank: 6
   text: >
-    When another friendly fleet moves, move this fleet one link.
+    When you activate another fleet, this fleet gains one MP.
 
 - title: Ancient Weapons
   suit: soldier
   rank: 2
   text: >
     When this leader is revealed, give its fleet five strength.
-    Reinforcements spent on this fleet are discarded.
+    You may not reinforce this fleet.
 
 - title: Training Regimen
   suit: soldier
   rank: 2
   text: >
-    When you pass, put one strength on this fleet.
+    When you pass, this fleet gains one strength.
 
 - title: Armada
   suit: soldier
@@ -165,113 +164,110 @@
   suit: soldier
   rank: 3
   text: >
-    When this leader is revealed, it gains three strength.
+    When this leader is revealed, this fleet gains three strength.
 
 - title: The Fear
   suit: soldier
   rank: 3
   text: >
-    During movement, you may sacrifice this leader to force an adjacent fleet
-    to retreat three links.  (This may give you colonies.)
+    Reveal and discard a soldier to win a skirmish by its rank.
 
 - title: The Swamp
   suit: soldier
   rank: 3
   text: >
-    During a skirmish, your opponent's cards all require a secret to play.
+    In a skirmish, your opponent's fleet has no suit.
   # APB: Wording is difficult; want to say they all have no suit.
 
 - title: Lawrence of Arabia
   suit: soldier
   rank: 3
   text: >
-    When this leader is revealed, you may discard a card to gather its
+    When this leader is revealed, you may discard a card to gain three
     resources.
 
 - title: The Dictator
   suit: soldier
   rank: 4
   text: >
-    When this fleet's gathering card is revealed, you may give it to another
-    fleet.
+    When you activate this fleet, give all your other fleets one MP.
 
 - title: Hearts and Minds
   rank: 4
   suit: soldier
   text: >
-    After a skirmish you won, you gain strength equal to the margin of victory.
+    When you win a skirmish, gain strength equal to the final margin.
 
 - title: Strategic Reinforcements
   suit: soldier
   rank: 4
   text: >
-    During a skirmish, your opponent reveals reinforcements first.
+    Your opponent reveals reinforcements first against this fleet.
 
 - title: The Vampire
   suit: soldier
   rank: 4
   text: >
-    After a skirmish you lost, take one strength from the winner.
+    When you lose a skirmish, take one strength from the winning fleet.
 
 - title: The Valkyrie
   suit: soldier
   rank: 5
   text: >
-    After a skirmish, you gain strength equal to half the margin of victory,
-    rounded up.
+    Gain strength equal to half the margin of victory, rounded up.
+  # APB: "the margin of victory" only happens in a skirmish.
 
 - title: Battle Cry
   suit: soldier
   rank: 5
   text: >
-    During a skirmish, you gain one strength for your reinforcements.
+    When you reinforce, this fleet gains one strength.
 
 - title: Pyrrhus
   suit: soldier
   rank: 5
   text: >
-    After a skirmish you lost, you may pay three secrets to force the winner to
-    retreat instead.
+    When you lose a skirmish, you may pay three secrets to force the winner to
+    retreat.
 
 - title: Leech
   suit: soldier
   rank: 5
   text: >
-    When you gather strength, also take one strength from each fleet within
-    three links.
+    Reveal and donate a soldier to take two strength plus one from each fleet
+    on this sector.
 
 - title: Darth Plaguis
   suit: soldier
   rank: 6
   text: >
-    Sacrifice this leader to prevent any other leader from being lost.
+    Discard a soldier to take all the strength lost in a skirmish.
 
 - title: Pin
   suit: soldier
   rank: 6
   text: >
-    Adjacent fleets may not move except to skirmish this fleet.
+    Adjacent fleets may not spend MPs except to skirmish this fleet.
 
 - title: The General
   suit: soldier
   rank: 6
   text: >
-    You may spend this fleet's movement on other friendly fleets.
+    This fleet's MPs may be spent by your other fleets.
   # APB: Awkward wording.  Might need to reference MPs in the future.
 
 - title: Banshee
   suit: soldier
   rank: 6
   text: >
-    During movement, you may spend a move to move an opponent's fleet.
+    Spend one MP on an adjacent fleet.
   # APB: Awkward wording.  Might need to reference MPs in the future.
 
 - title: Terraformation
   suit: sage
   rank: 2
   text: >
-    During movement, you may pay three secrets to place a colony on an
-    uninhabitable location.
+    Pay three secrets to make this fleet's location inhabitable.
 
 - title: The Watcher
   suit: sage
@@ -290,109 +286,113 @@
   suit: sage
   rank: 2
   text: >
-    You may exchange this fleet's gathering card with one from your hand.
+    Pay one secret to plot a card from your hand, then put one of your plotted
+    cards back into your hand.
 
 - title: Observer
   suit: sage
   rank: 3
   text: >
-    When you gather secrets, draw a card.
+    Reveal and donate a sage to gain three secrets and draw a card.
 
 - title: Transposition
   suit: sage
   rank: 3
   text: >
-    When you activate this fleet for movement, you may pay one secret to swap
-    positions with any other fleet first.
+    Pay two MPs to swap this fleet's position with another fleet.
 
 - title: Weapons Research
   suit: sage
   rank: 3
   text: >
-    During a skirmish, you may pay secrets equal to a card's rank to double
-    that rank.
+    When you play a card in a skirmish, you may pay secrets equal to its rank
+    to add that much to your strength.
 
 - title: Searcher
   suit: sage
   rank: 3
   text: >
-    You may pay a secret and discard a card to draw a card.
+    Pay a secret and discard a card to draw a card.
   # APB: Need to figure out timing here. During gather / move? Sorcery?
 
 - title: The Quest
   suit: sage
   rank: 4
   text: >
-    When you visit a sector, place its resource on this card.  Once all three
-    resources are on this card, sacrifice this leader to place two colonies on
-    any empty inhabitable locations.
+    Reveal and discard a card matching this fleet's sector to place a colony on
+    this sector.
   # APB: Awkward ability, especially considering other resources nearby.
+  # APB: Reduce it to enabling just the current sector.
+  #      Want to re-add restriction to empty locations.
 
 - title: Hidden Mining Base
   suit: sage
   rank: 4
   text: >
-    Pay two secrets to gather resources from your hand.
+    Pay two secrets and donate a card from your hand to gain resources for that
+    card.
   # APB: Jeff thought this was overpowered at one secret.
   # APB: Gather is an activation; see timing question for Searcher.
+  # APB: Totally fine for this to happen whenever.
 
 - title: Bothan Spy
   suit: sage
   rank: 4
   text: >
-    You may sacrifice this leader to gain six secrets.
+    Discard a card to gain five secrets.  This fleet may not be reinforced.
 
 - title: Generation Ship
   suit: sage
   rank: 4
   text: >
-    During movement, you may pay four secrets to place a colony on this card.
+    Pay one MP and four secrets to place a colony on this card.
 
 - title: Pilgrims
   suit: sage
   rank: 5
   text: >
-    During movement, you may pay one secret to place a colony on an unoccupied
-    inhabitable location.
+    Pay one MP and one secret to place a colony
   # APB: unoccupied and inhabitable are awkward.
+  # APB: "Place a colony" is clear enough.
 
 - title: Wartime Resources
   suit: sage
   rank: 5
   text: >
-    During movement, you may collapse a colony to draw two cards.
+    Pay one MP and choose an opponent to collapse one of your colonies.  If
+    they do, draw two cards.
 
 - title: Hard Knocks
   suit: sage
   rank: 5
   text: >
-    After a skirmish, gain secrets equal to the amount of strength lost.
+    When you lose a skirmish, gain secrets equal to the amount of strength
+    lost.
 
 - title: Alien Remnant
   suit: sage
   rank: 5
   text: >
-    When this fleet enters play, you may draw a new sector and place the fleet
-    on that sector.
+    When this leader is revealed, you may draw a new sector and warp this fleet
+    to that sector.
 
 - title: Anomaly Magnet
   suit: sage
   rank: 6
   text: >
-    When you gather secrets, you may move to any unoccupied location.
+    Reveal and donate a sage to gain three secrets and warp this fleet.
 
 - title: Weapons Cache
   suit: sage
   rank: 6
   text: >
-    During a skirmish, you can add secrets to your reinforcement.
+    Pay one secret to put two strength on this fleet.
 
 - title: Warp Drive
   suit: sage
   rank: 6
   text: >
-    When this fleet activates for movement, you may move it to any unoccupied
-    location instead.
+    Pay three MPs to warp this fleet.
 
 - title: The Brain
   suit: sage
