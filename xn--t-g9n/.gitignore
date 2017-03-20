@@ -1,6 +1,0 @@
-*.pyc
-bower_components/
-
-# don't include third-party dependencies.
-lib/
-!lib/README.md
