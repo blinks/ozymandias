@@ -34,5 +34,6 @@ Squib::Deck.new cards: data['title'].size, layout: layouts do
   text str: data['title'], layout: 'title'
   text str: data['text'], layout: 'text'
 
+  save_pdf
   save_png
 end
