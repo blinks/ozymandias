@@ -44,7 +44,8 @@ When you activate a fleet, it gains three movement points (MPs), which last unti
 * *Skirmish:* All remaining MPs: skirmish with an adjacent fleet.
 
 #### Abiliites: Resources
-Reveal a face-down card under any fleet to gain resources equal to its rank, based on its suit.  Then give that card to an opponent.
+* *Standard:* Reveal a face-down card under any fleet to gain resources equal to its rank, based on its suit.  Then give that card to an opponent.
+* *Emergency:* Discard a card from your hand to gain one resource, based on its suit.
 
 * A merchant card gathers wealth, which is spent to move.
 * A soldier card gathers strength, which is spent to colonize and reinforce.
