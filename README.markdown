@@ -6,13 +6,13 @@
 > — Percy Bysshe Shelley, Ozymandias
 
 ## Components
-* A black obelisk (or something), to mark the first player in each age.
-* A deck of 60 (poker-size) cards, for each suit (merchant, soldier, sage) and rank (2 to 6).
-* A set of 9 (2.2” tri-hex) sector tiles, each with a suit (as above), an average of two colonizable locations and eight non-colonizable locations, and edges between locations.
+* A black obelisk to mark the first player in each age.
+* A deck of cards in three suits (merchant, soldier, sage).
+* Sector tiles for the modular galaxy map.
 * A collection of resource cubes (red strength, gold wealth, blue secrets).
 * For each player:
-  * A set of four numbered (or otherwise labeled 15mm x 10mm cylinder) fleet pawns.
-  * A set of eight colonies (colored 15mm x 4mm disks).
+  * A set of four fleet pawns.
+  * A set of eight colonies.
 
 ## Game Setup
 1. Shuffle the cards and sector tiles.
