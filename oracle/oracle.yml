@@ -11,13 +11,6 @@
   text: >
     Pay wealth equal to the current margin to end a skirmish as a tie.
 
-- title: The Wolf
-  suit: merchant
-  rank: 2
-  text: >
-    Reveal and discard a merchant to collapse an opponent's colony.
-  # APB: Collapse moves a colony to the bottom of its stack.
-
 - title: The Mercenary
   suit: merchant
   rank: 2
@@ -29,15 +22,6 @@
   rank: 3
   text: >
     Pay three wealth to draw a card.
-
-- title: The Baroness
-  suit: merchant
-  rank: 3
-  text: >
-    Reveal and donate a merchant to gain five wealth.
-  # APB: Gathering double wealth is way too powerful.
-  #      This wording is a bit awkward, but the ability is good.
-  # APB: "Donate" is clear enough, I think.
 
 - title: The Insurgent
   suit: merchant
@@ -54,12 +38,6 @@
     Pay an MP and four wealth to place a colony.
   # APB: As for the Insurgent, but even worse for the duplication.
   # APB: "Place a colony" is clear enough.
-
-- title: The Network
-  suit: merchant
-  rank: 4
-  text: >
-    Discard a card to draw a card.
 
 - title: The Wall
   suit: merchant
@@ -97,12 +75,6 @@
   # APB: "The gathering card" needs a name.
   #      Also, "target opponent draws a card"?
 
-- title: Trade Secrets
-  suit: merchant
-  rank: 5
-  text: >
-    Reveal and donate a merchant to gather three wealth and three secrets.
-
 - title: Gossip
   suit: merchant
   rank: 5
@@ -114,13 +86,6 @@
   rank: 6
   text: >
     Pay one strength from this fleet to draw one card, any number of times.
-
-- title: Trawler
-  suit: merchant
-  rank: 6
-  text: >
-    When you reveal a merchant, this fleet gains one MP.
-  # APB: "You may choose any opponent for trade." is obsolete.
 
 - title: Efficiency
   suit: merchant
@@ -134,12 +99,19 @@
   text: >
     When you activate another fleet, this fleet gains one MP.
 
-- title: Ancient Weapons
-  suit: soldier
-  rank: 2
+- title: The Baroness
+  suit: merchant
+  rank: 7
   text: >
-    When this leader is revealed, give its fleet five strength.
-    You may not reinforce this fleet.
+    Discard a merchant to gain three wealth.
+
+  suit: merchant
+  rank: 7
+  text: >
+
+  suit: merchant
+  rank: 7
+  text: >
 
 - title: Training Regimen
   suit: soldier
@@ -172,25 +144,12 @@
   text: >
     Reveal and discard a soldier to win a skirmish by its rank.
 
-- title: The Swamp
-  suit: soldier
-  rank: 3
-  text: >
-    In a skirmish, your opponent's fleet has no suit.
-  # APB: Wording is difficult; want to say they all have no suit.
-
 - title: Lawrence of Arabia
   suit: soldier
   rank: 3
   text: >
     When this leader is revealed, you may discard a card to gain three
     resources.
-
-- title: The Dictator
-  suit: soldier
-  rank: 4
-  text: >
-    When you activate this fleet, give all your other fleets one MP.
 
 - title: Hearts and Minds
   rank: 4
@@ -230,13 +189,6 @@
     When you lose a skirmish, you may pay three secrets to force the winner to
     retreat.
 
-- title: Leech
-  suit: soldier
-  rank: 5
-  text: >
-    Reveal and donate a soldier to take two strength plus one from each fleet
-    on this sector.
-
 - title: Darth Plaguis
   suit: soldier
   rank: 6
@@ -256,12 +208,25 @@
     This fleet's MPs may be spent by your other fleets.
   # APB: Awkward wording.  Might need to reference MPs in the future.
 
-- title: Banshee
+- title: Ancient Weapons
   suit: soldier
-  rank: 6
+  rank: 7
   text: >
-    Spend one MP on an adjacent fleet.
-  # APB: Awkward wording.  Might need to reference MPs in the future.
+    When this leader is revealed, give its fleet five strength.
+    You may not reinforce this fleet.
+
+- title: The Dictator
+  suit: soldier
+  rank: 7
+  text: >
+    When you activate this fleet, give all your other fleets one MP.
+
+- title: The Swamp
+  suit: soldier
+  rank: 7
+  text: >
+    In a skirmish, your opponent's fleet has no suit.
+  # APB: Wording is difficult; want to say they all have no suit.
 
 - title: Terraformation
   suit: sage
@@ -282,19 +247,6 @@
     When this fleet is placed on a new sector, gain one secret for each
     inhabitable location on it.
 
-- title: Water
-  suit: sage
-  rank: 2
-  text: >
-    Pay one secret to plot a card from your hand, then put one of your plotted
-    cards back into your hand.
-
-- title: Observer
-  suit: sage
-  rank: 3
-  text: >
-    Reveal and donate a sage to gain three secrets and draw a card.
-
 - title: Transposition
   suit: sage
   rank: 3
@@ -314,16 +266,6 @@
   text: >
     Pay a secret and discard a card to draw a card.
   # APB: Need to figure out timing here. During gather / move? Sorcery?
-
-- title: The Quest
-  suit: sage
-  rank: 4
-  text: >
-    Reveal and discard a card matching this fleet's sector to place a colony on
-    this sector.
-  # APB: Awkward ability, especially considering other resources nearby.
-  # APB: Reduce it to enabling just the current sector.
-  #      Want to re-add restriction to empty locations.
 
 - title: Hidden Mining Base
   suit: sage
@@ -355,13 +297,6 @@
   # APB: unoccupied and inhabitable are awkward.
   # APB: "Place a colony" is clear enough.
 
-- title: Wartime Resources
-  suit: sage
-  rank: 5
-  text: >
-    Pay one MP and choose an opponent to collapse one of your colonies.  If
-    they do, draw two cards.
-
 - title: Hard Knocks
   suit: sage
   rank: 5
@@ -375,12 +310,6 @@
   text: >
     When this leader is revealed, you may draw a new sector and warp this fleet
     to that sector.
-
-- title: Anomaly Magnet
-  suit: sage
-  rank: 6
-  text: >
-    Reveal and donate a sage to gain three secrets and warp this fleet.
 
 - title: Weapons Cache
   suit: sage
@@ -399,3 +328,25 @@
   rank: 6
   text: >
     When this leader is revealed, draw three cards.
+
+- title: Observer
+  suit: sage
+  rank: 7
+  text: >
+    Reveal and donate a sage to gain three secrets and draw a card.
+
+- title: Anomaly Magnet
+  suit: sage
+  rank: 7
+  text: >
+    Reveal and donate a sage to gain three secrets and warp this fleet.
+
+- title: The Quest
+  suit: sage
+  rank: 7
+  text: >
+    Reveal and discard a card matching this fleet's sector to place a colony on
+    this sector.
+  # APB: Awkward ability, especially considering other resources nearby.
+  # APB: Reduce it to enabling just the current sector.
+  #      Want to re-add restriction to empty locations.
