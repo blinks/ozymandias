@@ -5,11 +5,9 @@
 * Cards, available in this directory. (`rake pnp`)
 * A set of 2.2” tri-hex sector tiles. (assets coming with #36)
 * A collection of resources in three colors (strength, wealth, secrets).
-* For each player:
+* For each player [grey, green, blue, black?, brown, yellow, red]
   * A set of four numbered (or otherwise labeled 15mm x 10mm cylinder) fleet pawns -- I draw the numbers on with permanent marker.
   * A set of eight colonies (colored 15mm x 4mm disks).
-
-
 
 # Resource Equivalencies
 Current ideas for conversion rates.  Each row is one source resource and how
