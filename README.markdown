@@ -5,6 +5,8 @@
 > Nothing beside remains.  
 > — Percy Bysshe Shelley, Ozymandias
 
+See PLAYTESTING.md for print-and-play information.
+
 ## Components
 * A black obelisk to mark the first player in each age.
 * A deck of cards in three suits (gold, red, blue).
