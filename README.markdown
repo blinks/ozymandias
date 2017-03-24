@@ -140,7 +140,9 @@ resources left wins.
 
 ## Inspiration
 * Friedrich and Maria for the skirmish system.
-* 7 Ages for the action plotting system and [kinda] trade mechanism.
+* 7 Ages for the action plotting system and [kinda] trade mechanism, which
+  has since become the harvest action.
 * Glory to Rome for cards as either simple actions or complex static effects.
-* Cosmic Encounter for crazy powers and “last colony ends it”.
+* Cosmic Encounter for crazy powers and "last colony ends it" -- though the
+  latter always ended on age 4, so that's now the rule.
 * Race for the Galaxy for a tableau of powers triggered by actions.
