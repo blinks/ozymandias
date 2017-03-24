@@ -27,30 +27,30 @@ Ozymandias is played in a sequence of ages.  Each age consists of three parts: p
 ### Planning
 Choose one card as your new leader for this age.  This card's ability will be revealed when this age's fleet is placed, and will be connected to that fleet for the rest of the game.
 
-Place any number of cards face-down (landscape) under each fleet.  These cards can be revealed to power abilities during the age (in particular, collecting resources).
+Place any number of cards face-down (landscape) under each fleet.  These cards can be revealed to gather resources and power abilities during the age.
 
 ### Execution
-Take turns activating a fleet or passing until all players have passed.  Most actions can be taken at any time, but some require an active fleet or movement points, which restricts them to your turn.
+Take turns activating a fleet or passing until all players have passed.
 
-To activate a fleet, pay wealth determined by how many times that fleet has been activated this age.  The first activation costs one wealth, the second two, the third three.  A fleet may not be activated more than three times in one age.  In the first age, you may only activate fleet 1.  In the second age, you may also activate fleet 2, and so on.
+To activate a fleet, pay wealth determined by how many times that fleet has been activated this age.  The first activation costs one wealth, the second two, the third three.  (A fleet may not be activated more than three times in one age.)  In the first age, you may only activate fleet 1.  In the second age, you may also activate fleet 2, and so on.
 
-When you activate a fleet, it gains three movement points (MPs), which last until either spent or the end of your activation.
+When you activate a fleet, it gets three actions, which last until either spent or the end of your activation.
 
-#### Abilities: Movement
-* *Warp:* 1 MP: if the active fleet is on your player board, warp the active fleet onto any location without a fleet.
-* *Travel:* 1 MP: move the active fleet to an adjacent location.
-* *Explore:* 1 MP: move the active fleet to an adjacent sector edge on the rim of the galaxy.  It is exploring until a new sector is placed on that edge at the end of the age.
-* *Colonize:* 1 MP, strength equal to the number of colonies in the active fleet's location + 1: place a colony in the active fleet's location, if habitable.
-* *Skirmish:* All remaining MPs: skirmish with an adjacent fleet.
-
-#### Abilities: Resources
-* *Standard:* Reveal a face-down card under any fleet to gain resources equal to its rank, based on its suit.  Then give that card to an opponent.
-* *Emergency:* Discard a card from your hand to gain one resource, based on its suit.
+#### Actions
+* *Warp:* if this fleet is on your player board, place it onto any location without a fleet.
+* *Travel:* move this fleet to an adjacent location.
+* *Explore:* move this fleet to an adjacent sector edge on the rim of the galaxy.  It is exploring until a new sector is placed on that edge at the end of the age.
+* *Colonize:* pay strength equal to the number of colonies in this fleet's location + 1 and place a colony in the active fleet's location. You may only colonize habitable locations.
+* *Skirmish:* fight an adjacent enemy fleet. _This ends your turn._
+* *Harvest:* reveal a face-down card under this fleet and gain resources equal to its rank, based on its suit.  Then give that card to an opponent.
 
 * A merchant card gathers wealth, which is spent to move.
 * A soldier card gathers strength, which is spent to colonize and reinforce.
 * A sage card gathers secrets, which is spent to alter and draw cards.
 * A secret may always be spent when you reveal a card to change its suit to whatever you want.
+
+#### Emergency Resources
+At any time, you may discard a card to gain one resource of any type.
 
 ### Pass
 Pass your turn.  If you were the first player to pass, take the obelisk (first player marker).  Once all players have passed, continue to the regroup phase.
@@ -65,10 +65,10 @@ Clean up for the age in three steps.
 At the end of the fourth age, the player with the most ruling colonies (those on top of a colony stack) wins.  If this is a tie, the player with the most resources left wins.
 
 ## Skirmish
-Players will add strength to their fleets, then play cards until one decides to retreat and take losses.
+Players will add strength to their fleets, then play cards until one decides to retreat and take losses.  The winner may pay strength to conquer any colonies they make the loser retreat out of.
 
 ### Reinforcement
-Both players simultaneously reveal any amount of strength to reinforce their fleets. This strength is then placed with the fleet leader(s), and can’t be moved later.  (Important: fleets have a maximum strength of six.  Reinforcements revealed in excess of six are lost.)
+Both players simultaneously reveal any amount of strength to reinforce their fleets. This strength is then placed with the fleet leader(s), and can’t be moved later.
 
 ### Initiative Rounds
 The weaker fleet (or active player, if tied) has the starting initiative.  The player with initiative may either play a card or retreat.
@@ -77,7 +77,7 @@ The weaker fleet (or active player, if tied) has the starting initiative.  The p
 Play a card in the suit matching their fleet’s sector (or non-matching suit and a secret). Add the card’s rank [temporarily] to your fleet’s strength and continue initiative rounds.  (If you’re now tied or stronger, the opponent takes initiative.)
 
 #### Retreat
-If tied, the skirmish ends and nothing else happens.  Otherwise, you lose strength from the fleet equal to the margin of victory, then the winner moves your fleet that same number of links.  The winner may place colonies on spaces you exit for free.
+If tied (and the other player also decides not to play a card), the skirmish ends and nothing else happens.  Otherwise, you lose strength from the fleet equal to the margin of victory, then the winner moves your fleet that same number of links.  The winner may place colonies on spaces you exit by paying strength from their reinforcements equal to the number of colonies on those spaces + 1.
 
 ## Inspiration
 * Friedrich and Maria for the skirmish system.
