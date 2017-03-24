@@ -1,7 +1,13 @@
 require 'squib'
 
-task default: [:deck]
+task default: [:pnp]
 
-task :deck do
+task :pngs do
+  Squib.enable_build_globally :pngs
+  load 'deck.rb'
+end
+
+task :pnp do
+  Squib.enable_build_globally :print_n_play
   load 'deck.rb'
 end

@@ -34,6 +34,13 @@ Squib::Deck.new cards: data['title'].size, layout: layouts do
   text str: data['title'], layout: 'title'
   text str: data['text'], layout: 'text'
 
-  save_pdf
-  save_png
+  build :print_n_play do
+    save_pdf file: 'pnp.pdf',
+      width: '8.5in', height: '11in', margin: '0.5in',
+      gap: 0, trim: '0.25in'
+  end
+
+  build :pngs do
+    save_png
+  end
 end

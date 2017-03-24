@@ -6,59 +6,54 @@
 > — Percy Bysshe Shelley, Ozymandias
 
 ## Components
-* A black obelisk (or something), to mark the first player in each age.
-* A deck of 60 (poker-size) cards, for each suit (merchant, soldier, sage) and rank (2 to 6).
-* A set of 9 (2.2” tri-hex) sector tiles, each with a suit (as above), an average of two colonizable locations and eight non-colonizable locations, and edges between locations.
+* A black obelisk to mark the first player in each age.
+* A deck of cards in three suits (merchant, soldier, sage).
+* Sector tiles for the modular galaxy map.
 * A collection of resource cubes (red strength, gold wealth, blue secrets).
 * For each player:
-  * A set of four numbered (or otherwise labeled 15mm x 10mm cylinder) fleet pawns.
-  * A set of eight colonies (colored 15mm x 4mm disks).
+  * A set of four fleet pawns.
+  * A set of eight colonies.
 
 ## Game Setup
 1. Shuffle the cards and sector tiles.
-2. Place one sector tile (two with four or more players) in the middle of the table.
+2. Place one sector tile in the middle of the table.
 3. Have each player choose a set of fleet pawns and colonies.
 4. Give one player the obelisk -- they’ll take the first action.
-5. Give each player five cards and one of each resource.
+5. Give each player seven cards and one of each resource.
 
 ## Game Sequence
-Ozymandias is played in a sequence of ages.  Each age consists of three parts: planning, execution, and regroup.  The planning stage happens simultaneously, as each player decides what they want to do.  Execution rolls those plans out one action at a time.  At the end of the age is all the cleanup and some card draw.
+Ozymandias is played in a sequence of ages.  Each age consists of three parts: planning, execution, and regroup.  The planning stage happens simultaneously, as each player decides what they want to do.  Execution rolls those plans out one activation at a time.  At the end of the age is all the cleanup and some card draw.
 
 ### Planning
 Choose one card as your new leader for this age.  This card's ability will be revealed when this age's fleet is placed, and will be connected to that fleet for the rest of the game.
 
-Place any number of cards face-down (landscape) under each fleet.  These cards can be revealed to take special actions during the age (primarily for collecting resources).  Each player always has a harvest special action, and leaders will enable other special actions.
+Place any number of cards face-down (landscape) under each fleet.  These cards can be revealed to power abilities during the age (in particular, collecting resources).
+
+### Execution
+Take turns activating a fleet or passing until all players have passed.  Most actions can be taken at any time, but some require an active fleet or movement points, which restricts them to your turn.
+
+To activate a fleet, pay wealth determined by how many times that fleet has been activated this age.  The first activation costs one wealth, the second two, the third three.  A fleet may not be activated more than three times in one age.  In the first age, you may only activate fleet 1.  In the second age, you may also activate fleet 2, and so on.
+
+When you activate a fleet, it gains three movement points (MPs), which last until either spent or the end of your activation.
+
+#### Abilities: Movement
+* *Warp:* 1 MP: if the active fleet is on your player board, warp the active fleet onto any location without a fleet.
+* *Travel:* 1 MP: move the active fleet to an adjacent location.
+* *Explore:* 1 MP: move the active fleet to an adjacent sector edge on the rim of the galaxy.  It is exploring until a new sector is placed on that edge at the end of the age.
+* *Colonize:* 1 MP, strength equal to the number of colonies in the active fleet's location + 1: place a colony in the active fleet's location, if habitable.
+* *Skirmish:* All remaining MPs: skirmish with an adjacent fleet.
+
+#### Abilities: Resources
+* *Standard:* Reveal a face-down card under any fleet to gain resources equal to its rank, based on its suit.  Then give that card to an opponent.
+* *Emergency:* Discard a card from your hand to gain one resource, based on its suit.
 
 * A merchant card gathers wealth, which is spent to move.
 * A soldier card gathers strength, which is spent to colonize and reinforce.
 * A sage card gathers secrets, which is spent to alter and draw cards.
 * A secret may always be spent when you reveal a card to change its suit to whatever you want.
 
-### Execution
-Take turns activating a fleet or passing until all players have passed.
-
-#### Warp in a fleet
-In every age you'll warp in at least one new fleet.  In the first age, this is fleet 1, fleet 2 in the second, and so on.  To warp in a fleet, place its pawn on any location that doesn't already have a fleet.  Reveal that fleet's leader if not yet revealed.
-
-#### Move a fleet
-Pay wealth to give an activated fleet three movement points (MPs).
-
-* *Travel:* Spend one MP to move a fleet to a connected, unoccupied location.
-* *Colonization:* Spend one MP and strength equal to the number of colonies + 1 on a habitable location to conquer it.  
-* *Exploration:* Spend all remaining MPs to move a fleet into the void -- leave it on the edge of the sector tile.
-* *Skirmish:* Spend all remaining MPs to skirmish a fleet on a connected location.
-
-The first time you move a fleet each age, it costs one wealth.  The second time, two wealth.  The third time, three wealth, and so on.  Place wealth spent to move a fleet on that fleet.
-
-#### Special Action: Harvest
-Reveal a face-down card to gain resources equal to its rank.  Then give that card to an opponent.
-
- * Merchants gather wealth.
- * Soldiers gather strength.
- * Sages gather secrets.
-
-#### Pass
-Pass your turn and gain one resource for each of your leaders, based on their suit.  If you were the first player to pass, take the obelisk (first player marker).  Once all players have passed, continue to the regroup phase.
+### Pass
+Pass your turn.  If you were the first player to pass, take the obelisk (first player marker).  Once all players have passed, continue to the regroup phase.
 
 ### Regroup
 Clean up for the age in three steps.
