@@ -27,7 +27,7 @@
   suit: merchant
   rank: 3
   text: >
-    Pay an MP and two wealth to place a collapsed colony.
+    Action: Pay two wealth to place a collapsed colony.
   # APB: This wording is awkward, too -- how to alt-cost colony placement?
   # APB: "Place a collapsed colony" can only happen if there's another.
 
@@ -35,7 +35,7 @@
   suit: merchant
   rank: 3
   text: >
-    Pay an MP and four wealth to place a colony.
+    Action: Pay four wealth to place a colony.
   # APB: As for the Insurgent, but even worse for the duplication.
   # APB: "Place a colony" is clear enough.
 
@@ -99,7 +99,7 @@
   suit: merchant
   rank: 6
   text: >
-    When you activate another fleet, this fleet gains one MP.
+    When you activate another fleet, this fleet gains one action.
 
 - title: The Baroness
   suit: merchant
@@ -205,13 +205,13 @@
   suit: soldier
   rank: 6
   text: >
-    Adjacent fleets may not spend MPs except to skirmish this fleet.
+    Adjacent fleets may not spend actions except to skirmish this fleet.
 
 - title: The General
   suit: soldier
   rank: 6
   text: >
-    This fleet's MPs may be spent by your other fleets.
+    This fleet's actions may be spent by your other fleets.
   # APB: Awkward wording.  Might need to reference MPs in the future.
 
 - title: Ancient Weapons
@@ -224,7 +224,7 @@
   suit: soldier
   rank: 7
   text: >
-    When you activate this fleet, give all your other fleets one MP.
+    When you activate this fleet, give all your other fleets one action.
 
 - title: The Swamp
   suit: soldier
@@ -258,7 +258,7 @@
   suit: sage
   rank: 3
   text: >
-    Pay two MPs to swap this fleet's position with another fleet.
+    Action: Swap this fleet's position with another fleet.
 
 - title: Weapons Research
   suit: sage
@@ -294,13 +294,13 @@
   suit: sage
   rank: 4
   text: >
-    Pay one MP and four secrets to place a colony on this card.
+    Action: Pay four secrets to place a colony on this card.
 
 - title: Pilgrims
   suit: sage
   rank: 5
   text: >
-    Pay one MP and one secret to place a colony
+    Action: Pay one secret to place a colony
   # APB: unoccupied and inhabitable are awkward.
   # APB: "Place a colony" is clear enough.
 
@@ -328,7 +328,7 @@
   suit: sage
   rank: 6
   text: >
-    Pay three MPs to warp this fleet.
+    Action: Return this fleet to this card.
 
 - title: The Brain
   suit: sage
