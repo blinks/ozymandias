@@ -49,7 +49,8 @@
   suit: merchant
   rank: 4
   text: >
-    Pay one secret (once per age) and discard a merchant to gather three wealth.
+    Pay one secret (once per age) and discard a gold card to gather three
+    wealth.
   # APB: Once/age abilities are difficult to manage.
 
 - title: The Thief
@@ -71,7 +72,7 @@
   suit: merchant
   rank: 5
   text: >
-    Discard a merchant to gather four wealth and choose an opponent
+    Discard a gold card to gather four wealth and choose an opponent
     to draw a card.
   # APB: "The gathering card" needs a name.
   #      Also, "target opponent draws a card"?
@@ -104,7 +105,7 @@
   suit: merchant
   rank: 7
   text: >
-    Discard a merchant to gain three wealth.
+    Discard a gold card to gain three wealth.
 
 - title: The Network
   suit: merchant
@@ -116,7 +117,7 @@
   suit: merchant
   rank: 7
   text: >
-    Discard a merchant to collapse a colony on the Trawler's sector.
+    Discard a gold card to collapse a colony on the Trawler's sector.
 
 - title: Training Regimen
   suit: soldier
@@ -147,7 +148,7 @@
   suit: soldier
   rank: 7
   text: >
-    Pay three secrets and discard a soldier to win a skirmish by its rank.
+    Pay three secrets and discard a red card to win a skirmish by its rank.
 
 - title: Lawrence of Arabia
   suit: soldier
@@ -198,7 +199,7 @@
   suit: soldier
   rank: 6
   text: >
-    Discard a soldier to take all the strength lost in a skirmish.
+    Discard a red card to take all the strength lost in a skirmish.
 
 - title: Pin
   suit: soldier
@@ -339,13 +340,13 @@
   suit: sage
   rank: 7
   text: >
-    Donate a sage to gain three secrets and draw a card.
+    Donate a blue card to gain three secrets and draw a card.
 
 - title: Anomaly Magnet
   suit: sage
   rank: 7
   text: >
-    Donate a sage to gain three secrets and warp this fleet.
+    Donate a blue card to gain three secrets and warp this fleet.
 
 - title: The Quest
   suit: sage
