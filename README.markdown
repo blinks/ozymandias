@@ -43,7 +43,7 @@ When you activate a fleet, it gains three movement points (MPs), which last unti
 * *Colonize:* 1 MP, strength equal to the number of colonies in the active fleet's location + 1: place a colony in the active fleet's location, if habitable.
 * *Skirmish:* All remaining MPs: skirmish with an adjacent fleet.
 
-#### Abiliites: Resources
+#### Abilities: Resources
 * *Standard:* Reveal a face-down card under any fleet to gain resources equal to its rank, based on its suit.  Then give that card to an opponent.
 * *Emergency:* Discard a card from your hand to gain one resource, based on its suit.
 
