@@ -58,8 +58,9 @@ rank, based on its suit.  Then give that card to an opponent.
 * A [gold] card gathers wealth, which is spent to move.
 * A [red] card gathers strength, which is spent to colonize and reinforce.
 * A [blue] card gathers secrets, which is spent to alter and draw cards.
-* A secret may always be spent when you reveal a card to change its suit to
-  whatever you want.
+
+*Secret Plans:* Any time you reveal a card, you may spend secrets equal to
+half its rank (rounded down) to transform it into any suit.
 
 *Emergency Resources:* At any time, you may discard a card to gain one
 resource of _any_ type.
@@ -116,6 +117,9 @@ action ends your turn._
    - If the losing fleet is moved _out_ of a habitable location, the winner
      may pay strength _from the winning fleet_ to colonize that location
      (based on the number of disks there, as usual).
+
+*Secret Plans:* Any time you reveal a card, you may spend secrets equal to
+half its rank (rounded down) to transform it into any suit.
 
 ### Regroup
 Clean up for the age in three steps.
