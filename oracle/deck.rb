@@ -24,9 +24,9 @@ Squib::Deck.new cards: data['title'].size, layout: layouts do
   suit = {}; data['suit'].each_with_index{ |t, i| (suit[t] ||= []) << i}
   circle range: suit['merchant'], fill_color: 'gold',
     x: 135, y: 135, radius: 50
-  rect range: suit['soldier'], fill_color: '#f33',
+  rect range: suit['soldier'], fill_color: '#faa',
     x: 90, y: 90, width: 90, height: 90
-  triangle range: suit['sage'], fill_color: '#55f',
+  triangle range: suit['sage'], fill_color: '#aaf',
     x1: 135, y1: 80, x2: 190, y2: 170, x3: 80, y3: 170
 
   # Card information.
