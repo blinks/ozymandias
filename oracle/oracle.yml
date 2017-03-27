@@ -27,7 +27,7 @@
   suit: merchant
   rank: 3
   text: >
-    Pay an MP and two wealth to place a collapsed colony.
+    Action: Pay two wealth to place a collapsed colony.
   # APB: This wording is awkward, too -- how to alt-cost colony placement?
   # APB: "Place a collapsed colony" can only happen if there's another.
 
@@ -35,7 +35,7 @@
   suit: merchant
   rank: 3
   text: >
-    Pay an MP and four wealth to place a colony.
+    Action: Pay four wealth to place a colony.
   # APB: As for the Insurgent, but even worse for the duplication.
   # APB: "Place a colony" is clear enough.
 
@@ -49,15 +49,17 @@
   suit: merchant
   rank: 4
   text: >
-    Pay one secret (once per age) and discard a merchant to gather three wealth.
+    Pay one secret (once per age) and discard a gold card to gather three
+    wealth.
   # APB: Once/age abilities are difficult to manage.
 
 - title: The Thief
   suit: merchant
   rank: 4
   text: >
-    Once per age, take the top card from the discard.
-  # APB: Odd wording, but I like the idea.
+    Once per age, pay three secrets to take a card at random from an opponent.
+  # APB: Odd wording, but I like the idea [draw from discard].
+  # APB: Takes up far too much attention watching discard.
 
 - title: Zele Seed Ships
   suit: merchant
@@ -70,7 +72,7 @@
   suit: merchant
   rank: 5
   text: >
-    Reveal and discard a merchant to gather four wealth and choose an opponent
+    Discard a gold card to gather four wealth and choose an opponent
     to draw a card.
   # APB: "The gathering card" needs a name.
   #      Also, "target opponent draws a card"?
@@ -97,13 +99,13 @@
   suit: merchant
   rank: 6
   text: >
-    When you activate another fleet, this fleet gains one MP.
+    When you activate another fleet, this fleet gains one action.
 
 - title: The Baroness
   suit: merchant
   rank: 7
   text: >
-    Discard a merchant to gain three wealth.
+    Discard a gold card to gain three wealth.
 
 - title: The Network
   suit: merchant
@@ -115,7 +117,7 @@
   suit: merchant
   rank: 7
   text: >
-    Discard a merchant to collapse a colony on the Trawler's sector.
+    Discard a gold card to collapse a colony on the Trawler's sector.
 
 - title: Training Regimen
   suit: soldier
@@ -144,9 +146,9 @@
 
 - title: The Fear
   suit: soldier
-  rank: 3
+  rank: 7
   text: >
-    Reveal and discard a soldier to win a skirmish by its rank.
+    Pay three secrets and discard a red card to win a skirmish by its rank.
 
 - title: Lawrence of Arabia
   suit: soldier
@@ -197,40 +199,41 @@
   suit: soldier
   rank: 6
   text: >
-    Discard a soldier to take all the strength lost in a skirmish.
+    Discard a red card to take all the strength lost in a skirmish.
 
 - title: Pin
   suit: soldier
   rank: 6
   text: >
-    Adjacent fleets may not spend MPs except to skirmish this fleet.
+    Adjacent fleets may not spend actions except to skirmish this fleet.
 
 - title: The General
   suit: soldier
   rank: 6
   text: >
-    This fleet's MPs may be spent by your other fleets.
+    This fleet's actions may be spent by your other fleets.
   # APB: Awkward wording.  Might need to reference MPs in the future.
 
 - title: Ancient Weapons
   suit: soldier
-  rank: 7
+  rank: 3
   text: >
     When this leader is revealed, give its fleet five strength.
-    You may not reinforce this fleet.
 
 - title: The Dictator
   suit: soldier
   rank: 7
   text: >
-    When you activate this fleet, give all your other fleets one MP.
+    When you activate this fleet, give all your other fleets one action.
 
 - title: The Swamp
   suit: soldier
   rank: 7
   text: >
-    In a skirmish, your opponent's fleet has no suit.
+    In a skirmish, your opponent's cards have no suit. (They may use secrets
+    to give those cards suits.)
   # APB: Wording is difficult; want to say they all have no suit.
+  # APB: Gary came up with this better wording.
 
 - title: Terraformation
   suit: sage
@@ -255,7 +258,7 @@
   suit: sage
   rank: 3
   text: >
-    Pay two MPs to swap this fleet's position with another fleet.
+    Action: Swap this fleet's position with another fleet.
 
 - title: Weapons Research
   suit: sage
@@ -291,13 +294,13 @@
   suit: sage
   rank: 4
   text: >
-    Pay one MP and four secrets to place a colony on this card.
+    Action: Pay four secrets to place a colony on this card.
 
 - title: Pilgrims
   suit: sage
   rank: 5
   text: >
-    Pay one MP and one secret to place a colony
+    Action: Pay one secret to place a colony
   # APB: unoccupied and inhabitable are awkward.
   # APB: "Place a colony" is clear enough.
 
@@ -325,7 +328,7 @@
   suit: sage
   rank: 6
   text: >
-    Pay three MPs to warp this fleet.
+    Action: Return this fleet to this card.
 
 - title: The Brain
   suit: sage
@@ -337,19 +340,19 @@
   suit: sage
   rank: 7
   text: >
-    Reveal and donate a sage to gain three secrets and draw a card.
+    Donate a blue card to gain three secrets and draw a card.
 
 - title: Anomaly Magnet
   suit: sage
   rank: 7
   text: >
-    Reveal and donate a sage to gain three secrets and warp this fleet.
+    Donate a blue card to gain three secrets and warp this fleet.
 
 - title: The Quest
   suit: sage
   rank: 7
   text: >
-    Reveal and discard a card matching this fleet's sector to place a colony on
+    Discard a card matching this fleet's sector to place a colony on
     this sector.
   # APB: Awkward ability, especially considering other resources nearby.
   # APB: Reduce it to enabling just the current sector.
