@@ -17,8 +17,7 @@
   rank: 2
   text: >
     When this fleet enters a war, you may draft wealth onto this fleet along
-    with population.  At the end of that war (after casualties, if any),
-    remove all wealth drafted onto this fleet.
+    with population.
 
 - title: The Speculator
   suit: merchant
