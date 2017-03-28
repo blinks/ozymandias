@@ -6,7 +6,7 @@
 > — Percy Bysshe Shelley, Ozymandias
 
 Ozymandias is a game for two to six players ruling galaxy-spanning
-civilizations.  The game takes about twenty minutes per experienced player
+civilizations.  The game takes about thirty minutes per experienced player
 across four rounds (ages).
 
 (See PLAYTESTING.md for print-and-play information.)
