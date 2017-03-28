@@ -115,17 +115,19 @@ have passed, begin the next age.
 Move this fleet, paying secrets to move further and change direction.
 
 - You may move as far as you like along a single unbroken line.
-- Hazards, colonies, and direction changes cost one secret for the first, two
-  secrets for the second, and so on.
-- When you hit an intersection, you may stop or continue in the same
-  direction for free, but changing direction costs secrets.
-- When you hit a hazard or a colony, pay secrets, but then you may continue
-  in any direction.
-- When you hit a friendly fleet, pay secrets, then you _must_ continue in any
-  direction.
-- *War*: If your final location is occupied by an enemy fleet, stop in the
-  last legal intersection, hazard, or colony, and resolve a war.  If you
-  force a retreat of at least one move, finish your movement on that space.
+- Friendly fleet traffic, hazards, colonies, and direction changes cost one
+  secret for the first, two secrets for the second, and so on:
+  - When you hit a friendly fleet, pay secrets, then you _must_ continue in
+    any direction.
+  - When you hit a hazard or a colony, pay secrets, then you _may_ continue
+    in any direction.
+  - When you hit an intersection, you _may_ continue in the same direction
+    for free, but changing direction costs secrets.  You may also stop on the
+    intersection.
+- *War*: If your final destination is occupied by an enemy fleet, stop in an
+  adjacent location (that must not contain a fleet) and resolve a war.  If
+  you force a retreat of at least one move, advance into the original
+  destination space.
 - *Exploration:* If you move off the edge of the galaxy, take a face-down
   sector tile and put the fleet on it.  If there are no more sector tiles,
   put the fleet back on its leader card.  (The next time this fleet is
