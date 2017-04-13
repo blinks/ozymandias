@@ -11,105 +11,67 @@ civilizations.
 (See PLAYTESTING.md for print-and-play information.)
 
 ## Components
-- A collection of faction cubes and unrest cubes.
+- A collection of factions [cubes / gems] in three colors.
 - A deck of cards.
-- A set of sector tiles.
-- For each player, a set of twelve workers.
+- A set of sectors [hex tiles].
+- A set of six colony disks for each player.
 
 ### The Cards
-Each card has a suit and a rank, which determines their value in war.  They
-also have rules text, which is active while in your tableau.
-
-### The Sectors
-Each sector has a suit, reflected in the symbol used for one to three
-colonies on the sector, along with the color of the border around the
-outside.
-
-Sectors have lines running through them as well.  These are the paths you
-follow when placing new workers on the map.  Workers are only placed on
-intersections, colonies, or hazards (the black dots).  All these points are
-on exactly one sector -- the suit you place in is important for war.
-
-The colonies on a sector can be occupied by multiple players.  When a player
-successfully conquers a colony, they place a worker on top of any already
-there.  Every other player with a colony under that one gains unrest.
+Each card has a suit and a rank, which determines their value in war and
+their faction cap.  They also have a golden age ability and [potentially] an
+ability in war.
 
 ## Game Setup
-1. Shuffle the cards and sector tiles.
-2. Place one sector tile in the middle of the table.
-3. Have each player choose a set of workers: start with three and leave the
-   rest in the bag.
-4. Deal each player five cards and one of each faction cube: the cards go
-   into your hand (you can look at them) and the cubes go on your left.
-5. Choose a first player randomly.
+1. Shuffle the cards and sectors.
+2. Place three random sectors in the middle of the table.
+3. Give each player six colonies of one color.
+4. Deal each player a five card hand.
+5. Give each player one of each faction.
+6. Choose a first player at random.
 
 ## Game Sequence
-Play proceeds in turns.  Each turn you choose one of three possible modes:
+Play proceeds in turns.  Each turn you choose to either rise or fall.
 
-### Intake
-Take all the incoming faction cubes from your left, and distribute to your
-cards as you like (though each card has a preferred faction).  Anything you
-don't distribute must continue on to the player on your right.
+### Rise
+Play a card to your tableau and place your colony on a sector adjacent to
+where you already have one.  (If you have no cards in hand, or you have no
+spare colonies, you cannot choose to rise.)
 
-If you have any tapped cards in your tableau, discard them (cards with both
-workers and enough faction cubes also score VPs).  For each card you discard,
-recover a colony worker.  Then, tap any cards that have no faction cubes on
-them.
+- Exploration: You may draw a new sector if you have a colony adjacent to the
+  edge of the board, but you must place on that sector.
+- War: If you place on an occupied sector, everyone in that sector must
+  choose and then simultaneously reveal a card.  Resolve card abilities in
+  turn order.  Double the rank of cards matching the sector's suit, and
+  re-stack the colonies from high to low.  Tied players maintain the same
+  order in the stack.
 
-Draw back up to five cards.
+Whoever controls that sector (after any warfare is resolved) gains a faction
+of its suit onto any card.
 
-### Migration
-Starting with the right-most card in your tableau, pick up all the cubes on
-each card and move them right-wards, potentially to the previous player's
-intake.  You may not leave cubes on a card.  For each color you give to the
-player on your right, return an unrest cube.
+### Fall
+Collapse golden age colonies and move factions counter-clockwise.
 
-Recover any or all of your _standing_ workers (not colonies or
-newly-recruited workers).
+While you have cards in a golden age:
+1. Choose a sector you control and destroy all the colonies there.
+   (Destroyed colonies return to their owners.)
+2. Take a faction of that sector's color from each opponent with a destroyed
+   colony and place them on your own cards, ignoring golden age limits.
+   (This is the only time you may over-stack.)
+3. You and each other player with a destroyed colony, score and discard:
+   - All players must choose golden age cards if possible.
+   - Cards score based on the number of matching factions they hold:
+     1/2/3/5/8/13 for 1/2/3/4/5/6+ matching factions.
+   - All factions on discarded cards are passed to the right.
 
-### Campaign
-Place as many workers as you like to take actions as described below.
+Migrate your factions rightwards:
+- Incoming factions from the left _must_ be placed on cards or passed right.
+- Existing factions on your cards _may_ be moved as desired.
+- At least one faction _must_ move at least one card to the right.
+- Cards _may not_ hold more factions than their rank.
+- Cards with factions equal to their rank are in a golden age -- tap them to
+  make that obvious.
 
-You may stand a worker on the map, adjacent to an existing colony of yours.
-If there's an enemy worker there, fight a war for control of that location,
-with the loser taking back their worker.
-
-You may lay a worker down on a colony, adjacent to another worker of yours, 
-or on any colony if you have no workers on the map.  If there's an enemy
-colony there, fight a war for control of that location, with the winner
-sitting on top.  Either way, play a card to your tableau and add a cube of
-its suit to your left.
-
-You may put a worker at an unworked, untapped card in your tableau to lay a
-worker down on that card.  You'll recover it when that card collapses.  At
-most one worker can be laid-down on each card.
-
-You may put a worker at an unworked, tapped card in your tableau to mark it
-for harvest.  You'll score it the next time you do intake, if there's enough
-faction cubes on it.
-
-## Collapse
-Tapped cards collapse on intake.  If there was a (standing) worker there, and
-at least as many faction cubes as the card's rank (reduced by unrest), you'll
-get to score points.
-
-Count up the faction cubes that match the card's suit, limited by it's rank
-less your unrest: score 1/3/6/10/15 points for 1/2/3/4/5+ matching cubes.  If
-that card also has a new (laid-down) worker on it, score the next higher
-level.
-
-## War
-Wars are resolved in one target location.  Everyone in that location gains
-unrest, then the two warring players play a card face-down and simultaneously
-reveal.
-
-Double the rank of a card that matches the sector's suit, and then the high
-card wins.  Active player wins ties.
-
-In the unlikely case that a player has no cards, the other player wins the
-war without playing a card.  (Everyone still gains unrest.)
+Draw three(?) cards.
 
 ## Victory
-When a player reaches 21 VPs, each other player gets one more turn.  (That
-player could get another turn, but it's not possible to get more points,
-iiuc.)
+When a player reaches 21 VPs, each other player gets one more turn.
