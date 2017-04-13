@@ -6,190 +6,118 @@
 > — Percy Bysshe Shelley, Ozymandias
 
 Ozymandias is a game for two to six players ruling galaxy-spanning
-civilizations.  The game takes about thirty minutes per experienced player
-across four rounds (ages).
+civilizations.
 
 (See PLAYTESTING.md for print-and-play information.)
 
 ## Components
-- A black obelisk to mark the first player in each age.
-- A collection of resource cubes.
+- A collection of faction cubes and unrest cubes.
 - A deck of cards.
 - A set of sector tiles.
 - For each player:
-  - A set of four fleet pawns.
-  - A set of eight disks.
+  - A set of twelve workers.
 
-### The Resources
-There are three suits of resources:
+### The Factions
+There are three:
 
-- *Wealth* (gold circles) is spent to grant additional actions.  Whenever you
-  activate a fleet, you turn it sideways to mark it exhausted.  At the
-  beginning of your turn, you can pay wealth to recover all your fleets.
-- *Population* (red squares) is spent to conquer or drafted into war.  While
-  you hold population in reserve, you can spend it however you wish.  Once
-  population has been drafted into a fleet, it may no longer occupy a colony.
-- *Secrets* (blue triangles) alter and draw cards.  Without secrets, your
-  options dwindle -- you're restricted to the suits in your hand, and draw
-  fewer cards when the next age begins.
+- *Merchant* (gold).
+- *Aristocrat* (red)
+- *Sage* (blue)
 
 ### The Cards
-Each card has a suit and a rank, which determines their value in war and
-harvest.  Cards have three uses:
-
-- As a *Leader*, apply its title and rules text to its fleet.
-- As a *Sword*, add it to your fleet's strength in war, and discard it.
-- As a *Plowshare*, gain resources in its suit, and give it away.
-
-Card ranks go from two to seven, and determine the card's strength as a sword
-or plowshare.  Higher ranks also tend to have stronger rules text.
-
-You may spend a card as an *emergency resource* of any suit.  This should
-often only be used as a last resort.
+Each card has a suit and a rank, which determines their value in war.  They
+also have rules text, which is active while in your tableau.
 
 ### The Sectors
 Each sector has a suit, reflected in the symbol used for one to three
 colonies on the sector, along with the color of the border around the
 outside.
 
-Sectors have lines running through them as well.  These are the paths your
-fleets can take during movement.  Fleets can stop only at intersections,
-colonies, or hazards (the black dots).  All legal stopping points are on
-exactly one sector -- the suit you stop in is important for war.
+Sectors have lines running through them as well.  These are the paths you
+follow when placing new workers on the map.  Workers are only placed on
+intersections, colonies, or hazards (the black dots).  All these points are
+on exactly one sector -- the suit you place in is important for war.
 
 The colonies on a sector can be occupied by multiple players.  When a player
-conquers a colony, they place a disk on top of any already there.  The more
-disks on a colony, the harder it is to conquer again.  The player who
-controls the most colonies at the end of the game is the winner.
+successfully conquers a colony, they place a worker on top of any already
+there.  Every other player with a colony under that one gains unrest.
 
 ## Game Setup
 1. Shuffle the cards and sector tiles.
 2. Place one sector tile in the middle of the table.
-3. Have each player choose a set of fleet pawns and disks.
-4. Give one player the obelisk -- they’ll take the first action.
-5. Give each player seven cards and one of each resource.
+3. Have each player choose a set of workers: start with three and leave the
+   rest in the bag.
+4. Deal each player five cards and one of each faction cube: the cards go
+   into your hand (you can look at them) and the cubes go on your left.
+5. Choose a first player randomly.
 
 ## Game Sequence
-Ozymandias is played over four rounds, called "ages".  At the beginning of
-each age, players choose a new leader and decide what cards they're willing
-to trade for resources.  Once all players are ready, they all take turns
-activating fleets or passing until everyone has passed.  Then the next age
-begins.
+Play proceeds in turns.  Each turn you choose one of three possible modes:
 
-### Planning
-*In each age after the first, recover all your leaders and draw two cards.*
-You may pay secrets to draw additional cards: one for the first, two for the
-second, three for the third.
+### Intake
+Take all the incoming faction cubes from your left, and distribute to your
+cards as you like (though each card has a preferred faction).  Anything you
+don't distribute must continue on to the player on your right.
 
-*Choose one card as your new leader for this age, and place a new fleet on
-it.*  This card will be revealed when that fleet is activated, and will be
-connected to that fleet for the rest of the game.
+If you have any tapped cards in your tableau, discard them (cards with both
+workers and enough faction cubes also score VPs).  For each card you discard,
+recover a colony worker.  Then, tap any cards that have no faction cubes on
+them.
 
-*Place any number of cards face-down under each leader.*  These cards can be
-revealed and given away to gain resources during the age when the associated
-fleet is activated.
+Draw back up to five cards.
 
-### Execution
-Take turns activating a fleet or passing until all players have passed.
+### Migration
+Take any number of faction cubes already on your cards and move them as far
+as you like to the right (either to another card or on to the player on your
+right).  For each color you give to the player on your right, return an
+unrest cube.
 
-You may not activate exhausted fleets.  At the beginning of your turn, you
-may pay wealth to recover all your fleets: the first time in an age, this
-costs one wealth.  The second time, two, and so on.  (Place wealth spent for
-this to the side, so you can remember.)
+Recover any or all of your _standing_ workers (not colonies or
+newly-recruited workers).
 
-When you activate a fleet, exhaust it.  That fleet gets one action.
-If it's off-map (on the leader card or an exploring sector), warp it in
-before taking your action:
+### Campaign
+Place as many workers as you like to take actions as described below.
 
-- When you warp in from your card, put it anywhere that doesn't contain a
-  fleet or an enemy-controlled colony.
-- When you warp in from a sector its exploring, reveal and place that sector
-  tile, gain a resource for each colony revealed, and place your fleet
-  anywhere on that tile.
+You may stand a worker on the map, adjacent to an existing colony of yours.
+If there's an enemy worker there, fight a war for control of that location,
+with the loser taking back their worker.
 
-When you pass, you may not re-enter play this age.  If you were the first
-player to pass, take the obelisk (first player marker).  Once all players
-have passed, begin the next age.
+You may lay a worker down on a colony, adjacent to another worker of yours, 
+or on any colony if you have no workers on the map.  If there's an enemy
+colony there, fight a war for control of that location, with the winner
+sitting on top.  Either way, play a card to your tableau and add a cube of
+its suit to your left.
 
-#### Action: Move
-Move this fleet, paying secrets to move further and change direction.
+You may put a worker at an unworked, untapped card in your tableau to lay a
+worker down on that card.  You'll recover it when that card collapses.  At
+most one worker can be laid-down on each card.
 
-- You may move as far as you like along a single unbroken line.
-- Friendly fleet traffic, hazards, colonies, and direction changes cost one
-  secret for the first, two secrets for the second, and so on:
-  - When you hit a friendly fleet, pay secrets, then you _must_ continue in
-    any direction.
-  - When you hit a hazard or a colony, pay secrets, then you _may_ continue
-    in any direction.
-  - When you hit an intersection, you _may_ continue in the same direction
-    for free, but changing direction costs secrets.  You may also stop on the
-    intersection.
-- *War*: If your final destination is occupied by an enemy fleet, stop in an
-  adjacent location (that must not contain a fleet) and resolve a war.  If
-  you force a retreat of at least one move, advance into the original
-  destination space.
-- *Exploration:* If you move off the edge of the galaxy, take a face-down
-  sector tile and put the fleet on it.  If there are no more sector tiles,
-  put the fleet back on its leader card.  (The next time this fleet is
-  activated, it'll warp in as a free action.)
+You may put a worker at an unworked, tapped card in your tableau to mark it
+for harvest.  You'll score it the next time you do intake, if there's enough
+faction cubes on it.
 
-#### Action: Conquer
-Pay population from your reserves equal to one plus the number of disks on
-this fleet's location and place one of your own disks on top.  Then draw a
-card.
+## Collapse
+Tapped cards collapse on intake.  If there was a (standing) worker there, and
+at least as many faction cubes as the card's rank (reduced by unrest), you'll
+get to score points.
 
-- You may only conquer colonies.
-- You may take one of your disks from anywhere if you've run out of your
-  pool.
-
-#### Action: Harvest
-Reveal a face-down card under this fleet and gain resources equal to its
-rank, based on its suit.  Then give that card to an opponent.
-
-*Secret Plans:* Any time you reveal a card, you may spend secrets equal to
-half its rank (rounded down) to transform it into any suit.
+Count up the faction cubes that match the card's suit, limited by it's rank
+less your unrest: score 1/3/6/10/15 points for 1/2/3/4/5+ matching cubes.  If
+that card also has a new (laid-down) worker on it, score the next higher
+level.
 
 ## War
-Players will draft population into to their fleets, then play cards until one
-decides to retreat and take losses.  The active fleet is the attacker, the
-other fleet is the defender.
+Wars are resolved in one target location.  Everyone in that location gains
+unrest, then the two warring players play a card face-down and simultaneously
+reveal.
 
-1. Reinforcement: Both you and the defending player secretly choose and then
-   reveal any amount of population from your reserves to add to your fleet
-   strengths.
-2. Initiative: Whoever has the lower fleet strength starts with the
-   initiative. If tied, the active player starts with it. The difference in
-   strengths is your current *score*, which is negative for the player with
-   the initiative.
-3. The player with the initiative may play a single card or accept defeat.
-   - To play a card, it must match the suit your fleet occupies.  Discard
-     that card, add it to your score, and subtract it from your opponent's
-     score.
-   - If you're now zero or positive, initiative changes.  Otherwise, you
-     retain initiative.  Either way, continue this step.
-4. If the war ends in a tie, nothing else happens.  Otherwise, the
-   losing fleet loses strength equal to the final score.
-5. If there is strength loss left over, the winner moves the losing fleet as
-   if spending secrets equal to the difference.
-   - The losing fleet may be forced to explore (and become tapped) in this
-     way, but cannot be forced to fight a new war.
-   - The losing fleet may not backtrack.
-   - If the losing fleet is moved _out_ of a colony, the winner may conquer
-     that colony for free.
+Double the rank of a card that matches the sector's suit, and then the high
+card wins.  Active player wins ties.
 
-*Secret Plans:* Any time you reveal a card, you may spend secrets equal to
-half its rank (rounded down) to transform it into any suit.
+In the unlikely case that a player has no cards, the other player wins the
+war without playing a card.  (Everyone still gains unrest.)
 
 ## Victory
-At the end of the fourth age, the player controlling the most colonies wins.
-
-TODO(#44): Write a satisfying tie-breaker.
-
-## Inspiration
-* Friedrich and Maria for the skirmish system.
-* 7 Ages for the action plotting system and [kinda] trade mechanism, which
-  has since become the harvest action.
-* Glory to Rome for cards as either simple actions or complex static effects.
-* Cosmic Encounter for crazy powers and "last colony ends it" -- though the
-  latter always ended on age 4, so that's now the rule.
-* Race for the Galaxy for a tableau of powers triggered by actions.
+When a player reaches 21 VPs, each other player gets one more turn.  (That
+player could get another turn, but it's not possible to get more points,
+iiuc.)
