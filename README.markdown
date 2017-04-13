@@ -14,15 +14,7 @@ civilizations.
 - A collection of faction cubes and unrest cubes.
 - A deck of cards.
 - A set of sector tiles.
-- For each player:
-  - A set of twelve workers.
-
-### The Factions
-There are three:
-
-- *Merchant* (gold).
-- *Aristocrat* (red)
-- *Sage* (blue)
+- For each player, a set of twelve workers.
 
 ### The Cards
 Each card has a suit and a rank, which determines their value in war.  They
@@ -67,10 +59,10 @@ them.
 Draw back up to five cards.
 
 ### Migration
-Take any number of faction cubes already on your cards and move them as far
-as you like to the right (either to another card or on to the player on your
-right).  For each color you give to the player on your right, return an
-unrest cube.
+Starting with the right-most card in your tableau, pick up all the cubes on
+each card and move them right-wards, potentially to the previous player's
+intake.  You may not leave cubes on a card.  For each color you give to the
+player on your right, return an unrest cube.
 
 Recover any or all of your _standing_ workers (not colonies or
 newly-recruited workers).
