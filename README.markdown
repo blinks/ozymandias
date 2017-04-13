@@ -11,7 +11,8 @@ civilizations.
 (See PLAYTESTING.md for print-and-play information.)
 
 ## Components
-- A collection of factions [cubes / gems] in three colors.
+- A collection of factions [cubes / gems] in four colors.
+  - Three that match card suits, and a fourth that can't score.
 - A deck of cards.
 - A set of sectors [hex tiles].
 - A set of six colony disks for each player.
@@ -35,7 +36,8 @@ Play proceeds in turns.  Each turn you choose to either rise or fall.
 ### Rise
 Play a card to your tableau and place your colony on a sector adjacent to
 where you already have one.  (If you have no cards in hand, or you have no
-spare colonies, you cannot choose to rise.)
+spare colonies, you cannot choose to rise.)  Move as many incoming factions as
+you want to that card, and tap it if it reaches a golden age.
 
 - Exploration: You may draw a new sector if you have a colony adjacent to the
   edge of the board, but you must place on that sector.
@@ -65,10 +67,11 @@ While you have cards in a golden age:
      1/2/3/5/8/13 for 1/2/3/4/5/6+ matching factions.
    - All factions on discarded cards are passed to the right.
 
-Migrate your factions rightwards:
-- Incoming factions from the left _must_ be placed on cards or passed right.
-- Existing factions on your cards _may_ be moved as desired.
-- At least one faction _must_ move at least one card to the right.
+Migrate your factions:
+- Move as many factions as you like from your cards to the next player
+  counter-clockwise.
+- Move all your incoming factions to your cards or the next player
+  counter-clockwise.
 - Cards _may not_ hold more factions than their rank.
 - Cards with factions equal to their rank are in a golden age -- tap them to
   make that obvious.
@@ -76,4 +79,5 @@ Migrate your factions rightwards:
 Draw three(?) cards.
 
 ## Victory
-When a player reaches 21 VPs, each other player gets one more turn.
+When a player reaches 21 VPs, each other player gets one more turn, then the
+player with the most VPs wins, ties broken in turn order.
