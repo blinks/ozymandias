@@ -48,6 +48,8 @@ spare colonies, you cannot choose to rise.)
 Whoever controls that sector (after any warfare is resolved) gains a faction
 of its suit onto any card.
 
+If you won a war, you may take another turn.
+
 ### Fall
 Collapse golden age colonies and move factions counter-clockwise.
 
