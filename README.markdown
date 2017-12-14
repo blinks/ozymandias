@@ -20,13 +20,13 @@ Ozymandias is a card game for two to four players.
 
 ### Sectors [Landscape]
 Each sector has a number, from 1 to ~6. Lower numbers make placement harder,
-higher numbers make it easier. Sectors also have a title and often some rules
+higher numbers make it easier. Sectors also have a title and sometimes rules
 text.
 
 ### Myths [Portrait]
 Each myth has a faction and a number, from 1 to ~6. Lower numbers are better
 for expansion, higher numbers are better for war. Myths also have a title and
-often some rules text.
+sometimes rules text.
 
 ### Cities [Disks]
 Cities are represented by colored wooden disks, and are stacked between sectors
@@ -53,12 +53,12 @@ history track, and then score their influence and cards.
 On a turn, choose one:
 
 - Play a card for one of several effects.
-- Sell a card and gain influence.
+- Buy a card for influence.
 - Fight a war and perhaps gain influence.
-- Recover your hand and perhaps buy cards.
+- Recover your hand and sell down to your hand size.
 
 ### Play a Card
-Sectors and myths play differently, and myths often have two potential uses.
+Sectors and myths play differently:
 
 - When you *play a sector,* choose where to place it on the map. If you place
   next to at least one city, choose a ruling faction next to your new sector
@@ -73,38 +73,34 @@ Sectors and myths play differently, and myths often have two potential uses.
   - The number on each adjacent sector must be at least the number on the myth.
   - The height of the city must be at most the number on the myth.
   - If there are no free cities to place, you cannot take this action.
-- When you *play a myth for its event,* do what it says, then put it in your
-  tableau.
 
-### Sell a Card
-Place the card onto the discard pile and gain its value in influence.
+### Buy a Card
+Pay influence to take a card from the top of the deck or the discard pile and
+put it into your hand.
 
-- For sectors, this is twice the number of sectors on the map.
-- For myths, this is the faction's value on the history track.
+- From the deck, purchase unseen at the second-highest faction's value on the
+  history track.
+- From _anywhere_ in the discard pile, purchase a sector at twice the number of
+  sectors on the map, or a myth at the faction's value on the history track.
 
 ### Fight a War
 Play cards to destroy cities, then collect influence.
 
-- Choose a sector next to at least one city, and take the sector's WAR action,
-  if any.
-- All players choose a card from their hands and simultaneously reveal.
-- If any cards have a WAR effect, do what they say, then all revealed cards go
-  to each player's tableau.
+- Choose a sector next to at least one city.
+- All players choose a card from their hands and simultaneously reveal and
+  place in their tableau.
 - Add the number of ruling cities at the sector to the numbers on matching
   revealed cards; the faction(s) with the highest total is/are the winner(s).
 - Destroy each non-winning city (ruling or not): they're free to be placed again.
-- For each city destroyed, players gain influence equal to the number of
-  cards for a winning faction in their tableau.
+- For each winning faction card in their tableau, players gain the sector's
+  value.
 
 ### Recover your Hand
-Put all the cards in your tableau back into your hand. Then as long as you have
-less than seven cards in your hand, you may buy cards from the top of the deck
-or the discard pile.
+Put all the cards in your tableau back into your hand. Then sell cards for
+influence until you get back down to seven cards.
 
-- From the deck, purchase unseen at the second-highest faction's value on the
-  history track.
-- From _anywhere_ in the discard pile, purchase sectors at twice the number of
-  sectors on the map, or myths at the faction's value on the history track.
+- For sectors, this is twice the number of sectors on the map.
+- For myths, this is the faction's value on the history track.
 
 ![Sergey Kolesov](https://camo.githubusercontent.com/be60e6c36aaace972918c0cdb6e51ea7a063261a/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f433337584f306457514141636b48632e6a7067)
 
