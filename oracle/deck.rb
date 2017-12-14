@@ -20,7 +20,7 @@ Squib::Deck.new cards: data['title'].size, layout: layouts do
   # Placeholder "art."
   rect layout: 'art'
 
-  # Suit icons are just filled shapes.
+  # Suit icons are just filled shapes. TODO: Icons?
   suit = {}; data['suit'].each_with_index{ |t, i| (suit[t] ||= []) << i}
   circle range: suit['merchant'], fill_color: 'gold',
     x: 135, y: 135, radius: 50
@@ -29,7 +29,7 @@ Squib::Deck.new cards: data['title'].size, layout: layouts do
   triangle range: suit['sage'], fill_color: '#aaf',
     x1: 135, y1: 80, x2: 190, y2: 170, x3: 80, y3: 170
 
-  # Card information.
+  # Card information. TODO: Sector layouts.
   text str: data['rank'], layout: 'rank'
   text str: data['title'], layout: 'title'
   text str: data['text'], layout: 'text'

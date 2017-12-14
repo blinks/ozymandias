@@ -5,64 +5,86 @@
 > Nothing beside remains.  
 > — Percy Bysshe Shelley, Ozymandias
 
-Ozymandias is a game for two to four players.
+Ozymandias is a card game for two to four players.
 
 (See PLAYTESTING.md for print-and-play information.)
 
 ## Components
-- A collection of faction disks in four colors.
-- A deck of cards.
-- A set of sectors [hex tiles].
+- ~16 Sector cards.
+- ~12 Myth cards, ~6 cities, and a history marker for each faction.
+- A history track card (6, 8, ..., 24, 26, 30).
+- Influence tokens in several denominations.
 
-### The Cards
-Each card has a suit and a unique rank, which determines the faction they're
-associated with and their order of play.
+## Setup
+1. Put each faction's history marker on the track at 6.
+2. Set the faction cities and influence tokens aside.
+3. Choose a starting sector at random.
+4. Shuffle up the remaining cards and deal out hands of seven to each player.
+5. Flip the top card of the deck over to make a discard pile.
+6. Choose a starting player at random. [TODO: Balance?]
 
-## Game Setup
-1. Shuffle the cards and sectors.
-2. Place three random sectors in the middle of the table.
-3. Deal each player a three card hand.
-4. Deal a five-card market near the map.
+## Play
+Players take turns until at least one faction has reached the end of the
+history track, and then score their influence and whatever's in their hand.
 
-## Game Sequence
-The game is played in rounds, where each round players will play a card, place
-a disk, trade a card, and potentially destroy an empire.
+On a turn, choose one:
 
-### Secret plans
-Players secretly choose a card from their hand, and simultaneously reveal.
-This card will be used for initiative this turn (based on the card's rank), and
-to determine what empire this player will raise up.
+- Play a card for one of several effects.
+- Sell a card and gain influence.
+- Fight a war and perhaps gain influence.
+- Recover your hand and perhaps buy cards.
 
-### Raise empires, use abilities
-From the lowest card to the highest, each player _either_ expands with their
-card's faction _or_ executes their card's event.
+### Play a Card
+Sectors and myths play differently, and myths often have two potential uses.
 
-When you expand, you place a disk of your card's color.  If that color already
-has a disk in play, your disk must be adjacent to another of that color.  Otherwise, you can place anywhere.
+- When you *play a sector,* choose where to place it on the map. If you place
+  next to at least one city, choose one and gain influence equal to that
+  faction's place on the history track. Then take another turn.
+- When you *play a myth to expand,* take a city from off the board and place
+  it at the edge of a sector. For that city and everything under it, increase
+  the corresponding faction's value on the history track. Put the myth in your
+  tableau.
+  - If there's already a city of that faction on the map, you must share a
+    sector with it.
+  - The number on the adjacent sectors must be at least the number on the myth.
+  - The height of the city must be at most the number on the myth.
+  - If there are no free cities to place, you cannot take this action.
+- When you *play a myth for its event,* do what it says, then put it in your
+  tableau.
 
-When you use the event, follow its instructions.  If it disagrees with any of
-the rules text, the card wins.
+### Sell a Card
+Place the card onto the discard pile and gain its value in influence.
 
-### Trade cards, score points
-Then, from highest card to lowest, each player _must_ trade a card from their
-hand for a card in the market, and _may_ trade the card they used this turn as
-well.
+- For sectors, this is twice the number of sectors on the map.
+- For myths, this is the faction's value on the history track.
 
-When you trade, you score VPs equal to the difference in faction value, if
-positive.  For example, if red controls three sectors and blue controls one,
-you'd score two points when trading a red card for a blue card.  You'd score no
-points for trading a blue card for a red card, but you also wouldn't lose any
-points.
+### Fight a War
+Play cards to destroy cities, then collect influence.
 
-You may also trade for the top card of the deck, but you don't score any points
-(you don't reveal the card you gained) and your traded card is put into the
-discard pile instead of the market.
+- Choose a sector next to at least one city, and take its action, if any.
+- All players choose a card from their hands and simultaneously reveal.
+- If any cards have a WAR effect, do what they say, then those cards go to each
+  player's tableau.
+- Add the number of ruling cities at the sector to the numbers on matching
+  revealed cards; the faction(s) with the highest total is/are the winner(s).
+- Destroy each winning city (ruling or not): they're free to be placed again.
+- For each city destroyed, players gain influence equal to the number of
+  cards for that faction in their tableau.
 
-### Collapse an empire, refresh the market
-If any color has the most cards in the market after all trades are complete,
-all its top disks are destroyed.  Disks below the top disk are unharmed.  If
-two colors are tied for the most, neither is destroyed.
+### Recover your Hand
+Put all the cards in your tableau back into your hand. Then as long as you have
+less than seven cards in your hand, you may buy cards from the top of the deck
+or the discard pile.
 
-Finally, discard the market and deal out five new cards.  Everyone recovers the
-card they played this round (unless they sold it), and you all should begin the
-next round with three cards in hand.
+- From the deck, purchase unseen at the second-highest faction's value on the
+  history track.
+- From _anywhere_ in the discard pile, purchase sectors at twice the number of
+  sectors on the map, or myths at the faction's value on the history track.
+
+## Game End and Victory
+When a faction hits the end of the history track, the game ends at the end of
+that turn.
+
+Players sell the rest of the cards in their hand, then the player with the most
+influence wins. In the case of a tie, the tied player who would take the next
+turn wins.

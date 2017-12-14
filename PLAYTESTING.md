@@ -4,16 +4,11 @@ that are not yet tested.  Feel free to try either one, but make sure I know
 which, if you report.
 
 ## Components
-* Some cool piece (I use an Icehouse pyramid) to mark first player.
 * Cards, available in the oracle directory. (Run `rake pnp`.)
   * I'll try and put a PDF in the releases section.
-* A set of 2.2” tri-hex sector tiles.
-  * Assets coming with #36, but these are the most painful to get.
-* A collection of resources in three colors (gold, red, blue).
-* For each player [grey, green, blue, black?, brown, yellow, red]:
-  * A set of four numbered (or otherwise labeled 15mm x 10mm cylinder) fleet
-    pawns -- I draw the numbers on with permanent marker.
-  * A set of eight colonies (colored 15mm x 4mm disks).
+* Colonies, probably either poker chips or disks lying around. Anything
+  stackable.
+* Cash, either gems or poker chips or whatever.
 
 I purchase my components from https://www.printplaygames.com/
 
