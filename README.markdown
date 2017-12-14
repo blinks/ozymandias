@@ -9,7 +9,7 @@ Ozymandias is a card game for two to four players.
 
 (See PLAYTESTING.md for print-and-play information.)
 
-![On a litter.](https://camo.githubusercontent.com/f511cda35cc1bf6888a94062e1dd84f19e65b385/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333375850725757494145307245352e6a7067)
+![Sergey Kolesov](https://camo.githubusercontent.com/f511cda35cc1bf6888a94062e1dd84f19e65b385/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333375850725757494145307245352e6a7067)
 
 ## Components
 - ~16 Sector cards.
@@ -27,7 +27,7 @@ Each sector has a number, from 1 to ~6. Lower numbers make placement harder,
 higher numbers make it easier. Sectors also have a title and often some rules
 text.
 
-![Through the desert.](https://camo.githubusercontent.com/0ed4c7dda939eefe38cd659dd866ed62bad31b86/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d77434754474e436b4663512f574f30565a2d52373659492f41414141414141415173592f53635a5843596f6f6e56304b486c374f7361493468394f564c4e53477864706b67434c63422f73313630302f6465736572742d6e696768742d74696e792d6c616e6473636170652e6a7067)
+![Nate Marcel](https://camo.githubusercontent.com/0ed4c7dda939eefe38cd659dd866ed62bad31b86/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d77434754474e436b4663512f574f30565a2d52373659492f41414141414141415173592f53635a5843596f6f6e56304b486c374f7361493468394f564c4e53477864706b67434c63422f73313630302f6465736572742d6e696768742d74696e792d6c616e6473636170652e6a7067)
 
 ## Setup
 1. Put each faction's history marker on the track at 6.
@@ -37,7 +37,7 @@ text.
 5. Flip the top card of the deck over to make a discard pile.
 6. Choose a starting player at random. [TODO: Balance?]
 
-![Ships landing.](https://camo.githubusercontent.com/786d55c10b6c9ced8f6295d823045da7e767ff47/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333314b467774574d4141376d65742e6a7067)
+![Ian McQue](https://camo.githubusercontent.com/786d55c10b6c9ced8f6295d823045da7e767ff47/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333314b467774574d4141376d65742e6a7067)
 
 ## Play
 Players take turns until at least one faction has reached the end of the
@@ -98,7 +98,7 @@ or the discard pile.
 - From _anywhere_ in the discard pile, purchase sectors at twice the number of
   sectors on the map, or myths at the faction's value on the history track.
 
-![On a throne.](https://camo.githubusercontent.com/be60e6c36aaace972918c0cdb6e51ea7a063261a/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f433337584f306457514141636b48632e6a7067)
+![Sergey Kolesov](https://camo.githubusercontent.com/be60e6c36aaace972918c0cdb6e51ea7a063261a/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f433337584f306457514141636b48632e6a7067)
 
 ## Game End and Victory
 When a faction hits the end of the history track, the game ends at the end of
@@ -108,4 +108,4 @@ Players sell the rest of the cards in their hand, then the player with the most
 influence wins. In the case of a tie, the tied player who would take the next
 turn wins.
 
-![Aftermath.](https://camo.githubusercontent.com/72edbdc675924826863c50e42de0b7be3a0da0f8/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f43374a63657855586b4155716f6f7a2e6a7067)
+![Victor Mosquera](https://camo.githubusercontent.com/72edbdc675924826863c50e42de0b7be3a0da0f8/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f43374a63657855586b4155716f6f7a2e6a7067)
