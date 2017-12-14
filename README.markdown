@@ -8,6 +8,7 @@
 Ozymandias is a card game for two to four players.
 
 (See PLAYTESTING.md for print-and-play information.)
+(Art credits and links [on the wiki](https://github.com/blinks/ozymandias/wiki).)
 
 ![Sergey Kolesov](https://camo.githubusercontent.com/f511cda35cc1bf6888a94062e1dd84f19e65b385/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333375850725757494145307245352e6a7067)
 
