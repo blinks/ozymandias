@@ -17,6 +17,16 @@ Ozymandias is a card game for two to four players.
 - A history track card (6, 8, ..., 24, 26, 30).
 - Influence tokens in several denominations.
 
+### Myths [Portrait]
+Each myth has a faction and a number, from 1 to ~6. Lower numbers are better
+for expansion, higher numbers are better for war. Myths also have a title and
+often some rules text.
+
+### Sectors [Landscape]
+Each sector has a number, from 1 to ~6. Lower numbers make placement harder,
+higher numbers make it easier. Sectors also have a title and often some rules
+text.
+
 ![Through the desert.](https://camo.githubusercontent.com/0ed4c7dda939eefe38cd659dd866ed62bad31b86/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d77434754474e436b4663512f574f30565a2d52373659492f41414141414141415173592f53635a5843596f6f6e56304b486c374f7361493468394f564c4e53477864706b67434c63422f73313630302f6465736572742d6e696768742d74696e792d6c616e6473636170652e6a7067)
 
 ## Setup
