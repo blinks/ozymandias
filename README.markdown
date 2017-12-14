@@ -44,8 +44,9 @@ On a turn, choose one:
 Sectors and myths play differently, and myths often have two potential uses.
 
 - When you *play a sector,* choose where to place it on the map. If you place
-  next to at least one city, choose one and gain influence equal to that
-  faction's place on the history track. Then take another turn.
+  next to at least one city, choose a ruling one and gain influence equal to
+  that faction's place on the history track. Flip the top of the deck into the
+  discard pile. Then take another turn.
 - When you *play a myth to expand,* take a city from off the board and place
   it at the edge of a sector. For that city and everything under it, increase
   the corresponding faction's value on the history track. Put the myth in your
@@ -69,13 +70,13 @@ Play cards to destroy cities, then collect influence.
 
 - Choose a sector next to at least one city, and take its action, if any.
 - All players choose a card from their hands and simultaneously reveal.
-- If any cards have a WAR effect, do what they say, then those cards go to each
-  player's tableau.
+- If any cards have a WAR effect, do what they say, then all revealed cards go
+  to each player's tableau.
 - Add the number of ruling cities at the sector to the numbers on matching
   revealed cards; the faction(s) with the highest total is/are the winner(s).
-- Destroy each winning city (ruling or not): they're free to be placed again.
+- Destroy each non-winning city (ruling or not): they're free to be placed again.
 - For each city destroyed, players gain influence equal to the number of
-  cards for that faction in their tableau.
+  cards for a winning faction in their tableau.
 
 ### Recover your Hand
 Put all the cards in your tableau back into your hand. Then as long as you have
