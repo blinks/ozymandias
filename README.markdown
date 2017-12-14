@@ -5,7 +5,16 @@
 > Nothing beside remains.  
 > — Percy Bysshe Shelley, Ozymandias
 
-Ozymandias is a card game for two to four players.
+Ozymandias is a card game for two to four players, gods overseeing the rise and
+fall of galactic empires. Each uses their hand of cards to ensure that the
+right empires are rising, and balances the short-term gain of war with the
+long-term gain of cultivating growth.
+
+Players don't control specific factions, they only hold some influence over
+that faction based on the cards in their hand. Each faction can swing from one
+player to another to another over the course of the game. In fact, you likely
+won't know exactly who's winning the war of influence until the end, when cards
+are revealed.
 
 (See PLAYTESTING.md for print-and-play information.)
 (Art credits and links [on the wiki](https://github.com/blinks/ozymandias/wiki).)
