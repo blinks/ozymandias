@@ -62,8 +62,8 @@ Sectors and myths play differently, and myths often have two potential uses.
 
 - When you *play a sector,* choose where to place it on the map. If you place
   next to at least one city, choose a ruling faction next to your new sector
-  and gain influence equal to its faction's place on the history track. Flip
-  the top of the deck into the discard pile. Then take another turn.
+  and gain influence equal to its place on the history track. Flip the top of
+  the deck into the discard pile. Then take another turn.
 - When you *play a myth to expand,* take a city of its faction from off-board
   and place it at the edge of a sector. For that city and everything under it,
   increase the corresponding faction's value on the history track. Put the myth
