@@ -50,8 +50,9 @@ the _ruling_ city, and that city's faction is the _ruling_ faction.
 2. Set the faction cities and influence tokens aside.
 3. Put the core sector (6) in the middle of the table.
 4. Shuffle up the remaining cards and deal out hands of seven to each player.
+   (Players mulligan -- discard their hand and draw a new, seven-card hand --
+   if they get a hand of all sectors.)
 5. Choose a starting player at random.
-6. Give each player influence: the starting player 6, then 8, 10, 12 around the table.
 
 ![Ian McQue](https://camo.githubusercontent.com/786d55c10b6c9ced8f6295d823045da7e767ff47/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333314b467774574d4141376d65742e6a7067)
 
