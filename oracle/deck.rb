@@ -1,46 +1,59 @@
 require 'squib'
-require 'yaml'
 
-# TODO: Replace with built-in after pull req.
-cards = YAML.load_file('oracle.yml')
-data = Squib::DataFrame.new
-keys = cards.map {|c| c.keys}.flatten.uniq
-keys.each {|k| data[k] = [] }
-cards.each do |card|
-  keys.each do |k|
-    data[k] << card[k]
-  end
-end
-
+data = Squib.csv file: 'manifest.csv'
 layouts = ['layout.yml']
 
-Squib::Deck.new cards: data['title'].size, layout: layouts do
+Squib::Deck.new(cards: data['Name'].size, layout: layouts) do
   rect fill_color: '#fff', layout: 'safe'
 
-  # Placeholder "art."
-  rect layout: 'art'
+  # Card information.
+  type = {}; data['Color'].each_with_index{ |t, i| (type[t] ||= []) << i}
 
-  # Suit icons are just filled shapes. TODO: Icons?
-  suit = {}; data['suit'].each_with_index{ |t, i| (suit[t] ||= []) << i}
-  circle range: suit['merchant'], fill_color: 'gold',
-    x: 135, y: 135, radius: 50
-  rect range: suit['soldier'], fill_color: '#faa',
-    x: 90, y: 90, width: 90, height: 90
-  triangle range: suit['sage'], fill_color: '#aaf',
-    x1: 135, y1: 80, x2: 190, y2: 170, x3: 80, y3: 170
+  # Color bar
+  rect range: type['K'], layout: :title_box,
+    fill_color: '#444', stroke_width: 0
+  text range: type['K'], layout: :title_middle,
+    color: :black, str: data['Name']
+  text range: type['K'], layout: :type_icon,
+    color: :white, str: data['Rank']
+  text range: type['K'], layout: :title,
+    color: :white, str: data['Color']
 
-  # Card information. TODO: Sector layouts.
-  text str: data['rank'], layout: 'rank'
-  text str: data['title'], layout: 'title'
-  text str: data['text'], layout: 'text'
+  rect range: type['B'], layout: :title_box,
+    fill_color: :deep_sky_blue, stroke_width: 0
+  text range: type['B'], layout: :title_middle,
+    color: :black, str: data['Name']
+  text range: type['B'], layout: :type_icon,
+    color: :black, str: data['Rank']
+  text range: type['B'], layout: :title,
+    color: :black, str: data['Color']
 
-  build :print_n_play do
-    save_pdf file: 'pnp.pdf',
-      width: '8.5in', height: '11in', margin: '0.5in',
-      gap: 0, trim: '0.25in'
-  end
+  rect range: type['W'], layout: :title_box,
+    fill_color: '#bbb', stroke_width: 0
+  text range: type['W'], layout: :title_middle,
+    color: :black, str: data['Name']
+  text range: type['W'], layout: :type_icon,
+    color: :black, str: data['Rank']
+  text range: type['W'], layout: :title,
+    color: :black, str: data['Color']
 
-  build :pngs do
-    save_png
-  end
+  rect range: type['R'], layout: :title_box,
+    fill_color: :red, stroke_width: 0
+  text range: type['R'], layout: :title_middle,
+    color: :black, str: data['Name']
+  text range: type['R'], layout: :type_icon,
+    color: :black, str: data['Rank']
+  text range: type['R'], layout: :title,
+    color: :black, str: data['Color']
+
+  rect range: type['S'], layout: :title_box,
+    fill_color: :black, stroke_width: 0
+  text range: type['S'], layout: :title,
+    color: :white, str: data['Name']
+  text range: type['S'], layout: :type_icon,
+    color: :white, str: data['Rank']
+
+  text str: data['Text'], layout: :rule_bottom
+
+  save_sheet sprue: 'letter_poker_card_9up.yml'
 end

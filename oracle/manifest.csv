@@ -1,0 +1,65 @@
+Name,Rank,Color,Text
+Core Sector,6,S,Start the game with this sector in play.
+Gas Giant,5,S,
+Forest Moon,4,S,
+Unbreakable Spirit,1,K,ONGOING: Ruled cities are indestructible.
+Peace Talks,1,K,WAR: Cities are indestructible. (Winners still get +1 history.)
+Breaking Ground,1,K,Build a city. Its income for each player is $10 - cards in that player's vault.
+Ion Pulse,2,K,Name a faction and start a war. Cards of that faction are blank.
+Dark Ages,2,K,Name a faction. All opponents play a matching card for no effect or reveal a hand without it.
+Engineered Plague,2,K,Name a faction. All matching cards in the oracle are removed from the game.
+Revolt of the Commons,3,K,WAR: Ruled cities count towards their faction's strength.
+Nir's Uprising,3,K,WAR: Add ruled cities to K's strength.
+Hope,3,K,ONGOING: Each card in the oracle adds 1 to its faction's strength.
+Smuggler Kate,4,K,WAR: +1 history to any one faction.
+Whispers in the Deep,4,K,Build a city at the bottom of an empire.
+Zele Seed Ships,4,K,Play a sector from your hand and build a city there.
+Gaia Project,1,S,Build a city here.
+Grey's Nebula,2,S,No war may happen in this sector.
+Holy City,3,S,Each destroyed city pays $3 income.
+Nyri's Comet,4,S,Destroy a ruling city.
+Untitled,1,B,
+Untitled,1,B,
+Untitled,2,B,
+Untitled,2,B,
+Untitled,3,B,
+Untitled,3,B,
+Untitled,4,B,
+Untitled,4,B,
+Untitled,5,B,
+Untitled,5,B,
+Untitled,6,B,
+Untitled,6,B,
+Sector,2,S,
+Sector,4,S,
+Sector,6,S,
+Untitled,1,R,
+Untitled,1,R,
+Untitled,2,R,
+Untitled,2,R,
+Untitled,3,R,
+Untitled,3,R,
+Untitled,4,R,
+Untitled,4,R,
+Untitled,5,R,
+Untitled,5,R,
+Untitled,6,R,
+Untitled,6,R,
+Sector,2,S,
+Sector,4,S,
+Sector,6,S,
+Untitled,1,W,
+Untitled,1,W,
+Untitled,2,W,
+Untitled,2,W,
+Untitled,3,W,
+Untitled,3,W,
+Untitled,4,W,
+Untitled,4,W,
+Untitled,5,W,
+Untitled,5,W,
+Untitled,6,W,
+Untitled,6,W,
+Sector,2,S,
+Sector,4,S,
+Sector,6,S,

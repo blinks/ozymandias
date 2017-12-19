@@ -28,12 +28,12 @@ are revealed.
 - Influence tokens in several denominations.
 
 ### Sectors [Landscape]
-Each sector has a number, from 1 to ~6. Lower numbers make placement harder,
+Each sector has an exponent, from 1 to ~6. Lower numbers make placement harder,
 higher numbers make it easier. Sectors also have a title and sometimes rules
 text.
 
 ### Myths [Portrait]
-Each myth has a faction and a number, from 1 to ~6. Lower numbers are better
+Each myth has a faction and an exponent, from 1 to ~6. Lower numbers are better
 for expansion, higher numbers are better for war. Myths also have a title and
 sometimes rules text.
 
@@ -48,68 +48,75 @@ the _ruling_ city, and that city's faction is the _ruling_ faction.
 ## Setup
 1. Put each faction's history marker on the track at 6.
 2. Set the faction cities and influence tokens aside.
-3. Choose a starting sector at random.
+3. Put the core sector (6) in the middle of the table.
 4. Shuffle up the remaining cards and deal out hands of seven to each player.
-5. Flip the top card of the deck over to make a discard pile.
-6. Choose a starting player at random. [TODO: Balance?]
+5. Choose a starting player at random.
 
 ![Ian McQue](https://camo.githubusercontent.com/786d55c10b6c9ced8f6295d823045da7e767ff47/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4333314b467774574d4141376d65742e6a7067)
 
 ## Play
 Players take turns until at least one faction has reached the end of the
-history track, and then score their influence and cards.
+history track, and then score their influence and cards in their vault.
 
 On a turn, choose one:
 
-- Play a card for one of several effects.
-- Buy a card for influence.
-- Fight a war and perhaps gain influence.
-- Recover your hand and sell down to your hand size.
+- Explore a sector.
+- Build a city.
+- Fight a war.
 
-### Play a Card
-Sectors and myths play differently:
+### Explore a sector
+Place it on the map, adjacent to at least one city.
 
-- When you *play a sector,* choose where to place it on the map. If you place
-  next to at least one city, choose a ruling faction next to your new sector
-  and gain influence equal to its place on the history track. Flip the top of
-  the deck into the discard pile. Then take another turn.
-- When you *play a myth to expand,* take a city of its faction from off-board
-  and place it at the edge of a sector. For that city and everything under it,
-  increase the corresponding faction's value on the history track. Put the myth
-  in your tableau.
-  - If there's already a city of that faction on the map, you must share a
-    sector with it.
-  - The number on each adjacent sector must be at least the number on the myth.
-  - The height of the city must be at most the number on the myth.
-  - If there are no free cities to place, you cannot take this action.
+Choose a ruling faction next to your new sector and gain influence equal to its
+place on the history track.
 
-### Buy a Card
+Take cards off the top of the deck equal to the sector's value and buy one,
+putting the rest into the common discard. (See "buy a card", below.)
+
+### Build a city
+Play a card to your discard and take a city of its faction from off-board. If
+no cities of that faction remain, you cannot take this action.
+
+Place that city at the edge of a sector, or between two sectors. The lowest
+adjacent sector exponent must be at least equal to the card's exponent. You may
+place on top of other factions' cities -- only one stack of cities may be
+between any two sectors.
+
+For each city in the stack, all players gain influence equal to the number of
+cities remaining for that faction for each matching card in their discard. That
+is, if you place a white city, leaving four unplaced, and I have two white
+cards, I get four influence for each card, giving me eight.
+
+### Fight a War
+Pick up your discards and choose a sector. (If that sector has an event,
+resolve it now.)
+
+Each player may contribute at most one card from their hand to the conflict,
+matching a faction at that sector (no matter where it is in its stack).
+Simultaneously reveal cards and add their exponents to the number of matching
+ruling cities. If no cards were played, the turn is over.
+
+The faction(s) with the highest total win the war. All non-winning cities are
+destroyed, and the winning faction(s) get +1 on the history track for each
+destroyed city. If no cities were destroyed, winning faction(s) still get +1 on
+the history track.
+
+Contributed cards that match a winning faction get placed face-down in their
+player's vault, to be scored for faction value at the end of the game. Players
+who scored a card in this way then must buy cards (in turn order, starting with
+the active player) for each card they put into their vault.
+
+#### Buy a Card
 Pay influence to take a card from the top of the deck or the discard pile and
 put it into your hand.
 
-- From the deck, purchase unseen at the second-highest faction's value on the
-  history track.
+- From the deck, purchase sight-unseen at the second-highest faction's value on
+  the history track.
 - From _anywhere_ in the discard pile, purchase a sector at twice the number of
   sectors on the map, or a myth at the faction's value on the history track.
 
-### Fight a War
-Play cards to destroy cities, then collect influence.
-
-- Choose a sector next to at least one city.
-- All players choose a card from their hands and simultaneously reveal and
-  place in their tableau.
-- Add the number of ruling cities at the sector to the numbers on matching
-  revealed cards; the faction(s) with the highest total is/are the winner(s).
-- Destroy each non-winning city (ruling or not): they're free to be placed again.
-- For each winning faction card in their tableau, players gain the sector's
-  value.
-
-### Recover your Hand
-Put all the cards in your tableau back into your hand. Then sell cards for
-influence until you get back down to seven cards.
-
-- For sectors, this is twice the number of sectors on the map.
-- For myths, this is the faction's value on the history track.
+If you must buy a card but don't have enough money to do so, the game ends and
+you lose. Be careful if you're low on influence.
 
 ![Sergey Kolesov](https://camo.githubusercontent.com/be60e6c36aaace972918c0cdb6e51ea7a063261a/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f433337584f306457514141636b48632e6a7067)
 
@@ -117,8 +124,8 @@ influence until you get back down to seven cards.
 When a faction hits the end of the history track, the game ends at the end of
 that turn.
 
-Players recover tableaus and sell all the cards in their hands, then the player
-with the most influence wins. In the case of a tie, the tied player who would
-take the next turn wins.
+Players convert cards in their vaults into influence, then the player with the
+most influence wins. In the case of a tie, the tied player who would take the
+next turn wins.
 
 ![Victor Mosquera](https://camo.githubusercontent.com/72edbdc675924826863c50e42de0b7be3a0da0f8/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f43374a63657855586b4155716f6f7a2e6a7067)
