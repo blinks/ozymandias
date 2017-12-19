@@ -89,13 +89,13 @@ is, if you place a white city, leaving four unplaced, and I have two white
 cards, I get four influence for each card, giving me eight.
 
 ### Fight a War
-Pick up your discards and choose a sector. (If that sector has an event,
-resolve it now.)
+Pick up your discards and choose a sector with at least one city next to it.
+If that sector has an event, resolve it now.
 
 Each player may contribute at most one card from their hand to the conflict,
 matching a faction at that sector (no matter where it is in its stack).
 Simultaneously reveal cards and add their exponents to the number of matching
-ruling cities. If no cards were played, the turn is over.
+ruling cities.
 
 The faction(s) with the highest total win the war. All non-winning cities are
 destroyed, and the winning faction(s) get +1 on the history track for each
