@@ -96,7 +96,7 @@ If that sector has an event, resolve it now.
 Each player may contribute at most one card from their hand to the conflict,
 matching a faction at that sector (no matter where it is in its stack).
 Simultaneously reveal cards and add their exponents to the number of matching
-ruling cities.
+ruling cities. If nobody contributed a card, stop here -- no faction wins.
 
 The faction(s) with the highest total win the war. All non-winning cities are
 destroyed, and the winning faction(s) get +1 on the history track for each
