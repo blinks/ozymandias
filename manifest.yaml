@@ -1,0 +1,58 @@
+# Card manifest for Ozymandias.
+# Each section is a suit / faction, with a list of twelve cards.
+
+red:
+- {rank: 1, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 2, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 3, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 4, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 5, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 6, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 1, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 2, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 3, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 4, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 5, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+- {rank: 6, text: "when red is conquering, you may reduce your card’s rank by X to place X sectors away."}
+
+white:
+- {rank: 1, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 2, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 3, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 4, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 5, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 6, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 1, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 2, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 3, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 4, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 5, text: "when white is conquered, you may draw a card and then discard a card."}
+- {rank: 6, text: "when white is conquered, you may draw a card and then discard a card."}
+
+blue:
+- {rank: 1, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 2, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 3, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 4, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 5, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 6, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 1, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 2, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 3, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 4, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 5, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+- {rank: 6, text: "when you reveal a 4 or more in combat, each player draws and chooses an additional card."}
+
+black:
+- {rank: 1, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 2, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 3, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 4, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 5, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 6, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 1, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 2, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 3, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 4, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 5, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
+- {rank: 6, text: "when you reveal a 3 or less in combat, move that many black cities to the top of their stacks."}
